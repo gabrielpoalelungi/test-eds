@@ -1,0 +1,174 @@
+/* Block: tabs-testimonial */
+
+/* Testimonials with tabbed interface - avatar tabs control large testimonial panels */
+
+.tabs-testimonial {
+  background-color: var(--light-color);
+  color: var(--text-color);
+  padding: 80px 0;
+}
+
+/* Tablist - positioned below the panel in source, but prepended in EDS */
+.tabs-testimonial-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin: 48px 0 0;
+  list-style: none;
+  padding: 0;
+}
+
+/* Tab buttons */
+.tabs-testimonial-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 24px;
+  background-color: var(--background-color);
+  border: 2px solid transparent;
+  border-radius: 16px;
+  cursor: pointer;
+  flex: 0 0 auto;
+  min-width: 160px;
+  transition: border-color 0.3s ease, transform 0.2s ease;
+}
+
+.tabs-testimonial-tab:hover {
+  border-color: var(--text-color);
+  transform: translateY(-2px);
+}
+
+.tabs-testimonial-tab[aria-selected="true"] {
+  border-color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+/* Tab avatar images */
+.tabs-testimonial-tab img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.tabs-testimonial-tab p {
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.tabs-testimonial-tab strong {
+  font-weight: 700;
+  font-family: var(--heading-font-family);
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+/* Tabpanels */
+.tabs-testimonial-panel {
+  padding: 0;
+  margin: 0 0 48px;
+}
+
+.tabs-testimonial-panel[aria-hidden="true"] {
+  display: none;
+}
+
+/* Tabpanel content wrapper */
+.tabs-testimonial-panel > div {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Testimonial image */
+.tabs-testimonial-panel img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 1.333;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/* Testimonial text content */
+.tabs-testimonial-panel p {
+  font-size: 18px;
+  font-family: var(--body-font-family);
+  line-height: 1.6;
+  color: var(--text-color);
+  margin: 12px 0 0;
+  text-align: center;
+}
+
+.tabs-testimonial-panel p:first-of-type {
+  margin-top: 0;
+}
+
+.tabs-testimonial-panel strong {
+  font-weight: 700;
+  font-family: var(--heading-font-family);
+  text-transform: uppercase;
+  font-size: 20px;
+  display: block;
+}
+
+/* Quote text - last paragraph */
+.tabs-testimonial-panel p:last-child {
+  font-size: 20px;
+  line-height: 1.6;
+  font-style: italic;
+  margin-top: 24px;
+}
+
+/* Desktop layout */
+@media (width >= 900px) {
+  .tabs-testimonial {
+    padding: 128px 0;
+  }
+
+  /* Horizontal layout for testimonial panel */
+  .tabs-testimonial-panel > div {
+    flex-direction: row;
+    gap: 64px;
+    align-items: flex-start;
+    max-width: 1200px;
+  }
+
+  .tabs-testimonial-panel img {
+    flex: 0 0 480px;
+    max-width: 480px;
+  }
+
+  .tabs-testimonial-panel p {
+    text-align: left;
+  }
+
+  /* Text content takes remaining space */
+  .tabs-testimonial-panel > div > p,
+  .tabs-testimonial-panel > div > div {
+    flex: 1;
+    text-align: left;
+  }
+
+  /* Larger tabs on desktop */
+  .tabs-testimonial-tab {
+    min-width: 180px;
+  }
+
+  .tabs-testimonial-tab img {
+    width: 96px;
+    height: 96px;
+  }
+
+  /* Larger quote on desktop */
+  .tabs-testimonial-panel p:last-child {
+    font-size: 24px;
+  }
+}

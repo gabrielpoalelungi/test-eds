@@ -1,0 +1,41 @@
+{
+  "variantName": "hero-overlay",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-07-14T07:58:30.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/",
+    "originPage": "Homepage - Fashion blog landing page",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "wide",
+    "purpose": "full-width-cta",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "background image + overlay + heading + text + CTA button",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "Call-to-action sections",
+      "Full-width promotional banners",
+      "Bottom-of-page conversion sections"
+    ],
+    "notSuitableFor": [
+      "Page headers",
+      "Multi-column layouts",
+      "Content-heavy sections"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-07-14T07:58:30.000Z"
+  }
+}

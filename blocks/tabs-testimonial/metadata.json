@@ -1,0 +1,41 @@
+{
+  "variantName": "tabs-testimonial",
+  "baseBlock": "tabs",
+  "version": "1.0.0",
+  "created": "2026-07-14T07:57:48.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/",
+    "originPage": "Homepage - Fashion blog landing page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "wide",
+    "purpose": "testimonials",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "tabs with person image + name + title + quote",
+    "buttonCount": 0,
+    "imageCount": 4
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "Testimonial sections",
+      "Customer quotes",
+      "Team member profiles"
+    ],
+    "notSuitableFor": [
+      "Product information",
+      "Navigation menus",
+      "Image galleries"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-07-14T07:57:48.000Z"
+  }
+}
