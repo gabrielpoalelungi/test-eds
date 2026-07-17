@@ -1,0 +1,98 @@
+/* Block: cards-articles -- article cards grid (4-col desktop, 2-col tablet, 1-col mobile) */
+
+.cards-articles > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (width >= 600px) {
+  .cards-articles > ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width >= 900px) {
+  .cards-articles > ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Card = list item, wraps the card link */
+.cards-articles > ul > li {
+  border: 1px solid rgb(232 232 232);
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: var(--background-color);
+}
+
+/* If a card is a link, keep it undecorated and full-card */
+.cards-articles > ul > li a:any-link {
+  display: block;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+/* Image cell */
+.cards-articles .cards-articles-card-image {
+  line-height: 0;
+}
+
+.cards-articles .cards-articles-card-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+/* Body cell */
+.cards-articles .cards-articles-card-body {
+  padding: 24px;
+}
+
+/* Meta row: holds category pill + date */
+.cards-articles .cards-articles-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 12px;
+}
+
+/* Category pill */
+.cards-articles .cards-articles-card-tag {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  background-color: rgb(244 254 139);
+  font-family: var(--body-font-family);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+/* Date */
+.cards-articles .cards-articles-card-date {
+  font-family: var(--body-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--link-color);
+}
+
+/* Title */
+.cards-articles .cards-articles-card-body h3 {
+  margin: 0;
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-s);
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: var(--text-color);
+}

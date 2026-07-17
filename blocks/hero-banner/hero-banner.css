@@ -1,0 +1,116 @@
+/* Block: hero-banner -- full-bleed CTA banner with cover image + dark overlay */
+
+/* Let the block span the full section width (override 1200px section wrapper). */
+.hero-banner-wrapper {
+  max-width: unset;
+}
+
+.hero-banner {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  min-height: 448px;
+  border-radius: 20px;
+  overflow: hidden;
+  color: rgb(255 255 255);
+}
+
+/* Row 1 cell: the cover image, absolutely positioned behind everything. */
+.hero-banner > div:first-child {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  margin: 0;
+}
+
+.hero-banner .hero-banner-image,
+.hero-banner > div:first-child > div {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+}
+
+.hero-banner picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Dark gradient overlay for text legibility (from bottom). */
+.hero-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-image: linear-gradient(to top, rgb(0 0 0 / 70%) 0%, rgb(0 0 0 / 0%) 60%);
+  pointer-events: none;
+}
+
+/* Row 2 cell wrapper: keep it above the overlay. */
+/* stylelint-disable-next-line no-descending-specificity */
+.hero-banner > div:last-child {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  width: 100%;
+}
+
+/* Content column: heading, subheading, CTA. */
+.hero-banner .hero-banner-content,
+.hero-banner > div:last-child > div {
+  position: relative;
+  z-index: 2;
+  max-width: 672px;
+  padding: 40px 24px;
+  margin: 0;
+}
+
+.hero-banner h2 {
+  margin: 0;
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+  color: rgb(255 255 255);
+}
+
+.hero-banner p {
+  margin: 16px 0 0;
+  font-family: var(--body-font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.8px;
+  color: rgb(255 255 255);
+}
+
+.hero-banner p.button-container {
+  margin-top: 32px;
+}
+
+/* CTA renders as an inverse (white) pill button; inherit global .button.inverse. */
+.hero-banner a.button.inverse:any-link {
+  border-color: rgb(255 255 255);
+  background-color: rgb(255 255 255);
+  color: var(--text-color);
+}
+
+@media (width >= 900px) {
+  .hero-banner .hero-banner-content,
+  .hero-banner > div:last-child > div {
+    padding: 64px;
+  }
+
+  .hero-banner h2 {
+    font-size: 56px;
+    line-height: 61.6px;
+    letter-spacing: -1.12px;
+  }
+}
