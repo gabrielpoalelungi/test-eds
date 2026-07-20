@@ -1,0 +1,37 @@
+{
+  "variantName": "hero-landing",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-07-20T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.hellointerview.com/",
+    "originPage": "Hello Interview homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "hero",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "headline + subheading + 2 CTAs + logos",
+    "buttonCount": 2,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "landing page intros",
+      "product homepages",
+      "text-forward hero banners with CTAs"
+    ],
+    "notSuitableFor": [
+      "hero banners with full-bleed background photography"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-07-20T00:00:00.000Z"
+  }
+}

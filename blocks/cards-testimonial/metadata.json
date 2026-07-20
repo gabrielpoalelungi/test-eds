@@ -1,0 +1,38 @@
+{
+  "variantName": "cards-testimonial",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-07-20T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.hellointerview.com/",
+    "originPage": "Hello Interview homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "testimonial",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "eyebrow label + quote + company + read-more link per card, masonry grid",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "customer testimonial grids",
+      "success story cards",
+      "text-only quote cards in a masonry layout"
+    ],
+    "notSuitableFor": [
+      "product cards with images",
+      "pricing tiers"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-07-20T00:00:00.000Z"
+  }
+}

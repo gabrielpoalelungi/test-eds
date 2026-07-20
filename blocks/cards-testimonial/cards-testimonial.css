@@ -1,0 +1,96 @@
+/*
+ * cards-testimonial — "no images" testimonial cards
+ * Source: hellointerview.com "Success Stories" section.
+ * Masonry (multi-column) layout, accent top bar, eyebrow label,
+ * quote, bold company name, italic "Read more" CTA.
+ */
+
+/* Masonry layout via CSS multi-column.
+   Mobile: single column. Tablet: 2. Desktop: 3 (matches source column-count:3). */
+.cards-testimonial > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  column-count: 1;
+  column-gap: 16px;
+}
+
+@media (width >= 600px) {
+  .cards-testimonial > ul {
+    column-count: 2;
+  }
+}
+
+@media (width >= 900px) {
+  .cards-testimonial > ul {
+    column-count: 3;
+  }
+}
+
+/* Each card. break-inside:avoid keeps a card from splitting across columns. */
+.cards-testimonial > ul > li {
+  break-inside: avoid;
+  margin: 0 0 16px;
+  background-color: var(--background-color);
+  border: 1px solid rgb(145 158 171 / 24%);
+
+  /* accent bar sits on the top edge as a thick colored border */
+  border-top: 8px solid var(--link-color);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Card content padding */
+.cards-testimonial .cards-testimonial-card-body {
+  margin: 0;
+  padding: 24px;
+}
+
+/* Eyebrow / label heading (authored as h3) */
+.cards-testimonial .cards-testimonial-card-body h3 {
+  margin: 0 0 12px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: var(--link-color);
+}
+
+/* Quote paragraph */
+.cards-testimonial .cards-testimonial-card-body p {
+  margin: 0;
+  font-size: 15.2px;
+  font-weight: 400;
+  line-height: 24.32px;
+  color: var(--text-color);
+}
+
+/* Bold company name — first paragraph after the quote that contains <strong>.
+   Add the divider + spacing above it. */
+.cards-testimonial .cards-testimonial-card-body p:has(strong) {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid rgb(145 158 171 / 24%);
+}
+
+.cards-testimonial .cards-testimonial-card-body p strong {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24.5px;
+  color: var(--text-color);
+}
+
+/* Italic "Read more" CTA */
+.cards-testimonial .cards-testimonial-card-body p:has(em) {
+  margin-top: 8px;
+  padding-top: 0;
+  border-top: none;
+}
+
+.cards-testimonial .cards-testimonial-card-body p em {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--link-color);
+}

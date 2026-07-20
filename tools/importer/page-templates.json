@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "projectType": "da"
+  },
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.hellointerview.com/"
+      ],
+      "representativeUrl": "https://www.hellointerview.com/",
+      "coverageGaps": [],
+      "description": "Hello Interview homepage with hero, learning tracks tabs, success stories, pricing tiers, and FAQ",
+      "blocks": [
+        {
+          "name": "hero-landing",
+          "instances": [
+            "div.min-h-screen div.relative.pt-16.animate-fadein",
+            ".animate-fadein"
+          ]
+        },
+        {
+          "name": "tabs-tracks",
+          "instances": [
+            "div.min-h-screen section:nth-of-type(1)"
+          ]
+        },
+        {
+          "name": "cards-testimonial",
+          "instances": [
+            "div.min-h-screen section:nth-of-type(2)"
+          ]
+        },
+        {
+          "name": "cards-pricing",
+          "instances": [
+            "div.min-h-screen section:nth-of-type(3)"
+          ]
+        },
+        {
+          "name": "accordion-faq",
+          "instances": [
+            "div.min-h-screen div.flex.flex-col.max-w-7xl.mx-auto:has(> .MuiAccordion-root)"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-hero",
+          "name": "Hero",
+          "selector": "div.min-h-screen div.relative.pt-16.animate-fadein",
+          "style": null,
+          "blocks": ["hero-landing"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-learning-tracks",
+          "name": "Learning Tracks",
+          "selector": "div.min-h-screen section:nth-of-type(1)",
+          "style": null,
+          "blocks": ["tabs-tracks"],
+          "defaultContent": ["div.min-h-screen section:nth-of-type(1) h3"]
+        },
+        {
+          "id": "section-success-stories",
+          "name": "Success Stories",
+          "selector": "div.min-h-screen section:nth-of-type(2)",
+          "style": null,
+          "blocks": ["cards-testimonial"],
+          "defaultContent": ["div.min-h-screen section:nth-of-type(2) h3"]
+        },
+        {
+          "id": "section-pricing",
+          "name": "Pricing",
+          "selector": "div.min-h-screen section:nth-of-type(3)",
+          "style": null,
+          "blocks": ["cards-pricing"],
+          "defaultContent": ["div.min-h-screen section:nth-of-type(3) h3"]
+        },
+        {
+          "id": "section-faq",
+          "name": "FAQ",
+          "selector": "div.min-h-screen div.flex.flex-col.max-w-7xl.mx-auto:has(> .MuiAccordion-root)",
+          "style": null,
+          "blocks": ["accordion-faq"],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "url": "https://www.hellointerview.com/",
+  "path": "index",
+  "timestamp": "2026-07-20T07:52:37.154Z",
+  "title": "Hello Interview",
+  "template": "homepage",
+  "blocks": [
+    "hero-landing",
+    "tabs-tracks",
+    "cards-testimonial",
+    "cards-pricing",
+    "accordion-faq"
+  ]
+}
