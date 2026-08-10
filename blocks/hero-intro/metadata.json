@@ -1,0 +1,38 @@
+{
+  "variantName": "hero-intro",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-06-08T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/fashion-trends-of-the-season",
+    "originPage": "Fashion trends landing page",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "heading + subheading + 2 CTAs + image group",
+    "buttonCount": 2,
+    "imageCount": 3
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "page intro banners",
+      "landing page heroes with supporting imagery",
+      "editorial top-of-page sections"
+    ],
+    "notSuitableFor": [
+      "dark full-bleed background-image heroes",
+      "minimal text-only heroes"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/fashion-trends-of-the-season"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-08T00:00:00.000Z"
+  }
+}
