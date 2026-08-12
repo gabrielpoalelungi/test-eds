@@ -5,7 +5,7 @@ Your project's description...
 - Preview: https://main--{repo}--{owner}.aem.page/
 - Live: https://main--{repo}--{owner}.aem.live/
 
-## Documentation
+## Documentatio.   n
 
 Before using the aem-boilerplate, we recommand you to go through the documentation on https://www.aem.live/docs/ and more specifically:
 1. [Developer Tutorial](https://www.aem.live/developer/tutorial)
