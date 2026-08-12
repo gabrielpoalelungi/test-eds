@@ -1,0 +1,135 @@
+/* hero-feature: two-column hero (text + CTAs left, image grid right) */
+
+/* Full-width light band: override the section wrapper max-width so the
+   grey background spans edge-to-edge like the source. */
+.hero-feature-wrapper {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+.hero-feature {
+  background-color: var(--light-color);
+  padding: 48px 24px;
+}
+
+/* Inner content wrapper, constrained to the site content width. */
+.hero-feature .hero-feature-inner {
+  max-width: var(--content-max-width, 1200px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* Text (content) cell */
+.hero-feature .hero-feature-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-feature h1 {
+  margin: 0;
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: var(--heading-font-size-xxl);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+.hero-feature .hero-feature-content > p {
+  margin: 24px 0 0;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size-m);
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+/* CTA links are authored as plain links (not buttonized by decorateButtons).
+   The block JS groups them into .hero-feature-cta; style them as pill buttons
+   sitting side by side (source: flex row, gap 16px, margin-top 32px). */
+.hero-feature .hero-feature-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.hero-feature .hero-feature-cta a:any-link {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--text-color);
+  border-radius: 9999px;
+  padding: 12px 24px;
+  font-family: var(--body-font-family);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.25;
+  text-transform: none;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+/* First CTA = primary (solid black) */
+.hero-feature .hero-feature-cta a:first-child:any-link {
+  background-color: var(--text-color);
+  color: var(--background-color);
+}
+
+.hero-feature .hero-feature-cta a:first-child:hover {
+  background-color: var(--link-hover-color);
+  border-color: var(--link-hover-color);
+  color: var(--background-color);
+  text-decoration: none;
+}
+
+/* Second CTA = secondary (outlined) */
+.hero-feature .hero-feature-cta a:nth-child(2):any-link {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.hero-feature .hero-feature-cta a:nth-child(2):hover {
+  background-color: var(--text-color);
+  color: var(--background-color);
+  text-decoration: none;
+}
+
+/* Media (image grid) cell: 2-column grid, third image wraps to row 2 */
+.hero-feature .hero-feature-media {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.hero-feature .hero-feature-media picture {
+  display: block;
+  line-height: 0;
+}
+
+.hero-feature .hero-feature-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* Desktop: two columns side by side */
+@media (width >= 900px) {
+  .hero-feature {
+    padding: 128px 32px;
+  }
+
+  .hero-feature .hero-feature-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    align-items: center;
+  }
+}
