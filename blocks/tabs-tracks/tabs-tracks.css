@@ -1,0 +1,151 @@
+/* Block: tabs-tracks — visual design migrated from hellointerview.com "Learning Tracks" */
+
+.tabs-tracks {
+  box-sizing: border-box;
+  background-color: var(--light-color);
+  border-radius: 24px;
+  padding: 32px 24px;
+  color: var(--text-color);
+}
+
+@media (width >= 900px) {
+  .tabs-tracks {
+    padding: 40px;
+  }
+}
+
+/* --- Tab list --- */
+.tabs-tracks .tabs-tracks-list {
+  display: flex;
+  gap: 32px;
+  margin: 0 0 24px;
+  padding: 0;
+  border-bottom: 1px solid rgb(226 232 236);
+  overflow-x: auto;
+}
+
+@media (width >= 900px) {
+  .tabs-tracks .tabs-tracks-list {
+    gap: 40px;
+    margin-bottom: 32px;
+  }
+}
+
+.tabs-tracks .tabs-tracks-list button {
+  flex: 0 0 max-content;
+  margin: 0;
+  border: none;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+  padding: 0 0 12px;
+  background-color: transparent;
+  color: rgb(69 79 91);
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.tabs-tracks .tabs-tracks-list button:hover {
+  color: var(--text-color);
+}
+
+.tabs-tracks .tabs-tracks-list button[aria-selected='true'] {
+  border-bottom-color: var(--link-color);
+  color: var(--link-color);
+  cursor: default;
+}
+
+/* --- Tab panels --- */
+.tabs-tracks .tabs-tracks-panel {
+  margin: 0;
+  padding: 0;
+}
+
+.tabs-tracks .tabs-tracks-panel[aria-hidden='true'] {
+  display: none;
+}
+
+/* the authored cell wrapper inside a panel */
+.tabs-tracks .tabs-tracks-panel > div {
+  margin: 0;
+}
+
+/* --- Track card grid --- */
+.tabs-tracks .tabs-tracks-panel ul {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (width >= 600px) {
+  .tabs-tracks .tabs-tracks-panel ul {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (width >= 900px) {
+  .tabs-tracks .tabs-tracks-panel ul {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+}
+
+/* --- Track card --- */
+.tabs-tracks .tabs-tracks-panel li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  padding: 16px 20px;
+  border: 1px solid rgb(226 232 236);
+  border-radius: 12px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  box-shadow: 0 1px 2px rgb(22 28 36 / 4%);
+  cursor: pointer;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.tabs-tracks .tabs-tracks-panel li:hover {
+  border-color: var(--link-color);
+  box-shadow: 0 1px 4px rgb(22 28 36 / 8%);
+}
+
+/* teal circular icon badge (content has no icon, render a placeholder) */
+.tabs-tracks .tabs-tracks-panel li::before {
+  content: '';
+  flex: 0 0 auto;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: var(--link-color);
+}
+
+/* chevron affordance on the right */
+.tabs-tracks .tabs-tracks-panel li::after {
+  content: '';
+  flex: 0 0 auto;
+  width: 8px;
+  height: 8px;
+  margin-left: auto;
+  border-right: 2px solid rgb(145 155 165);
+  border-bottom: 2px solid rgb(145 155 165);
+  transform: rotate(-45deg);
+}
+
+/* empty panel (Company Guides) fallback */
+.tabs-tracks .tabs-tracks-panel > div:empty {
+  min-height: 40px;
+}

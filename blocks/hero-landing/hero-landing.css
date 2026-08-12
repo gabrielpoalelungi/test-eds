@@ -1,0 +1,110 @@
+/* Block: hero-landing -- values from source computed styles */
+
+/* Full-width: escape the section max-width wrapper */
+.hero-landing-wrapper {
+  max-width: 100% !important;
+  padding: 0;
+}
+
+.hero-landing {
+  padding: 64px 24px 0;
+  text-align: center;
+}
+
+/* single content column, centered */
+.hero-landing > div > div {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Headline */
+.hero-landing h1 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--text-color);
+  text-align: center;
+}
+
+/* highlighted second line of the headline */
+.hero-landing h1 span {
+  color: var(--link-color);
+}
+
+/* Subheading */
+.hero-landing h6 {
+  margin: 16px auto 0;
+  max-width: 640px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: rgb(69 79 91);
+}
+
+/* CTA buttons row */
+.hero-landing .button-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin: 32px 0 0;
+}
+
+/* reset EDS default pill buttons to the source's rounded-rectangle style */
+.hero-landing a.button:any-link {
+  margin: 0;
+  border-radius: 8px;
+  padding: 8px 24px;
+  min-height: 48px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+/* Buy Premium -- outlined */
+.hero-landing a.button.secondary:any-link {
+  border: 1px solid rgb(47 68 85);
+  background-color: transparent;
+  color: rgb(47 68 85);
+}
+
+.hero-landing a.button.secondary:hover {
+  background-color: rgb(47 68 85);
+  color: #fff;
+}
+
+/* Start with System Design -- filled */
+.hero-landing a.button.primary:any-link {
+  border: 1px solid rgb(47 68 85);
+  background-color: rgb(47 68 85);
+  color: #fff;
+}
+
+.hero-landing a.button.primary:hover {
+  background-color: rgb(30 45 58);
+  border-color: rgb(30 45 58);
+}
+
+/* Caption below the buttons */
+.hero-landing p:not(.button-container) {
+  margin: 16px 0 0;
+  font-size: 14px;
+  line-height: 1.75;
+  color: rgb(69 79 91);
+}
+
+@media (width >= 900px) {
+  .hero-landing {
+    padding: 96px 32px 0;
+  }
+
+  .hero-landing h1 {
+    font-size: var(--heading-size-xxl); /* 64px */
+    line-height: 1.1;
+  }
+
+  .hero-landing h6 {
+    font-size: 19.2px;
+  }
+}

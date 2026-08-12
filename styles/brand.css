@@ -1,0 +1,27 @@
+/* Brand tokens extracted from https://www.hellointerview.com/ */
+:root {
+  /* fonts — source uses a self-hosted geometric sans ("primaryFont"); Inter is the closest match */
+  --heading-font-family: "Inter", helvetica, arial, sans-serif;
+  --body-font-family: "Inter", helvetica, arial, sans-serif;
+
+  /* colors */
+  --background-color: rgb(255 255 255);
+  --text-color: rgb(22 28 36);
+  --link-color: rgb(41 154 141);
+  --link-hover-color: rgb(32 122 112);
+  --light-color: rgb(247 249 250);
+  --dark-color: rgb(22 28 36);
+
+  /* spacing */
+  --section-padding: 40px;
+  --nav-height: 64px;
+  --content-max-width: 1280px;
+
+  /* heading sizes (desktop) */
+  --heading-size-xxl: 64px;
+  --heading-size-xl: 39.81px;
+  --heading-size-l: 33.18px;
+  --heading-size-m: 28px;
+  --heading-size-s: 23.04px;
+  --heading-size-xs: 19.2px;
+}
