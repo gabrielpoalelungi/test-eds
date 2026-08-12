@@ -1,0 +1,40 @@
+:root {
+  /* Fonts */
+  --heading-font-family: "Syncopate", sans-serif;
+  --body-font-family: "Instrument Sans", sans-serif;
+
+  /* Colors */
+  --background-color: rgb(255 255 255);
+  --text-color: rgb(0 0 0);
+  --link-color: rgb(102 102 102);
+  --link-hover-color: rgb(0 0 0);
+
+  /* Section colors */
+  --light-color: rgb(245 245 245);
+  --dark-color: rgb(0 0 0);
+
+  /* Spacing */
+  --section-padding: 128px;
+  --content-max-width: 1200px;
+  --nav-height: 38.3906px;
+
+  /* Heading sizes - Desktop */
+  --heading-size-xxl: 56px;
+  --heading-size-xl: 40px;
+  --heading-size-l: 18px;
+  --heading-size-m: 20px;
+  --heading-size-s: 18px;
+  --heading-size-xs: 16px;
+}
+
+@media (width <= 900px) {
+  :root {
+    /* Heading sizes - Mobile */
+    --heading-size-xxl: 36px;
+    --heading-size-xl: 28px;
+    --heading-size-l: 24px;
+    --heading-size-m: 20px;
+    --heading-size-s: 18px;
+    --heading-size-xs: 16px;
+  }
+}

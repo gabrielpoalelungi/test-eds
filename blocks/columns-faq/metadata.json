@@ -1,0 +1,41 @@
+{
+  "variantName": "columns-faq",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-07-14T07:57:31.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/",
+    "originPage": "Homepage - Fashion blog landing page",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "wide",
+    "purpose": "faq-layout",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "intro text + FAQ items (details/summary)",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "FAQ sections",
+      "Q&A layouts",
+      "Text intro + collapsible content"
+    ],
+    "notSuitableFor": [
+      "Image-heavy layouts",
+      "Product grids",
+      "Navigation sections"
+    ]
+  },
+  "usage": {
+    "pagesUsing": [
+      "/index"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-07-14T07:57:31.000Z"
+  }
+}

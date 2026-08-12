@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "projectType": "da"
+  },
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.wknd-trendsetters.site/"
+      ],
+      "representativeUrl": "https://www.wknd-trendsetters.site/",
+      "coverageGaps": [],
+      "description": "Homepage template for WKND Trendsetters fashion blog",
+      "blocks": [
+        {
+          "name": "columns-image-grid",
+          "instances": [
+            "header.section.secondary-section"
+          ]
+        },
+        {
+          "name": "columns-article-meta",
+          "instances": [
+            "section.section:nth-of-type(1)"
+          ]
+        },
+        {
+          "name": "tabs-testimonial",
+          "instances": [
+            "section.section:nth-of-type(2)"
+          ]
+        },
+        {
+          "name": "cards-article",
+          "instances": [
+            "section.section.secondary-section:nth-of-type(2)"
+          ]
+        },
+        {
+          "name": "columns-faq",
+          "instances": [
+            "section.section:nth-of-type(3)"
+          ]
+        },
+        {
+          "name": "hero-overlay",
+          "instances": [
+            "section.section.inverse-section"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Section 1",
+          "selector": "header.section.secondary-section",
+          "style": "light-grey",
+          "blocks": [
+            "columns-image-grid"
+          ],
+          "defaultContent": [
+            "header.section.secondary-section"
+          ]
+        },
+        {
+          "id": "section-2",
+          "name": "Section 2",
+          "selector": "section.section:nth-of-type(1)",
+          "style": null,
+          "blocks": [
+            "columns-article-meta"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "Section 3",
+          "selector": "section.section.secondary-section:nth-of-type(1)",
+          "style": "light-grey",
+          "blocks": [],
+          "defaultContent": [
+            "section.section.secondary-section:nth-of-type(1)"
+          ]
+        },
+        {
+          "id": "section-4",
+          "name": "Section 4",
+          "selector": "section.section:nth-of-type(2)",
+          "style": null,
+          "blocks": [
+            "tabs-testimonial"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-5",
+          "name": "Section 5",
+          "selector": "section.section.secondary-section:nth-of-type(2)",
+          "style": "light-grey",
+          "blocks": [
+            "cards-article"
+          ],
+          "defaultContent": [
+            "section.section.secondary-section:nth-of-type(2)"
+          ]
+        },
+        {
+          "id": "section-6",
+          "name": "Section 6",
+          "selector": "section.section:nth-of-type(3)",
+          "style": null,
+          "blocks": [
+            "columns-faq"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-7",
+          "name": "Section 7",
+          "selector": "section.section.inverse-section",
+          "style": "dark",
+          "blocks": [
+            "hero-overlay"
+          ],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}

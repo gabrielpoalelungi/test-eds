@@ -1,0 +1,96 @@
+/* FAQ accordion block */
+
+.columns-faq > div {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+/* Heading and intro section */
+.columns-faq > div > div:first-child {
+  text-align: center;
+}
+
+.columns-faq h2 {
+  font-size: var(--heading-size-xl);
+  font-weight: 700;
+  font-family: var(--heading-font-family);
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: var(--text-color);
+  margin: 0;
+}
+
+.columns-faq > div > div:first-child p {
+  font-size: 18px;
+  font-family: var(--body-font-family);
+  line-height: 1.6;
+  color: var(--text-color);
+  margin: 16px 0 0;
+}
+
+/* FAQ list container */
+.columns-faq > div > div:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* FAQ item (details element) */
+.columns-faq details {
+  border: 1px solid rgb(232 232 232);
+  border-radius: 16px;
+  background-color: var(--background-color);
+}
+
+/* FAQ question (summary element) */
+.columns-faq summary {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--body-font-family);
+  line-height: 1.6;
+  color: var(--text-color);
+  padding: 24px 32px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.columns-faq summary::-webkit-details-marker {
+  display: none;
+}
+
+/* FAQ answer */
+.columns-faq details > div {
+  padding: 0 32px 32px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: rgb(64 64 64);
+}
+
+/* Plus/minus icon */
+.columns-faq summary::after {
+  content: '+';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-left: 16px;
+  transition: transform 0.3s ease;
+}
+
+.columns-faq details[open] summary::after {
+  content: '−';
+}
+
+@media (width >= 900px) {
+  .columns-faq > div {
+    gap: 80px;
+  }
+
+  .columns-faq > div > div:last-child {
+    gap: 20px;
+  }
+}

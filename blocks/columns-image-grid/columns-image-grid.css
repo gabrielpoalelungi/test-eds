@@ -1,0 +1,77 @@
+/* Block: columns-image-grid */
+
+/* Hero-style 2-column layout with text + image grid */
+
+.columns-image-grid > div {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.columns-image-grid h1 {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: var(--heading-font-family);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--text-color);
+  margin: 0 0 24px;
+}
+
+.columns-image-grid p {
+  font-size: 18px;
+  font-family: var(--body-font-family);
+  line-height: 1.6;
+  color: var(--text-color);
+  margin: 24px 0 0;
+}
+
+.columns-image-grid a {
+  color: var(--link-color);
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.columns-image-grid a:hover {
+  color: var(--link-hover-color);
+}
+
+/* Image cell - contains 3 images wrapped in p */
+.columns-image-grid .columns-image-grid-img-col {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.columns-image-grid .columns-image-grid-img-col p {
+  margin: 0;
+  display: contents;
+}
+
+.columns-image-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+/* Desktop: side-by-side layout */
+@media (width >= 900px) {
+  .columns-image-grid > div {
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+  }
+
+  .columns-image-grid h1 {
+    font-size: 56px;
+    margin: 0 0 32px;
+  }
+
+  .columns-image-grid .columns-image-grid-img-col {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
