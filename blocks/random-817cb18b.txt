@@ -1,0 +1,2 @@
+Random test file for reproducing the "beyond a symbolic link" commit error.
+Safe to delete.
