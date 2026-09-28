@@ -1,0 +1,36 @@
+{
+  "id": "tabs-testimonial",
+  "name": "tabs-testimonial",
+  "type": "tabs",
+  "variantName": "tabs-testimonial",
+  "baseBlock": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-09-28T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/",
+    "discoveredDuring": "excat-site-migration per-page analysis",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "normal",
+    "purpose": "testimonials",
+    "imagePattern": "large-left + avatar",
+    "structure": "image + name + role + quote"
+  },
+  "contentPattern": {
+    "structure": "4 rows, 2 cells: [tab label: avatar image, bold name, role] | [panel: image, bold name, role, quote paragraph]",
+    "buttonCount": 4,
+    "imageCount": 8
+  },
+  "usage": {
+    "pagesUsing": [
+      { "url": "https://www.wknd-trendsetters.site/", "screenshot": "migration-work/screenshot.png" }
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-09-28T00:00:00.000Z"
+  },
+  "options": [],
+  "memberVariantIds": ["tabs-testimonial"]
+}

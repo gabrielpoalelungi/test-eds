@@ -1,0 +1,104 @@
+/* columns-article: 3:2 rounded image beside breadcrumbs, heading and byline */
+.columns-article {
+  color: var(--text-color);
+}
+
+.columns-article > div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 24px;
+  align-items: center;
+}
+
+/* image */
+.columns-article .columns-article-image picture {
+  display: block;
+}
+
+.columns-article .columns-article-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: var(--radius-card);
+  overflow: clip;
+}
+
+/* body */
+.columns-article .columns-article-body > :first-child {
+  margin-top: 0;
+}
+
+.columns-article .columns-article-body h2 {
+  margin: 0;
+}
+
+/* breadcrumbs */
+.columns-article .columns-article-breadcrumbs {
+  margin-bottom: 32px;
+}
+
+.columns-article .columns-article-breadcrumbs p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: var(--body-font-size-s);
+  line-height: var(--line-height-normal);
+}
+
+.columns-article .columns-article-breadcrumbs a:any-link {
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.columns-article .columns-article-breadcrumbs a:any-link:last-of-type {
+  color: var(--color-gray-500);
+}
+
+.columns-article .columns-article-breadcrumbs a:any-link:hover {
+  color: var(--link-hover-color);
+}
+
+/* text separator ("/") rendered as the source's 12px chevron */
+.columns-article .columns-article-separator {
+  flex: none;
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M6 4L10 8L6 12' stroke='%23000' stroke-width='2'/%3E%3C/svg%3E") center / 12px 12px no-repeat;
+  color: transparent;
+  font-size: 0;
+}
+
+/* byline and date */
+.columns-article .columns-article-meta {
+  margin-top: 16px;
+}
+
+.columns-article .columns-article-meta p {
+  margin: 0;
+  color: var(--color-gray-500);
+  font-size: var(--body-font-size-xs);
+  line-height: var(--line-height-normal);
+}
+
+.columns-article .columns-article-meta p + p {
+  margin-top: 8px;
+}
+
+.columns-article .columns-article-meta .columns-article-byline {
+  color: var(--text-color);
+}
+
+.columns-article .columns-article-byline-prefix {
+  color: var(--color-gray-500);
+}
+
+@media (width >= 992px) {
+  .columns-article.columns-article-has-image > div {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

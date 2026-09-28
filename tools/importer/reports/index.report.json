@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "url": "https://www.wknd-trendsetters.site/",
+  "path": "index",
+  "timestamp": "2026-09-28T10:39:48.181Z",
+  "title": "WKND Trendsetters - Fresh Looks, Bold Stories, Real Life",
+  "template": "home",
+  "blocks": [
+    "hero-split",
+    "columns-article",
+    "cards-gallery",
+    "tabs-testimonial",
+    "cards-article",
+    "accordion-faq",
+    "hero-banner"
+  ]
+}

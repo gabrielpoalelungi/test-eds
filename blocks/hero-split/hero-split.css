@@ -1,0 +1,73 @@
+/* hero-split: heading, subheading and CTAs beside a 3-image collage */
+.hero-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 64px;
+  align-items: center;
+  color: var(--text-color);
+}
+
+.hero-split .hero-split-content > :first-child {
+  margin-top: 0;
+}
+
+.hero-split .hero-split-content > :last-child {
+  margin-bottom: 0;
+}
+
+.hero-split .hero-split-content h1 {
+  color: var(--text-color);
+}
+
+.hero-split .hero-split-content > p {
+  margin: 24px 0 0;
+  font-size: var(--body-font-size-m);
+  line-height: var(--line-height-normal);
+}
+
+/* CTA row: stacked full-width pills on mobile, inline on tablet+ */
+.hero-split .hero-split-actions {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.hero-split .hero-split-actions p {
+  margin: 0;
+}
+
+.hero-split .hero-split-media {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 8px;
+}
+
+.hero-split .hero-split-image picture,
+.hero-split .hero-split-image img {
+  display: block;
+  width: 100%;
+}
+
+.hero-split .hero-split-image img {
+  aspect-ratio: 3 / 2;
+  height: auto;
+  border-radius: var(--radius-card);
+  object-fit: cover;
+}
+
+@media (width >= 768px) {
+  .hero-split .hero-split-actions {
+    flex-direction: row;
+  }
+}
+
+@media (width >= 992px) {
+  .hero-split.hero-split-has-media {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hero-split .hero-split-media {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
