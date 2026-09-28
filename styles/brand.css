@@ -1,0 +1,48 @@
+/* brand tokens extracted from https://www.wknd-trendsetters.site/ */
+:root {
+  /* palette */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-yellow: #f4fe8b;
+  --color-lavender: #cbd4ff;
+  --color-purple: #f4e5fc;
+  --color-gray-100: #f5f5f5;
+  --color-gray-200: #e8e8e8;
+  --color-gray-300: #d4d4d4;
+  --color-gray-500: #666;
+  --color-gray-700: #404040;
+  --color-gray-900: #171717;
+
+  /* fonts */
+  --heading-font-family: syncopate, syncopate-fallback, sans-serif;
+  --body-font-family: 'Instrument Sans', instrument-sans-fallback, sans-serif;
+
+  /* colors */
+  --background-color: var(--color-white);
+  --text-color: var(--color-black);
+  --link-color: var(--color-black);
+  --link-hover-color: var(--color-gray-500);
+  --light-color: var(--color-gray-100);
+  --dark-color: var(--color-black);
+  --border-color: var(--color-gray-200);
+
+  /* spacing */
+  --section-padding: 64px;
+  --content-max-width: 1200px;
+  --content-padding: 16px;
+  --nav-height: 83px;
+
+  /* radii */
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-card: 20px;
+  --radius-full: 9999px;
+
+  /* shadows and motion */
+  --shadow-button: 4px 4px 0 0 var(--color-black);
+  --shadow-button-hover: 6px 6px 0 0 var(--color-black);
+  --shadow-button-active: 2px 2px 0 0 var(--color-black);
+  --shadow-card: 0 2px 8px rgb(0 0 0 / 8%);
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.3s ease;
+}

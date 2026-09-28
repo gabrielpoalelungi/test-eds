@@ -1,0 +1,134 @@
+/* tabs-testimonial: active testimonial panel above a grid of avatar tab buttons.
+ * Values extracted from source computed styles (.tabs-wrapper on wknd-trendsetters.site).
+ * Source breakpoints 767/991 map to 768/992 (see styles/styles.css). */
+.tabs-testimonial {
+  color: var(--text-color);
+}
+
+/* panel: image + text, stacked below 992px */
+.tabs-testimonial .tabs-testimonial-pane {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+  align-items: center;
+}
+
+.tabs-testimonial .tabs-testimonial-pane[hidden] {
+  display: none;
+}
+
+.tabs-testimonial .tabs-testimonial-pane-image {
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+}
+
+.tabs-testimonial .tabs-testimonial-pane-image picture,
+.tabs-testimonial .tabs-testimonial-pane-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.tabs-testimonial .tabs-testimonial-pane-image img {
+  object-fit: cover;
+}
+
+/* panel text: name (bold, 20px), role (16px), quote (20px) */
+.tabs-testimonial .tabs-testimonial-pane-body > p {
+  margin: 0;
+  font-size: var(--body-font-size-l);
+  line-height: var(--line-height-normal);
+}
+
+.tabs-testimonial .tabs-testimonial-pane-body > p:nth-child(2) {
+  font-size: var(--body-font-size-s);
+}
+
+.tabs-testimonial .tabs-testimonial-pane-body > p:nth-child(3) {
+  margin-top: 32px;
+}
+
+.tabs-testimonial .tabs-testimonial-pane-body > p:last-child:nth-child(n + 3) {
+  margin-bottom: 48px;
+}
+
+/* tab menu: 1 column mobile, 2 tablet, 4 desktop */
+.tabs-testimonial .tabs-testimonial-list {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+}
+
+.tabs-testimonial .tabs-testimonial-tab {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  margin: 0;
+  padding: 16px;
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--radius-lg);
+  background-color: #efefef;
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  font-size: var(--body-font-size-xs);
+  line-height: var(--line-height-normal);
+  text-align: left;
+  white-space: normal;
+  cursor: pointer;
+  transition:
+    border-color var(--transition-fast),
+    background-color var(--transition-fast);
+}
+
+.tabs-testimonial .tabs-testimonial-tab:hover {
+  border-color: var(--color-gray-300);
+}
+
+.tabs-testimonial .tabs-testimonial-tab[aria-selected='true'] {
+  border-color: var(--color-black);
+  background-color: var(--color-gray-100);
+  cursor: default;
+}
+
+.tabs-testimonial .tabs-testimonial-avatar {
+  flex: 0 0 48px;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.tabs-testimonial .tabs-testimonial-avatar picture,
+.tabs-testimonial .tabs-testimonial-avatar img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.tabs-testimonial .tabs-testimonial-avatar img {
+  object-fit: cover;
+}
+
+.tabs-testimonial .tabs-testimonial-tab-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+@media (width >= 768px) {
+  .tabs-testimonial .tabs-testimonial-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (width >= 992px) {
+  .tabs-testimonial .tabs-testimonial-pane.tabs-testimonial-pane-has-image {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .tabs-testimonial .tabs-testimonial-list {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

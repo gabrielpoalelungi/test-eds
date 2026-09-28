@@ -1,0 +1,36 @@
+{
+  "id": "accordion-faq",
+  "name": "accordion-faq",
+  "type": "accordion",
+  "variantName": "accordion-faq",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-09-28T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/",
+    "discoveredDuring": "excat-site-migration per-page analysis",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "normal",
+    "purpose": "faq",
+    "imagePattern": "noimg",
+    "structure": "question + answer"
+  },
+  "contentPattern": {
+    "structure": "4 rows, 2 cells: [question] | [answer paragraph]",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "usage": {
+    "pagesUsing": [
+      { "url": "https://www.wknd-trendsetters.site/", "screenshot": "migration-work/screenshot.png" }
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-09-28T00:00:00.000Z"
+  },
+  "options": [],
+  "memberVariantIds": ["accordion-faq"]
+}

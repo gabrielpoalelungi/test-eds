@@ -1,0 +1,36 @@
+{
+  "id": "hero-split",
+  "name": "hero-split",
+  "type": "hero",
+  "variantName": "hero-split",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-09-28T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/",
+    "discoveredDuring": "excat-site-migration per-page analysis",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "page-intro-split",
+    "imagePattern": "collage",
+    "structure": "heading + text + 2 CTAs + 3 images"
+  },
+  "contentPattern": {
+    "structure": "Row 1: images cell (3 images). Row 2: H1, paragraph, 2 links (primary strong, secondary em)",
+    "buttonCount": 2,
+    "imageCount": 3
+  },
+  "usage": {
+    "pagesUsing": [
+      { "url": "https://www.wknd-trendsetters.site/", "screenshot": "migration-work/screenshot.png" }
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-09-28T00:00:00.000Z"
+  },
+  "options": [],
+  "memberVariantIds": ["hero-split"]
+}
