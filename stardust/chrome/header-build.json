@@ -1,0 +1,666 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://main--c579f7f0--aemcoder.aem.live/",
+ "at": "2026-10-16T11:01:25.666Z",
+ "shots": "stardust/.work/chrome/header-build",
+ "widths": {
+  "360": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "Fashion Blog",
+     "key": "fashion blog",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>div>a",
+     "href": "https://main--c579f7f0--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      16,
+      25,
+      182,
+      32
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Subscribe",
+     "key": "subscribe",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>div>div>div>p>a",
+     "expanded": null,
+     "rect": [
+      208,
+      16,
+      95,
+      50
+     ],
+     "actions": {
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Toggle navigation",
+     "key": "toggle navigation",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "body>header>div>div>div>button",
+     "expanded": "false",
+     "rect": [
+      312,
+      25,
+      32,
+      32
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "About",
+          "href": "https://www.wknd-trendsetters.site/fashion-trends-of-the-season"
+         },
+         {
+          "text": "Blog",
+          "href": "https://www.wknd-trendsetters.site/blog"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         16,
+         126,
+         328,
+         85
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "360-001-Toggle-navigation-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "About",
+          "href": "https://www.wknd-trendsetters.site/fashion-trends-of-the-season"
+         },
+         {
+          "text": "Blog",
+          "href": "https://www.wknd-trendsetters.site/blog"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         16,
+         126,
+         328,
+         85
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "360-002-Toggle-navigation-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": []
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 83,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 83,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 83,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 83,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 2,
+   "truncated": null,
+   "loads": 1
+  },
+  "1440": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "Fashion Blog",
+     "key": "fashion blog",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>div>a",
+     "href": "https://main--c579f7f0--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      144,
+      25,
+      182,
+      32
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Trends",
+     "key": "trends",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-nav>ul>li:nth-of-type(1)>a",
+     "expanded": null,
+     "rect": [
+      592,
+      22,
+      85,
+      38
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Streetwear Everyday looks, always fresh.",
+          "href": "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport"
+         },
+         {
+          "text": "Sporty Move easy, look sharp.",
+          "href": "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport"
+         },
+         {
+          "text": "Party Turn heads after dark.",
+          "href": "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport"
+         },
+         {
+          "text": "Tennis Serve up cool style.",
+          "href": "https://www.wknd-trendsetters.site/fashion-trends-young-adults"
+         },
+         {
+          "text": "Beach Chill fits, sun vibes.",
+          "href": "https://www.wknd-trendsetters.site/fashion-trends-young-adults"
+         },
+         {
+          "text": "Festival Dance, play, repeat.",
+          "href": "https://www.wknd-trendsetters.site/fashion-trends-young-adults"
+         },
+         {
+          "text": "Style Files Curated looks, daily drops.",
+          "href": "https://www.wknd-trendsetters.site/blog"
+         },
+         {
+          "text": "Blog Watch Fresh brands, hot takes.",
+          "href": "https://www.wknd-trendsetters.site/blog"
+         },
+         {
+          "text": "How To Trend tips, made easy.",
+          "href": "https://www.wknd-trendsetters.site/blog"
+         },
+         {
+          "text": "Fresh fits, bold moves See how trendsetters own every moment. Discover",
+          "href": "https://www.wknd-trendsetters.site/case-studies"
+         }
+        ],
+        "headings": [
+         "Casual",
+         "Now Trending",
+         "Inspo"
+        ],
+        "images": 9,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         184,
+         60,
+         900,
+         353
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.nav-link"
+        }
+       ],
+       "shot": "1440-001-Trends-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Streetwear Everyday looks, always fresh.",
+          "href": "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport"
+         },
+         {
+          "text": "Sporty Move easy, look sharp.",
+          "href": "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport"
+         },
+         {
+          "text": "Party Turn heads after dark.",
+          "href": "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport"
+         },
+         {
+          "text": "Tennis Serve up cool style.",
+          "href": "https://www.wknd-trendsetters.site/fashion-trends-young-adults"
+         },
+         {
+          "text": "Beach Chill fits, sun vibes.",
+          "href": "https://www.wknd-trendsetters.site/fashion-trends-young-adults"
+         },
+         {
+          "text": "Festival Dance, play, repeat.",
+          "href": "https://www.wknd-trendsetters.site/fashion-trends-young-adults"
+         },
+         {
+          "text": "Style Files Curated looks, daily drops.",
+          "href": "https://www.wknd-trendsetters.site/blog"
+         },
+         {
+          "text": "Blog Watch Fresh brands, hot takes.",
+          "href": "https://www.wknd-trendsetters.site/blog"
+         },
+         {
+          "text": "How To Trend tips, made easy.",
+          "href": "https://www.wknd-trendsetters.site/blog"
+         },
+         {
+          "text": "Fresh fits, bold moves See how trendsetters own every moment. Discover",
+          "href": "https://www.wknd-trendsetters.site/case-studies"
+         }
+        ],
+        "headings": [
+         "Casual",
+         "Now Trending",
+         "Inspo"
+        ],
+        "images": 9,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         184,
+         60,
+         900,
+         353
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.nav-link"
+        }
+       ],
+       "shot": "1440-002-Trends-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Streetwear Everyday looks, always fresh.",
+          "href": "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport"
+         },
+         {
+          "text": "Sporty Move easy, look sharp.",
+          "href": "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport"
+         },
+         {
+          "text": "Party Turn heads after dark.",
+          "href": "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport"
+         },
+         {
+          "text": "Tennis Serve up cool style.",
+          "href": "https://www.wknd-trendsetters.site/fashion-trends-young-adults"
+         },
+         {
+          "text": "Beach Chill fits, sun vibes.",
+          "href": "https://www.wknd-trendsetters.site/fashion-trends-young-adults"
+         },
+         {
+          "text": "Festival Dance, play, repeat.",
+          "href": "https://www.wknd-trendsetters.site/fashion-trends-young-adults"
+         },
+         {
+          "text": "Style Files Curated looks, daily drops.",
+          "href": "https://www.wknd-trendsetters.site/blog"
+         },
+         {
+          "text": "Blog Watch Fresh brands, hot takes.",
+          "href": "https://www.wknd-trendsetters.site/blog"
+         },
+         {
+          "text": "How To Trend tips, made easy.",
+          "href": "https://www.wknd-trendsetters.site/blog"
+         },
+         {
+          "text": "Fresh fits, bold moves See how trendsetters own every moment. Discover",
+          "href": "https://www.wknd-trendsetters.site/case-studies"
+         }
+        ],
+        "headings": [
+         "Casual",
+         "Now Trending",
+         "Inspo"
+        ],
+        "images": 9,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         184,
+         60,
+         900,
+         353
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-003-Trends-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "About",
+     "key": "about",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-nav>ul>li:nth-of-type(2)>a",
+     "href": "https://www.wknd-trendsetters.site/fashion-trends-of-the-season",
+     "expanded": null,
+     "rect": [
+      684,
+      22,
+      65,
+      38
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Blog",
+     "key": "blog",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-nav>ul>li:nth-of-type(3)>a",
+     "href": "https://www.wknd-trendsetters.site/blog",
+     "expanded": null,
+     "rect": [
+      757,
+      22,
+      53,
+      38
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Support",
+     "key": "support",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-nav>ul>li:nth-of-type(4)>a",
+     "expanded": null,
+     "rect": [
+      818,
+      22,
+      94,
+      38
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Contact",
+          "href": "https://www.wknd-trendsetters.site/faq"
+         },
+         {
+          "text": "FAQ",
+          "href": "https://www.wknd-trendsetters.site/faq"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         818,
+         60,
+         192,
+         95
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.nav-link"
+        }
+       ],
+       "shot": "1440-004-Support-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Contact",
+          "href": "https://www.wknd-trendsetters.site/faq"
+         },
+         {
+          "text": "FAQ",
+          "href": "https://www.wknd-trendsetters.site/faq"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         818,
+         60,
+         192,
+         95
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.nav-link"
+        }
+       ],
+       "shot": "1440-005-Support-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Contact",
+          "href": "https://www.wknd-trendsetters.site/faq"
+         },
+         {
+          "text": "FAQ",
+          "href": "https://www.wknd-trendsetters.site/faq"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         818,
+         60,
+         192,
+         95
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-006-Support-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Subscribe",
+     "key": "subscribe",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>div>div>div>p>a",
+     "expanded": null,
+     "rect": [
+      1177,
+      16,
+      119,
+      50
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 83,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 83,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 83,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 83,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 6,
+   "truncated": null,
+   "loads": 1
+  }
+ },
+ "probe": "fashion"
+}

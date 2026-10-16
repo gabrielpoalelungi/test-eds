@@ -1,0 +1,245 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica",
+    "writtenAt": "2026-10-16T09:46:53.230Z",
+    "mode": "bounded-single",
+    "synthesizedFrom": [
+      "stardust/current/pages/index.json",
+      "stardust/replica/tokens.json"
+    ]
+  },
+  "name": "WKND Trendsetters (Fashion Blog)",
+  "colors": {
+    "background": "#ffffff",
+    "surface": "#f5f5f5",
+    "text": "#000000",
+    "text-secondary": "#666666",
+    "text-muted-strong": "#404040",
+    "border": "#e8e8e8",
+    "border-strong": "#d4d4d4",
+    "inverse": "#000000",
+    "accent": "#f4fe8b",
+    "accent-lavender": "#cbd4ff",
+    "accent-purple": "#f4e5fc",
+    "gray-900": "#171717"
+  },
+  "typography": {
+    "heading": {
+      "fontFamily": "Syncopate, sans-serif",
+      "fontWeight": 700,
+      "lineHeight": 1.1,
+      "textTransform": "uppercase"
+    },
+    "body": {
+      "fontFamily": "Instrument Sans, sans-serif",
+      "fontSize": "1rem",
+      "lineHeight": 1.6
+    },
+    "ramp": {
+      "h1": {
+        "family": "Syncopate",
+        "weight": 700,
+        "size": "3.5rem",
+        "lineHeight": 1.1,
+        "letterSpacing": "-0.02em",
+        "transform": "uppercase"
+      },
+      "h2": {
+        "size": "2.5rem"
+      },
+      "h3": {
+        "size": "2rem"
+      },
+      "h4": {
+        "size": "1.5rem"
+      },
+      "h5": {
+        "size": "1.25rem"
+      },
+      "h6": {
+        "size": "0.875rem",
+        "letterSpacing": "0.05em"
+      },
+      "body": {
+        "family": "Instrument Sans",
+        "size": "1rem",
+        "lineHeight": 1.6
+      },
+      "subheading": {
+        "size": "1.125rem",
+        "lineHeight": 1.6
+      }
+    }
+  },
+  "rounded": {
+    "sm": ".375rem",
+    "md": ".5rem",
+    "lg": "1rem",
+    "card": "1.25rem",
+    "full": "9999px"
+  },
+  "spacing": {
+    "xxs": ".25rem",
+    "xs": ".5rem",
+    "sm": ".75rem",
+    "md": "1rem",
+    "lg": "1.5rem",
+    "xl": "2rem",
+    "2xl": "3rem",
+    "3xl": "4rem",
+    "4xl": "5rem",
+    "5xl": "8rem"
+  },
+  "components": {
+    "button": {
+      "padding": "0.75rem 1.5rem",
+      "fontSize": "0.875rem",
+      "weight": 600,
+      "radius": "9999px",
+      "border": "2px solid #000",
+      "bg": "#000",
+      "color": "#fff",
+      "shadow": "4px 4px 0 0 #000",
+      "secondary": {
+        "bg": "#fff",
+        "color": "#000"
+      },
+      "inverse": {
+        "bg": "#fff",
+        "color": "#000",
+        "border": "#fff",
+        "shadow": "4px 4px #ffffff4d"
+      }
+    },
+    "card": {
+      "radius": "1.25rem",
+      "border": "1px solid #e8e8e8",
+      "hover": "translateY(-4px), 0 8px 24px #0000001a"
+    },
+    "tag": {
+      "bg": "#f4fe8b",
+      "radius": "9999px",
+      "padding": "0.25rem 0.75rem",
+      "fontSize": "0.75rem",
+      "weight": 600,
+      "transform": "uppercase",
+      "letterSpacing": "0.05em"
+    },
+    "faqItem": {
+      "border": "1px solid #e8e8e8",
+      "radius": "1rem",
+      "questionPadding": "1.5rem 2rem",
+      "questionSize": "1.125rem"
+    }
+  },
+  "extensions": {
+    "breakpoints": {
+      "containerMaxWidth": "1200px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 1200,
+          "via": "max-width",
+          "selector": "#main-content > section.section > div.container",
+          "pages": [
+            "https://www.wknd-trendsetters.site/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 672,
+          "via": "max-width",
+          "selector": "div.container > div.grid-layout.desktop-1-column > div.utility-position-relative.utility-radius-card > div.card-body.utility-max-width-lg",
+          "pages": [
+            "https://www.wknd-trendsetters.site/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 564,
+          "via": "fixed",
+          "selector": "section.section > div.container > div.grid-layout.tablet-1-column > div",
+          "pages": [
+            "https://www.wknd-trendsetters.site/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 279,
+          "via": "fixed",
+          "selector": "section.section.secondary-section > div.container > div.grid-layout.desktop-4-column > div.utility-aspect-1x1",
+          "pages": [
+            "https://www.wknd-trendsetters.site/"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "section": 0,
+          "selector": "#main-content > header.section.secondary-section",
+          "px": null
+        },
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "section": 1,
+          "selector": "#main-content > section.section",
+          "px": 1200
+        },
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "section": 2,
+          "selector": "#main-content > section.section.secondary-section",
+          "px": 1200
+        },
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "section": 3,
+          "selector": "#main-content > section.section",
+          "px": 1200
+        },
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "section": 4,
+          "selector": "#main-content > section.section.secondary-section",
+          "px": 1200
+        },
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "section": 5,
+          "selector": "#main-content > section.section",
+          "px": 1200
+        },
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "section": 6,
+          "selector": "#main-content > section.section.inverse-section",
+          "px": 1200
+        }
+      ],
+      "capRegister": [],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-10-16T09:46:18.241Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.wknd-trendsetters.site/"
+        ]
+      },
+      "source": [
+        991,
+        767,
+        479
+      ]
+    },
+    "motifs": {
+      "buttonShadow": "4px 4px 0 0 #000 hard offset",
+      "shadowCard": "0 2px 8px rgba(0, 0, 0, .08)"
+    },
+    "voice": {
+      "heroHeadline": "Fresh looks, bold stories, real life"
+    }
+  }
+}

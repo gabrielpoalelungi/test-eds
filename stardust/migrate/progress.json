@@ -1,0 +1,52 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-10-16T10:02:00Z"
+  },
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-16T10:01:38Z",
+      "endedAt": "2026-10-16T10:02:00Z",
+      "verdict": "in scope 1: Path A (approved) index → index.html; Path A' 0; Path B 0; skipped 0; preconditions: dynamic-features.md present (5 rows), archetype landing gated 1440 0.00% / 360 1.20%"
+    },
+    "landing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-16T10:02:03Z",
+      "endedAt": "2026-10-16T10:03:00Z",
+      "verdict": "rendered 1, unchanged 0, refused 0, passthrough 0"
+    },
+    "assets": {
+      "status": "done",
+      "kind": "assets",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-16T10:03:09Z",
+      "endedAt": "2026-10-16T10:03:48Z",
+      "verdict": "no media rehosted; robots.txt + sitemap.xml added; logo inline (no file); favicon + 3 fonts present; 0 escapes/absolute refs; 21 out-of-scope links + 3 file:// policy blocks logged"
+    },
+    "report": {
+      "status": "done",
+      "kind": "report",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-16T10:03:56Z",
+      "endedAt": "2026-10-16T10:05:23Z",
+      "verdict": "1 migrated (index), 0 unchanged, 0 failed, 0 stale; Path A 1; 26 assets, 0 missing; 21 broken internal links (out of scope)"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "frozenAt": "2026-10-16T10:46:43.230Z",
+  "root": ".",
+  "paths": [
+    "styles/",
+    "fonts/",
+    "blocks/header/",
+    "blocks/footer/",
+    "head.html",
+    "scripts/"
+  ],
+  "files": {
+    "blocks/footer/footer.css": "df967a18edffe4bf263127680cd79ceca2d41eac732bb2b70efd09340549efe6",
+    "blocks/footer/footer.js": "6c78a061103c396607c3579cbf4f3ca006540e6d6acccf6dca203bdcc209fc1f",
+    "blocks/header/header.css": "69e58bd9d149650ab3b3ec4ca125d3aabd0c3c94dc51e1d28b42734fc5a90187",
+    "blocks/header/header.js": "050aa10dbf5d2e0b6ab48f0742a96f853362ead12b9f430ad73a166001b6d4e5",
+    "fonts/instrument-sans-latin.woff2": "6219bc4bfdfc5d9b2201dcdf046218b122a758f932e25ed5f168f929b7ca2311",
+    "fonts/syncopate-400-latin.woff2": "1fddf428333ba0ba73810a20cdf4614d90528aff3a8df9e33dec32e897751a26",
+    "fonts/syncopate-700-latin.woff2": "371cfc398e762b5e5467764c6a524f2ef97e5f1f1c314f47849141ca7584b6d7",
+    "head.html": "c7b024f07e1ffc3460f6f4a4bf98fca46b452bb440f928eb652db4e0da691526",
+    "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
+    "scripts/consent-check.js": "ac21f825288cfc82c52a6acd9c57bbb76a2017ee1b06319d493244f32751249a",
+    "scripts/consented.js": "8a0ec7239cfab36c9bbfd8e7cde178c6c9061f68da8539879411ee9fa09b18ab",
+    "scripts/scripts.js": "4f8cec7cde8ec98bc036e183af76642efadbdb6cfb8c302b89fc93230974321a",
+    "styles/fonts.css": "14ebcca88176bf5167beefbc5b15933e838acd9b4aa0086ccba143dc8b5cdae5",
+    "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+    "styles/styles.css": "b5715b0e367a66740c3362d17d1ac02f5aaeb5692492917aa970eda94295adc0"
+  }
+}

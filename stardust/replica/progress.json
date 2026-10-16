@@ -1,0 +1,29 @@
+{
+  "_provenance": { "writtenBy": "stardust:replica", "writtenAt": "2026-10-16T10:00:30Z" },
+  "archetypes": {
+    "landing": {
+      "slug": "index",
+      "url": "https://www.wknd-trendsetters.site/",
+      "prototype": "stardust/prototypes/index-proposed.html",
+      "shared": ["stardust/prototypes/canon.css"],
+      "perArchetype": ["stardust/prototypes/index.css", "stardust/prototypes/index.js"],
+      "iterations": { "1440": 1, "360": 2 },
+      "gates": {
+        "1440": { "pixel": 0.00, "heightDelta": 0, "overflow": "ok", "contentDiffStructuralRed": 0, "visualDiff": "15 advisory, justified (cover crops identical to source; duplicate-headline pairing)", "chromeParity": "granularity-only (live labels in inner <div>; live <header> is the hero) — pixel 0.00%", "clip": "4 = 4 on source (closed <details> FAQ answers), allowed", "round": "confirm2" },
+        "360": { "pixel": 1.20, "heightDelta": 0, "overflow": "ok (R-01; source overflows +61px)", "contentDiffStructuralRed": 0, "visualDiff": "advisory, justified", "chromeParity": "granularity-only", "clip": "4 = 4 on source, allowed", "round": "confirm2" },
+        "cap": { "probeWidth": 2560, "verdict": "PASS", "rows": "8/8" },
+        "prototypeTable": { "1440": "PASS 0%", "360": "PASS 1.2%" }
+      },
+      "residuals": ["360: 1.20% — header row (R-01 compaction of Subscribe/menu button)"],
+      "register": ["R-01"],
+      "motion": {
+        "observed": "stardust/replica/motion/index.json",
+        "build": "stardust/replica/motion/index-build.json",
+        "implemented": ["button hover lift + shadow", "article-card hover lift + image scale", "nav item hover background", "mega menu / dropdown on hover+focus", "testimonial tabs (click + arrow keys)", "FAQ details open/close + icon rotate", "mobile nav toggle"],
+        "dead": ["header scroll-morph (static on live)"],
+        "notes": "compare: 10 parity; 'is-active MISSING' = tab switch implemented via aria-selected/hidden (same behaviour); 'header count EXTRA' = role parity (hero is a <header> on live)"
+      },
+      "status": "gated"
+    }
+  }
+}

@@ -1,0 +1,122 @@
+/* testimonials — tabbed panels + avatar tablist */
+.testimonials .testimonial {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-md);
+  align-items: center;
+}
+
+.testimonials .testimonial[hidden] {
+  display: none;
+}
+
+.testimonials .photo {
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+}
+
+.testimonials .photo picture {
+  display: block;
+  height: 100%;
+}
+
+.testimonials .photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonials .who {
+  margin-bottom: var(--space-xl);
+}
+
+.testimonials .who strong {
+  display: block;
+  font-size: var(--text-xl);
+}
+
+.testimonials blockquote {
+  font-size: var(--text-xl);
+  margin-bottom: var(--space-2xl);
+}
+
+.testimonials .tablist {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-md);
+}
+
+.testimonials .tablist button {
+  display: block;
+  padding: var(--space-md);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-gray-200);
+  background-color: #efefef;
+  color: var(--color-black);
+  font: 400 13.3333px Arial, sans-serif;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color var(--transition-fast), background-color var(--transition-fast);
+}
+
+.testimonials .tablist button:hover {
+  border-color: var(--color-gray-300);
+}
+
+.testimonials .tablist button[aria-selected='true'] {
+  border-color: var(--color-black);
+  background-color: var(--color-gray-100);
+}
+
+.testimonials .person {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.testimonials .avatar {
+  width: 3rem;
+  height: 3rem;
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.testimonials .avatar picture {
+  display: block;
+  height: 100%;
+}
+
+.testimonials .avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonials .label {
+  display: block;
+  text-align: left;
+  font-size: var(--text-sm);
+  line-height: var(--leading-normal);
+}
+
+.testimonials .label strong {
+  display: block;
+}
+
+@media (width <= 991px) {
+  .testimonials .testimonial {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials .tablist {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width <= 767px) {
+  .testimonials .tablist {
+    grid-template-columns: 1fr;
+  }
+}

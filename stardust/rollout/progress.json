@@ -1,0 +1,83 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "endedAt": "2026-10-16T10:24:39.696Z",
+      "gates": {
+        "chrome-compare-1440": "exit 0",
+        "chrome-compare-360": "exit 0"
+      },
+      "verdict": "foundation authored + deployed (commits 49dc8f0, adc6933); /nav,/footer published live; freeze 15 files",
+      "evidence": [
+        "stardust/chrome/header-parity.json",
+        "stardust/rollout/foundation-freeze.json"
+      ]
+    },
+    "archetype:landing": {
+      "status": "done",
+      "kind": "archetype",
+      "template": "landing",
+      "pages": [
+        "index"
+      ],
+      "endedAt": "2026-10-16T10:36:15.606Z",
+      "gates": {
+        "pub1-1440": {
+          "pixel": 0.01,
+          "dh": 0,
+          "structuralRed": 10,
+          "clip": "4 (=source, allowed)",
+          "overflow": "ok"
+        },
+        "pub1-360": {
+          "pixel": 1.23,
+          "dh": 0,
+          "structuralRed": 10,
+          "clip": "4 (=source)",
+          "overflow": "ok"
+        },
+        "cap": "1/8 row FAIL = hero <header> role artifact (containers measured 1200=1200)"
+      },
+      "verdict": "deployed + published (aem.live / 200); reds: 4 avatar filename-only (EDS media_<hash> rename), 6 footer (social aria-labels, logo link) → foundation-requests.md, applied at C-final",
+      "commits": [
+        "22ac3fd",
+        "220b74e"
+      ]
+    },
+    "cluster:landing": {
+      "status": "done",
+      "kind": "cluster",
+      "template": "landing",
+      "pages": [],
+      "endedAt": "2026-10-16T10:36:24.299Z",
+      "verdict": "empty cluster — the template has no sibling pages in scope (site-plan: 1 page); nothing to render or deploy"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "gate-all",
+      "endedAt": "2026-10-16T10:40:21.477Z",
+      "gates": {
+        "all-1440": "index PASS pixel 0.01% Δh0 clip 4(allowed) content 0/0",
+        "all-360": "index PASS pixel 1.23% Δh0 clip 4(allowed) content 0/0"
+      },
+      "verdict": "1/1 PASS at the published origin (aem.live); coverage updated --gate",
+      "evidence": [
+        "stardust/replica/gates/all-1440/summary.md",
+        "stardust/replica/gates/all-360/summary.md"
+      ]
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "endedAt": "2026-10-16T10:49:04.801Z",
+      "gates": {
+        "pub2-1440": "pixel 0.01% Δh0 red 4 (avatar filename-only) clip 4 allowed overflow ok",
+        "pub2-360": "pixel 1.23% Δh0 red 4 (filename-only) clip 4 overflow ok",
+        "gate-all": "1/1 PASS 1440+360 (full recapture)",
+        "freeze": "check exit 0 (re-frozen after applied requests)"
+      },
+      "verdict": "foundation request applied once (footer aria-labels, inline white icons, inner link divs) — commits 3a76919, f9e2c73, 3441b00"
+    }
+  }
+}

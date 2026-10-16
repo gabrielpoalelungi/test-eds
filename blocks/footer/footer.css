@@ -1,20 +1,137 @@
-footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+/* footer — lifted from the canon `.site-footer` rules, scoped to the chrome host */
+footer:has(.site-footer) {
+  background-color: var(--color-black);
 }
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+footer .site-footer {
+  --color-gray-500: #999;
+
+  padding-block: var(--space-4xl);
+  background-color: var(--color-black);
+  color: var(--color-white);
 }
 
-footer .footer p {
-  margin: 0;
+footer .site-footer .container {
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: var(--container-padding);
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
+footer .site-footer .columns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-2xl);
+}
+
+footer .site-footer .brand-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-sm);
+}
+
+footer .brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  flex-shrink: 0;
+}
+
+footer .brand-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+footer .brand-icon .icon,
+footer .brand-icon img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* the logo and social glyphs are inlined currentColor SVGs; the <img> fallback inverts to white */
+footer .brand-icon img,
+footer .site-footer .socials .icon img {
+  filter: invert(1);
+}
+
+footer .brand-icon svg,
+footer .site-footer .socials .icon svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+footer .brand-name {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: var(--text-sm);
+  line-height: var(--leading-normal);
+  text-transform: uppercase;
+}
+
+footer .site-footer .socials {
+  display: flex;
+  gap: var(--space-sm);
+  margin-top: auto;
+  padding-top: var(--space-xl);
+}
+
+footer .site-footer .socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: var(--radius-full);
+  background-color: var(--color-gray-700);
+  color: var(--color-white);
+  transition: background-color var(--transition-fast);
+}
+
+footer .site-footer .socials a:hover {
+  background-color: var(--color-gray-500);
+}
+
+footer .site-footer .socials .icon {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+}
+
+footer .site-footer .socials .icon img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+footer .site-footer h2 {
+  font-size: var(--text-sm);
+  letter-spacing: 0.05em;
+  color: var(--color-gray-500);
+}
+
+/* stylelint-disable-next-line no-descending-specificity -- disjoint from .socials links */
+footer .site-footer .footer-links a {
+  display: block;
+  padding-block: var(--space-xs);
+  font-size: var(--text-sm);
+  color: var(--color-gray-500);
+  transition: color var(--transition-fast);
+}
+
+footer .site-footer .footer-links a:hover {
+  color: var(--color-white);
+}
+
+@media (width <= 991px) {
+  footer .site-footer .columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width <= 479px) {
+  footer .site-footer .columns {
+    grid-template-columns: 1fr;
   }
 }

@@ -1,0 +1,63 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-16T10:06:16.258Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-16T10:59:56.145Z",
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "WKND Trendsetters - Fresh Looks, Bold Stories, Real Life",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:18d38349cb712e4331adb467b4d2b02b8d9b5bd2006024e5a6f5dccce1965e59",
+        "sourceUrl": "https://www.wknd-trendsetters.site/"
+      },
+      "blocks": [
+        "hero",
+        "featured",
+        "gallery",
+        "testimonials",
+        "articles",
+        "faq",
+        "banner",
+        "header",
+        "footer"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--c579f7f0--aemcoder.aem.live/",
+        "deployedAt": "2026-10-16T10:37:10.660Z",
+        "verifiedAt": "2026-10-16T10:59:56.145Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.23,
+          "heightDelta": 0,
+          "clipped": 4,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-16T10:52:12.946Z"
+        }
+      }
+    }
+  ]
+}

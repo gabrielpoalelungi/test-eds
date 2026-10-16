@@ -1,0 +1,64 @@
+/* banner — closing photo card */
+.banner .card {
+  position: relative;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  min-height: 28rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.banner .bg {
+  position: absolute;
+  inset: 0;
+}
+
+.banner .bg picture {
+  display: block;
+  height: 100%;
+}
+
+.banner .bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner .card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(to top, rgb(0 0 0 / 70%) 0%, transparent 60%);
+}
+
+.banner .copy {
+  position: relative;
+  z-index: 2;
+  max-width: 42rem;
+  padding: var(--space-3xl);
+}
+
+.banner .copy :is(h1, h2, h3) {
+  font-size: var(--text-5xl);
+  letter-spacing: -0.02em;
+}
+
+.banner .lede {
+  margin-top: var(--space-md);
+  font-size: var(--text-lg);
+  line-height: var(--leading-normal);
+}
+
+.banner .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  margin-top: var(--space-xl);
+}
+
+@media (width <= 767px) {
+  .banner .buttons {
+    flex-direction: column;
+  }
+}

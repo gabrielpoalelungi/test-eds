@@ -1,0 +1,193 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-10-16T10:06:16.322Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-16T11:00:28.341Z",
+  "blocks": [
+    {
+      "id": "articles",
+      "label": "articles",
+      "kind": "module",
+      "signature": "module:articles",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "articles",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "banner",
+      "label": "banner",
+      "kind": "module",
+      "signature": "module:banner",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "banner",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "faq",
+      "label": "faq",
+      "kind": "module",
+      "signature": "module:faq",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "faq",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "featured",
+      "label": "featured",
+      "kind": "module",
+      "signature": "module:featured",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "featured",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "footer",
+      "label": "footer",
+      "kind": "chrome",
+      "signature": "chrome:footer",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "footer",
+        "blockPath": "fragments/footer.html",
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "gallery",
+      "label": "gallery",
+      "kind": "module",
+      "signature": "module:gallery",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "gallery",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "header",
+      "label": "header",
+      "kind": "chrome",
+      "signature": "chrome:header",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "header",
+        "blockPath": "fragments/header.html",
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero",
+      "label": "hero",
+      "kind": "module",
+      "signature": "module:hero",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "testimonials",
+      "label": "testimonials",
+      "kind": "module",
+      "signature": "module:testimonials",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "testimonials",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

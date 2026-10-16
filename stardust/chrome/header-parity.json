@@ -1,0 +1,18 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-10-16T11:02:45.131Z",
+ "source": "https://www.wknd-trendsetters.site/",
+ "build": "https://main--c579f7f0--aemcoder.aem.live/",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  360,
+  1440
+ ],
+ "counts": {
+  "error": 0,
+  "warn": 0,
+  "decided": 0
+ },
+ "findings": []
+}

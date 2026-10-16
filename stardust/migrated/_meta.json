@@ -1,0 +1,183 @@
+{
+  "slug": "index",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero",
+    "featured",
+    "gallery",
+    "testimonials",
+    "articles",
+    "faq",
+    "banner",
+    "header",
+    "footer"
+  ],
+  "slotsFilled": [
+    "section",
+    "section",
+    "section",
+    "section",
+    "section",
+    "section",
+    "section"
+  ],
+  "canonShas": {
+    "header": "5b601221ae1e",
+    "footer": "722fdc0d4874",
+    "css": "5a15bb206d89"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "broken-links-out-of-scope",
+      "count": 21,
+      "reason": "single-page scope; links keep source paths, resolve once sibling pages exist or redirect"
+    },
+    {
+      "kind": "portability-audit",
+      "pagemapAudit": "21 findings, all the out-of-scope internal links (single-page scope)",
+      "fileProtocolAudit": "24 findings = same 21 links + 3 assets blocked by Chromium file:// origin policy (2 woff2 fonts via CORS, 1 type=module script); all 3 files present and 200 over http at root",
+      "assetEscapes": 0,
+      "absoluteRefs": 0,
+      "dirOnlyHrefs": 0
+    }
+  ],
+  "metadata": {
+    "title": "WKND Trendsetters - Fresh Looks, Bold Stories, Real Life",
+    "description": "Discover the latest fashion trends, style tips, and stories for young trendsetters.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "WKND Trendsetters - Fresh Looks, Bold Stories, Real Life",
+    "description": "Discover the latest fashion trends, style tips, and stories for young trendsetters.",
+    "url": "https://www.wknd-trendsetters.site/"
+  },
+  "migratedAt": "2026-10-16T10:02:04Z",
+  "designMdSha": "6f03a4553d51",
+  "designJsonSha": "134d02ce7d13",
+  "sourceCurrentSha": "3fb3fc12a8ca",
+  "sourceProposedSha": "eb0739b72cfb",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "content-count",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-count": "content-diff generic vs capture: main headings 6/6, CTAs 5/5, img 25/25, body 38/39 (−1 = inline script text, logged drop); 0 structural red",
+    "content-fidelity": "verbatim from prototype (gated 0 structural red at 1440/360); footer 19/19 text nodes; header extras = source nav not in <header> (granularity, chrome parity at gate)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "drop",
+      "source": "inline <script> text in main (tabs module, 'function c(a){…')",
+      "target": "none (behaviour rebuilt in index.js)",
+      "reason": "script source counted as body text by the classifier; not content — dropped deliberately (content-preservation § Drop deliberately)"
+    },
+    {
+      "kind": "dynamic-dependency",
+      "source": "Cloudflare Web Analytics beacon",
+      "target": "not shipped",
+      "reason": "dynamic-features.md row 1: awaits owner analytics decision"
+    }
+  ],
+  "assetsBundled": 26,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/fashion-trends-young-adults-casual-sport",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fashion-trends-young-adults-casual-sport",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fashion-trends-young-adults-casual-sport",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fashion-trends-young-adults",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fashion-trends-young-adults",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fashion-trends-young-adults",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/case-studies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fashion-trends-of-the-season",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/faq",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/faq",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/case-studies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fashion-insights",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/case-studies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog/latest-trends-young-casual-fashion",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog/fashion-trends-young-culture",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog/fashion-trends-young-style",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/blog/fashion-blog-post",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "index.html",
+  "outputPathDefault": null,
+  "sidecar": "_meta.json",
+  "driverVersion": "1"
+}

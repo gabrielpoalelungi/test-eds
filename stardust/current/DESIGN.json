@@ -1,0 +1,100 @@
+{
+  "extensions": {
+    "breakpoints": {
+      "containerMaxWidth": "1200px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 1200,
+          "via": "max-width",
+          "selector": "#main-content > section.section > div.container",
+          "pages": [
+            "https://www.wknd-trendsetters.site/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 672,
+          "via": "max-width",
+          "selector": "div.container > div.grid-layout.desktop-1-column > div.utility-position-relative.utility-radius-card > div.card-body.utility-max-width-lg",
+          "pages": [
+            "https://www.wknd-trendsetters.site/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 564,
+          "via": "fixed",
+          "selector": "section.section > div.container > div.grid-layout.tablet-1-column > div",
+          "pages": [
+            "https://www.wknd-trendsetters.site/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 279,
+          "via": "fixed",
+          "selector": "section.section.secondary-section > div.container > div.grid-layout.desktop-4-column > div.utility-aspect-1x1",
+          "pages": [
+            "https://www.wknd-trendsetters.site/"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "section": 0,
+          "selector": "#main-content > header.section.secondary-section",
+          "px": null
+        },
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "section": 1,
+          "selector": "#main-content > section.section",
+          "px": 1200
+        },
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "section": 2,
+          "selector": "#main-content > section.section.secondary-section",
+          "px": 1200
+        },
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "section": 3,
+          "selector": "#main-content > section.section",
+          "px": 1200
+        },
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "section": 4,
+          "selector": "#main-content > section.section.secondary-section",
+          "px": 1200
+        },
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "section": 5,
+          "selector": "#main-content > section.section",
+          "px": 1200
+        },
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "section": 6,
+          "selector": "#main-content > section.section.inverse-section",
+          "px": 1200
+        }
+      ],
+      "capRegister": [],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-10-16T09:46:18.241Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.wknd-trendsetters.site/"
+        ]
+      }
+    }
+  }
+}

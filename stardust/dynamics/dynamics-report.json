@@ -1,0 +1,94 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-10-16T10:51:33.086Z",
+  "origin": "https://main--c579f7f0--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json"
+ },
+ "results": [
+  {
+   "feature": "Cloudflare Web Analytics beacon",
+   "id": "t-unknown-third-party-host-static-cloudflareinsights-com",
+   "class": "T",
+   "status": "scaffolded-awaiting-owner",
+   "type": "consent-gate",
+   "pass": true,
+   "detail": "no request to 1 gated host pattern(s) before consent",
+   "thirdParty": "",
+   "ms": 6040,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Mobile navigation toggle",
+   "id": "x-nav-mobile-toggle",
+   "class": "X",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × header button.menu-toggle[aria-controls=\"site-nav\"][aria-expanded] (min 1)",
+   "thirdParty": "",
+   "ms": 1931,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Trends mega menu + Support dropdown",
+   "id": "x-nav-mega-menu",
+   "class": "X",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "9 × header .mega-link (min 1)",
+   "thirdParty": "",
+   "ms": 1943,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Testimonial tabs",
+   "id": "x-testimonial-tabs",
+   "class": "X",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "4 × .testimonials [role=\"tab\"] (min 4)",
+   "thirdParty": "",
+   "ms": 1946,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Testimonial tabs",
+   "id": "x-testimonial-tabs",
+   "class": "X",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "4 × .testimonials [role=\"tabpanel\"] (min 4)",
+   "thirdParty": "",
+   "ms": 1963,
+   "environmentLimit": null
+  },
+  {
+   "feature": "FAQ accordion (native details)",
+   "id": "x-faq-details",
+   "class": "X",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "4 × .faq details > summary (min 1)",
+   "thirdParty": "",
+   "ms": 1947,
+   "environmentLimit": null
+  },
+  {
+   "feature": "no uncaught exceptions",
+   "id": "page-errors",
+   "class": "X",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 1 page(s)",
+   "thirdParty": "",
+   "ms": 1920,
+   "environmentLimit": null
+  }
+ ]
+}

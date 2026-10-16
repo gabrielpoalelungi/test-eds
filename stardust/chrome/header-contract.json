@@ -1,0 +1,194 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://www.wknd-trendsetters.site/",
+ "at": "2026-10-16T10:09:08.124Z",
+ "shots": "stardust/.work/chrome/header-contract",
+ "widths": {
+  "360": {
+   "root": "body>div",
+   "controls": [
+    {
+     "name": "Fashion Blog",
+     "key": "fashion blog",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div>div>div>a",
+     "href": "https://www.wknd-trendsetters.site/",
+     "expanded": null,
+     "rect": [
+      16,
+      25,
+      182,
+      32
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Subscribe",
+     "key": "subscribe",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div>div>div>div>div>a",
+     "expanded": null,
+     "rect": [
+      230,
+      16,
+      119,
+      50
+     ],
+     "actions": {
+      "click": null,
+      "key": null
+     }
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 83,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 83,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 83,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 83,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 0,
+   "truncated": null,
+   "loads": 1
+  },
+  "1440": {
+   "root": "body>div",
+   "controls": [
+    {
+     "name": "Fashion Blog",
+     "key": "fashion blog",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div>div>div>a",
+     "href": "https://www.wknd-trendsetters.site/",
+     "expanded": null,
+     "rect": [
+      144,
+      25,
+      182,
+      32
+     ],
+     "actions": {}
+    },
+    {
+     "name": "About",
+     "key": "about",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav-menu>ul>li:nth-of-type(2)>a",
+     "href": "https://www.wknd-trendsetters.site/fashion-trends-of-the-season",
+     "expanded": null,
+     "rect": [
+      684,
+      22,
+      65,
+      38
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Blog",
+     "key": "blog",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav-menu>ul>li:nth-of-type(3)>a",
+     "href": "https://www.wknd-trendsetters.site/blog",
+     "expanded": null,
+     "rect": [
+      757,
+      22,
+      53,
+      38
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Subscribe",
+     "key": "subscribe",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div>div>div>div>div>a",
+     "expanded": null,
+     "rect": [
+      1177,
+      16,
+      119,
+      50
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 83,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 83,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 83,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 83,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 0,
+   "truncated": null,
+   "loads": 1
+  }
+ },
+ "probe": "fresh"
+}

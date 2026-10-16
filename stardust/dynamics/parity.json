@@ -1,0 +1,120 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-10-16T10:51:14.804Z"
+  },
+  "method": "one-page scope; 4 self rows rebuilt in block JS/CSS (header, testimonials, faq) during C-deliver; 1 T row (Cloudflare beacon) held for owner decision; no listings, so no query index",
+  "features": [
+    {
+      "id": "t-unknown-third-party-host-static-cloudflareinsights-com",
+      "feature": "Cloudflare Web Analytics beacon",
+      "class": "T",
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "which analytics run on the new host; beacon token",
+      "verifiedBy": "interim: not shipped; replay asserts no beacon request",
+      "checks": [
+        {
+          "type": "consent-gate",
+          "path": "/",
+          "forbiddenHosts": [
+            "static.cloudflareinsights.com"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "x-nav-mobile-toggle",
+      "feature": "Mobile navigation toggle",
+      "class": "X",
+      "pages": 1,
+      "disposition": "rebuild",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "header button.menu-toggle[aria-controls=\"site-nav\"][aria-expanded]",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "x-nav-mega-menu",
+      "feature": "Trends mega menu + Support dropdown",
+      "class": "X",
+      "pages": 1,
+      "disposition": "rebuild",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "header .mega-link",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "x-testimonial-tabs",
+      "feature": "Testimonial tabs",
+      "class": "X",
+      "pages": 1,
+      "disposition": "rebuild",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".testimonials [role=\"tab\"]",
+          "min": 4
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".testimonials [role=\"tabpanel\"]",
+          "min": 4
+        }
+      ]
+    },
+    {
+      "id": "x-faq-details",
+      "feature": "FAQ accordion (native details)",
+      "class": "X",
+      "pages": 1,
+      "disposition": "rebuild",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".faq details > summary",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "page-errors",
+      "feature": "no uncaught exceptions",
+      "class": "X",
+      "pages": 1,
+      "disposition": "rebuild",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": [
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/"
+          ]
+        }
+      ]
+    }
+  ]
+}

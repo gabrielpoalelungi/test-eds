@@ -1,0 +1,23 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "instrument sans",
+        "createdAt": "2026-10-16T11:03:52.582Z",
+        "reason": "replica run: Instrument Sans is the source site's own body face (wknd-trendsetters.site stylesheet), preserved by the same-design migration contract"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "stardust/replica/index-proposed.src.html"
+        ],
+        "createdAt": "2026-10-16T11:03:52.590Z",
+        "reason": "replica run: type ramp lifted verbatim from the source stylesheet; design changes are limited to the inconsistency register"
+      }
+    ]
+  }
+}

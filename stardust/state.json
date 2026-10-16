@@ -1,0 +1,113 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-10-16T10:03:59Z",
+    "stardustVersion": "0.33.0"
+  },
+  "site": {
+    "originUrl": "https://www.wknd-trendsetters.site/",
+    "deployUrl": null,
+    "extractedAt": "2026-10-16T09:45:21.084Z",
+    "pageCap": 1,
+    "totalDiscovered": 1,
+    "crawled": 1
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-10-16T09:45:21.084Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.wknd-trendsetters.site/",
+      "title": "WKND Trendsetters - Fresh Looks, Bold Stories, Real Life",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-16T09:45:21.084Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-16T09:59:09Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-16T10:00:37Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-16T10:03:59Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": "stardust/migrated/index.html"
+    }
+  ],
+  "migrate": {
+    "at": "2026-10-16T10:02:04Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 26,
+    "bundledAssets": [
+      "canon.css",
+      "favicon.svg",
+      "fonts/instrument-sans-latin.woff2",
+      "fonts/syncopate-400-latin.woff2",
+      "fonts/syncopate-700-latin.woff2",
+      "index.css",
+      "index.js",
+      "media/adventure-spots.avif",
+      "media/avatar-alex.avif",
+      "media/avatar-jordan.avif",
+      "media/avatar-morgan.avif",
+      "media/avatar-taylor.avif",
+      "media/beach-destination.avif",
+      "media/campus-life.avif",
+      "media/campus-tour.avif",
+      "media/concert-crowd.avif",
+      "media/fashion-inspiration.avif",
+      "media/fundraising-event.avif",
+      "media/gaming-tournaments.avif",
+      "media/hero-family-vacation.avif",
+      "media/hero-hiphop-dance.avif",
+      "media/hero-music-concert.avif",
+      "media/mobile-game-character.avif",
+      "media/networking-event.avif",
+      "media/tab-campus.avif",
+      "media/tab-staff.avif"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 26
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-10-16T10:02:04Z",
+      "rendered": [
+        "index"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}
