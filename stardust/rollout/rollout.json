@@ -1,0 +1,39 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-21T15:00:03.034Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.bmw.ro/ro/index.html",
+    "da": {
+      "org": "aemcoder",
+      "site": "bad0ba01",
+      "ref": "main"
+    },
+    "liveHost": "main--bad0ba01--aemcoder.aem.live",
+    "previewHost": "main--bad0ba01--aemcoder.aem.page",
+    "deliveryPathNotes": {
+      "ro-index-html": "migrated tree is URL-literal (ro/index.html → coverage path /ro); the page is DELIVERED as the DA root document /index (served at /) per the owner brief; /ro/index.html → / in the redirects sheet (D-site)"
+    }
+  },
+  "lastRun": {
+    "at": "2026-10-21T16:57:30.139Z",
+    "pages": {
+      "total": 1,
+      "verified": 1,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 4,
+      "converted": 4,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

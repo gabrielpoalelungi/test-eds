@@ -1,0 +1,185 @@
+{
+  "ro-index-html": {
+    "type": "landing",
+    "archetype": "ro-index-html",
+    "prototype": "stardust/prototypes/ro-index-html-proposed.html",
+    "css": [
+      "stardust/prototypes/canon.css",
+      "stardust/prototypes/ro-index-html.css"
+    ],
+    "js": "stardust/prototypes/ro-index-html.js",
+    "protoUrl": "http://localhost:8791/prototypes/ro-index-html-proposed.html",
+    "serverPidFile": "stardust/.work/proto-server.pid",
+    "serveRoot": "stardust/ (prototype references ../current/assets/media/)",
+    "iterations": {
+      "360": 3,
+      "1440": 3
+    },
+    "postIterationRounds": "confirm/confirm2/final rounds after motion parity + 360 overflow fix + >=1920 shell cap; no geometry change, same numbers",
+    "gates": {
+      "360": {
+        "pixelPct": 9.62,
+        "heightDelta": 0,
+        "structuralRed": 0,
+        "visualFlags": 0,
+        "clipped": 0,
+        "overflow": "0px (360 = viewport)",
+        "chromeParityDeltas": 37,
+        "units": "instrument artifact: origin units cached from the 1440 run (origin rects 84,836 at 360)",
+        "hotBands": [
+          "0-500 53.9% hero video frame"
+        ],
+        "verdict": "PASS (pixel/height/content/visual/clip/overflow)"
+      },
+      "1440": {
+        "pixelPct": 9.1,
+        "heightDelta": 0,
+        "structuralRed": 0,
+        "visualFlags": 0,
+        "clipped": 0,
+        "overflow": "0px (1440 = viewport)",
+        "chromeParityDeltas": 44,
+        "units": "47 within / 3 off (font-width)",
+        "hotBands": [
+          "0-500 49.9% hero video frame",
+          "500-1000 17.4% hero video bottom 130px + font substitution"
+        ],
+        "verdict": "PASS (pixel/height/content/visual/clip/overflow); units + chrome-parity advisory residuals"
+      }
+    },
+    "gateAll": {
+      "prototype-1440": "10.25% Δh 0 FAIL (fresh live capture, different hero video frame; units off 3)",
+      "prototype-360": "9.73% Δh 0 pixel PASS (units instrument artifact)"
+    },
+    "capProbe": "PASS at 2560 — 0 of 9 rows failed (shell cap 109.5rem lifted from .style-container--fixed @>=1920)",
+    "residuals": [
+      {
+        "kind": "nondeterministic-live",
+        "where": "hero stage 0-630 @1440 / 0-544 @360",
+        "detail": "live hero is an autoplaying HLS video (random frame per capture); prototype shows the poster. Accounts for ~359k of 564k differing px at 1440; drives gate-all 1440 to 10.25% on a fresh live capture.",
+        "permanent": true
+      },
+      {
+        "kind": "font-substitution",
+        "detail": "bmwTypeNextWeb (licensed) not hosted; Arial chain renders (Liberation Sans in this env). 300/500 weights render as 400; glyph widths differ (card button 176 vs 184px, footer links -2..-7px, nav items narrower).",
+        "permanent": true
+      },
+      {
+        "kind": "icon-substitution",
+        "detail": "bmw_next_icons ligature font (licensed) replaced by hand-drawn inline SVGs at the lifted box sizes (chevrons, info-i, close, header person/cart/heart/pin/menu, model-card car icons, speech bubbles, play/pause). content-diff reports ICON KIND (yellow) only."
+      },
+      {
+        "kind": "chrome-parity",
+        "detail": "44 @1440 / 37 @360 element deltas: live footer lazy images (AI-label, social PNGs) probe at 0x0 while loaded in the build; text-box heights/widths from the substituted font; build SVG icons vs live icon-font glyphs; skip-link box."
+      },
+      {
+        "kind": "instrument",
+        "detail": "unit-geometry at 360 compares against the origin units cached by the 1440 run (same slug) — invalid read; 1440 run: 47 within / 3 off (font widths)."
+      },
+      {
+        "kind": "instrument",
+        "detail": "live consent at 360: the helper's first '.accept-button' match is the hidden desktop variant; live.png @360 was re-stitched with --consent '.accept-button:visible' (first run captured the banner, 6124px)."
+      },
+      {
+        "kind": "runtime-content",
+        "detail": "MyBMW login flyout text (Bun venit la My BMW. …) is injected at runtime by /static/login/flyout.js and absent from the captured DOM; replicated hidden in the 5th flyout from the content-diff source inventory."
+      },
+      {
+        "kind": "unverified-visual",
+        "detail": "header flyout panel (opened state) styling authored from the behaviour only (solid-white bar + 4-column link panel); not pixel-gated."
+      },
+      {
+        "kind": "design-hook",
+        "detail": "impeccable low-contrast finding (disclaimers at opacity .7051, white text on photos) left standing: lifted source values, register empty."
+      },
+      "pixel masks (gates/prototypes-<w>/masks.json): hero stage video rows 0:630 @1440, 0:544 @360 — timer-driven HLS video, arbitrary live frame vs poster; unmasked gate.sh rounds 9.10% / 9.62%",
+      "fonts: metric-matched fallback face \"bmwTypeNext Fallback\" (local Arial, size-adjust 101.5% w<450, 106% w450-599) after the licensed face; remaining per-string width deltas ≤5px",
+      "units: footer-link-lists family dropped from units.json — gate-all passes families as plain --unit pairs (advisory flag lost) and at 360 both sides collapse the lists into a closed accordion; model-cards family within 4px at both widths",
+      "unit-geometry origin cache stardust/current/measure/<slug>-units.json is not keyed by width: per-width copies kept as <slug>-units.1440.json / .360.json and swapped before each width run"
+    ],
+    "motion": {
+      "observed": [
+        "hero video autoplay + play/pause toggle",
+        "info-i tooltip fade (opacity .3s / visibility .25s)",
+        "Online Store flyout: bar → solid white, panel opacity/transform",
+        "assist launcher pulse-double",
+        "assist nudge timed effect-grow/enter then effect-exit/shrink → hidden",
+        "footer link hover colour"
+      ],
+      "implemented": [
+        "hero play/pause (aria-pressed, glyph swap, video.play/pause)",
+        "info-i tooltip toggle + close + outside click + Esc",
+        "header flyouts for the 4 flyout triggers (solid-white bar, grey logo, panel fade/slide, back/Esc/outside close)",
+        "assist nudge on timer (4s in, 6s visible) with effect-grow/enter/exit/shrink",
+        "assist pulse-double (CSS infinite)",
+        "footer accordion <768 (click/Enter/Space)"
+      ],
+      "dead": [
+        "assist launcher click (no sampled change on live)",
+        "header scroll-morph (static on both)"
+      ],
+      "compare": "8 parity; remaining 'missing' are live class names (different BEM by design), pulse-double not detected on build, video playback (no source)",
+      "evidence": [
+        "stardust/replica/motion/ro-index-html.json",
+        "stardust/replica/motion/ro-index-html-build.json",
+        "stardust/replica/motion/ro-index-html-compare.json"
+      ]
+    },
+    "captureState": [
+      {
+        "element": "hero video",
+        "state": "poster image only (<video> with poster, no source)",
+        "restoreAtDelivery": "wire the scene7 HLS stream (https://bmw.scene7.com/is/content/BMW/bmw-ix4-home-teaser-AVS.m3u8) or the progressive MP4 found at https://bmw.scene7.com/is/content/BMW/bmw-ix4-home-teaser (65 MB master — not downloaded; too heavy to commit/serve, needs a delivery rendition)"
+      },
+      {
+        "element": "footer AI-label + social icons",
+        "state": "live probes saw them unloaded (lazy, 0x0); build shows them loaded as in the crawl screenshot"
+      },
+      {
+        "element": "assist nudge",
+        "state": "hidden at rest on both sides; appears on timer"
+      }
+    ],
+    "fonts": {
+      "bmwTypeNextWeb": "licensed — not rehosted; first in stack so a licensed drop-in wins",
+      "stack": "\"bmwTypeNextWeb\", \"Arial\", \"Helvetica\", \"Roboto\", sans-serif (source fallback chain)",
+      "renderedInGateEnv": "Liberation Sans (Arial alias)",
+      "openLicenceAlternative": "not adopted — no metric-closer open face measured; source fallback kept",
+      "bmw_next_icons": "licensed icon font replaced by inline SVG sprite"
+    },
+    "assets": {
+      "dir": "stardust/current/assets/media/",
+      "harvested": [
+        "teaser renditions 1to1-767 / 3to2-1023 / 3to1-1279 / 3to1-1919 for iX5, i3, iX3 (iX3 mobile asset differs)",
+        "hero poster 1024",
+        "wallbox 1680 jpg",
+        "BMW white + grey logo SVG",
+        "Alpina SVG",
+        "AI-label SVG",
+        "4 social PNGs"
+      ],
+      "hotlinks": 0
+    },
+    "units": "stardust/replica/units.json (model-cards ×3, footer-link-lists ×6)",
+    "status": "gated",
+    "prototypeTable": {
+      "360": {
+        "pixelPct": 4.74,
+        "heightDelta": 0,
+        "clipped": 0,
+        "units": "within",
+        "verdict": "PASS",
+        "mask": "0:544 hero video"
+      },
+      "1440": {
+        "pixelPct": 3.02,
+        "heightDelta": 0,
+        "clipped": 0,
+        "units": "within",
+        "verdict": "PASS",
+        "mask": "0:630 hero video"
+      }
+    }
+  },
+  "siblings": {}
+}

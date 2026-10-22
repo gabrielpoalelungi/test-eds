@@ -1,0 +1,269 @@
+/* stage teaser (live .cmp-backgroundmedia--v2) — values lifted from the gated prototype */
+
+/* flex column like the live AEM grid: stage and disclaimer margins never collapse */
+.teaser {
+  display: flex;
+  flex-direction: column;
+}
+
+.teaser .teaser-stage {
+  position: relative;
+  margin: var(--sp-12) calc(var(--grid-margin) * -1) 0;
+  color: #fff;
+}
+
+.teaser .teaser-media {
+  position: relative;
+}
+
+.teaser .teaser-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* art direction: small < 768 <= medium < 1024 <= large; "up" = 768 and wider */
+.teaser .teaser-image {
+  display: none;
+}
+
+.teaser .teaser-image-all,
+.teaser .teaser-image-sm {
+  display: block;
+}
+
+.teaser .teaser-overlay {
+  position: relative;
+  margin-top: -172px;
+  padding: 48px 24px 0;
+  background: linear-gradient(180deg, #0000 0, #000 128px) #0000;
+}
+
+.teaser .teaser-content {
+  width: calc(100% * 10 / 12);
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.teaser.oblique .teaser-content {
+  margin-bottom: 0;
+}
+
+.teaser .teaser-content > div {
+  padding-inline: 8px;
+}
+
+.teaser .teaser-title :is(h1, h2, h3) {
+  font-size: var(--headline-2-fs);
+  line-height: var(--headline-2-lh);
+  font-weight: var(--w-default);
+}
+
+.teaser .teaser-body {
+  margin-top: 12px;
+  font-size: var(--body-1-fs);
+  line-height: var(--body-1-lh);
+}
+
+.teaser .teaser-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+  padding-bottom: 32px;
+}
+
+.teaser.oblique .teaser-buttons {
+  padding-bottom: 12px;
+}
+
+.teaser .teaser-buttons a.button:any-link {
+  width: 100%;
+}
+
+/* em CTA on the dark stage = outline-light (live .btn--outline-light) */
+.teaser .teaser-buttons a.button.secondary {
+  color: var(--c-outline-light);
+
+  --bw: 1px;
+  --bc: var(--c-outline-light);
+}
+
+.teaser .teaser-buttons a.button.secondary:hover {
+  color: #fff;
+
+  --bw: 2px;
+  --bc: #fff;
+}
+
+.teaser :is(.teaser-title, .teaser-body) br {
+  display: none;
+}
+
+.teaser .teaser-content > .teaser-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 0 23px;
+}
+
+.teaser .teaser-price-amount {
+  font-size: 1.75rem;
+  line-height: 2.5rem;
+  font-weight: var(--w-price);
+}
+
+.teaser .teaser-price-vat {
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+  font-size: var(--body-1-fs);
+  line-height: var(--body-1-lh);
+}
+
+.teaser .teaser-price-vat .infoi {
+  transform: translateY(-15%);
+}
+
+/* disclaimers' own spacing utilities (live spacing-top-5 / bottom-5 / -3 / -4) */
+.teaser .teaser-disclaimer {
+  margin-top: var(--sp-5);
+}
+
+.teaser .teaser-disclaimer + .teaser-disclaimer {
+  margin-top: 0;
+}
+
+.teaser .teaser-disclaimer:has(+ .teaser-disclaimer) {
+  margin-bottom: var(--sp-3);
+}
+
+.teaser .teaser-disclaimer:last-child {
+  margin-bottom: var(--sp-5);
+}
+
+.teaser .teaser-disclaimer + .teaser-disclaimer:last-child {
+  margin-bottom: var(--sp-4);
+}
+
+.teaser.oblique .teaser-disclaimer:last-child {
+  margin-bottom: 0;
+}
+
+@media (width >= 768px) {
+  .teaser .teaser-image-sm {
+    display: none;
+  }
+
+  .teaser .teaser-image-md,
+  .teaser .teaser-image-up {
+    display: block;
+  }
+
+  .teaser .teaser-media::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(90deg, #000 10%, rgb(0 0 0 / 80%) 20%, rgb(0 0 0 / 60%) 30%, rgb(0 0 0 / 40%) 40%, rgb(0 0 0 / 20%) 50%, #0000 60%);
+  }
+
+  .teaser.oblique .teaser-media::after {
+    background: linear-gradient(110deg, rgb(38 38 38 / 80%), #0000 50%);
+  }
+
+  .teaser .teaser-overlay {
+    position: absolute;
+    inset: 0;
+    margin: 0;
+    padding: 0 var(--grid-full);
+    display: flex;
+    align-items: flex-end;
+    background: none;
+  }
+
+  .teaser .teaser-content {
+    width: 520px;
+    margin: 0 0 48px;
+    text-align: left;
+  }
+
+  .teaser.oblique .teaser-content {
+    width: 1040px;
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+
+  .teaser .teaser-content > div {
+    padding-inline: 12px;
+  }
+
+  .teaser .teaser-body {
+    margin-top: 16px;
+  }
+
+  .teaser .teaser-buttons {
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 24px;
+    padding-bottom: 0;
+  }
+
+  .teaser.oblique .teaser-buttons {
+    padding-bottom: 16px;
+  }
+
+  .teaser .teaser-buttons a.button:any-link {
+    width: 184px;
+  }
+
+  .teaser :is(.teaser-title, .teaser-body) br {
+    display: inline;
+  }
+
+  .teaser .teaser-content > .teaser-price {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 0 12px 16px;
+  }
+
+  .teaser .teaser-price-amount {
+    font-size: 2.1875rem;
+    line-height: 3.125rem;
+  }
+
+  .teaser .teaser-price-vat {
+    margin: 5px 0 0 20px;
+    align-items: flex-start;
+  }
+
+  .teaser .teaser-price-vat p {
+    line-height: 24px;
+  }
+
+  .teaser .teaser-price-vat .infoi {
+    transform: translate(-20%, -15%);
+  }
+}
+
+@media (width >= 1024px) {
+  .teaser .teaser-image-md {
+    display: none;
+  }
+
+  .teaser .teaser-image-lg {
+    display: block;
+  }
+}
+
+@media (width >= 1920px) {
+  .teaser .teaser-stage {
+    max-width: 120rem;
+  }
+}
+
+/* an emphasised run in the headline is a keep-together model name (live span.nowrap) */
+.teaser .teaser-title em {
+  font-style: normal;
+  white-space: nowrap;
+}

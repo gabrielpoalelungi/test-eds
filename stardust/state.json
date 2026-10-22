@@ -1,0 +1,124 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-10-21T14:59:57Z",
+    "stardustVersion": "0.34.1"
+  },
+  "site": {
+    "originUrl": "https://www.bmw.ro",
+    "deployUrl": null,
+    "extractedAt": "2026-10-21T13:59:51Z",
+    "pageCap": 1,
+    "totalDiscovered": 1,
+    "crawled": 1,
+    "captureGaps": []
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-10-21T13:59:51Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "ro-index-html",
+      "url": "https://www.bmw.ro/ro/index.html",
+      "title": "BMW România: Automobile Premium și tehnologii inovatoare",
+      "type": "landing",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-21T13:59:51Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-21T14:49:29Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-21T14:49:29Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-21T14:55:03Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-21T14:59:57Z"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-10-21T16:32:35.309Z",
+          "by": "rollout C-archetype unit archetype-landing"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ro-index-html.json",
+      "prototypePath": "stardust/prototypes/ro-index-html-proposed.html",
+      "migratedPath": "stardust/migrated/ro/index.html",
+      "liveUrl": "https://main--bad0ba01--aemcoder.aem.live/ro/"
+    }
+  ],
+  "migrate": {
+    "at": "2026-10-21T14:59:30Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/ro/index.html",
+        "outputPath": "ro/index.html",
+        "slug": "ro-index-html",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 26,
+    "bundledAssets": [
+      "canon.css",
+      "favicon.png",
+      "media/BMW_Grey-Colour_RGB.svg.asset.1756199978277.svg",
+      "media/BMW_White_Logo.svg.asset.1670245093434.svg",
+      "media/ai-label-dbca677b.svg",
+      "media/alpina-f652cff4.svg",
+      "media/facebook-default@2x.png.asset.1584959819909.png",
+      "media/hero-poster-1024-dfe8e3d0.webp",
+      "media/i3-1to1-767-43f26b9a.webp",
+      "media/i3-3to1-1279-2d655a38.webp",
+      "media/i3-3to1-1919-e9f17023.webp",
+      "media/i3-3to2-1023-db837543.webp",
+      "media/instagram-default@2x.png.asset.1584959820390.png",
+      "media/ix3-1to1-767-fffa1e67.webp",
+      "media/ix3-3to1-1279-472185a7.webp",
+      "media/ix3-3to1-1919-556ebf37.webp",
+      "media/ix3-3to2-1023-8afc13cd.webp",
+      "media/ix5-1to1-767-0c24629b.webp",
+      "media/ix5-3to1-1279-142dd9b1.webp",
+      "media/ix5-3to1-1919-a84f6bc8.webp",
+      "media/ix5-3to2-1023-ab87f0d8.webp",
+      "media/linkedin-default@2x.png.asset.1584959821336.png",
+      "media/wallbox-1680-732c7e3e.jpg",
+      "media/youtube-default@2x.png.asset.1584959824298.png",
+      "ro-index-html.css",
+      "ro-index-html.js"
+    ],
+    "pages": [
+      {
+        "slug": "ro-index-html",
+        "file": "stardust/migrated/ro/index.html",
+        "assetsBundled": 26
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-10-21T14:59:30Z",
+      "rendered": [
+        "ro-index-html"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

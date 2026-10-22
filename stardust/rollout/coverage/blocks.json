@@ -1,0 +1,93 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-10-21T15:00:26.944Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-21T16:32:10.711Z",
+  "blocks": [
+    {
+      "id": "hero",
+      "label": "hero",
+      "kind": "module",
+      "signature": "module:hero",
+      "source": null,
+      "usedByTemplates": [
+        "ro-index-html"
+      ],
+      "usedByPages": [
+        "ro-index-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "model-cards",
+      "label": "model-cards",
+      "kind": "module",
+      "signature": "module:model-cards",
+      "source": null,
+      "usedByTemplates": [
+        "ro-index-html"
+      ],
+      "usedByPages": [
+        "ro-index-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "model-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "teaser",
+      "label": "teaser",
+      "kind": "module",
+      "signature": "module:teaser",
+      "source": null,
+      "usedByTemplates": [
+        "ro-index-html"
+      ],
+      "usedByPages": [
+        "ro-index-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "teaser",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "wallbox",
+      "label": "wallbox",
+      "kind": "module",
+      "signature": "module:wallbox",
+      "source": null,
+      "usedByTemplates": [
+        "ro-index-html"
+      ],
+      "usedByPages": [
+        "ro-index-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "wallbox",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

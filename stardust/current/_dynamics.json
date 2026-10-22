@@ -1,0 +1,916 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-10-21T14:02:08.722Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.bmw.ro/ro/index.html"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/ro/index.html": {
+   "url": "https://www.bmw.ro/ro/index.html",
+   "status": 200,
+   "host": "www.bmw.ro",
+   "title": "BMW România: Automobile Premium și tehnologii inovatoare",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "javascript:void(0)",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "video",
+     "src": "blob:https://www.bmw.ro/8dd77412-eee6-49a5-be42-843a36efdf8b",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://11489608.fls.doubleclick.net/activityi;src=11489608;type=gener0;cat=b_pagevi;rcb=15;ord=4108751918866;npa=0;auiddc=361481213.1792591331;u1=nsc%20%3E%20homepage;uaa=;uab=;uafvl=;uamb=0;uam=;uap",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://gum.criteo.com/syncframe?topUrl=www.bmw.ro&origin=onetag&ceid=bc12b486-7f03-4ccd-aef7-a0bb6cba74c3#{%22bundle%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22cw%22:true,%22",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "javascript:void(0)",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://11489608.fls.doubleclick.net/activityi;src=11489608;type=gener0;cat=b_pagevi;rcb=15;ord=4108751918866;npa=0;auiddc=361481213.1792591331;u1=nsc%20%3E%20homepage;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6aj1v9190594050za200zb898763009zd898763009xecxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=2;tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~121284208;epver=2;dc_random=1792591331_NO1yNRz1fGLZKYYTl_f2uVnYbHtH_Q7gwg;_dc_test=1;~oref=https%3A%2F%2Fwww.bmw.ro%2Fro%2Findex.html?",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://gum.criteo.com/syncframe?topUrl=www.bmw.ro&origin=onetag&ceid=bc12b486-7f03-4ccd-aef7-a0bb6cba74c3#{%22bundle%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22cw%22:true,%22optout%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22origin%22:%22onetag%22,%22tld%22:%22bmw.ro%22,%22topUrl%22:%22www.bmw.ro%22,%22version%22:%225_51_0%22,%22ifa%22:{%22identifierExtractor%22:{%22origin%22:0},%22value%22:null},%22lsw%22:true,%22pm%22:0,%22requestId%22:%22b5201992-4265-4ca2-8d5c-2b94d120db85%22}",
+     "title": "Criteo GUM iframe",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.bmw.ro/ro/more-bmw/parts-and-accessories/bmw-accesorii-hub.html",
+    "https://www.bmw.ro/ro/shop/ls/cp/physical-goods/BF_ACCESSORY",
+    "https://www.bmw.ro/ro/more-bmw/parts-and-accessories/bmw-accesorii-hub.html",
+    "https://www.bmw.ro/ro/shop/ls/cp/physical-goods/BF_ACCESSORY",
+    "https://www.bmw.ro/static/login/flyout.js",
+    "https://www.bmw.ro/ro/shop/ls/cp/physical-goods/BF_ACCESSORY"
+   ],
+   "commerce": {
+    "cart": true,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "ro-RO",
+    "hreflang": [
+     "ro-RO"
+    ],
+    "switcher": [
+     "https://www.bmw.ro/ro-ro/sl/stocklocator",
+     "https://www.bmw.ro/ro-ro/sl/stocklocator",
+     "https://www.bmw.ro/ro-ro/sl/stocklocator#/results",
+     "https://www.bmw.ro/ro-ro/sl/stocklocator#/results"
+    ]
+   },
+   "cms": {
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "util",
+     "eventPromises",
+     "_getExtEvntData",
+     "_showExtEvntData",
+     "__copyEvent",
+     "_copyEvent",
+     "_replayEvent",
+     "_dbgGetParams",
+     "_dbgSetParams",
+     "_dbgRules",
+     "_dbgRulesRemove",
+     "_dbgEnv",
+     "_dbg",
+     "Som",
+     "IFrameBridge",
+     "condition",
+     "bounceTimer",
+     "extEvntData",
+     "cookieSupport",
+     "version",
+     "push",
+     "getState",
+     "addEventListener",
+     "removeEventListener"
+    ],
+    "CQ": [
+     "CoreComponents"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [
+    {
+     "cls": "js-focus-visible",
+     "attrs": [],
+     "text": "BMW România: Automobile Premium și tehnologii inovatoare {\"c"
+    }
+   ],
+   "listingCandidates": [],
+   "inlineScripts": 18,
+   "inlineFetch": false,
+   "mainText": 1586,
+   "domAddedAfterLoad": 67,
+   "hosts": {
+    "www.bmw.ro": 50,
+    "bmw.scene7.com": 6,
+    "assets.adobedtm.com": 27,
+    "www.bmw.com": 25,
+    "s.go-mpulse.net": 1,
+    "tron.bmwgroup.com": 1,
+    "c.go-mpulse.net": 1,
+    "bmw.app.baqend.com": 3,
+    "stream.bmw.com.cn": 5,
+    "dpm.demdex.net": 1,
+    "connect.facebook.net": 3,
+    "cdn.taboola.com": 1,
+    "s.pinimg.com": 2,
+    "amplify.outbrain.com": 1,
+    "zndpwbggebjqhu2ua-bmwonevoice.siteintercept.qualtrics.com": 1,
+    "snap.licdn.com": 1,
+    "c.amazon-adsystem.com": 4,
+    "bmwag.d3.sc.omtrdc.net": 2,
+    "p.teads.tv": 1,
+    "www.googletagmanager.com": 2,
+    "wave.outbrain.com": 1,
+    "tr.outbrain.com": 3,
+    "siteintercept.qualtrics.com": 6,
+    "px.ads.linkedin.com": 4,
+    "trc.taboola.com": 1,
+    "dynamic.criteo.com": 1,
+    "www.facebook.com": 2,
+    "cm.teads.tv": 1,
+    "www.google.com": 6,
+    "googleads.g.doubleclick.net": 2,
+    "ad.doubleclick.net": 3,
+    "www.googleadservices.com": 1,
+    "track.adform.net": 3,
+    "www.linkedin.com": 1,
+    "t.teads.tv": 2,
+    "ct.pinterest.com": 6,
+    "gum.criteo.com": 2,
+    "11489608.fls.doubleclick.net": 2,
+    "aax-eu.amazon-adsystem.com": 2,
+    "s2.adform.net": 1,
+    "capig.bmw.ro": 2,
+    "adservice.google.com": 1,
+    "sslwidget.criteo.com": 1,
+    "widget.eu.criteo.com": 1,
+    "trc-events.taboola.com": 1
+   },
+   "thirdPartyHosts": [
+    "bmw.scene7.com",
+    "assets.adobedtm.com",
+    "www.bmw.com",
+    "s.go-mpulse.net",
+    "tron.bmwgroup.com",
+    "c.go-mpulse.net",
+    "bmw.app.baqend.com",
+    "stream.bmw.com.cn",
+    "dpm.demdex.net",
+    "connect.facebook.net",
+    "cdn.taboola.com",
+    "s.pinimg.com",
+    "amplify.outbrain.com",
+    "zndpwbggebjqhu2ua-bmwonevoice.siteintercept.qualtrics.com",
+    "snap.licdn.com",
+    "c.amazon-adsystem.com",
+    "bmwag.d3.sc.omtrdc.net",
+    "p.teads.tv",
+    "www.googletagmanager.com",
+    "wave.outbrain.com",
+    "tr.outbrain.com",
+    "siteintercept.qualtrics.com",
+    "px.ads.linkedin.com",
+    "trc.taboola.com",
+    "dynamic.criteo.com",
+    "www.facebook.com",
+    "cm.teads.tv",
+    "www.google.com",
+    "googleads.g.doubleclick.net",
+    "ad.doubleclick.net",
+    "www.googleadservices.com",
+    "track.adform.net",
+    "www.linkedin.com",
+    "t.teads.tv",
+    "ct.pinterest.com",
+    "gum.criteo.com",
+    "11489608.fls.doubleclick.net",
+    "aax-eu.amazon-adsystem.com",
+    "s2.adform.net",
+    "adservice.google.com",
+    "sslwidget.criteo.com",
+    "widget.eu.criteo.com",
+    "trc-events.taboola.com"
+   ],
+   "scripts": [
+    "https://www.bmw.ro/etc.clientlibs/bmw-web/clientlibs/clientlib-main/bmw.lc-a5f3e3b1bc0076388c3db0891726f683-lc.min.js",
+    "https://www.bmw.ro/etc.clientlibs/wcc-foundation/clientlibs/clientlib-marketing.lc-07f6a175f44f3e21e50b54128b6118f3-lc.min.js",
+    "https://www.bmw.ro/etc.clientlibs/wcc-foundation/clientlibs/clientlib-components/v1.lc-7ed905d1204f409577f438ed606dda26-lc.min.js",
+    "https://www.bmw.ro/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/launch-bc2c66d5dd0b.min.js",
+    "https://www.bmw.com/etc/clientlibs/wcmp/consentcontroller.fallback/epaas.js",
+    "https://www.bmw.com/p15r.js?tenant=ds2~bmw-ro",
+    "https://s.go-mpulse.net/boomerang/U9Q7S-CL67G-PZX2P-YKCFN-KJNSH",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement_Module_ActivityMap.min.js",
+    "https://tron.bmwgroup.com/generic-all-aem/archive/v2/TRONgenericAllAEMTracking.min.js",
+    "https://www.bmw.ro/etc.clientlibs/bmw-web/clientlibs/clientlib-main/bmw/resources/chunk-810.614e833b18d1e51a5c9d.js",
+    "https://www.bmw.ro/etc.clientlibs/bmw-web/clientlibs/clientlib-main/bmw/resources/97916.99bd2b9aab5e04ea29eb.js",
+    "https://www.bmw.ro/etc.clientlibs/bmw-web/clientlibs/clientlib-main/bmw/resources/chunk-588.0955d80b662b0c93e985.js",
+    "https://www.bmw.ro/etc.clientlibs/bmw-web/clientlibs/clientlib-main/bmw/resources/chunk-382.715a9713159af716c512.js",
+    "https://www.bmw.ro/etc.clientlibs/bmw-web/clientlibs/clientlib-main/bmw/resources/chunk-948.3d8d8f06141c090248d8.js",
+    "https://www.bmw.ro/etc.clientlibs/bmw-web/clientlibs/clientlib-main/bmw/resources/chunk-766.51fda0047c934f5d8c4e.js",
+    "https://www.bmw.ro/etc.clientlibs/bmw-web/clientlibs/clientlib-main/bmw/resources/vendor.hls.js.1f994c68190e30bff93b.js",
+    "https://www.bmw.ro/etc.clientlibs/bmw-web/clientlibs/clientlib-main/bmw/resources/chunk-726.4ef9662e34b98042178d.js",
+    "https://www.bmw.ro/etc.clientlibs/bmw-web/clientlibs/clientlib-main/bmw/resources/chunk-628.cdc3600c3bb9d29f04ed.js",
+    "https://www.bmw.ro/etc.clientlibs/bmw-web/clientlibs/clientlib-main/bmw/resources/chunk-972.d33bd3a0878ad1cb30fa.js",
+    "https://www.bmw.ro/etc.clientlibs/bmw-web/clientlibs/clientlib-main/bmw/resources/chunk-740.bd3a8f824e62d96cc856.js",
+    "https://www.bmw.ro/etc.clientlibs/bmw-web/clientlibs/clientlib-main/bmw/resources/chunk-626.ba92cd94f68741b03de6.js",
+    "https://www.bmw.ro/etc.clientlibs/bmw-web/clientlibs/clientlib-main/bmw/resources/vendor.tippy.js.6b03b65223c5560971d8.js",
+    "https://www.bmw.ro/etc.clientlibs/bmw-web/clientlibs/clientlib-main/bmw/resources/chunk-422.3ed4ffb9baf100abd612.js",
+    "https://www.bmw.ro/etc.clientlibs/bmw-web/clientlibs/clientlib-main/bmw/resources/chunk-446.4d74d0af734a244870cf.js",
+    "https://www.bmw.ro/etc.clientlibs/bmw-web/clientlibs/clientlib-main/bmw/resources/vendor.popperjs.061ffde71383fe24943d.js",
+    "https://www.bmw.ro/etc.clientlibs/bmw-web/clientlibs/clientlib-main/bmw/resources/chunk-652.4f1016bceeaad9c8e1f6.js",
+    "https://www.bmw.ro/etc.clientlibs/bmw-web/clientlibs/clientlib-main/bmw/resources/chunk-96.28e09c7b2dcdabfbbf9d.js",
+    "https://www.bmw.ro/etc.clientlibs/bmw-web/clientlibs/clientlib-main/bmw/resources/chunk-1004.52f27fc714e657c904f4.js",
+    "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC651ff720f9064c2c80d00800f42a9357-source.min.js",
+    "https://bmw.app.baqend.com/v1/speedkit/install.js?d=production-ro",
+    "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC28c4634888f04a8981acbcc1f7d3dedc-source.min.js",
+    "https://www.bmw.ro/static/login/flyout.js",
+    "https://www.bmw.com/etc/clientlibs/wcmp/consentcontroller.fallback/epaas.662.20261021-054019.js",
+    "https://www.bmw.com/etc/clientlibs/wcmp/consentcontroller.fallback/epaas.878.20261021-054019.js",
+    "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC6d249a84978b4d8b9dbe810e48e029a7-source.min.js",
+    "https://www.bmw.com/etc/clientlibs/wcmp/consentcontroller.fallback/epaas.consentdrawer.bundle.20261021-054019.js",
+    "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC8b43b020b24e46af844e64e20405421a-source.min.js",
+    "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC9ebcd8ccb11f42f98c4e5062a8eef98b-source.min.js",
+    "https://www.bmw.com/etc/clientlibs/wcmp/consentcontroller.fallback/epaas.theme-bmw.20261021-054019.js",
+    "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC50fd574bdc3645f89741aa539cade317-source.min.js",
+    "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC926faac70aed44dbb4eac5dc48f6deff-source.min.js",
+    "https://www.bmw.com/p15r/c/Facebook.js",
+    "https://www.bmw.com/p15r/c/Taboola.min.js",
+    "https://www.bmw.com/p15r/c/TeadsPixel.js",
+    "https://www.bmw.com/p15r/c/Pinterest.js",
+    "https://www.bmw.com/p15r/c/Outbrain.js",
+    "https://www.bmw.com/p15r/c/AdformRetargeting.js",
+    "https://www.bmw.com/p15r/c/LinkedInAds.js",
+    "https://www.bmw.com/p15r/c/Criteo.js",
+    "https://www.bmw.com/p15r/c/QualtricsSurveys.js",
+    "https://www.bmw.com/p15r/c/GoogleAdvertising.min.js",
+    "https://www.bmw.com/p15r/c/Amazon.js",
+    "https://www.bmw.com/p15r/c/WebVitals.min.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://cdn.taboola.com/libtrc/unip/1941600/tfa.js",
+    "https://s.pinimg.com/ct/core.js",
+    "https://amplify.outbrain.com/cp/obtp.js",
+    "https://www.bmw.com/epaas/onlineaudit-1.0.0.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.bmw.ro",
+     "path": "/content/experience-fragments/bmw/marketRO/bmw_ro/ro_RO/personalization/direct-entry/jcr:content.variation.targetPath++content++bmw++marketRO++bmw_ro++ro_RO++index++jcr:content++root++maincontent++contentblueprint_829++xftoggle.json/master",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.bmw.ro/content/experience-fragments/bmw/marketRO/bmw_ro/ro_RO/personalization/direct-entry/jcr:content.variation.targetPath++content++bmw++marketRO++bmw_ro++ro_RO++index++jcr:content++root++maincontent++contentblueprint_829++xftoggle.json/master"
+    },
+    {
+     "method": "GET",
+     "host": "www.bmw.ro",
+     "path": "/ro-ro/login/bmw/api/flyout/data",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.bmw.ro/ro-ro/login/bmw/api/flyout/data"
+    },
+    {
+     "method": "POST",
+     "host": "capig.bmw.ro",
+     "path": "/events/{hash}",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://capig.bmw.ro/events/88bc7d54680f54d7b065d512ac3ea52ee1460e21ec1fa626a754e6d55366e8fd"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET www.bmw.com/epaas/prod/dataversion/ds2~bmw-ro/2026-10-21T14:00:00Z.epaas.json",
+    "GET c.go-mpulse.net/api/config.json",
+    "GET www.bmw.com/epaas/prod/consentcontroller/ds2~bmw-ro/v104x256x694x8x11x17x17x9x10x18x0x18x54",
+    "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC7caeaa876272454085dfeac40990d98b-code.",
+    "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC8732c4df279c4e0c878acdc2a4a1b81c-code.",
+    "GET bmw.scene7.com/is/content/BMW/bmw-ix4-home-teaser-AVS.m3u8",
+    "GET stream.bmw.com.cn/hls-vod/BMW/_media_/6ae/6aeb598c-34f2-4bb2-88a1-8d4b4e818dce.mp4.m3u8",
+    "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCaad2f8a14ea347829552a0f1e42d3c84-code.",
+    "GET stream.bmw.com.cn/hls-vod/BMW/_media_/6ae/6aeb598c-34f2-4bb2-88a1-8d4b4e818dce.mp4Frag1Num0.ts",
+    "GET www.bmw.com/epaas/prod/consentdrawer/ds2~bmw-ro/v104x256x694x8x11x17x17x9x10x18x0x18x54x34x",
+    "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCd27f869f106045bda6d568c612772fd0-code.",
+    "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC2935365320cf42148c7022f0e9d64b50-code.",
+    "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCb96246762c694f388b6e29c221b5dba8-code.",
+    "GET bmw.app.baqend.com/v1/speedkit/model/cl_desktop_xgb.json",
+    "GET bmw.app.baqend.com/v1/speedkit/model/cl_desktop_cfg.json",
+    "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC0083aa64325b440ea1178e6011b1d29b-code.",
+    "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC11eb5e2b227c435da30f98d0f56d0274-code.",
+    "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCc7f9bc103a5c43c4bfd4cf853b5ecf2e-code.",
+    "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC0132c3f2ce4a441c98cdb88dcf2f8816-code.",
+    "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCfa3638aab09b4783864369916824df4d-code.",
+    "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC5e9467a2007844d091d009413834f82a-code.",
+    "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC976a19e1c1374825a096a4c46257158e-code.",
+    "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCb64c7c7ae6b3486d93c946c369e1b96a-code.",
+    "GET stream.bmw.com.cn/hls-vod/BMW/_media_/963/96379756-a80c-469f-815e-ca19b87ab003.mp4.m3u8",
+    "GET stream.bmw.com.cn/hls-vod/BMW/_media_/963/96379756-a80c-469f-815e-ca19b87ab003.mp4Frag1Num0.ts",
+    "GET stream.bmw.com.cn/hls-vod/BMW/_media_/963/96379756-a80c-469f-815e-ca19b87ab003.mp4Frag1Num1.ts",
+    "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC3be2f11ff26440ba8acb4d2ebfd1efbc-code.",
+    "GET dpm.demdex.net/id",
+    "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCeac1a37a6cc84fc2b88a7b2adc0fff55-code.",
+    "GET bmwag.d3.sc.omtrdc.net/id",
+    "POST bmwag.d3.sc.omtrdc.net/b/ss/bmwgroup.group.global.all,bmwgroup.bmw.ro.market/1/JS-2.27.0-LGU4/s0719206",
+    "GET tr.outbrain.com/unifiedPixel",
+    "GET c.amazon-adsystem.com/aat/amzn.js",
+    "GET www.bmw.com/epaas/onlineaudit/config/2026-10-21T14:00:00Z.epaas.json",
+    "GET c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+    "GET cm.teads.tv/v2/advertiser",
+    "POST www.google.com/ccm/collect",
+    "POST www.google.com/rmkt/collect/417862158/",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "GET www.googleadservices.com/pagead/conversion/417862158/"
+   ],
+   "postBodies": [
+    {
+     "url": "https://bmwag.d3.sc.omtrdc.net/b/ss/bmwgroup.group.global.all,bmwgroup.bmw.ro.market/1/JS-2.27.0-LGU4/s07192068611186",
+     "body": "AQB=1&ndh=1&pf=1&t=21%2F9%2F2026%2014%3A2%3A11%203%200&D=d%3D&mid=20574362145853234013025418618812877929&aamlh=9&ce=UTF-8&cdp=2&fpCookieDomainPeriods=2&cl=63072000&pageName=nsc%20%3E%20homepage&g=https%3A%2F%2Fwww.bmw.ro%2Fro%2Findex.html&c.&rfl=2.1&getPreviousValue=3.0.1&apl=4.0&inList=3.0&getTimeParting=6.3&.c&cc=RON&server=www.bmw.ro&pageType=content-page&events=event936%3D227%2Cevent978%3D209%"
+    },
+    {
+     "url": "https://www.bmw.com/epaas/onlineaudit/producer/ingest-events",
+     "body": "{\"api\":[{\"na\":\"epaas\",\"mo\":\"consentcontroller\",\"me\":\"initialize\"},{\"na\":\"epaas\",\"mo\":\"consentcontroller\",\"me\":\"addEventListener\"},{\"na\":\"epaas\",\"mo\":\"consentcontroller\",\"me\":\"registerOnInitialized\"},{\"na\":\"epaas\",\"mo\":\"consentcontroller\",\"me\":\"getApiInfo\"},{\"na\":\"epaas\",\"mo\":\"consentcontroller\",\"me\":\"getParentDomain\"},{\"na\":\"epaas\",\"mo\":\"consentcontroller\",\"me\":\"getPersistence\"},{\"na\":\"epaas\",\"mo\""
+    },
+    {
+     "url": "https://capig.bmw.ro/events/88bc7d54680f54d7b065d512ac3ea52ee1460e21ec1fa626a754e6d55366e8fd",
+     "body": "{\"event_name\":\"PageView\",\"event_id\":\"ob3_plugin-set_4e22d4cddc5aca97e8ae41a6ad2b861b8d2bb95d6818623d2f22871ed884ad5b\",\"fb.pixel_id\":\"1505661687344577\",\"website_context\":{\"location\":\"https://www.bmw.ro/ro/index.html\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1792591331273.107442238751555751\"}"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/417862158/?random=1792591331357&cv=11&fst=1792591331357&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6aj1v898763009za208zd898763009xecxf1&gcd=13r3r3r3r5l1",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=7&frm=0&apvc=1&auid=361481213.1792591331&dt=BMW%20Rom%C3%A2nia%3A%20Automobile%20Premium%20%C8%99i%20tehnologii%20inovatoare&tid=AW-417862158&en=page_view&dl=htt",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=361481213.1792591331&gtm=45be6aj1v898763009za208zd898763009xecxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_dpwBgGEBjqHU2ua&Q_CLIENTVERSION=2.59.0&Q_CLIENTTYPE=web",
+     "body": "Q_LOC=https%3A%2F%2Fwww.bmw.ro%2Fro%2Findex.html&xmdRetryCount=0&hasAnalyticsConsent=null&Timestamp=2026-10-21T14%3A02%3A11.440Z"
+    },
+    {
+     "url": "https://capig.bmw.ro/events/88bc7d54680f54d7b065d512ac3ea52ee1460e21ec1fa626a754e6d55366e8fd",
+     "body": "{\"event_name\":\"PageView\",\"event_id\":\"ob3_plugin-set_dfbdfa67cba7c242054e07c10ea3b074119a3a04d278d843eed8da2efad30862\",\"fb.pixel_id\":\"1176772607853457\",\"website_context\":{\"location\":\"https://www.bmw.ro/ro/index.html\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1792591331273.107442238751555751\"}"
+    },
+    {
+     "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/417862158/?random=592487766&cv=11&fst=1792591331386&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6aj1v898763009za200zd89876300",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/activity;src=11489608;type=gener0;cat=b_pagevi;rcb=15;ord=4108751918866;npa=0;auiddc=361481213.1792591331;u1=nsc%20%3E%20homepage;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=0&auid=361481213.1792591331&dt=BMW%20Rom%C3%A2nia%3A%20Automobile%20Premium%20%C8%99i%20tehnologii%20inovatoare&tid=DC-11489608&en=page_view&dl=htt",
+     "body": ""
+    },
+    {
+     "url": "https://www.bmw.com/epaas/onlineaudit/producer/ingest-events",
+     "body": "{\"usage\":[{\"na\":\"BaqendSpeedKitMetrics\",\"ty\":\"PROCESSING\"},{\"na\":\"Consentcontroller\",\"ty\":\"PROCESSING\"},{\"na\":\"WebchatCloud\",\"ty\":\"PROCESSING\"},{\"na\":\"AdobeAnalytics\",\"ty\":\"PROCESSING\"},{\"na\":\"AdobeTargetAnalytics\",\"ty\":\"PROCESSING\"},{\"na\":\"AdobeCampaignTracking\",\"ty\":\"PROCESSING\"},{\"na\":\"CONFunctional\",\"ty\":\"PROCESSING\"},{\"na\":\"DynamicMID\",\"ty\":\"PROCESSING\"},{\"na\":\"AdobeStagingLibrary\",\"ty\":\"PROC"
+    }
+   ],
+   "textAtLoad": 1472,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-unknown-third-party-host-bmw-scene7-com",
+   "class": "A",
+   "feature": "unknown third-party host bmw.scene7.com",
+   "hint": "inspect",
+   "evidence": [
+    "bmw.scene7.com"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-www-bmw-com",
+   "class": "A",
+   "feature": "unknown third-party host www.bmw.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.bmw.com"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-bmw-app-baqend-com",
+   "class": "A",
+   "feature": "unknown third-party host bmw.app.baqend.com",
+   "hint": "inspect",
+   "evidence": [
+    "bmw.app.baqend.com"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-stream-bmw-com-cn",
+   "class": "A",
+   "feature": "unknown third-party host stream.bmw.com.cn",
+   "hint": "inspect",
+   "evidence": [
+    "stream.bmw.com.cn"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-c-amazon-adsystem-com",
+   "class": "A",
+   "feature": "unknown third-party host c.amazon-adsystem.com",
+   "hint": "inspect",
+   "evidence": [
+    "c.amazon-adsystem.com"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-cm-teads-tv",
+   "class": "A",
+   "feature": "unknown third-party host cm.teads.tv",
+   "hint": "inspect",
+   "evidence": [
+    "cm.teads.tv"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "class": "A",
+   "feature": "unknown third-party host www.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.google.com"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-content-experience-fragments-bmw-marke",
+   "class": "A",
+   "feature": "first-party API GET /content/experience-fragments/bmw/marketRO/bmw_ro/ro_RO/personalization/direct-entry/jcr:content.variation.targetPath++content++bmw++marketRO++bmw_ro++ro_RO++index++jcr:content++root++maincontent++contentblueprint_829++xftoggle.json/master",
+   "api": {
+    "method": "GET",
+    "path": "/content/experience-fragments/bmw/marketRO/bmw_ro/ro_RO/personalization/direct-entry/jcr:content.variation.targetPath++content++bmw++marketRO++bmw_ro++ro_RO++index++jcr:content++root++maincontent++contentblueprint_829++xftoggle.json/master"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /content/experience-fragments/bmw/marketRO/bmw_ro/ro_RO/personalization/direct-entry/jcr:content.variation.targetPath++content++bmw++marketRO++bmw_ro++ro_RO++index++jcr:content++root++maincontent++contentblueprint_829++xftoggle.json/master → 200"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "a-first-party-api-get-ro-ro-login-bmw-api-flyout-data",
+   "class": "A",
+   "feature": "first-party API GET /ro-ro/login/bmw/api/flyout/data",
+   "api": {
+    "method": "GET",
+    "path": "/ro-ro/login/bmw/api/flyout/data"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /ro-ro/login/bmw/api/flyout/data → 200"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "a-first-party-api-post-events-hash",
+   "class": "A",
+   "feature": "first-party API POST /events/{hash}",
+   "api": {
+    "method": "POST",
+    "path": "/events/{hash}"
+   },
+   "hint": "api",
+   "evidence": [
+    "POST /events/{hash} → 200"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-adobedatalayer",
+   "class": "A",
+   "feature": "CMS / app settings object adobeDataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-cq",
+   "class": "A",
+   "feature": "CMS / app settings object CQ",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-js-focus-visible",
+   "class": "CR",
+   "feature": "client-rendered slot js-focus-visible",
+   "hint": "client-rendered",
+   "evidence": [
+    "BMW România: Automobile Premium și tehnologii inovatoare {\"c"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-ro-ro",
+   "class": "I18N",
+   "feature": "locale variants ro-RO",
+   "hint": "locale",
+   "evidence": [
+    "https://www.bmw.ro/ro-ro/sl/stocklocator",
+    "https://www.bmw.ro/ro-ro/sl/stocklocator#/results"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "t-tag-manager-adobe-launch",
+   "class": "T",
+   "feature": "tag manager: Adobe Launch",
+   "role": "tag manager: Adobe Launch",
+   "hint": "tags",
+   "evidence": [
+    "assets.adobedtm.com"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "t-rum-akamai-mpulse",
+   "class": "T",
+   "feature": "RUM: Akamai mPulse",
+   "role": "RUM: Akamai mPulse",
+   "hint": "tags",
+   "evidence": [
+    "s.go-mpulse.net",
+    "c.go-mpulse.net"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-tron-bmwgroup-com",
+   "class": "T",
+   "feature": "unknown third-party host tron.bmwgroup.com",
+   "hint": "inspect",
+   "evidence": [
+    "tron.bmwgroup.com"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "t-analytics-adobe-analytics-experience-cloud-id",
+   "class": "T",
+   "feature": "analytics: Adobe Analytics / Experience Cloud ID",
+   "role": "analytics: Adobe Analytics / Experience Cloud ID",
+   "hint": "tags",
+   "evidence": [
+    "dpm.demdex.net",
+    "bmwag.d3.sc.omtrdc.net"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "role": "marketing: ad / retargeting pixel",
+   "hint": "tags",
+   "evidence": [
+    "connect.facebook.net",
+    "cdn.taboola.com",
+    "amplify.outbrain.com",
+    "snap.licdn.com",
+    "wave.outbrain.com",
+    "tr.outbrain.com",
+    "trc.taboola.com",
+    "dynamic.criteo.com",
+    "googleads.g.doubleclick.net",
+    "ad.doubleclick.net",
+    "ct.pinterest.com",
+    "gum.criteo.com"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-s-pinimg-com",
+   "class": "T",
+   "feature": "unknown third-party host s.pinimg.com",
+   "hint": "inspect",
+   "evidence": [
+    "s.pinimg.com"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "t-feedback-survey-voc-badge",
+   "class": "T",
+   "feature": "feedback: survey / VoC badge",
+   "role": "feedback: survey / VoC badge",
+   "hint": "tags",
+   "evidence": [
+    "zndpwbggebjqhu2ua-bmwonevoice.siteintercept.qualtrics.com",
+    "siteintercept.qualtrics.com"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-p-teads-tv",
+   "class": "T",
+   "feature": "unknown third-party host p.teads.tv",
+   "hint": "inspect",
+   "evidence": [
+    "p.teads.tv"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "role": "tag manager: Google Tag Manager",
+   "hint": "tags",
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-px-ads-linkedin-com",
+   "class": "T",
+   "feature": "unknown third-party host px.ads.linkedin.com",
+   "hint": "inspect",
+   "evidence": [
+    "px.ads.linkedin.com"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-facebook-com",
+   "class": "T",
+   "feature": "unknown third-party host www.facebook.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.facebook.com"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "role": "analytics: Google Analytics / Ads",
+   "hint": "tags",
+   "evidence": [
+    "www.googleadservices.com"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-track-adform-net",
+   "class": "T",
+   "feature": "unknown third-party host track.adform.net",
+   "hint": "inspect",
+   "evidence": [
+    "track.adform.net"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-linkedin-com",
+   "class": "T",
+   "feature": "unknown third-party host www.linkedin.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.linkedin.com"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-t-teads-tv",
+   "class": "T",
+   "feature": "unknown third-party host t.teads.tv",
+   "hint": "inspect",
+   "evidence": [
+    "t.teads.tv"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-aax-eu-amazon-adsystem-com",
+   "class": "T",
+   "feature": "unknown third-party host aax-eu.amazon-adsystem.com",
+   "hint": "inspect",
+   "evidence": [
+    "aax-eu.amazon-adsystem.com"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-s2-adform-net",
+   "class": "T",
+   "feature": "unknown third-party host s2.adform.net",
+   "hint": "inspect",
+   "evidence": [
+    "s2.adform.net"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-adservice-google-com",
+   "class": "T",
+   "feature": "unknown third-party host adservice.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "adservice.google.com"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "hint": "decided-out",
+   "evidence": [
+    "https://www.bmw.ro/ro/more-bmw/parts-and-accessories/bmw-accesorii-hub.html",
+    "https://www.bmw.ro/ro/shop/ls/cp/physical-goods/BF_ACCESSORY"
+   ],
+   "pages": [
+    "/ro/index.html"
+   ]
+  },
+  {
+   "id": "x-commerce-signals-cart-true-prices-0",
+   "class": "X",
+   "feature": "commerce signals (cart: true, prices: 0)",
+   "hint": "decided-out",
+   "evidence": [],
+   "pages": [
+    "/ro/index.html"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 1,
+  "of": 1,
+  "endpoints": {
+   "GET www.bmw.com/epaas/prod/dataversion/ds2~bmw-ro/2026-10-21T14:00:00Z.epaas.json": 1,
+   "GET www.bmw.com/epaas/prod/consentcontroller/ds2~bmw-ro/v104x256x694x8x11x17x17x9x10x18x0x18x54x34x10x20x94x35x51x0x47x93x0x24x32x21x104x36x80x0x0x22x20x4x3472x4x0.epaas.json": 1,
+   "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC7caeaa876272454085dfeac40990d98b-code.min.js": 1,
+   "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC8732c4df279c4e0c878acdc2a4a1b81c-code.min.js": 1,
+   "GET www.bmw.ro/content/experience-fragments/bmw/marketRO/bmw_ro/ro_RO/personalization/direct-entry/jcr:content.variation.targetPath++content++bmw++marketRO++bmw_ro++ro_RO++index++jcr:content++root++maincontent++contentblueprint_829++xftoggle.json/master": 1,
+   "GET www.bmw.com/epaas/prod/consentdrawer/ds2~bmw-ro/v104x256x694x8x11x17x17x9x10x18x0x18x54x34x10x20x94x35x51x0x47x93x0x24x32x21x104x36x80x0x0x22x20x4x3472x4x0-tv2112x217x20/ro_RO.epaas.json": 1,
+   "GET c.go-mpulse.net/api/config.json": 1,
+   "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCaad2f8a14ea347829552a0f1e42d3c84-code.min.js": 1,
+   "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCd27f869f106045bda6d568c612772fd0-code.min.js": 1,
+   "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC2935365320cf42148c7022f0e9d64b50-code.min.js": 1,
+   "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCb96246762c694f388b6e29c221b5dba8-code.min.js": 1,
+   "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC0083aa64325b440ea1178e6011b1d29b-code.min.js": 1,
+   "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC11eb5e2b227c435da30f98d0f56d0274-code.min.js": 1,
+   "GET bmw.app.baqend.com/v1/speedkit/model/cl_desktop_cfg.json": 1,
+   "GET bmw.app.baqend.com/v1/speedkit/model/cl_desktop_xgb.json": 1,
+   "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCc7f9bc103a5c43c4bfd4cf853b5ecf2e-code.min.js": 1,
+   "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC0132c3f2ce4a441c98cdb88dcf2f8816-code.min.js": 1,
+   "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCfa3638aab09b4783864369916824df4d-code.min.js": 1,
+   "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC5e9467a2007844d091d009413834f82a-code.min.js": 1,
+   "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC976a19e1c1374825a096a4c46257158e-code.min.js": 1,
+   "GET assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCb64c7c7ae6b3486d93c946c369e1b96a-code.min.js": 1,
+   "GET bmw.scene7.com/is/content/BMW/bmw-ix4-home-teaser-AVS.m3u8": 1,
+   "GET stream.bmw.com.cn/hls-vod/BMW/_media_/6ae/{uuid}.mp4.m3u8": 1,
+   "GET stream.bmw.com.cn/hls-vod/BMW/_media_/6ae/{uuid}.mp4Frag1Num0.ts": 1,
+   "GET stream.bmw.com.cn/hls-vod/BMW/_media_/{n}/{uuid}.mp4.m3u8": 1,
+   "GET stream.bmw.com.cn/hls-vod/BMW/_media_/{n}/{uuid}.mp4Frag1Num0.ts": 1,
+   "GET stream.bmw.com.cn/hls-vod/BMW/_media_/{n}/{uuid}.mp4Frag1Num1.ts": 1,
+   "GET www.bmw.com/epaas/onlineaudit/config/2026-10-21T13:40:00Z.epaas.json": 1,
+   "POST www.bmw.com/epaas/onlineaudit/producer/ingest-events": 1
+  },
+  "searchFormPages": 0,
+  "formPages": 0,
+  "triggerPages": {}
+ }
+}

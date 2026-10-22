@@ -1,0 +1,739 @@
+{
+  "slug": "ro-index-html",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero",
+    "model-cards",
+    "teaser",
+    "wallbox"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "sr-only",
+    "hero",
+    "disclaimer",
+    "choice",
+    "teaser",
+    "disclaimer",
+    "teaser",
+    "disclaimer",
+    "disclaimer",
+    "teaser",
+    "disclaimer",
+    "wallbox"
+  ],
+  "canonShas": {
+    "header": "29a8cf13a134",
+    "footer": "06369603d2d3",
+    "css": "bf43b38966f4"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "delivery-path",
+      "source": "/ro/index.html",
+      "delivered": "/",
+      "why": "owner brief: EDS root serves the home page; /ro/index.html redirects to / via the redirects sheet"
+    }
+  ],
+  "metadata": {
+    "title": "BMW România: Automobile Premium și tehnologii inovatoare",
+    "description": "Bine ai venit pe site-ul oficial BMW România: descoperă automobile premium, oferte exclusive, tehnologii inovatoare și servicii personalizate.",
+    "canonical": null,
+    "lang": "ro"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "BMW România: Automobile Premium și tehnologii inovatoare",
+    "description": "Bine ai venit pe site-ul oficial BMW România: descoperă automobile premium, oferte exclusive, tehnologii inovatoare și servicii personalizate.",
+    "url": "https://www.bmw.ro/ro/index.html"
+  },
+  "migratedAt": "2026-10-21T14:59:30Z",
+  "designMdSha": "5a0c1de42748",
+  "designJsonSha": "b2d4d2ba9677",
+  "sourceCurrentSha": "1fbd1ddfe952",
+  "sourceProposedSha": "d4e8ce8ed5c2",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "content-fidelity",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "content-count",
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "branch A: the gated prototype verbatim (content-diff at gate time 0 red, prototype table 1440 3.02% / 360 4.74%)",
+    "pixel-gate-1440": "3.02%, height delta 0px, clipped 0, content n/a (stardust/replica/gates/prototypes-1440/summary.md) [prototype regime]",
+    "pixel-gate-360": "4.74%, height delta 0px, clipped 0, content n/a (stardust/replica/gates/prototypes-360/summary.md) [prototype regime]",
+    "content-count": "content-diff: 94 (0 structural 🔴) (ro-1440-final.log)",
+    "media-reconcile": "n/a: no delivered content file yet (content/ro.html) — media-reconcile runs in the delivery chain (row C)",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /ro)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 26,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/ro/all-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/ro/shop/ls/cart",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/ro/shop/ls/wishlist",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/all-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/configurator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/ro-ro/sl/stocklocator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/ro/shop/ls/cp/connected-drive",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/ro/compara%C8%9Bie-modele-bmw.html/content.q",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/topics/offers-and-services/financial-services.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/more-bmw/bmw-individual.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/more-bmw/automobile-exclusiviste-bmw.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/all-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/configurator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/ro-ro/sl/stocklocator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/ro/shop/ls/cp/connected-drive",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/ro/compara%C8%9Bie-modele-bmw.html/content.q",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/topics/offers-and-services/financial-services.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/more-bmw/bmw-individual.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/more-bmw/automobile-exclusiviste-bmw.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/campaigns/bmw-business.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/more-bmw/bmw-special-sales.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/campaigns/bmw-business.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/more-bmw/bmw-special-sales.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/more-bmw/parts-and-accessories/bmw-accesorii-hub.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/ro/shop/ls/cp/physical-goods/BF_ACCESSORY",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/more-bmw/technology-and-innovation/bmw-tyre-label.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/more-bmw/bmw-lifestyle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/more-bmw/parts-and-accessories/bmw-accesorii-hub.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/ro/shop/ls/cp/physical-goods/BF_ACCESSORY",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/more-bmw/technology-and-innovation/bmw-tyre-label.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/more-bmw/bmw-lifestyle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/bmw-financial-services.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/bmw-financial-services/bmw-leasing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/topics/offers-and-services/financial-services.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/topics/offers-and-services/leasing-operational-modele-electrice.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/bmw-financial-services.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/bmw-financial-services/bmw-leasing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/topics/offers-and-services/financial-services.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/topics/offers-and-services/leasing-operational-modele-electrice.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice/used-electric-cars.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice/electric-cars-benefits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice/costuri-masini-electrice.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice/plug-in-hybrid.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/content/dam/bmw/marketRO/bmw_ro/brosura/Brosura-Familia-electrica-BMW.pdf.asset.1711535757305.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice/used-electric-cars.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice/electric-cars-benefits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice/costuri-masini-electrice.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice/plug-in-hybrid.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/content/dam/bmw/marketRO/bmw_ro/brosura/Brosura-Familia-electrica-BMW.pdf.asset.1711535757305.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice/incarcare-domiciliu.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice/incarcare-publica.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice/tehnologie-baterie.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice/autonomie-masini-electrice.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice/incarcare-domiciliu.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice/incarcare-publica.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice/tehnologie-baterie.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice/autonomie-masini-electrice.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/more-bmw/asistenta-clienti.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/faas/form/ro-ro/bmw/tda/test-drive-request.html?akrr=BMW_TDA_RO",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/faas/form/ro-ro/bmw/rfo/cerere-de-oferta.html?akrr=BMW_RFO_RO",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/ro/tradein/?icp=topnav-to-trade-in&origin=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/more-bmw/asistenta-clienti.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/faas/form/ro-ro/bmw/tda/test-drive-request.html?akrr=BMW_TDA_RO",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/faas/form/ro-ro/bmw/rfo/cerere-de-oferta.html?akrr=BMW_RFO_RO",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/ro/tradein/?icp=topnav-to-trade-in&origin=topnav",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/bmw-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/topics/offers-and-services/personal-services/programare-online.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/bmw-service.html#roadside-assistance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/bmw-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/topics/offers-and-services/personal-services/programare-online.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/bmw-service.html#roadside-assistance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/digital-services/bmw-connecteddrive.html#toate-aplicatiile",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/digital-services/bmw-connecteddrive.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/digital-services/bmw-idrive.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/digital-services/bmw-digital-key.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/digital-services/bmw-connecteddrive.html#toate-aplicatiile",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/digital-services/bmw-connecteddrive.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/digital-services/bmw-idrive.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/digital-services/bmw-digital-key.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/campaigns/garantie-bmw.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/footer/quick-link/bmw-vehicle-recalls.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/topics/offers-and-services/personal-services/warranty.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/campaigns/bmw-recycling.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/campaigns/garantie-bmw.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/footer/quick-link/bmw-vehicle-recalls.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/topics/offers-and-services/personal-services/warranty.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/campaigns/bmw-recycling.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/footer/metanavigation/legal-notice-pool/imprint.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/footer/bmw-explore/cariere.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/footer/metanavigation/legal-notice-pool/imprint.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/footer/bmw-explore/cariere.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/topics/fascination-bmw/driving-experience.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/topics/fascination-bmw/declaratii-de-presa-BMW.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/topics/fascination-bmw/driving-experience.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/topics/fascination-bmw/declaratii-de-presa-BMW.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/ro/all-models.html?specialCategory=c",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/tehnologie-si-inovatie/bmw-symbiotic-drive.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/more-bmw/technology-and-innovation/bmw-heart-of-joy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/ro/all-models.html?specialCategory=c",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/tehnologie-si-inovatie/bmw-symbiotic-drive.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/more-bmw/technology-and-innovation/bmw-heart-of-joy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/bmw-alpina.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/bmw-alpina.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/forms/rfc/rfc.html?legacyform=true",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/ro/more-bmw/asisten%C5%A3%C4%83-clien%C5%A3i.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/all-models/seria-x/suv/bmw-ix4.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/configurator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/ro-ro/sl/stocklocator#/results",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/all-models/seria-x/suv/bmw-ix5.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/all-models/3-series/sedan/bmw-i3-sedan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/faas/form/ro-ro/bmw/rfo/cerere-de-oferta.html?modelRange=NA5&modelCode=11HR",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/all-models/seria-x/ix3/bmw-ix3.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice/bmw-wallbox-plus-gen-4.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/ro/more-bmw/asistenta-clienti.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/faas/form/ro-ro/bmw/rfc/request-for-contact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/ro/bmw-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/faas/form/ro-ro/bmw/rfo/cerere-de-oferta.html?midstatic=4g0agj01ba51d05hb9aar",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/footer/metanavigation/legal-notice-pool/imprint.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/footer/bmw-explore/cariere.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/topics/offers-and-services/personal-services/programare-online.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/ro/digital-services/bmw-connecteddrive.html#toate-aplicatiile",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/digital-services/bmw-connecteddrive.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/campaigns/garantie-bmw.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/all-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/configurator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/ro-ro/sl/stocklocator#/results",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/ro/shop/ls/cp/physical-goods/BF_ACCESSORY",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/ro/shop/ls/cp/connected-drive",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/bmw-financial-services.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/compara%C8%9Bie-modele-bmw.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/faas/form/ro-ro/bmw/tda/test-drive-request.html?midstatic=4g0agj01ba51d05hb9aar",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/all-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/all-models/seria-7/sedan/bmw-seria-7-sedan.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/content/bmw/marketRO/bmw_ro/ro/all-models/bmw-seria-5-prezentare-generala/sedan/bmw-seria-5-sedan-sumar.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/all-models/4-series/gran-coupe/bmw-4-series-gran-coupe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/all-models/3-series/bmw-3-series-touring/bmw-3-series-touring.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/all-models/2-series/seria-2-coupe/bmw-seria-2-coupe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/all-models/1-series/bmw-1-series/bmw-seria-1.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/more-bmw/automobile-exclusiviste-bmw.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/more-bmw/bmw-special-sales/bmw-protection-vehicles.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice/incarcare-publica.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice/incarcare-domiciliu.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice/autonomie-masini-electrice.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice/costuri-masini-electrice.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/modele-electrice/plug-in-hybrid.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/footer/metanavigation/accesibilitate-bmw.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/footer/metanavigation/legal-disclaimer-pool/legal-disclaimer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/footer/metanavigation/data-privacy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/footer/footer-section/politica-de-cookie.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/more-bmw/digital-services-act.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/footer/metanavigation/legal-disclaimer-pool/note-legale.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.bmw.ro/ro/footer/metanavigation/regulament-baterii.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ro/publicPools/sitemap/sitemap.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "ro/index.html",
+  "outputPathDefault": null,
+  "sidecar": "ro/_meta.json",
+  "driverVersion": "1"
+}

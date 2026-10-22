@@ -1,0 +1,37 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-21T14:59:23Z",
+      "endedAt": "2026-10-21T14:59:23Z",
+      "verdict": "page map 1 entry, 0 collisions: ro-index-html → ro/index.html (branch A, archetype)"
+    },
+    "landing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-21T14:59:29Z",
+      "endedAt": "2026-10-21T14:59:48Z",
+      "verdict": "rendered 1, unchanged 0, refused 0, passthrough 0"
+    },
+    "report": {
+      "status": "done",
+      "kind": "report",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-21T14:59:56Z",
+      "endedAt": "2026-10-21T14:59:57Z",
+      "verdict": "1/1 migrated (archetype tier); state advanced"
+    }
+  }
+}
