@@ -1,0 +1,65 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-10-21T16:53:08.664Z",
+  "origin": "https://main--bad0ba01--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json"
+ },
+ "results": [
+  {
+   "feature": "v-hero-video",
+   "id": "v-hero-video",
+   "status": "implemented",
+   "type": "video-plays",
+   "pass": true,
+   "detail": "iframe/video: false · video playing (Δt 0.80s)",
+   "thirdParty": "bmw.scene7.com:206×1 stream.bmw.com.cn:206×4",
+   "ms": 7476,
+   "environmentLimit": null
+  },
+  {
+   "feature": "m-infoi-tooltips",
+   "id": "m-infoi-tooltips",
+   "status": "implemented",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "5 × .infoi-btn (min 1)",
+   "thirdParty": "bmw.scene7.com:206×1 stream.bmw.com.cn:206×4",
+   "ms": 1949,
+   "environmentLimit": null
+  },
+  {
+   "feature": "r-chrome-nav",
+   "id": "r-chrome-nav",
+   "status": "implemented",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × header nav.gnav-bar (min 1)",
+   "thirdParty": "bmw.scene7.com:206×1 stream.bmw.com.cn:206×4",
+   "ms": 1955,
+   "environmentLimit": null
+  },
+  {
+   "feature": "t-tags",
+   "id": "t-tags",
+   "status": "scaffolded-awaiting-owner",
+   "type": "consent-gate",
+   "pass": true,
+   "detail": "no request to 5 gated host pattern(s) before consent",
+   "thirdParty": "bmw.scene7.com:206×1 stream.bmw.com.cn:206×4",
+   "ms": 5934,
+   "environmentLimit": null
+  },
+  {
+   "feature": "page-errors",
+   "id": "page-errors",
+   "status": "implemented",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 1 page(s)",
+   "thirdParty": "",
+   "ms": 1968,
+   "environmentLimit": null
+  }
+ ]
+}

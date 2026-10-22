@@ -1,0 +1,116 @@
+/* model choice (live .xftoggle) — values lifted from the gated prototype */
+.model-cards {
+  margin: calc(var(--sp-12) * 2) 0 var(--sp-12);
+}
+
+.model-cards .model-cards-title {
+  margin: 0 auto 32px;
+  padding: 0 var(--col-pad);
+  text-align: center;
+}
+
+.model-cards .model-cards-title :is(h1, h2, h3) {
+  font-size: var(--headline-2-fs);
+  line-height: var(--headline-2-lh);
+  font-weight: var(--w-default);
+}
+
+.model-cards .model-cards-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.model-cards .model-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 var(--col-pad);
+  text-align: center;
+}
+
+.model-cards .model-card + .model-card {
+  padding-top: 24px;
+}
+
+.model-cards .model-card-icon .icon {
+  display: block;
+  width: 48px;
+  height: 54px;
+}
+
+.model-cards .model-card-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+/* live h3 box is the 25/31px text box centred in the 28/36 line */
+.model-cards .model-card-title {
+  margin-top: 21px;
+}
+
+.model-cards .model-card-title :is(h2, h3, h4) {
+  font-size: var(--subsection-1-fs);
+  line-height: 25px;
+  font-weight: var(--w-default);
+}
+
+.model-cards .model-card-cta {
+  margin-top: 22px;
+  width: calc((100% + 16px) * 8 / 12 - 16px);
+}
+
+.model-cards .model-card-cta a.button:any-link {
+  width: 100%;
+}
+
+@media (width >= 768px) {
+  .model-cards .model-cards-title {
+    width: calc(100% * 8 / 12);
+    margin-bottom: 40px;
+  }
+
+  .model-cards .model-cards-list {
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .model-cards .model-card {
+    flex: 1 1 0;
+  }
+
+  .model-cards .model-card + .model-card {
+    padding-top: 0;
+  }
+
+  .model-cards .model-card-icon .icon {
+    width: 64px;
+    height: 70px;
+  }
+
+  .model-cards .model-card-title {
+    margin-top: 26px;
+  }
+
+  .model-cards .model-card-title :is(h2, h3, h4) {
+    line-height: 31px;
+  }
+
+  .model-cards .model-card-cta {
+    margin-top: 27px;
+    width: auto;
+  }
+
+  .model-cards .model-card-cta a.button:any-link {
+    width: auto;
+    padding-inline: 24px;
+  }
+}
+
+@media (width >= 1280px) {
+  .model-cards .model-card-cta a.button:any-link {
+    max-width: calc(25vw - 4.125rem);
+  }
+}

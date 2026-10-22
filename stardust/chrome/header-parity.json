@@ -1,0 +1,556 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-10-21T17:03:45.813Z",
+ "source": "https://www.bmw.ro/ro/index.html",
+ "build": "https://main--bad0ba01--aemcoder.aem.live/ro/",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  360,
+  1440
+ ],
+ "counts": {
+  "error": 32,
+  "warn": 28,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "motion@360 MyBMW [click]",
+   "width": 360,
+   "path": "MyBMW",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates zoomInOut; the build does not"
+  },
+  {
+   "key": "motion@360 MyBMW [click]",
+   "width": 360,
+   "path": "MyBMW",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates spin; the build does not"
+  },
+  {
+   "key": "motion@360 MyBMW [click]",
+   "width": 360,
+   "path": "MyBMW",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates expand-height; the build does not"
+  },
+  {
+   "key": "motion@360 MyBMW [click]",
+   "width": 360,
+   "path": "MyBMW",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates effect-enter; the build does not"
+  },
+  {
+   "key": "motion@360 MyBMW > Close navigation menu [click]",
+   "width": 360,
+   "path": "MyBMW > Close navigation menu",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates left; the build does not"
+  },
+  {
+   "key": "motion@360 Open navigation menu [click]",
+   "width": 360,
+   "path": "Open navigation menu",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates left; the build does not"
+  },
+  {
+   "key": "state-extra@360 Open navigation menu > Online Store [click]",
+   "width": 360,
+   "path": "Open navigation menu > Online Store",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@360 Open navigation menu > Online Store > Modele & Configurator [click]",
+   "width": 360,
+   "path": "Open navigation menu > Online Store > Modele & Configurator",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@360 Open navigation menu > Online Store > BMW Corporate & Special Sales [click]",
+   "width": 360,
+   "path": "Open navigation menu > Online Store > BMW Corporate & Special Sales",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@360 Open navigation menu > Online Store > Servicii digitale & accesorii [click]",
+   "width": 360,
+   "path": "Open navigation menu > Online Store > Servicii digitale & accesorii",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@360 Open navigation menu > Online Store > Servicii financiare [click]",
+   "width": 360,
+   "path": "Open navigation menu > Online Store > Servicii financiare",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@360 Open navigation menu > Electromobilitate [click]",
+   "width": 360,
+   "path": "Open navigation menu > Electromobilitate",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@360 Open navigation menu > Electromobilitate > Automobile electrice [click]",
+   "width": 360,
+   "path": "Open navigation menu > Electromobilitate > Automobile electrice",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@360 Open navigation menu > Electromobilitate > Încărcare & autonomie [click]",
+   "width": 360,
+   "path": "Open navigation menu > Electromobilitate > Încărcare & autonomie",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@360 Open navigation menu > Servicii și asistență [click]",
+   "width": 360,
+   "path": "Open navigation menu > Servicii și asistență",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@360 Open navigation menu > Servicii și asistență > Asistență clienți [click]",
+   "width": 360,
+   "path": "Open navigation menu > Servicii și asistență > Asistență clienți",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@360 Open navigation menu > Servicii și asistență > Service & asistență [click]",
+   "width": 360,
+   "path": "Open navigation menu > Servicii și asistență > Service & asistență",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@360 Open navigation menu > Servicii și asistență > Servicii digitale & aplicații [click]",
+   "width": 360,
+   "path": "Open navigation menu > Servicii și asistență > Servicii digitale & aplicații",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@360 Open navigation menu > Servicii și asistență > Garanții & campanii de rechemare [click]",
+   "width": 360,
+   "path": "Open navigation menu > Servicii și asistență > Garanții & campanii de rechemare",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@360 Open navigation menu > Despre BMW [click]",
+   "width": 360,
+   "path": "Open navigation menu > Despre BMW",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@360 Open navigation menu > Despre BMW > Brand & companie [click]",
+   "width": 360,
+   "path": "Open navigation menu > Despre BMW > Brand & companie",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@360 Open navigation menu > Despre BMW > Lumea BMW [click]",
+   "width": 360,
+   "path": "Open navigation menu > Despre BMW > Lumea BMW",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@360 Open navigation menu > Despre BMW > Tehnologii & inovaţii [click]",
+   "width": 360,
+   "path": "Open navigation menu > Despre BMW > Tehnologii & inovaţii",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "control-missing@360 Open navigation menu > Despre BMW > menu",
+   "width": 360,
+   "path": "Open navigation menu > Despre BMW > menu",
+   "id": "control-missing",
+   "severity": "error",
+   "detail": "the source menu control opens on key; the build has no control named \"\""
+  },
+  {
+   "key": "motion@360 Open navigation menu > Close navigation menu [click]",
+   "width": 360,
+   "path": "Open navigation menu > Close navigation menu",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates left; the build does not"
+  },
+  {
+   "key": "budget-truncated@360 (source)",
+   "width": 360,
+   "path": "(source)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the source record stopped at depth 3 at Open navigation menu > Online Store > Close: raise --max-states/--max-depth for full coverage"
+  },
+  {
+   "key": "budget-truncated@360 (build)",
+   "width": 360,
+   "path": "(build)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the build record stopped at depth 3 at Open navigation menu > Online Store > Modele & Configurator"
+  },
+  {
+   "key": "state-missing@1440 BMW Logo [hover]",
+   "width": 1440,
+   "path": "BMW Logo",
+   "action": "hover",
+   "id": "state-missing",
+   "severity": "error",
+   "detail": "opens on hover on the source (0 links); the build control is a plain link to /ro"
+  },
+  {
+   "key": "motion@1440 MyBMW [click]",
+   "width": 1440,
+   "path": "MyBMW",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates zoomInOut; the build does not"
+  },
+  {
+   "key": "motion@1440 MyBMW [click]",
+   "width": 1440,
+   "path": "MyBMW",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates spin; the build does not"
+  },
+  {
+   "key": "panel-visual@360 MyBMW [click]",
+   "width": 360,
+   "path": "MyBMW",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 78.3% (bar 2%; source 312×761, build 328×183; texture 30% thick)"
+  },
+  {
+   "key": "panel-visual@360 MyBMW > Close navigation menu [click]",
+   "width": 360,
+   "path": "MyBMW > Close navigation menu",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 13.7% (bar 2%; source 360×68, build 360×68; texture 80% thick)"
+  },
+  {
+   "key": "panel-visual@360 Open navigation menu [click]",
+   "width": 360,
+   "path": "Open navigation menu",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 18.9% (bar 2%; source 360×491, build 312×500; texture 29% thick)"
+  },
+  {
+   "key": "panel-visual@360 Open navigation menu > Online Store [key]",
+   "width": 360,
+   "path": "Open navigation menu > Online Store",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 61.5% (bar 2%; source 360×775, build 294×394; texture 44% thick)"
+  },
+  {
+   "key": "panel-visual@360 Open navigation menu > Online Store > Close [click]",
+   "width": 360,
+   "path": "Open navigation menu > Online Store > Close",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 18.9% (bar 2%; source 360×491, build 312×500; texture 29% thick)"
+  },
+  {
+   "key": "panel-visual@360 Open navigation menu > Online Store > Modele & Configurator [key]",
+   "width": 360,
+   "path": "Open navigation menu > Online Store > Modele & Configurator",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 31.9% (bar 2%; source 360×775, build 294×736; texture 64% thick)"
+  },
+  {
+   "key": "panel-visual@360 Open navigation menu > Online Store > BMW Corporate & Special Sales [key]",
+   "width": 360,
+   "path": "Open navigation menu > Online Store > BMW Corporate & Special Sales",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 78.5% (bar 2%; source 360×775, build 294×216; texture 46% thick)"
+  },
+  {
+   "key": "panel-visual@360 Open navigation menu > Online Store > Servicii digitale & accesorii [key]",
+   "width": 360,
+   "path": "Open navigation menu > Online Store > Servicii digitale & accesorii",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 65.9% (bar 2%; source 360×775, build 294×346; texture 35% thick)"
+  },
+  {
+   "key": "panel-visual@360 Open navigation menu > Online Store > Servicii financiare [key]",
+   "width": 360,
+   "path": "Open navigation menu > Online Store > Servicii financiare",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 65.8% (bar 2%; source 360×775, build 294×346; texture 38% thick)"
+  },
+  {
+   "key": "panel-visual@360 Open navigation menu > Electromobilitate [key]",
+   "width": 360,
+   "path": "Open navigation menu > Electromobilitate",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 76.5% (bar 2%; source 360×775, build 294×240; texture 54% thick)"
+  },
+  {
+   "key": "panel-visual@360 Open navigation menu > Electromobilitate > Close [click]",
+   "width": 360,
+   "path": "Open navigation menu > Electromobilitate > Close",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 18.9% (bar 2%; source 360×491, build 312×500; texture 29% thick)"
+  },
+  {
+   "key": "panel-visual@360 Open navigation menu > Electromobilitate > Automobile electrice [key]",
+   "width": 360,
+   "path": "Open navigation menu > Electromobilitate > Automobile electrice",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 53.1% (bar 2%; source 360×775, build 294×476; texture 32% thick)"
+  },
+  {
+   "key": "panel-visual@360 Open navigation menu > Electromobilitate > Încărcare & autonomie [key]",
+   "width": 360,
+   "path": "Open navigation menu > Electromobilitate > Încărcare & autonomie",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 65.9% (bar 2%; source 360×775, build 294×346; texture 36% thick)"
+  },
+  {
+   "key": "panel-visual@360 Open navigation menu > Servicii și asistență [key]",
+   "width": 360,
+   "path": "Open navigation menu > Servicii și asistență",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 61.4% (bar 2%; source 360×775, build 294×394; texture 38% thick)"
+  },
+  {
+   "key": "panel-visual@360 Open navigation menu > Servicii și asistență > Close [click]",
+   "width": 360,
+   "path": "Open navigation menu > Servicii și asistență > Close",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 18.9% (bar 2%; source 360×491, build 312×500; texture 29% thick)"
+  },
+  {
+   "key": "panel-visual@360 Open navigation menu > Servicii și asistență > Asistență clienți [key]",
+   "width": 360,
+   "path": "Open navigation menu > Servicii și asistență > Asistență clienți",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 59.3% (bar 2%; source 360×775, build 294×411; texture 33% thick)"
+  },
+  {
+   "key": "panel-visual@360 Open navigation menu > Servicii și asistență > Service & asistență [key]",
+   "width": 360,
+   "path": "Open navigation menu > Servicii și asistență > Service & asistență",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 72.3% (bar 2%; source 360×775, build 294×281; texture 41% thick)"
+  },
+  {
+   "key": "panel-visual@360 Open navigation menu > Servicii și asistență > Servicii digitale & aplicații [key]",
+   "width": 360,
+   "path": "Open navigation menu > Servicii și asistență > Servicii digitale & aplicații",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 65.8% (bar 2%; source 360×775, build 294×346; texture 36% thick)"
+  },
+  {
+   "key": "panel-visual@360 Open navigation menu > Servicii și asistență > Garanții & campanii de rechemare [key]",
+   "width": 360,
+   "path": "Open navigation menu > Servicii și asistență > Garanții & campanii de rechemare",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 66.2% (bar 2%; source 360×775, build 294×346; texture 30% thick)"
+  },
+  {
+   "key": "panel-visual@360 Open navigation menu > Despre BMW [key]",
+   "width": 360,
+   "path": "Open navigation menu > Despre BMW",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 61.2% (bar 2%; source 360×775, build 294×394; texture 42% thick)"
+  },
+  {
+   "key": "panel-visual@360 Open navigation menu > Despre BMW > Close [click]",
+   "width": 360,
+   "path": "Open navigation menu > Despre BMW > Close",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 18.9% (bar 2%; source 360×491, build 312×500; texture 29% thick)"
+  },
+  {
+   "key": "panel-visual@360 Open navigation menu > Despre BMW > Brand & companie [key]",
+   "width": 360,
+   "path": "Open navigation menu > Despre BMW > Brand & companie",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 72.1% (bar 2%; source 360×775, build 294×281; texture 40% thick)"
+  },
+  {
+   "key": "panel-visual@360 Open navigation menu > Despre BMW > Lumea BMW [key]",
+   "width": 360,
+   "path": "Open navigation menu > Despre BMW > Lumea BMW",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 72.2% (bar 2%; source 360×775, build 294×281; texture 40% thick)"
+  },
+  {
+   "key": "panel-visual@360 Open navigation menu > Despre BMW > Tehnologii & inovaţii [key]",
+   "width": 360,
+   "path": "Open navigation menu > Despre BMW > Tehnologii & inovaţii",
+   "action": "key",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 65.7% (bar 2%; source 360×775, build 294×346; texture 35% thick)"
+  },
+  {
+   "key": "panel-visual@360 Open navigation menu > Close navigation menu [click]",
+   "width": 360,
+   "path": "Open navigation menu > Close navigation menu",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 30.7% (bar 2%; source 360×68, build 360×68; texture 92% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Online Store [click]",
+   "width": 1440,
+   "path": "Online Store",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 2.2% (bar 2%; source 1440×565, build 1440×565; texture 42% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Electromobilitate [click]",
+   "width": 1440,
+   "path": "Electromobilitate",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 2.1% (bar 2%; source 1440×421, build 1440×421; texture 38% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Servicii și asistență [click]",
+   "width": 1440,
+   "path": "Servicii și asistență",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 2.7% (bar 2%; source 1440×433, build 1440×433; texture 42% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Despre BMW [click]",
+   "width": 1440,
+   "path": "Despre BMW",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 2.5% (bar 2%; source 1440×349, build 1440×349; texture 42% thick)"
+  },
+  {
+   "key": "panel-visual@1440 MyBMW [click]",
+   "width": 1440,
+   "path": "MyBMW",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 2.1% (bar 2%; source 1440×347, build 1440×347; texture 41% thick)"
+  }
+ ]
+}
