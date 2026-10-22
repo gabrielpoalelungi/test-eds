@@ -1,0 +1,14 @@
+{
+  "model-cards": {
+    "origin": ".xftoggle .aem-Grid--4.aem-Grid--small--12",
+    "build": ".choice__cards > .mcard, .model-cards-list > .model-card",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "ro-index-html"
+    ],
+    "templates": [
+      "landing"
+    ]
+  }
+}

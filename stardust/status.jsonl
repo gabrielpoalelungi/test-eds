@@ -1,0 +1,48 @@
+{"ts":"2026-10-21T13:59:08Z","skill":"stardust:replica","phase":"extract","event":"start","detail":"Phase 1: extract --single --dynamics of https://www.bmw.ro/ro/index.html"}
+{"ts":"2026-10-21T13:59:19Z","skill":"stardust:extract","phase":"per-page-extraction","event":"start","detail":"crawl.mjs single page ro/index.html --dynamics"}
+{"ts":"2026-10-21T14:00:12Z","skill":"stardust:extract","phase":"per-page-extraction","event":"end","detail":"1/1 captured live (playwright, medium 2500ms, 200)"}
+{"ts":"2026-10-21T14:00:12Z","skill":"stardust:replica","phase":"extract","event":"end","detail":"1/1 live (ro-index-html, 200, medium). uncaptured first-level targets: none (bounded single-page run)"}
+{"ts":"2026-10-21T14:00:26Z","skill":"stardust:replica","phase":"preserve-direction","event":"start","detail":"bounded-single promotion: synthesize minimal spec from page JSON + CSS lift; register; dynamics triage"}
+{"ts":"2026-10-21T14:02:08Z","skill":"stardust:dynamics","phase":"detect","event":"start","detail":"archetype ro-index-html"}
+{"ts":"2026-10-21T14:02:38Z","skill":"stardust:dynamics","phase":"detect","event":"end","detail":"34 findings: 43 3rd-party hosts, 3 1st-party api, 0 forms, 4 media, 1 client-rendered"}
+{"ts":"2026-10-21T14:02:38Z","skill":"stardust:dynamics","phase":"triage","event":"start","detail":"draft + curate plan"}
+{"ts":"2026-10-21T14:04:30Z","skill":"stardust:dynamics","phase":"triage","event":"end","detail":"13 curated rows, all dispositioned; 1 decision batch (tags/CMP, personalization, account) as hands-off assumptions"}
+{"ts":"2026-10-21T14:13:38Z","skill":"stardust:replica","phase":"preserve-direction","event":"end","detail":"bounded-single spec synthesized (PRODUCT/DESIGN/DESIGN.json); register empty (pure replica); dynamics 13 rows dispositioned; gate widths 1440,360"}
+{"ts":"2026-10-21T14:13:52Z","skill":"stardust:replica","phase":"recreate","event":"start","detail":"archetype ro-index-html (landing): author prototype + gate 1440/360"}
+{"ts":"2026-10-21T14:55:03Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"ro-index-html 1440/360 (rounds ran inside recreate)"}
+{"ts":"2026-10-21T14:55:03Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"ro-index-html: gate.sh 1440 9.10%/Δh0, 360 9.62%/Δh0, 0 red, clip 0, overflow 0, cap-probe PASS; prototype table (hero video masked) 1440 3.02% PASS, 360 4.74% PASS"}
+{"ts":"2026-10-21T14:55:03Z","skill":"stardust:replica","phase":"recreate","event":"end","detail":"1/1 archetype gated + approved (hands-off): ro-index-html"}
+{"ts":"2026-10-21T14:55:22Z","skill":"stardust:replica","phase":"handoff","event":"start","detail":"migrate → deploy → rollout for ro-index-html; publish"}
+{"ts":"2026-10-21T14:56:57Z","skill":"stardust:migrate","phase":"plan","event":"start","detail":"1 approved archetype ro-index-html (landing), branch A"}
+{"ts":"2026-10-21T14:59:29Z","skill":"stardust:migrate","phase":"plan","event":"end","detail":"1 page, 0 collisions","artifact":"stardust/migrate/progress.json"}
+{"ts":"2026-10-21T14:59:29Z","skill":"stardust:migrate","phase":"render","event":"start","detail":"ro-index-html branch A"}
+{"ts":"2026-10-21T14:59:48Z","skill":"stardust:migrate","phase":"render","event":"end","detail":"rendered 1, unchanged 0, refused 0, passthrough 0","artifact":"stardust/migrated/ro/_meta.json"}
+{"ts":"2026-10-21T14:59:48Z","skill":"stardust:migrate","phase":"assets","event":"start","detail":"bundle check (no rehost in migrate; DA media upload happens at deploy)"}
+{"ts":"2026-10-21T14:59:57Z","skill":"stardust:migrate","phase":"assets","event":"end","detail":"26 bundled, 0 missing, selfContained; no rehost (DA media at deploy)"}
+{"ts":"2026-10-21T14:59:57Z","skill":"stardust:migrate","phase":"state-and-report","event":"start"}
+{"ts":"2026-10-21T14:59:57Z","skill":"stardust:migrate","phase":"state-and-report","event":"end","detail":"1/1 migrated (archetype), 0 refused","artifact":"stardust/state.json"}
+{"ts":"2026-10-21T15:00:02Z","skill":"stardust:rollout","phase":"A-inventory","event":"start"}
+{"ts":"2026-10-21T15:00:26Z","skill":"stardust:rollout","phase":"A-inventory","event":"end","detail":"1 page, 1 template; da aemcoder/bad0ba01@main","artifact":"stardust/rollout/coverage/pages.json"}
+{"ts":"2026-10-21T15:00:26Z","skill":"stardust:rollout","phase":"B-block","event":"start"}
+{"ts":"2026-10-21T15:00:33Z","skill":"stardust:rollout","phase":"B-block","event":"end","detail":"4 distinct blocks (hero, model-cards, teaser, wallbox), 4 conversions on 1 page","artifact":"stardust/rollout/plan.json"}
+{"ts":"2026-10-21T15:00:33Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"start"}
+{"ts":"2026-10-21T15:01:08Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"end","detail":"13 rows verified vs fresh detect (34 findings, 0 new rows); host-bound 3/3","artifact":"stardust/dynamic-features.md"}
+{"ts":"2026-10-21T15:01:11Z","skill":"stardust:rollout","phase":"C-deliver","event":"start","detail":"units: foundation (C0) → archetype landing"}
+{"ts":"2026-10-21T16:50:17Z","skill":"stardust:rollout","phase":"C-deliver","event":"end","detail":"foundation + archetype-landing + cluster landing + gate-all + final done; /ro/ live; gate 1440 1.66% / 360 4.86% PASS"}
+{"ts":"2026-10-21T16:50:27Z","skill":"stardust:rollout","phase":"D-site","event":"start","detail":"sitemap/robots, redirects sheet (/ → /ro/), chrome noindex, verify-origin"}
+{"ts":"2026-10-21T16:51:27Z","skill":"stardust:rollout","phase":"D-site","event":"end","detail":"sitemap served 1 = assembled 1; redirects wired (/, /index.html, /ro/index.html → /ro/); / 200"}
+{"ts":"2026-10-21T16:52:06Z","skill":"stardust:rollout","phase":"D2-dynamic","event":"start","detail":"parity rows for the 13 dispositioned features; replay on live host"}
+{"ts":"2026-10-21T16:53:16Z","skill":"stardust:rollout","phase":"D2-dynamic","event":"end","detail":"parity 5/5 PASS on aem.live (video plays, info-i, nav, consent-gate, no errors); rows 6-10,13 interim awaiting owner"}
+{"ts":"2026-10-21T16:53:25Z","skill":"stardust:rollout","phase":"E-full-site","event":"start","detail":"verify.mjs on aem.live + coverage gate"}
+{"ts":"2026-10-21T16:53:31Z","skill":"stardust:rollout","phase":"E-full-site","event":"end","detail":"1/1 verified (aem.live); gate pass 1440+360; hero video playing"}
+{"ts":"2026-10-21T16:53:41Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"start","detail":"localize-links check over content (nav, footer, /ro/)"}
+{"ts":"2026-10-21T16:54:04Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"end","detail":"check PASS; nav logo → /ro/ republished; 59 out-of-scope targets kept on source (direction.md)"}
+{"ts":"2026-10-21T16:54:12Z","skill":"stardust:rollout","phase":"F-optimize","event":"start","detail":"optimize.mjs on aem.live"}
+{"ts":"2026-10-21T16:54:19Z","skill":"stardust:rollout","phase":"F-optimize","event":"end","detail":"health 90; P1 0 · P2 1 (jsonld) · P3 0; gate PASS"}
+{"ts":"2026-10-21T16:54:27Z","skill":"stardust:rollout","phase":"G-aem","event":"start","detail":"autofix-aem for fixable findings (P2 jsonld)"}
+{"ts":"2026-10-21T16:57:30Z","skill":"stardust:rollout","phase":"G-aem","event":"end","detail":"jsonld fixed via metadata row; optimize 100/100, 0 open; verify 1/1"}
+{"ts":"2026-10-21T16:57:39Z","skill":"stardust:rollout","phase":"H-report","event":"start"}
+{"ts":"2026-10-21T17:04:03Z","skill":"stardust:rollout","phase":"H-report","event":"end","detail":"1/1 live+verified; gate 1440 1.66% / 360 4.86% PASS; optimize 100; header parity 32 undecided visual (0 behavioural)"}
+{"ts":"2026-10-21T17:04:13Z","skill":"stardust:rollout","phase":"I-dashboard","event":"start"}
+{"ts":"2026-10-21T17:04:18Z","skill":"stardust:rollout","phase":"I-dashboard","event":"end","detail":"dashboard: 1 page identified/prototyped/deployed/optimised"}
+{"ts":"2026-10-21T17:04:31Z","skill":"stardust:replica","phase":"handoff","event":"end","detail":"1/1 page live + verified on aem.live (/ → /ro/); gate 1440 1.66% / 360 4.86% PASS; optimize 100; done-check complete"}

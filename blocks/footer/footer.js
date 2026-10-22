@@ -1,117 +1,99 @@
-/**
- * Fetches the footer fragment: /content first (local preview), then site root (DA/EDS).
- * @returns {Promise<Element|null>} container holding the footer sections
- */
-async function fetchFooter() {
-  let resp = await fetch('/content/footer.plain.html');
-  if (!resp.ok) resp = await fetch('/footer.plain.html');
-  if (!resp.ok) return null;
-  const container = document.createElement('div');
-  container.innerHTML = await resp.text();
-  // images in the fragment are relative to the fragment location
-  const base = new URL(resp.url);
-  container.querySelectorAll('img[src]').forEach((img) => {
-    img.src = new URL(img.getAttribute('src'), base).href;
+import { getMetadata } from '../../scripts/aem.js';
+import { loadFragment } from '../fragment/fragment.js';
+import ico from '../../scripts/icons.js';
+
+// BMW footer, rebuilt from /footer: an AI-notice section (icon + text), one section per
+// link column (h3 + list pairs), a social section (image links) and a legal list.
+// Sections are recognised by content, so authors can add or drop a column.
+
+function el(tag, attrs = {}, ...children) {
+  const node = document.createElement(tag);
+  Object.entries(attrs).forEach(([k, v]) => node.setAttribute(k, v));
+  node.append(...children.filter(Boolean));
+  return node;
+}
+
+function contentOf(section) {
+  return section.querySelector('.default-content-wrapper') || section;
+}
+
+function buildAiNote(section) {
+  const wrap = contentOf(section);
+  const icon = wrap.querySelector('.icon img');
+  const media = el('div', { class: 'ai-note-media' });
+  if (icon) {
+    icon.alt = icon.dataset.iconName || '';
+    icon.width = 40;
+    icon.height = 40;
+    media.append(icon);
+  }
+  const text = el('div', { class: 'ai-note-text' });
+  [...wrap.children].forEach((child) => {
+    if (child.textContent.trim()) text.append(child);
+  });
+  return el('div', { class: 'ai-note' }, media, text);
+}
+
+/** live markup wraps every footer link label (and the copyright) in a <span> */
+function wrapLabels(ul) {
+  ul.querySelectorAll(':scope > li').forEach((li) => {
+    const target = li.querySelector('a') || li;
+    if (target.querySelector('img, span')) return;
+    const span = document.createElement('span');
+    span.append(...target.childNodes);
+    target.append(span);
+  });
+}
+
+function buildColumn(section) {
+  const col = el('div', { class: 'footer-col' });
+  const wrap = contentOf(section);
+  let flist = null;
+  [...wrap.children].forEach((child) => {
+    if (/^H[1-6]$/.test(child.tagName)) {
+      const title = el('h3', { class: 'flist-title', tabindex: '0', 'aria-expanded': 'false' });
+      title.append(...child.childNodes, ico('chevron-down'));
+      flist = el('div', { class: 'flist' }, title);
+      col.append(flist);
+      const toggle = () => title.setAttribute(
+        'aria-expanded',
+        String(title.getAttribute('aria-expanded') !== 'true'),
+      );
+      title.addEventListener('click', toggle);
+      title.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          toggle();
+        }
+      });
+    } else if (child.tagName === 'UL' && flist) {
+      child.classList.add('flist-items');
+      wrapLabels(child);
+      flist.append(child);
+    }
+  });
+  return col;
+}
+
+function buildSocial(section) {
+  const ul = contentOf(section).querySelector('ul');
+  ul.className = 'social';
+  ul.querySelectorAll('a').forEach((a) => {
+    const img = a.querySelector('img');
+    if (!img) return;
+    if (!a.getAttribute('aria-label')) a.setAttribute('aria-label', `BMW ${img.alt}`.trim());
+    img.width = 30;
+    img.height = 30;
     img.loading = 'lazy';
   });
-  return container;
+  return ul;
 }
 
-/**
- * Opens off-site links in a new tab.
- * @param {Element} root element containing links
- */
-function decorateLinks(root) {
-  root.querySelectorAll('a[href]').forEach((a) => {
-    const url = new URL(a.href, window.location.href);
-    const external = url.hostname !== window.location.hostname && !url.hostname.endsWith('kfc.ro');
-    if (external) a.target = '_blank';
-    if (a.target === '_blank') a.rel = 'noopener';
-  });
-}
-
-/**
- * Builds a link column from a section with a heading.
- * @param {Element} section footer section
- */
-function buildColumn(section) {
-  const column = document.createElement('nav');
-  column.className = 'footer-column';
-  const heading = section.querySelector('h2');
-  if (heading) {
-    heading.className = 'footer-column-title';
-    column.setAttribute('aria-label', heading.textContent.trim());
-  }
-  const lists = section.querySelectorAll(':scope > ul');
-  if (lists.length > 1) {
-    const group = document.createElement('div');
-    group.className = 'footer-link-columns';
-    group.append(...lists);
-    section.append(group);
-  }
-  // consecutive image-link paragraphs (badges) sit on one row
-  let badges = null;
-  [...section.children].forEach((el) => {
-    const isBadge = el.tagName === 'P' && el.querySelector('a > img') && !el.textContent.trim();
-    if (isBadge) {
-      if (!badges) {
-        badges = document.createElement('div');
-        badges.className = 'footer-badges';
-        el.before(badges);
-      }
-      badges.append(el);
-    } else {
-      badges = null;
-    }
-  });
-  section.querySelectorAll(':scope > p').forEach((p) => p.classList.add('footer-text'));
-  column.append(...section.childNodes);
-  return column;
-}
-
-/**
- * Builds the bottom band: brand logo, brand marks and social icons.
- * @param {Element} section footer section
- */
-function buildBottom(section) {
-  const bottom = document.createElement('div');
-  bottom.className = 'footer-bottom';
-  const logo = document.createElement('div');
-  logo.className = 'footer-logo';
-  const marks = document.createElement('div');
-  marks.className = 'footer-marks';
-  [...section.children].forEach((el) => {
-    if (el.tagName === 'UL') {
-      el.className = 'footer-social';
-      el.querySelectorAll('a').forEach((a) => a.setAttribute('aria-label', a.querySelector('img')?.alt || a.href));
-    } else if (el.querySelector('a > img')) {
-      logo.append(el);
-    } else if (el.querySelector('img')) {
-      el.className = 'footer-mark';
-      marks.append(el);
-    }
-  });
-  bottom.append(logo, marks, ...section.querySelectorAll('.footer-social'));
-  return bottom;
-}
-
-/**
- * Builds the floating back-to-top button from a section holding a "#" link.
- * @param {Element} section footer section
- */
-function buildBackToTop(section) {
-  const link = section.querySelector('a');
-  const button = document.createElement('button');
-  button.type = 'button';
-  button.className = 'footer-back-to-top';
-  button.setAttribute('aria-label', link.textContent.trim());
-  const icon = link.querySelector('img');
-  if (icon) button.append(icon);
-  button.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
-  const toggle = () => button.classList.toggle('is-visible', window.scrollY > 300);
-  window.addEventListener('scroll', toggle, { passive: true });
-  toggle();
-  return button;
+function buildLegal(section) {
+  const ul = contentOf(section).querySelector('ul');
+  ul.className = 'legal';
+  wrapLabels(ul);
+  return ul;
 }
 
 /**
@@ -119,29 +101,23 @@ function buildBackToTop(section) {
  * @param {Element} block The footer block element
  */
 export default async function decorate(block) {
-  const fragment = await fetchFooter();
+  const footerMeta = getMetadata('footer');
+  const footerPath = footerMeta ? new URL(footerMeta, window.location).pathname : '/footer';
+  const fragment = await loadFragment(footerPath);
+  const sections = fragment ? [...fragment.querySelectorAll(':scope > .section')] : [];
+
   block.textContent = '';
-  if (!fragment) return;
-
-  const inner = document.createElement('div');
-  inner.className = 'footer-inner';
-  const top = document.createElement('div');
-  top.className = 'footer-top';
-  let backToTop;
-
-  [...fragment.children].filter((el) => el.tagName === 'DIV').forEach((section) => {
-    const links = section.querySelectorAll('a');
-    if (section.querySelector('h2')) {
-      top.append(buildColumn(section));
-    } else if (links.length === 1 && links[0].getAttribute('href') === '#') {
-      backToTop = buildBackToTop(section);
-    } else {
-      inner.append(buildBottom(section));
-    }
+  const panel = el('div', { class: 'footer-panel' });
+  const cols = el('div', { class: 'footer-cols' });
+  let ai = null;
+  let social = null;
+  let legal = null;
+  sections.forEach((section) => {
+    if (section.querySelector('.icon-ai-label')) ai = buildAiNote(section);
+    else if (section.querySelector('h1, h2, h3, h4, h5, h6')) cols.append(buildColumn(section));
+    else if (section.querySelector('ul a img')) social = buildSocial(section);
+    else if (section.querySelector('ul')) legal = buildLegal(section);
   });
-
-  inner.prepend(top);
-  decorateLinks(inner);
-  block.append(inner);
-  if (backToTop) block.append(backToTop);
+  panel.append(...[ai, cols, social, legal].filter(Boolean));
+  block.append(panel, el('div', { class: 'footer-tail' }));
 }

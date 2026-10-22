@@ -1,0 +1,34 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-21T15:00:03.034Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-21T16:57:30.139Z",
+  "templates": [
+    {
+      "id": "ro-index-html",
+      "representativeSlug": "ro-index-html",
+      "pages": [
+        "ro-index-html"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "hero",
+        "model-cards",
+        "teaser",
+        "wallbox"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}
