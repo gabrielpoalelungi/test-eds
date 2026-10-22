@@ -1,0 +1,274 @@
+{
+  "live": "stardust/replica/motion/ro-index-html.json",
+  "build": "stardust/replica/motion/ro-index-html-build.json",
+  "toleranceMs": 150,
+  "tolerancePx": 8,
+  "advisory": true,
+  "findings": 19,
+  "counts": {
+    "behaviors": 36,
+    "parity": 8,
+    "missing": 18,
+    "extra": 0,
+    "tolerance": 1,
+    "dead": 5,
+    "advisory": 4
+  },
+  "verdicts": [
+    {
+      "cls": "header",
+      "name": "scroll-morph",
+      "state": "dead",
+      "note": "header static across the scroll traversal on both sides",
+      "line": "motion header scroll-morph: dead on live — not required (header static across the scroll traversal on both sides)"
+    },
+    {
+      "cls": "widget",
+      "name": ".cmp-progressiveplaybutton → .hero__play",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .cmp-progressiveplaybutton → .hero__play: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": ".cmp-infoi__icon → .infoi__btn",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .cmp-infoi__icon → .infoi__btn: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": "button.cmp-globalnavigation__interaction[aria-label='Online Store'] → .gnav__link[aria-label='Online Store']",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget button.cmp-globalnavigation__interaction[aria-label='Online Store'] → .gnav__link[aria-label='Online Store']: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": ".cmp-stickysidebar__button → .assist__btn",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .cmp-stickysidebar__button → .assist__btn: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "hover",
+      "name": ".cmp-button → .btn",
+      "state": "advisory",
+      "note": "no hover diff on live; build changes self.background — live mechanics may be invisible to the hover probe (pseudo-element underlines, text-decoration, border-color) — confirm on the element before treating it as invented",
+      "line": "motion hover .cmp-button → .btn: extra on build — advisory (no hover diff on live; build changes self.background — live mechanics may be invisible to the hover probe (pseudo-element underlines, text-decoration, border-color) — confirm on the element before treating it as invented)"
+    },
+    {
+      "cls": "hover",
+      "name": ".cmp-list__item-link → .flist__items a",
+      "state": "parity",
+      "note": "self.color; n/a; paired by order",
+      "line": "motion hover .cmp-list__item-link → .flist__items a: parity (self.color; n/a; paired by order)"
+    },
+    {
+      "cls": "entrance",
+      "name": "effect-enter",
+      "state": "parity",
+      "note": "fired on 2 element(s)",
+      "line": "motion entrance effect-enter: parity (fired on 2 element(s))"
+    },
+    {
+      "cls": "entrance",
+      "name": "effect-exit",
+      "state": "parity",
+      "note": "fired on 2 element(s)",
+      "line": "motion entrance effect-exit: parity (fired on 2 element(s))"
+    },
+    {
+      "cls": "entrance",
+      "name": "effect-grow",
+      "state": "parity",
+      "note": "fired on 1 element(s)",
+      "line": "motion entrance effect-grow: parity (fired on 1 element(s))"
+    },
+    {
+      "cls": "entrance",
+      "name": "effect-shrink",
+      "state": "parity",
+      "note": "fired on 1 element(s)",
+      "line": "motion entrance effect-shrink: parity (fired on 1 element(s))"
+    },
+    {
+      "cls": "entrance",
+      "name": "pulse-double",
+      "state": "missing",
+      "note": "fired on 1 element(s) on live",
+      "line": "motion entrance pulse-double: MISSING on build (fired on 1 element(s) on live)"
+    },
+    {
+      "cls": "transition",
+      "name": "background-color",
+      "state": "parity",
+      "note": "1 event(s) on live, 4 on build, 50ms",
+      "line": "motion transition background-color: parity (1 event(s) on live, 4 on build, 50ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "opacity",
+      "state": "parity",
+      "note": "11 event(s) on live, 3 on build, 500ms",
+      "line": "motion transition opacity: parity (11 event(s) on live, 3 on build, 500ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "transform",
+      "state": "tolerance",
+      "deltas": [
+        "timing delta 250ms > 150ms [longest duration: live 250ms, build 500ms]"
+      ],
+      "note": "1 event(s) on live, 1 on build",
+      "line": "motion transition transform: timing delta 250ms > 150ms [longest duration: live 250ms, build 500ms] (1 event(s) on live, 1 on build)"
+    },
+    {
+      "cls": "transition",
+      "name": "visibility",
+      "state": "parity",
+      "note": "2 event(s) on live, 2 on build, 250ms",
+      "line": "motion transition visibility: parity (2 event(s) on live, 2 on build, 250ms)"
+    },
+    {
+      "cls": "class",
+      "name": "cmp-globalnavigation--display-block",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class cmp-globalnavigation--display-block: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "cmp-globalnavigation--open",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class cmp-globalnavigation--open: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "cmp-globalnavigation--solid-white",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class cmp-globalnavigation--solid-white: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "cmp-globalnavigation__flyout--visible",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class cmp-globalnavigation__flyout--visible: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "cmp-globalnavigation__flyout-layer--visible",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class cmp-globalnavigation__flyout-layer--visible: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "cmp-globalnavigation__flyout-wrapper--visible",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class cmp-globalnavigation__flyout-wrapper--visible: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "cmp-globalnavigation__interaction--active",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class cmp-globalnavigation__interaction--active: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "cmp-scroll-indicator",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class cmp-scroll-indicator: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "cmp-video__video--is-paused",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class cmp-video__video--is-paused: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "cmp-video__video--is-playing",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class cmp-video__video--is-playing: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "fadein",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class fadein: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "fadeout",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class fadeout: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "hidden",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class hidden: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-playing",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class is-playing: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "position-relative",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class position-relative: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "tooltip--keyboard-support",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class tooltip--keyboard-support: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-leaving",
+      "state": "advisory",
+      "note": "added 1× on build, never on live — check it drives no invented behavior",
+      "line": "motion class is-leaving: extra on build — advisory (added 1× on build, never on live — check it drives no invented behavior)"
+    },
+    {
+      "cls": "class",
+      "name": "is-open",
+      "state": "advisory",
+      "note": "added 3× on build, never on live — check it drives no invented behavior",
+      "line": "motion class is-open: extra on build — advisory (added 3× on build, never on live — check it drives no invented behavior)"
+    },
+    {
+      "cls": "class",
+      "name": "is-visible",
+      "state": "advisory",
+      "note": "added 1× on build, never on live — check it drives no invented behavior",
+      "line": "motion class is-visible: extra on build — advisory (added 1× on build, never on live — check it drives no invented behavior)"
+    },
+    {
+      "cls": "media",
+      "name": "video#1 8e372fb7-84be-4fdf-a0af-6d694fafc7be",
+      "state": "missing",
+      "note": "live playing, build paused (readyState 0) — the capture freeze is not the spec",
+      "line": "motion media video#1 8e372fb7-84be-4fdf-a0af-6d694fafc7be: MISSING on build (live playing, build paused (readyState 0) — the capture freeze is not the spec)"
+    }
+  ]
+}

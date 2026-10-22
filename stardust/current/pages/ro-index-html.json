@@ -1,0 +1,1202 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-21T13:59:33.294Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "ro-index-html",
+  "url": "https://www.bmw.ro/ro/index.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-21T13:59:33.294Z",
+  "finalUrl": "https://www.bmw.ro/ro/index.html",
+  "title": "BMW România: Automobile Premium și tehnologii inovatoare",
+  "description": "Bine ai venit pe site-ul oficial BMW România: descoperă automobile premium, oferte exclusive, tehnologii inovatoare și servicii personalizate.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": "https://www.bmw.ro",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "NOUL BMW iX4"
+    },
+    {
+      "tag": "h2",
+      "text": "Alege modelul BMW preferat."
+    },
+    {
+      "tag": "h3",
+      "text": "Configurator."
+    },
+    {
+      "tag": "h3",
+      "text": "Modele BMW noi."
+    },
+    {
+      "tag": "h3",
+      "text": "Modele BMW rulate."
+    },
+    {
+      "tag": "h2",
+      "text": "Noul BMW iX5."
+    },
+    {
+      "tag": "h2",
+      "text": "Noul BMW i3 Sedan."
+    },
+    {
+      "tag": "h2",
+      "text": "BMW iX3 40. Energie nouă pentru viitor."
+    },
+    {
+      "tag": "h2",
+      "text": "Wallbox BMW."
+    },
+    {
+      "tag": "h3",
+      "text": "Contact şi informaţii"
+    },
+    {
+      "tag": "h3",
+      "text": "Despre BMW"
+    },
+    {
+      "tag": "h3",
+      "text": "Asistenţă şi service"
+    },
+    {
+      "tag": "h3",
+      "text": "Alege și comandă"
+    },
+    {
+      "tag": "h3",
+      "text": "Modele"
+    },
+    {
+      "tag": "h3",
+      "text": "Automobile electrice BMW"
+    }
+  ],
+  "body": [
+    "O DECLARAŢIE DE ENERGIE.",
+    "BMW iX4 50 xDrive: consum de energie electrică, combinat WLTP în kWh/100 km: 19–15,7; autonomie electrică, WLTP în km: 680–828",
+    "Creat pentru a fi lider.",
+    "BMW iX5 60 xDrive: consum de energie electrică, combinat WLTP în kWh/100 km: 22,5–19,3; autonomie electrică, WLTP în km: 724–850",
+    "Simte pulsul unei noi ere.",
+    "455€*",
+    "+ TVA",
+    "BMW i3 50 xDrive Sedan: consum de energie electrică, combinat WLTP în kWh/100 km: 18–13,4; autonomie electrică, WLTP în km: 729–912",
+    "*Rata lunară afișată este valabilă pentru versiunea BMW i3 40 xDrive, care diferă din punct de vedere al specificațiilor tehnice și al prețului de versiunea BMW i3 50 xDrive. Pe pagina dedicată modelului BMW i3 este prezentată în principal versiunea BMW i3 50 xDrive.",
+    "Descoperă avantajele: termen scurt de livrare, dobândă fixă 0% și pachet M Sport inclus.",
+    "BMW iX3 40: consum de energie electrică, combinat WLTP în kWh/100 km: 16,4–14,5; autonomie electrică, WLTP în km: 566–637",
+    "Wallbox-ul BMW este creat cu tehnologii avansate pentru încărcărea eficientă a modelului tău BMW. Acest încărcător este de tip 4 și se instalează în garaj pentru încărcare rapidă ori de câte ori este nevoie."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Modele",
+      "href": "/ro/all-models.html"
+    },
+    {
+      "label": "Online Store",
+      "href": null
+    },
+    {
+      "label": "Electromobilitate",
+      "href": null
+    },
+    {
+      "label": "Servicii și asistență",
+      "href": null
+    },
+    {
+      "label": "Despre BMW",
+      "href": null
+    },
+    {
+      "label": "Configurator și preț",
+      "href": "https://configure.bmw.ro/ro_RO/configure/NA7/21HU/FSFK3,P0C7V,S01DG,S0230,S02PA,S02VB,S02VD,S02VF,S02XH,S0302,S03DP,S03M1,S03TS,S0408,S0420,S0428,S0494,S04FM,S04T2,S04U6,S04UR,S0534,S0548,S05AT,S05AV,S05BB,S0617,S061B,S0654,S0674,S06AE,S06AF,S06D5,S06NY,S0851,S0879,S08R3,S08TF,S0901,S0991,S09AD,S09T1,S09T2,CTRLLIGHTSON"
+    },
+    {
+      "label": "Descoperă mai mult",
+      "href": "/ro/all-models/seria-x/suv/bmw-ix4.html"
+    },
+    {
+      "label": "Configurator şi preţ",
+      "href": "/ro/configurator.html"
+    },
+    {
+      "label": "Căutare",
+      "href": "https://www.bmw.ro/ro-ro/sl/stocklocator#/results"
+    },
+    {
+      "label": "Căutare",
+      "href": "https://oferte.bmw.ro/rulate"
+    },
+    {
+      "label": "Configurator și preț",
+      "href": "https://configure.bmw.ro/ro_RO/configure/G65/61HV/FSKFU,P0C8A,S0223,S02PA,S02VB,S02VD,S02VR,S02Z2,S0319,S032A,S0337,S03CD,S03CK,S03M1,S03MC,S03QN,S0413,S0417,S0420,S0428,S042A,S0453,S04FM,S04HC,S04NB,S04T2,S04T7,S05AT,S05BA,S05BB,S05DN,S05DW,S06AC,S06AE,S06F4,S06NY,S06UV,S06WF,S0776,S07ES,S09T1,S09T2,S09TA,S0A6D,CTRLLIGHTSON"
+    },
+    {
+      "label": "Descoperă mai mult",
+      "href": "/ro/all-models/seria-x/suv/bmw-ix5.html"
+    },
+    {
+      "label": "Configurator și preț",
+      "href": "https://configure.bmw.ro/ro_RO/configure/NA0G50/51JB/FSFI7,P0C89,S0230,S0248,S02PA,S02VB,S02VD,S02VF,S02XH,S0302,S0316,S0337,S03DP,S03M1,S03T5,S0408,S0428,S0494,S04FM,S04T2,S04T5,S04U6,S04UR,S0534,S0548,S05AT,S05BB,S05DN,S05DW,S05E1,S0617,S061B,S0654,S0674,S06AE,S06AF,S06D5,S06NY,S07EW,S0851,S0879,S09T1,S09T2,CTRLLIGHTSON"
+    },
+    {
+      "label": "Descoperă mai mult",
+      "href": "/ro/all-models/3-series/sedan/bmw-i3-sedan.html"
+    },
+    {
+      "label": "Solicită o ofertă",
+      "href": "https://www.bmw.ro/faas/form/ro-ro/bmw/rfo/cerere-de-oferta.html?modelRange=NA5&modelCode=11HR"
+    },
+    {
+      "label": "Descoperă mai mult",
+      "href": "/ro/all-models/seria-x/ix3/bmw-ix3.html"
+    },
+    {
+      "label": "Detalii",
+      "href": "/ro/modele-electrice/bmw-wallbox-plus-gen-4.html"
+    },
+    {
+      "label": "Asistență și Contact",
+      "href": "https://www.bmw.ro/ro/more-bmw/asistenta-clienti.html"
+    },
+    {
+      "label": "Contactează-ne",
+      "href": "https://www.bmw.ro/faas/form/ro-ro/bmw/rfc/request-for-contact.html"
+    },
+    {
+      "label": "Caută un partener BMW",
+      "href": "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html"
+    },
+    {
+      "label": "Asistenţă în caz de accident",
+      "href": "https://www.bmw.ro/ro/bmw-service.html"
+    },
+    {
+      "label": "Cere o ofertă",
+      "href": "https://www.bmw.ro/faas/form/ro-ro/bmw/rfo/cerere-de-oferta.html?midstatic=4g0agj01ba51d05hb9aar"
+    },
+    {
+      "label": "Despre noi",
+      "href": "/ro/footer/metanavigation/legal-notice-pool/imprint.html"
+    },
+    {
+      "label": "Cariere",
+      "href": "/ro/footer/bmw-explore/cariere.html"
+    },
+    {
+      "label": "Despre BMW Group",
+      "href": "https://www.bmwgroup.com/en.html"
+    },
+    {
+      "label": "Programare în service",
+      "href": "/ro/topics/offers-and-services/personal-services/programare-online.html"
+    },
+    {
+      "label": "Aplicaţia My BMW",
+      "href": "https://www.bmw.ro/ro/digital-services/bmw-connecteddrive.html#toate-aplicatiile"
+    },
+    {
+      "label": "Connected Drive",
+      "href": "/ro/digital-services/bmw-connecteddrive.html"
+    },
+    {
+      "label": "BMW Driver's Guide",
+      "href": "https://geni.us/driversguide?foo=.html"
+    },
+    {
+      "label": "Garanția BMW",
+      "href": "/ro/campaigns/garantie-bmw.html"
+    },
+    {
+      "label": "Modele BMW",
+      "href": "/ro/all-models.html"
+    },
+    {
+      "label": "Configurator",
+      "href": "/ro/configurator.html"
+    },
+    {
+      "label": "Stoc automobile noi",
+      "href": "https://www.bmw.ro/ro-ro/sl/stocklocator#/results"
+    },
+    {
+      "label": "Automobile rulate",
+      "href": "https://oferte.bmw.ro/rulate"
+    },
+    {
+      "label": "Accesorii BMW",
+      "href": "https://www.bmw.ro/ro/shop/ls/cp/physical-goods/BF_ACCESSORY"
+    },
+    {
+      "label": "BMW Connected Drive",
+      "href": "https://www.bmw.ro/ro/shop/ls/cp/connected-drive"
+    },
+    {
+      "label": "Servicii financiare BMW",
+      "href": "/ro/bmw-financial-services.html"
+    },
+    {
+      "label": "Comparație automobile",
+      "href": "/ro/compara%C8%9Bie-modele-bmw.html"
+    },
+    {
+      "label": "Solicită un test drive",
+      "href": "https://www.bmw.ro/faas/form/ro-ro/bmw/tda/test-drive-request.html?midstatic=4g0agj01ba51d05hb9aar"
+    },
+    {
+      "label": "Lista de favorite",
+      "href": "https://customer.bmwgroup.com/oneid/"
+    },
+    {
+      "label": "Modele BMW",
+      "href": "/ro/all-models.html"
+    },
+    {
+      "label": "BMW Seria 7",
+      "href": "/ro/all-models/seria-7/sedan/bmw-seria-7-sedan.html"
+    },
+    {
+      "label": "BMW Seria 5",
+      "href": "https://www.bmw.ro/content/bmw/marketRO/bmw_ro/ro/all-models/bmw-seria-5-prezentare-generala/sedan/bmw-seria-5-sedan-sumar.html"
+    },
+    {
+      "label": "BMW Seria 4",
+      "href": "/ro/all-models/4-series/gran-coupe/bmw-4-series-gran-coupe.html"
+    },
+    {
+      "label": "BMW Seria 3",
+      "href": "/ro/all-models/3-series/bmw-3-series-touring/bmw-3-series-touring.html"
+    },
+    {
+      "label": "BMW Seria 2",
+      "href": "/ro/all-models/2-series/seria-2-coupe/bmw-seria-2-coupe.html"
+    },
+    {
+      "label": "BMW Seria 1",
+      "href": "/ro/all-models/1-series/bmw-1-series/bmw-seria-1.html"
+    },
+    {
+      "label": "BMW Luxury",
+      "href": "/ro/more-bmw/automobile-exclusiviste-bmw.html"
+    },
+    {
+      "label": "BMW Protection",
+      "href": "/ro/more-bmw/bmw-special-sales/bmw-protection-vehicles.html"
+    },
+    {
+      "label": "Automobile electrice BMW",
+      "href": "/ro/modele-electrice.html"
+    },
+    {
+      "label": "Încărcare publică pentru modelele electrice",
+      "href": "/ro/modele-electrice/incarcare-publica.html"
+    },
+    {
+      "label": "Încărcare la domiciliu",
+      "href": "/ro/modele-electrice/incarcare-domiciliu.html"
+    },
+    {
+      "label": "Autonomie automobile electrice",
+      "href": "/ro/modele-electrice/autonomie-masini-electrice.html"
+    },
+    {
+      "label": "Costuri automobile electrice",
+      "href": "/ro/modele-electrice/costuri-masini-electrice.html"
+    },
+    {
+      "label": "Automobile Plug-in-hybrid",
+      "href": "/ro/modele-electrice/plug-in-hybrid.html"
+    },
+    {
+      "label": "Accesibilitate",
+      "href": "/ro/footer/metanavigation/accesibilitate-bmw.html"
+    },
+    {
+      "label": "Avertizare legală",
+      "href": "/ro/footer/metanavigation/legal-disclaimer-pool/legal-disclaimer.html"
+    },
+    {
+      "label": "Politica de confidenţialitate",
+      "href": "/ro/footer/metanavigation/data-privacy.html"
+    },
+    {
+      "label": "Politica de cookie-uri",
+      "href": "/ro/footer/footer-section/politica-de-cookie.html"
+    },
+    {
+      "label": "Regulamentul privind serviciile digitale",
+      "href": "/ro/more-bmw/digital-services-act.html"
+    },
+    {
+      "label": "Regulamentul general privind siguranța produselor",
+      "href": "/ro/footer/metanavigation/legal-disclaimer-pool/note-legale.html"
+    },
+    {
+      "label": "Regulamentul UE privind bateriile",
+      "href": "https://www.bmw.ro/ro/footer/metanavigation/regulament-baterii.html"
+    },
+    {
+      "label": "Retragere din contract",
+      "href": "https://ipm.bmw.com/lean-ipm/digitalhub_dcdc/rfcn_bmw_ro"
+    },
+    {
+      "label": "Hartă website",
+      "href": "/ro/publicPools/sitemap/sitemap.html"
+    },
+    {
+      "label": "Protecția consumatorilor",
+      "href": "https://reclamatiisal.anpc.ro/"
+    }
+  ],
+  "links": [
+    "https://www.bmw.ro/ro/index.html#main",
+    "https://www.bmw.ro/ro/index.html",
+    "https://www.bmw.ro/ro/all-models.html",
+    "https://www.bmw.ro/ro/shop/ls/cart",
+    "https://www.bmw.ro/ro/shop/ls/wishlist",
+    "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html",
+    "https://www.bmw.ro/ro/configurator.html",
+    "https://www.bmw.ro/ro-ro/sl/stocklocator",
+    "https://oferte.bmw.ro/rulate",
+    "https://oferte.bmw.ro/rulate/bmw-premium-selection",
+    "https://www.bmw.ro/ro/shop/ls/cp/connected-drive",
+    "https://www.bmw.ro/ro/compara%C8%9Bie-modele-bmw.html/content.q",
+    "https://www.bmw.ro/ro/topics/offers-and-services/financial-services.html",
+    "https://www.bmw.ro/ro/more-bmw/bmw-individual.html",
+    "https://www.bmw.ro/ro/more-bmw/automobile-exclusiviste-bmw.html",
+    "https://www.bmw.ro/ro/campaigns/bmw-business.html",
+    "https://www.bmw.ro/ro/more-bmw/bmw-special-sales.html",
+    "https://www.bmw.ro/ro/more-bmw/parts-and-accessories/bmw-accesorii-hub.html",
+    "https://www.bmw.ro/ro/shop/ls/cp/physical-goods/BF_ACCESSORY",
+    "https://www.bmw.ro/ro/more-bmw/technology-and-innovation/bmw-tyre-label.html",
+    "https://www.bmw.ro/ro/more-bmw/bmw-lifestyle.html",
+    "https://www.bmw.ro/ro/bmw-financial-services.html",
+    "https://www.bmw.ro/ro/bmw-financial-services/bmw-leasing.html",
+    "https://www.bmw.ro/ro/topics/offers-and-services/leasing-operational-modele-electrice.html",
+    "https://www.bmw.ro/ro/modele-electrice.html",
+    "https://www.bmw.ro/ro/modele-electrice/used-electric-cars.html",
+    "https://www.bmw.ro/ro/modele-electrice/electric-cars-benefits.html",
+    "https://www.bmw.ro/ro/modele-electrice/costuri-masini-electrice.html",
+    "https://www.bmw.ro/ro/modele-electrice/plug-in-hybrid.html",
+    "https://www.bmw.ro/content/dam/bmw/marketRO/bmw_ro/brosura/Brosura-Familia-electrica-BMW.pdf.asset.1711535757305.pdf",
+    "https://www.bmw.ro/ro/modele-electrice/incarcare-domiciliu.html",
+    "https://www.bmw.ro/ro/modele-electrice/incarcare-publica.html",
+    "https://www.bmw.ro/ro/modele-electrice/tehnologie-baterie.html",
+    "https://www.bmw.ro/ro/modele-electrice/autonomie-masini-electrice.html",
+    "https://www.bmw.ro/ro/more-bmw/asistenta-clienti.html",
+    "https://www.bmw.ro/faas/form/ro-ro/bmw/tda/test-drive-request.html?akrr=BMW_TDA_RO",
+    "https://www.bmw.ro/faas/form/ro-ro/bmw/rfo/cerere-de-oferta.html?akrr=BMW_RFO_RO",
+    "https://www.bmw.ro/ro/tradein/?icp=topnav-to-trade-in&origin=topnav",
+    "https://www.bmw.ro/ro/bmw-service.html",
+    "https://www.bmw.ro/ro/topics/offers-and-services/personal-services/programare-online.html",
+    "https://www.bmw.ro/ro/bmw-service.html#roadside-assistance",
+    "https://www.bmw.ro/ro/digital-services/bmw-connecteddrive.html#toate-aplicatiile",
+    "https://www.bmw.ro/ro/digital-services/bmw-connecteddrive.html",
+    "https://www.bmw.ro/ro/digital-services/bmw-idrive.html",
+    "https://www.bmw.ro/ro/digital-services/bmw-digital-key.html",
+    "https://www.bmw.ro/ro/campaigns/garantie-bmw.html",
+    "https://www.bmw.ro/ro/footer/quick-link/bmw-vehicle-recalls.html",
+    "https://www.bmw.ro/ro/topics/offers-and-services/personal-services/warranty.html",
+    "https://www.bmw.ro/ro/campaigns/bmw-recycling.html",
+    "https://www.bmw.ro/ro/footer/metanavigation/legal-notice-pool/imprint.html",
+    "https://www.bmwgroup.com/en.html",
+    "https://www.bmw.ro/ro/footer/bmw-explore/cariere.html",
+    "https://www.bmw.ro/ro/topics/fascination-bmw/driving-experience.html",
+    "https://www.press.bmwgroup.com/romania/article",
+    "https://www.bmw.ro/ro/topics/fascination-bmw/declaratii-de-presa-BMW.html",
+    "https://www.bmw.ro/ro/all-models.html?specialCategory=c",
+    "https://www.bmw.ro/ro/tehnologie-si-inovatie/bmw-symbiotic-drive.html",
+    "https://www.bmw.ro/ro/more-bmw/technology-and-innovation/bmw-heart-of-joy.html",
+    "https://www.bmw.ro/ro/bmw-alpina.html",
+    "https://www.bmw.ro/static/login/flyout.js",
+    "https://www.bmw.ro/forms/rfc/rfc.html?legacyform=true",
+    "https://www.bmw.ro/ro/more-bmw/asisten%C5%A3%C4%83-clien%C5%A3i.html",
+    "https://configure.bmw.ro/ro_RO/configure/NA7/21HU/FSFK3,P0C7V,S01DG,S0230,S02PA,S02VB,S02VD,S02VF,S02XH,S0302,S03DP,S03M1,S03TS,S0408,S0420,S0428,S0494,S04FM,S04T2,S04U6,S04UR,S0534,S0548,S05AT,S05AV,S05BB,S0617,S061B,S0654,S0674,S06AE,S06AF,S06D5,S06NY,S0851,S0879,S08R3,S08TF,S0901,S0991,S09AD,S09T1,S09T2,CTRLLIGHTSON",
+    "https://www.bmw.ro/ro/all-models/seria-x/suv/bmw-ix4.html",
+    "https://www.bmw.ro/ro-ro/sl/stocklocator#/results",
+    "https://configure.bmw.ro/ro_RO/configure/G65/61HV/FSKFU,P0C8A,S0223,S02PA,S02VB,S02VD,S02VR,S02Z2,S0319,S032A,S0337,S03CD,S03CK,S03M1,S03MC,S03QN,S0413,S0417,S0420,S0428,S042A,S0453,S04FM,S04HC,S04NB,S04T2,S04T7,S05AT,S05BA,S05BB,S05DN,S05DW,S06AC,S06AE,S06F4,S06NY,S06UV,S06WF,S0776,S07ES,S09T1,S09T2,S09TA,S0A6D,CTRLLIGHTSON",
+    "https://www.bmw.ro/ro/all-models/seria-x/suv/bmw-ix5.html",
+    "https://configure.bmw.ro/ro_RO/configure/NA0G50/51JB/FSFI7,P0C89,S0230,S0248,S02PA,S02VB,S02VD,S02VF,S02XH,S0302,S0316,S0337,S03DP,S03M1,S03T5,S0408,S0428,S0494,S04FM,S04T2,S04T5,S04U6,S04UR,S0534,S0548,S05AT,S05BB,S05DN,S05DW,S05E1,S0617,S061B,S0654,S0674,S06AE,S06AF,S06D5,S06NY,S07EW,S0851,S0879,S09T1,S09T2,CTRLLIGHTSON",
+    "https://www.bmw.ro/ro/all-models/3-series/sedan/bmw-i3-sedan.html",
+    "https://www.bmw.ro/faas/form/ro-ro/bmw/rfo/cerere-de-oferta.html?modelRange=NA5&modelCode=11HR",
+    "https://www.bmw.ro/ro/all-models/seria-x/ix3/bmw-ix3.html",
+    "https://www.bmw.ro/ro/modele-electrice/bmw-wallbox-plus-gen-4.html",
+    "https://www.bmw.ro/faas/form/ro-ro/bmw/rfc/request-for-contact.html",
+    "https://www.bmw.ro/faas/form/ro-ro/bmw/rfo/cerere-de-oferta.html?midstatic=4g0agj01ba51d05hb9aar",
+    "https://geni.us/driversguide?foo=.html",
+    "https://www.bmw.ro/ro/compara%C8%9Bie-modele-bmw.html",
+    "https://www.bmw.ro/faas/form/ro-ro/bmw/tda/test-drive-request.html?midstatic=4g0agj01ba51d05hb9aar",
+    "https://customer.bmwgroup.com/oneid/",
+    "https://www.bmw.ro/ro/all-models/seria-7/sedan/bmw-seria-7-sedan.html",
+    "https://www.bmw.ro/content/bmw/marketRO/bmw_ro/ro/all-models/bmw-seria-5-prezentare-generala/sedan/bmw-seria-5-sedan-sumar.html",
+    "https://www.bmw.ro/ro/all-models/4-series/gran-coupe/bmw-4-series-gran-coupe.html",
+    "https://www.bmw.ro/ro/all-models/3-series/bmw-3-series-touring/bmw-3-series-touring.html",
+    "https://www.bmw.ro/ro/all-models/2-series/seria-2-coupe/bmw-seria-2-coupe.html",
+    "https://www.bmw.ro/ro/all-models/1-series/bmw-1-series/bmw-seria-1.html",
+    "https://www.bmw.ro/ro/more-bmw/bmw-special-sales/bmw-protection-vehicles.html",
+    "https://www.facebook.com/BMW.Romania/",
+    "https://www.instagram.com/bmwromania/",
+    "https://www.youtube.com/user/BMWGroupRomania",
+    "https://www.linkedin.com/company/bmwromania/",
+    "https://www.bmw.ro/ro/footer/metanavigation/accesibilitate-bmw.html",
+    "https://www.bmw.ro/ro/footer/metanavigation/legal-disclaimer-pool/legal-disclaimer.html",
+    "https://www.bmw.ro/ro/footer/metanavigation/data-privacy.html",
+    "https://www.bmw.ro/ro/footer/footer-section/politica-de-cookie.html",
+    "https://www.bmw.ro/ro/more-bmw/digital-services-act.html",
+    "https://www.bmw.ro/ro/footer/metanavigation/legal-disclaimer-pool/note-legale.html",
+    "https://www.bmw.ro/ro/footer/metanavigation/regulament-baterii.html",
+    "https://ipm.bmw.com/lean-ipm/digitalhub_dcdc/rfcn_bmw_ro",
+    "https://www.bmw.ro/ro/publicPools/sitemap/sitemap.html",
+    "https://reclamatiisal.anpc.ro/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.bmw.ro/content/dam/bmw/common/images/logo-icons/BMW/BMW_White_Logo.svg.asset.1670245093434.svg",
+        "alt": "",
+        "w": 53,
+        "h": 53
+      },
+      {
+        "src": "https://www.bmw.ro/content/dam/bmw/common/images/logo-icons/BMW/BMW_White_Logo.svg.asset.1670245093434.svg",
+        "alt": "",
+        "w": 53,
+        "h": 53
+      },
+      {
+        "src": "https://www.bmw.ro/etc.clientlibs/bmw-web/clientlibs/clientlib-site/resources/icons/alpina-icons/alpina.svg",
+        "alt": "Alpina",
+        "w": 246,
+        "h": 34
+      },
+      {
+        "src": "https://www.bmw.ro/etc.clientlibs/bmw-web/clientlibs/clientlib-site/resources/icons/alpina-icons/alpina.svg",
+        "alt": "Alpina",
+        "w": 246,
+        "h": 34
+      },
+      {
+        "src": "https://bmw.scene7.com/is/image/BMW/bmw-ix4-home-teaser-fb?qlt=80&wid=1024&fmt=webp",
+        "alt": "",
+        "w": 1024,
+        "h": 448
+      },
+      {
+        "src": "https://bmw.scene7.com/is/image/BMW/g65_bev_promotional-teaser:3to1?fmt=webp-alpha&wid=1919&fit=constrain%2C1",
+        "alt": "BMW iX5, surprins din față, având pe fundal un peisaj montan.",
+        "w": 1919,
+        "h": 639
+      },
+      {
+        "src": "https://bmw.scene7.com/is/image/BMW/bmw-i3-home-promotional-teaser-1:3to1?fmt=webp-alpha&wid=1919&fit=constrain%2C1",
+        "alt": "BMW i3 Sedan rulează pe o autostradă urbană printr-un oraș modern, fiind prezentat din diverse unghiuri. Vehiculul continuă apoi pe un drum cu serpentine printr-un peisaj cu munți și lacuri.",
+        "w": 1919,
+        "h": 637
+      },
+      {
+        "src": "https://bmw.scene7.com/is/image/BMW/DI26_000417112_BMW-iX3-NA5-BEV_V1:3to1?fmt=webp-alpha&wid=1919&fit=constrain%2C1",
+        "alt": "BMW iX3",
+        "w": 1919,
+        "h": 638
+      },
+      {
+        "src": "https://www.bmw.ro/ro/index/_jcr_content/root/maincontent/contentblueprint_1532906499/contentblueprint/contentblueprint/image.coreimg.jpeg/1750062632035/bmw-emobility-support-wallbox-gen4-sp-desktop.jpeg",
+        "alt": "",
+        "w": 1680,
+        "h": 756
+      },
+      {
+        "src": "https://bmw.scene7.com/skins/BMW/AI-label",
+        "alt": "ai-label",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://www.bmw.ro/content/dam/bmw/common/footer/social/facebook-default@2x.png.asset.1584959819909.png",
+        "alt": "Facebook",
+        "w": 90,
+        "h": 90
+      },
+      {
+        "src": "https://www.bmw.ro/content/dam/bmw/common/footer/social/instagram-default@2x.png.asset.1584959820390.png",
+        "alt": "Instagram",
+        "w": 90,
+        "h": 90
+      },
+      {
+        "src": "https://www.bmw.ro/content/dam/bmw/common/footer/social/youtube-default@2x.png.asset.1584959824298.png",
+        "alt": "YouTube",
+        "w": 90,
+        "h": 90
+      },
+      {
+        "src": "https://www.bmw.ro/content/dam/bmw/common/footer/social/linkedin-default@2x.png.asset.1584959821336.png",
+        "alt": "LinkedIn",
+        "w": 90,
+        "h": 90
+      }
+    ],
+    "allImgCount": 16,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [
+      {
+        "src": "blob:https://www.bmw.ro/8a622864-e6ce-4a96-807a-705c5550e997",
+        "poster": null,
+        "autoplay": false,
+        "loop": true,
+        "muted": true
+      }
+    ],
+    "iframes": []
+  },
+  "customProps": {
+    "--scrollbar-width": "0px",
+    "--grid-main-container-width": "calc(100vw - 0px - 6rem*2)",
+    "--grid-gutter": ".75rem",
+    "--grid-margin": "5.25rem",
+    "--grid-full": "6rem",
+    "--grid-addtional-spacing": "4rem",
+    "--stage-model-1-font-size": "13.125rem",
+    "--stage-model-1-line-height": "11.625rem",
+    "--stage-zone-0-double-row-font-size": "3.375rem",
+    "--stage-zone-0-double-row-line-height": "3.5rem",
+    "--stage-zone-0-single-row-font-size": "4.625rem",
+    "--stage-zone-0-single-row-line-height": "4.75rem",
+    "--stage-zone-1-small-font-size": "2.6875rem",
+    "--stage-zone-1-small-line-height": "2.8125rem",
+    "--stage-zone-1-large-font-size": "3rem",
+    "--stage-zone-1-large-line-height": "3.125rem",
+    "--stage-sub-headline-font-size": "1.25rem",
+    "--stage-sub-headline-line-height": "1.5rem",
+    "--stage-sub-headline-normal-case-font-size": "1.25rem",
+    "--stage-sub-headline-normal-case-line-height": "1.5rem",
+    "--stage-price-tag-price-font-size": "2.6875rem",
+    "--stage-price-tag-price-line-height": "2.8125rem",
+    "--stage-price-tag-label-font-size": ".625rem",
+    "--stage-price-tag-label-line-height": ".75rem",
+    "--iconization-1-font-size": ".9375rem",
+    "--iconization-1-line-height": ".75rem",
+    "--iconization-1-letter-spacing": ".6em",
+    "--headline-1-font-size": "2.6875rem",
+    "--headline-1-line-height": "3.75rem",
+    "--headline-2-font-size": "2.1875rem",
+    "--headline-2-line-height": "3.125rem",
+    "--headline-3-font-size": "1.75rem",
+    "--headline-3-line-height": "2.5rem",
+    "--subsection-1-font-size": "1.4375rem",
+    "--subsection-1-line-height": "2.25rem",
+    "--subsection-2-font-size": "1.25rem",
+    "--subsection-2-line-height": "1.875rem",
+    "--body-1-font-size": "1.125rem",
+    "--body-1-line-height": "1.75rem",
+    "--body-2-font-size": ".9375rem",
+    "--body-2-line-height": "1.5rem",
+    "--body-4-font-size": ".875rem",
+    "--body-4-line-height": "1.375rem",
+    "--model-spotlight-media-font-size": ".9375rem",
+    "--model-spotlight-media-line-height": "1.5rem",
+    "--model-spotlight-modal-title-font-size": "1.4375rem",
+    "--model-spotlight-modal-title-line-height": "2.25rem",
+    "--body-3-font-size": ".75rem",
+    "--body-3-line-height": "1.125rem",
+    "--model-spotlight-kpi-value-font-size": "1.4375rem",
+    "--model-spotlight-kpi-value-line-height": "2.25rem",
+    "--model-preview-infoI-font-size": "1rem",
+    "--model-preview-infoI-line-height": "1.625rem",
+    "--label-1-font-size": ".75rem",
+    "--label-1-line-height": "1rem",
+    "--default-font-weight": "300",
+    "--input-font-weight": "400",
+    "--clickable-font-weight": "500",
+    "--link-font-weight": "500",
+    "--price-font-weight": "700",
+    "--button-small-height": "2.25rem",
+    "--button-small-line-clamp": "1",
+    "--button-large-height": "3.25rem",
+    "--button-large-line-clamp": "2",
+    "--heading": "#262626",
+    "--copy-text": "#262626",
+    "--disclaimer": "#666",
+    "--surface-background-primary": "#fff",
+    "--surface-background-secondary": "#f6f6f6",
+    "--border": "#e6e6e6",
+    "--border-tag": "#e6e6e6",
+    "--cta": "#1c69d4",
+    "--cta-text": "#fff",
+    "--cta-hover": "#0653b6",
+    "--cta-disabled": "#bbd2f3",
+    "--cta-text-hover": "#fff",
+    "--nba": "#262626",
+    "--nba-text": "#fff",
+    "--nba-hover": "#4d4d4d",
+    "--nba-disabled": "#bbb",
+    "--nba-text-hover": "#fff",
+    "--ol": "#262626",
+    "--ol-disabled": "#e6e6e6",
+    "--ol-text": "#262626",
+    "--ol-text-disabled": "#bbb",
+    "--ol-border-width": "1px",
+    "--ol-border-width-hover": "2px",
+    "--filtertag": "#8e8e8e",
+    "--filtertag-hover": "#262626",
+    "--filtertag-disabled": "#f2f2f2",
+    "--filtertag-text": "#666",
+    "--filtertag-text-hover": "#262626",
+    "--filtertag-text-disabled": "#bbb",
+    "--filtertag-border-width-hover": "1px",
+    "--filtertag-selected": "#262626",
+    "--filtertag-selected-hover": "#4d4d4d",
+    "--filtertag-selected-disabled": "#bbb",
+    "--filtertag-selected-text": "#fff",
+    "--select": "#bbb",
+    "--select-hover": "#4d4d4d",
+    "--select-focus": "#4d4d4d",
+    "--select-disabled": "#bbb",
+    "--select-text": "#666",
+    "--select-text-hover": "#262626",
+    "--select-text-focus": "#666",
+    "--select-text-disabled": "#8e8e8e",
+    "--select-border-width-hover": "1px",
+    "--link": "#262626",
+    "--link-cta": "#1c69d4",
+    "--link-hover": "#1c69d4",
+    "--link-active": "#0653b6",
+    "--link-disabled": "#bbb",
+    "--input": "#fff",
+    "--input-disabled": "#f2f2f2",
+    "--input-text-color": "#262626",
+    "--input-text-hover": "#262626",
+    "--input-text-focus": "#262626",
+    "--input-text-disabled": "#8e8e8e",
+    "--input-placeholder-color": "#666",
+    "--input-border-color": "#8e8e8e",
+    "--input-border-color-hover": "#4d4d4d",
+    "--navigation-background": "#0000",
+    "--navigation-border": "#fff",
+    "--navigation-gradient": "linear-gradient(0,#0000,color-mix(in srgb,#000 40%,#0000))",
+    "--navigation-logo": "#fff",
+    "--navigation-claim": "#fff",
+    "--navigation-interaction": "#fff",
+    "--navigation-interaction-hover": "#fff",
+    "--navigation-interaction-focus": "#fff",
+    "--navigation-interaction-disabled": "#666",
+    "--navigation-interaction-highlight": "#1c69d4",
+    "--navigation-interaction-highlight-text": "#0653b6",
+    "--focus-type": "navigation-light",
+    "--error": "#d20000",
+    "--error-background": "#f7e7e9",
+    "--warning": "#ffad1f",
+    "--warning-background": "#fbedc9",
+    "--success": "#3db014",
+    "--success-background": "#e8f2eb",
+    "--information": "#1c69d4",
+    "--information-background": "#dde8f9",
+    "--neutral": "#666",
+    "--neutral-background": "#f2f2f2",
+    "--dialogue": "#dde8f9",
+    "--scrollbar-background": "#e6e6e6",
+    "--scrollbar-thumb": "#4d4d4d",
+    "--focus-visible-color-highlight": "#1c69d4",
+    "--focus-visible-color-contrast": "#fff",
+    "--focus-visible-color-input": "#4d4d4d",
+    "--focus-visible-background-accordion": "#ffffff80",
+    "--focus-visible-background-link": "#ffffff80",
+    "--focus-visible-width-highlight": ".25rem",
+    "--focus-visible-width-highlight-half": ".125rem",
+    "--focus-visible-width-contrast": ".0625rem",
+    "--focus-visible-width-both": ".3125rem",
+    "--focus-visible-width-high-contrast": ".375rem",
+    "--focus-visible-width-contrast-input": ".125rem",
+    "--focus-visible-inside": "inset 0 0 0 .25rem #1c69d4,0 0 0 .0625rem #fff",
+    "--focus-visible-inside-after": "inset 0 0 0 .25rem #1c69d4,inset 0 0 0 .3125rem #fff",
+    "--focus-visible-middle": "inset 0 0 0 .125rem #1c69d4,0 0 0 .125rem #1c69d4",
+    "--focus-visible-outside": "0 0 0 .0625rem #fff,0 0 0 .3125rem #1c69d4",
+    "--focus-visible-outside-link-underline": "0 0 0 .125rem #fff",
+    "--focus-visible-outside-double": "0 0 0 .0625rem #1c69d4,0 0 0 .3125rem #1c69d4",
+    "--focus-visible-outside-high-contrast": "0 0 0 .0625rem #fff,0 0 0 .3125rem #1c69d4,0 0 0 .375rem #fff",
+    "--focus-visible-input-inside": "inset 0 0 0 .125rem #1c69d4",
+    "--focus-visible-input-middle": "inset 0 0 0 .0625rem #4d4d4d,0 0 0 .0625rem #4d4d4d",
+    "--focus-visible-input-outside": "0 0 0 .0625rem #4d4d4d",
+    "--focus-visible-navigation-light": "inset 0 0 0 .125rem #1c69d4",
+    "--focus-visible-navigation-dark": "inset 0 0 0 .125rem #1c69d4,inset 0 0 0 .25rem #fff",
+    "--scroll-behavior": "smooth",
+    "--compare-description-bottom": "1.5rem",
+    "--compare-cosyimage-scale": "1",
+    "--compare-form-price-color": "#000",
+    "--compare-dropdown-label-color": "#666",
+    "--compare-dropdown-text-color": "#262626",
+    "--compare-cosyimage-width": "100%",
+    "--compare-dropdown-height": "2.5rem",
+    "--compare-button-height": "2.5rem",
+    "--compare-form-background": "#f6f6f6",
+    "--compare-dropdown-bottom": "1.25rem",
+    "--swiper-theme-color": "$gs0"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 15,
+    "mainTextLen": 4161,
+    "realImageCount": 14,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "www.bmw.com",
+        "path": "/epaas/prod/dataversion/ds2~bmw-ro/2026-10-21T14:00:00Z.epaas.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 142,
+        "hits": 1,
+        "example": "https://www.bmw.com/epaas/prod/dataversion/ds2~bmw-ro/2026-10-21T14:00:00Z.epaas.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.bmw.com",
+        "path": "/epaas/prod/consentcontroller/ds2~bmw-ro/v104x256x694x8x11x17x17x9x10x18x0x18x54x34x10x20x94x35x51x0x47x93x0x24x32x21x104x36x80x0x0x22x20x4x3472x4x0.epaas.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 17040,
+        "hits": 1,
+        "example": "https://www.bmw.com/epaas/prod/consentcontroller/ds2~bmw-ro/v104x256x694x8x11x17x17x9x10x18x0x18x54x34x10x20x94x35x51x0x47x93x0x24x32x21x104x36x80x0x0x22x20x4x3472x4x0.epaas.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC7caeaa876272454085dfeac40990d98b-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": 878,
+        "hits": 1,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC7caeaa876272454085dfeac40990d98b-code.min.js",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC8732c4df279c4e0c878acdc2a4a1b81c-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": 856,
+        "hits": 1,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC8732c4df279c4e0c878acdc2a4a1b81c-code.min.js",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.bmw.ro",
+        "path": "/content/experience-fragments/bmw/marketRO/bmw_ro/ro_RO/personalization/direct-entry/jcr:content.variation.targetPath++content++bmw++marketRO++bmw_ro++ro_RO++index++jcr:content++root++maincontent++contentblueprint_829++xftoggle.json/master",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1572,
+        "hits": 1,
+        "example": "https://www.bmw.ro/content/experience-fragments/bmw/marketRO/bmw_ro/ro_RO/personalization/direct-entry/jcr:content.variation.targetPath++content++bmw++marketRO++bmw_ro++ro_RO++index++jcr:content++root++maincontent++contentblueprint_829++xftoggle.json/master",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.bmw.com",
+        "path": "/epaas/prod/consentdrawer/ds2~bmw-ro/v104x256x694x8x11x17x17x9x10x18x0x18x54x34x10x20x94x35x51x0x47x93x0x24x32x21x104x36x80x0x0x22x20x4x3472x4x0-tv2112x217x20/ro_RO.epaas.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 992,
+        "hits": 1,
+        "example": "https://www.bmw.com/epaas/prod/consentdrawer/ds2~bmw-ro/v104x256x694x8x11x17x17x9x10x18x0x18x54x34x10x20x94x35x51x0x47x93x0x24x32x21x104x36x80x0x0x22x20x4x3472x4x0-tv2112x217x20/ro_RO.epaas.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "c.go-mpulse.net",
+        "path": "/api/config.json",
+        "query": [
+          "acao",
+          "ak.ai",
+          "d",
+          "if",
+          "key",
+          "plugins",
+          "si",
+          "sl",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 52,
+        "hits": 1,
+        "example": "https://c.go-mpulse.net/api/config.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCaad2f8a14ea347829552a0f1e42d3c84-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": 455,
+        "hits": 1,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCaad2f8a14ea347829552a0f1e42d3c84-code.min.js",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCd27f869f106045bda6d568c612772fd0-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": 740,
+        "hits": 1,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCd27f869f106045bda6d568c612772fd0-code.min.js",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC2935365320cf42148c7022f0e9d64b50-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": 702,
+        "hits": 1,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC2935365320cf42148c7022f0e9d64b50-code.min.js",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCb96246762c694f388b6e29c221b5dba8-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": 688,
+        "hits": 1,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCb96246762c694f388b6e29c221b5dba8-code.min.js",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC0083aa64325b440ea1178e6011b1d29b-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": 676,
+        "hits": 1,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC0083aa64325b440ea1178e6011b1d29b-code.min.js",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC11eb5e2b227c435da30f98d0f56d0274-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": 630,
+        "hits": 1,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC11eb5e2b227c435da30f98d0f56d0274-code.min.js",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "bmw.app.baqend.com",
+        "path": "/v1/speedkit/model/cl_desktop_cfg.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/octet-stream",
+        "status": 200,
+        "bytes": 336,
+        "hits": 1,
+        "example": "https://bmw.app.baqend.com/v1/speedkit/model/cl_desktop_cfg.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "bmw.app.baqend.com",
+        "path": "/v1/speedkit/model/cl_desktop_xgb.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/octet-stream",
+        "status": 200,
+        "bytes": 36578,
+        "hits": 1,
+        "example": "https://bmw.app.baqend.com/v1/speedkit/model/cl_desktop_xgb.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCc7f9bc103a5c43c4bfd4cf853b5ecf2e-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": 643,
+        "hits": 1,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCc7f9bc103a5c43c4bfd4cf853b5ecf2e-code.min.js",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC0132c3f2ce4a441c98cdb88dcf2f8816-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": 629,
+        "hits": 1,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC0132c3f2ce4a441c98cdb88dcf2f8816-code.min.js",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCfa3638aab09b4783864369916824df4d-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": 634,
+        "hits": 1,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCfa3638aab09b4783864369916824df4d-code.min.js",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC5e9467a2007844d091d009413834f82a-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": 691,
+        "hits": 1,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC5e9467a2007844d091d009413834f82a-code.min.js",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC976a19e1c1374825a096a4c46257158e-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": 633,
+        "hits": 1,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC976a19e1c1374825a096a4c46257158e-code.min.js",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCb64c7c7ae6b3486d93c946c369e1b96a-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": 473,
+        "hits": 1,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCb64c7c7ae6b3486d93c946c369e1b96a-code.min.js",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "bmw.scene7.com",
+        "path": "/is/content/BMW/bmw-ix4-home-teaser-AVS.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/vnd.apple.mpegurl",
+        "status": 200,
+        "bytes": 236,
+        "hits": 1,
+        "example": "https://bmw.scene7.com/is/content/BMW/bmw-ix4-home-teaser-AVS.m3u8",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "stream.bmw.com.cn",
+        "path": "/hls-vod/BMW/_media_/6ae/{uuid}.mp4.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "status": 200,
+        "bytes": 170,
+        "hits": 1,
+        "example": "https://stream.bmw.com.cn/hls-vod/BMW/_media_/6ae/6aeb598c-34f2-4bb2-88a1-8d4b4e818dce.mp4.m3u8",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "stream.bmw.com.cn",
+        "path": "/hls-vod/BMW/_media_/6ae/{uuid}.mp4Frag1Num0.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "status": 200,
+        "bytes": 1131384,
+        "hits": 1,
+        "example": "https://stream.bmw.com.cn/hls-vod/BMW/_media_/6ae/6aeb598c-34f2-4bb2-88a1-8d4b4e818dce.mp4Frag1Num0.ts",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "stream.bmw.com.cn",
+        "path": "/hls-vod/BMW/_media_/{n}/{uuid}.mp4.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "status": 200,
+        "bytes": 170,
+        "hits": 1,
+        "example": "https://stream.bmw.com.cn/hls-vod/BMW/_media_/963/96379756-a80c-469f-815e-ca19b87ab003.mp4.m3u8",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "stream.bmw.com.cn",
+        "path": "/hls-vod/BMW/_media_/{n}/{uuid}.mp4Frag1Num0.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "status": 200,
+        "bytes": 4124344,
+        "hits": 1,
+        "example": "https://stream.bmw.com.cn/hls-vod/BMW/_media_/963/96379756-a80c-469f-815e-ca19b87ab003.mp4Frag1Num0.ts",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "stream.bmw.com.cn",
+        "path": "/hls-vod/BMW/_media_/{n}/{uuid}.mp4Frag1Num1.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "status": 200,
+        "bytes": 2136432,
+        "hits": 1,
+        "example": "https://stream.bmw.com.cn/hls-vod/BMW/_media_/963/96379756-a80c-469f-815e-ca19b87ab003.mp4Frag1Num1.ts",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.bmw.com",
+        "path": "/epaas/onlineaudit/config/2026-10-21T13:40:00Z.epaas.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1316,
+        "hits": 1,
+        "example": "https://www.bmw.com/epaas/onlineaudit/config/2026-10-21T13:40:00Z.epaas.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.bmw.com",
+        "path": "/epaas/onlineaudit/producer/ingest-events",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.bmw.com/epaas/onlineaudit/producer/ingest-events",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 10
+      },
+      {
+        "host": "www.bmw.com",
+        "count": 7
+      },
+      {
+        "host": "s.go-mpulse.net",
+        "count": 1
+      },
+      {
+        "host": "tron.bmwgroup.com",
+        "count": 1
+      },
+      {
+        "host": "bmw.app.baqend.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [
+      {
+        "id": "ds2-page-context",
+        "type": "application/json",
+        "bytes": 142,
+        "topLevelKeys": [
+          "current-page",
+          "alternativeLang"
+        ]
+      }
+    ],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 1,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 1,
+      "thirdPartyEndpoints": 28,
+      "thirdPartyScriptHosts": 5,
+      "inlineDataBlobs": 1,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/ro-index-html.png",
+  "renderedHtml": "pages/ro-index-html.html"
+}
