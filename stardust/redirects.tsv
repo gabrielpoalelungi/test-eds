@@ -1,0 +1,4 @@
+source	destination
+/	/ro/
+/index.html	/ro/
+/ro/index.html	/ro/

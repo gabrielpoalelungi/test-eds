@@ -1,24 +1,7 @@
-/* KFC brand font (served by the source site) */
-@font-face {
-  font-family: "national2";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('../fonts/National2.otf') format('opentype');
-}
-
-@font-face {
-  font-family: "national2";
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url('../fonts/National2-Medium.otf') format('opentype');
-}
-
-@font-face {
-  font-family: "national2";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('../fonts/National2-Bold.otf') format('opentype');
-}
+/*
+ * Brand webfont: "bmwTypeNextWeb" is licensed by BMW AG and is NEVER rehosted here.
+ * No @font-face is declared for it; the stack in styles.css falls back to the
+ * metric-matched "bmwTypeNext Fallback" faces (local Arial / Liberation Sans), which
+ * live in styles.css so they are available at first paint. A licensed deployment
+ * drops its own @font-face for "bmwTypeNextWeb" into this file — nothing else changes.
+ */

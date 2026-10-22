@@ -1,0 +1,12 @@
+{
+  "runtime": "vanilla-eds",
+  "blockWrapperClass": "block",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "trustedTypes": "scripts.js registers a 'default' policy (CSP require-trusted-types-for 'script'); innerHTML on fragments passes through it",
+  "chromeLayout": "overlay — header absolute over the hero, --nav-height 0 (deploy #108)",
+  "probedFrom": ["scripts/scripts.js decorateButtons (strong→primary, em→secondary, both→accent; p.button-wrapper)", "scripts/aem.js decorateBlock (.block + data-block-name, div.<name>-wrapper, section .<name>-container)"],
+  "probedAt": "2026-10-21"
+}

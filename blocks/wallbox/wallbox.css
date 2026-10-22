@@ -1,0 +1,80 @@
+/* wallbox (live .cmp-container--layout-flex) — values lifted from the gated prototype */
+.wallbox {
+  margin-top: var(--sp-16);
+}
+
+.wallbox .wallbox-media {
+  padding: 0 var(--col-pad);
+}
+
+.wallbox .wallbox-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.wallbox .wallbox-text {
+  padding: 0 var(--col-pad);
+}
+
+.wallbox .wallbox-title {
+  margin-top: 20px;
+}
+
+.wallbox .wallbox-title :is(h1, h2, h3) {
+  font-size: var(--headline-2-fs);
+  line-height: var(--headline-2-lh);
+  font-weight: var(--w-default);
+}
+
+.wallbox .wallbox-body {
+  margin-top: var(--sp-4);
+}
+
+.wallbox .wallbox-link {
+  margin-top: var(--sp-8);
+}
+
+/* text link with chevron (live .btn--link) */
+.wallbox .wallbox-link a:any-link {
+  display: inline-flex;
+  align-items: center;
+  font-size: var(--body-2-fs);
+  line-height: var(--body-2-lh);
+  font-weight: var(--w-clickable);
+  color: var(--c-text);
+}
+
+.wallbox .wallbox-link a:any-link:hover {
+  color: var(--c-cta);
+}
+
+.wallbox .wallbox-link a:any-link:active {
+  color: var(--c-cta-hover);
+}
+
+.wallbox .wallbox-link .ico {
+  width: 20px;
+  height: 20px;
+  stroke-width: 1.4;
+}
+
+@media (width >= 768px) {
+  .wallbox {
+    display: flex;
+    align-items: center;
+  }
+
+  .wallbox .wallbox-media {
+    flex: 0 0 calc(100% * 7 / 12);
+  }
+
+  .wallbox .wallbox-text {
+    flex: 0 0 calc(100% * 5 / 12);
+    padding: 0 12px 0 52px;
+  }
+
+  .wallbox .wallbox-title {
+    margin-top: 0;
+  }
+}
