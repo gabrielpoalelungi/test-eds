@@ -5,9 +5,9 @@ Your project's description...
 - Preview: https://main--{repo}--{owner}.aem.page/
 - Live: https://main--{repo}--{owner}.aem.live/
 
-## Documentationnnn
+## Documentation
 
-Before using the aem-boilerplate, we recommand you to go through the documentation on https://www.aem.live/docs/ and more specifically:
+Before using the aem-boilerplate, we recommend you to go through the documentation on https://www.aem.live/docs/ and more specifically:
 1. [Developer Tutorial](https://www.aem.live/developer/tutorial)
 2. [The Anatomy of a Project](https://www.aem.live/developer/anatomy-of-a-project)
 3. [Web Performance](https://www.aem.live/developer/keeping-it-100)
@@ -18,7 +18,7 @@ Before using the aem-boilerplate, we recommand you to go through the documentati
 ```sh
 npm i
 ```
-sss
+
 ## Linting
 
 ```sh
@@ -32,6 +32,3 @@ npm run lint
 1. Install the [AEM CLI](https://github.com/adobe/helix-cli): `npm install -g @adobe/aem-cli`
 1. Start AEM Proxy: `aem up` (opens your browser at `http://localhost:3000`)
 1. Open the `{repo}` directory in your favorite IDE and start coding :)
-abccc222
-
-check check

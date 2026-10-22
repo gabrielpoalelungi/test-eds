@@ -1,0 +1,26 @@
+{
+  "frozenAt": "2026-10-21T16:17:32.774Z",
+  "root": ".",
+  "paths": [
+    "styles/",
+    "blocks/header/",
+    "blocks/footer/",
+    "head.html",
+    "scripts/"
+  ],
+  "files": {
+    "blocks/footer/footer.css": "cda3aefb2e240601b9fc066267407f3beae14775cec213399c174c059f1ff3c4",
+    "blocks/footer/footer.js": "87accad1d501f70374aac2c6d109d3b7a1e3bd6f39e8751f77f53e755dd4a6ed",
+    "blocks/header/header.css": "e06346829ce416e74e93c00e949034d5fbbfbea938c1eac6235fb74f827d3b9d",
+    "blocks/header/header.js": "fac0396f54f3dd32a29fe71f089ac3e53d884317b12b7c81a0cf95013f0730cf",
+    "head.html": "0f963b6378ffa7c27479f25b3c4ddbe93c448e71e4d35b4e464eed7eb00f57c2",
+    "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
+    "scripts/consent-check.js": "ac21f825288cfc82c52a6acd9c57bbb76a2017ee1b06319d493244f32751249a",
+    "scripts/consented.js": "8a0ec7239cfab36c9bbfd8e7cde178c6c9061f68da8539879411ee9fa09b18ab",
+    "scripts/icons.js": "c5865291d3b49022b0ae6b23904192a7f549d5089e7761d73ee54d3766f4fa01",
+    "scripts/scripts.js": "cf97b1e4819f2209ee725be334366936f299fffd8007b4851a1ed618c6a4c1b3",
+    "styles/fonts.css": "3185d1f5983e54460ee3db86de0fdb6c746f65649fa63dca941fc90604796cc6",
+    "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+    "styles/styles.css": "877fb295f2e708e49bff663713de1d71c428a78265476bfe29d35d943f48aa5e"
+  }
+}

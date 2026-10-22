@@ -1,0 +1,239 @@
+{
+ "source": "http://localhost:8791/prototypes/ro-index-html-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "NOUL"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "BMW iX4"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "O DECLARAŢIE DE ENERGIE."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Configurator și preț",
+     "href": "https://configure.bmw.ro/ro_RO/configure/NA7/21HU/FSFK3,P0C7V,S01DG,S0230,S02PA,S02VB,S02VD,S02VF,S02XH,S0302,S03DP,S03M1,S03TS,S0408,S0420,S0428,S0494,S04FM,S04T2,S04U6,S04UR,S0534,S0548,S05AT,S05AV,S05BB,S0617,S061B,S0654,S0674,S06AE,S06AF,S06D5,S06NY,S0851,S0879,S08R3,S08TF,S0901,S0991,S09AD,S09T1,S09T2,CTRLLIGHTSON"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Descoperă mai mult",
+     "href": "/ro/all-models/seria-x/suv/bmw-ix4.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "choice",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Alege modelul BMW preferat."
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Configurator."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Configurator şi preţ",
+     "href": "/ro/configurator.html"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Modele BMW noi."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Căutare",
+     "href": "https://www.bmw.ro/ro-ro/sl/stocklocator#/results"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Modele BMW rulate."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Căutare",
+     "href": "https://oferte.bmw.ro/rulate"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.mcard",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "teaser",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Noul ."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "BMW iX5"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Creat pentru a fi lider."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Configurator și preț",
+     "href": "https://configure.bmw.ro/ro_RO/configure/G65/61HV/FSKFU,P0C8A,S0223,S02PA,S02VB,S02VD,S02VR,S02Z2,S0319,S032A,S0337,S03CD,S03CK,S03M1,S03MC,S03QN,S0413,S0417,S0420,S0428,S042A,S0453,S04FM,S04HC,S04NB,S04T2,S04T7,S05AT,S05BA,S05BB,S05DN,S05DW,S06AC,S06AE,S06F4,S06NY,S06UV,S06WF,S0776,S07ES,S09T1,S09T2,S09TA,S0A6D,CTRLLIGHTSON"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Descoperă mai mult",
+     "href": "/ro/all-models/seria-x/suv/bmw-ix5.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "teaser",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Noul ."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "BMW i3 Sedan"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Simte pulsul unei noi ere."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "455€*"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "+ TVA"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Rata de leasing prin BMW Select, oferit de către UniCredit Leasing IFN S.A. prin BMW Financial Services. Oferta este destinată exclusiv persoanelor juridice și este supusă unor termene și condiții. Rata nu include TVA 21% și asigurare CASCO, este calculată pentru o perioadă de 36 luni și un avans de 22,2% cu o valoare reziduală de 57,50%. Plata finală opțională a valorii reziduale se achită în cazul în care clientul dorește să păstreze autoturismul la finalul contractului de leasing. Dacă utilizatorul dorește să returneze autoturismul la final de contract nu mai trebuie să efectueze plata finală opțională a a valorii reziduale."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Configurator și preț",
+     "href": "https://configure.bmw.ro/ro_RO/configure/NA0G50/51JB/FSFI7,P0C89,S0230,S0248,S02PA,S02VB,S02VD,S02VF,S02XH,S0302,S0316,S0337,S03DP,S03M1,S03T5,S0408,S0428,S0494,S04FM,S04T2,S04T5,S04U6,S04UR,S0534,S0548,S05AT,S05BB,S05DN,S05DW,S05E1,S0617,S061B,S0654,S0674,S06AE,S06AF,S06D5,S06NY,S07EW,S0851,S0879,S09T1,S09T2,CTRLLIGHTSON"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Descoperă mai mult",
+     "href": "/ro/all-models/3-series/sedan/bmw-i3-sedan.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 5,
+   "repeats": []
+  },
+  {
+   "section": "teaser",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "BMW iX3 40. Energie nouă pentru viitor."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Descoperă avantajele: termen scurt de livrare, dobândă fixă 0% și pachet M Sport inclus."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Solicită o ofertă",
+     "href": "https://www.bmw.ro/faas/form/ro-ro/bmw/rfo/cerere-de-oferta.html?modelRange=NA5&modelCode=11HR"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Descoperă mai mult",
+     "href": "/ro/all-models/seria-x/ix3/bmw-ix3.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "wallbox",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Wallbox BMW."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Wallbox-ul BMW este creat cu tehnologii avansate pentru încărcărea eficientă a modelului tău BMW. Acest încărcător este de tip 4 și se instalează în garaj pentru încărcare rapidă ori de câte ori este nevoie."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Detalii",
+     "href": "/ro/modele-electrice/bmw-wallbox-plus-gen-4.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  }
+ ]
+}
