@@ -1,607 +1,598 @@
-/* header bar */
-header .header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  box-sizing: border-box;
-  height: var(--nav-height);
-  padding: 10px 0;
-}
+/* header: BMW global navigation (.cmp-globalnavigation--transparent-white), overlay chrome.
+   Values lifted from stardust/prototypes/canon.css (gated replica). */
 
-header .nav-wrapper {
-  --nav-red: #e21e2d;
-  --nav-red-dark: #b51824;
-  --nav-red-darker: #88121b;
-  --nav-white: #fff;
-  --link-color: var(--nav-white);
-  --link-hover-color: var(--nav-white);
+/* chrome selectors target disjoint subtrees; source order follows the prototype */
+/* stylelint-disable no-descending-specificity */
 
-  padding: 0 12px;
-  background-color: var(--nav-red);
-  color: var(--nav-white);
-}
-
-header nav {
-  box-sizing: border-box;
-  height: 52px;
-  background-color: var(--nav-red);
-  font-family: "national2", sans-serif;
-  font-size: 16px;
-  line-height: 1.4;
-}
-
-header nav a,
-header nav a:hover {
-  color: var(--nav-white);
-  text-decoration: none;
-}
-
-header nav button {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  background: none;
-  color: inherit;
-  font: inherit;
-  cursor: pointer;
-}
-
-header nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-header nav p {
-  margin: 0;
-}
-
-header .nav-bar {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-sizing: border-box;
-  height: 52px;
-  background-color: var(--nav-red);
-}
-
-/* brand: logo, separator, location */
-header .nav-brand {
-  display: flex;
-  align-items: center;
-}
-
-header .nav-logo-wrap {
-  display: block;
-}
-
-header .nav-logo {
-  display: inline;
-}
-
-header .nav-logo:hover {
-  text-decoration: underline;
-}
-
-header .nav-logo img {
-  display: inline;
-  vertical-align: middle;
-  width: 75px;
-  height: 24px;
-}
-
-header .nav-separator,
-header .nav-location {
-  display: none;
-}
-
-header .nav-separator {
+.header .skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0;
   width: 1px;
-  height: 28px;
-  margin: 0 24px;
-  background-color: var(--nav-white);
-}
-
-header .nav-location {
-  position: relative;
-  align-items: center;
-  gap: 8px;
-  margin-left: 28px;
-}
-
-header .nav-location img {
-  display: block;
-}
-
-header .nav-location-pin {
-  position: absolute;
-  top: 50%;
-  left: -25px;
-  width: 24px;
-  height: 24px;
-  transform: translateY(-50%);
-}
-
-header .nav-location-arrow {
-  width: 16px;
-  height: 16px;
-}
-
-header .nav-location:hover .nav-location-label {
-  text-decoration: underline;
-}
-
-/* tools: search, links, hamburger */
-header .nav-tools {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-header .nav-tool-link {
-  display: none;
+  height: 1px;
+  overflow: hidden;
   font-weight: 500;
-}
-
-header .nav-tool-link:hover {
+  color: #00e;
   text-decoration: underline;
 }
 
-header .nav-search {
-  display: flex;
-  margin: 0;
-  align-items: center;
+.header .skip-link:focus {
+  left: 8px;
+  top: 8px;
+  width: auto;
+  height: auto;
+  z-index: 7000;
+  background: #fff;
+  color: var(--c-text);
+  padding: 8px;
 }
 
-header .nav-search-field {
-  display: none;
-  align-items: center;
-  box-sizing: border-box;
-  width: 344px;
-  max-width: calc(100vw - 180px);
-  gap: 12px;
-  height: 50px;
-  padding: 0 16px;
-  border-radius: 32px;
-  background-color: var(--nav-red-dark);
+.header .gnav {
+  position: absolute;
+  z-index: 6050;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  transition: background-color 50ms;
 }
 
-header .nav-search.is-open .nav-search-field {
-  display: flex;
+.header .gnav::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 96px;
+  pointer-events: none;
+  background: linear-gradient(0deg, #0000, color-mix(in srgb, #000 40%, #0000));
 }
 
-header .nav-search-field input {
-  flex: 1;
-  min-width: 0;
-  padding: 12px;
-  border: 0;
-  border-radius: 2px;
-  outline: none;
-  background: transparent;
-  color: var(--nav-white);
-  font: inherit;
-  font-size: 19.2px;
-  appearance: none;
-}
-
-header .nav-search-field input::placeholder {
-  color: rgb(255 255 255 / 79%);
-  font-size: 14px;
-  opacity: 1;
-}
-
-header .nav-search-field input::-webkit-search-cancel-button {
-  display: none;
-}
-
-header .nav-search-close {
+.header .gnav-bar {
   position: relative;
+  display: flex;
+  align-items: center;
+  height: 68px;
+  padding: 0 24px;
+}
+
+.header .gnav-logo {
+  flex: none;
+  margin-right: 24px;
+}
+
+.header .gnav-logo img {
+  width: 36px;
+  height: 36px;
+}
+
+.header .gnav-logo .gnav-logo-grey {
+  display: none;
+}
+
+.header .gnav-primary {
+  display: none;
+}
+
+.header .gnav-list {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.header .gnav-link {
+  display: flex;
+  align-items: center;
+  height: 84px;
+  padding: 0 12px;
+  font-size: var(--body-2-fs);
+  line-height: var(--body-2-lh);
+  font-weight: var(--w-clickable);
+  color: #fff;
+  white-space: nowrap;
+}
+
+.header .gnav-link .ico {
   width: 20px;
   height: 20px;
+  margin-left: 4px;
+  stroke-width: 1.4;
 }
 
-header .nav-search-field input:placeholder-shown + .nav-search-close {
+.header .gnav-link .ico-mobile {
   display: none;
 }
 
-header .nav-search-close::before,
-header .nav-search-close::after {
-  content: '';
-  position: absolute;
-  top: 9px;
-  left: 1px;
-  width: 18px;
-  height: 2px;
-  border-radius: 2px;
-  background-color: var(--nav-white);
-  transform: rotate(45deg);
-}
-
-header .nav-search-close::after {
-  transform: rotate(-45deg);
-}
-
-header .nav-search-toggle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 62px;
-  height: 52px;
-  border-radius: 50%;
-}
-
-/* open: 50px dark circle centred inside the 62x52 button */
-header .nav-search.is-open .nav-search-toggle {
-  background: radial-gradient(circle at center, var(--nav-red-dark) 24.5px, transparent 25px);
-}
-
-header .nav-search-toggle img {
-  width: 24px;
-  height: 24px;
-}
-
-header .nav-hamburger {
-  position: relative;
-  width: 40px;
-  height: 40px;
-}
-
-header .nav-hamburger-line {
-  position: absolute;
-  left: 4px;
-  width: 32px;
-  height: 4px;
-  border-radius: 100px;
-  background-color: var(--nav-white);
-  transition: 0.3s ease-in-out;
-}
-
-header .nav-hamburger-line:first-child {
-  top: 11px;
-}
-
-header .nav-hamburger-line:last-child {
-  top: 25px;
-}
-
-header nav[aria-expanded='true'] .nav-hamburger-line:first-child {
-  top: 18px;
-  transform: rotate(45deg);
-}
-
-header nav[aria-expanded='true'] .nav-hamburger-line:last-child {
-  top: 18px;
-  transform: rotate(-45deg);
-}
-
-/* full-screen menu panel */
-header .nav-panel {
-  position: fixed;
-  inset: 0;
-  z-index: 1;
-  box-sizing: border-box;
-  padding-top: calc(var(--nav-height) + 8px);
-  overflow: hidden auto;
-
-  /* transparent behind the header bar so the bar keeps its own red */
-  background: linear-gradient(to bottom, transparent var(--nav-height), var(--nav-red-dark) var(--nav-height));
-}
-
-header .nav-panel[hidden] {
-  display: none;
-}
-
-header .nav-panel-inner {
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  min-height: 100%;
-  margin: 0 auto;
-  padding: 24px 12px 0;
-}
-
-header .nav-pills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-header .nav-pill {
-  position: relative;
-}
-
-header .nav-pill-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  box-sizing: border-box;
-  padding: 14px 24px;
-  border-radius: 30px;
-  background-color: var(--nav-red-darker);
-  color: var(--nav-white);
-  font-weight: 700;
-  line-height: 26px;
-  text-transform: uppercase;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
-}
-
-header .nav-pill-link:hover,
-header .nav-drop > .nav-pill-link[aria-expanded='true'] {
-  background-color: #000;
-}
-
-header .nav-pill-icon {
-  width: 20px;
-  height: 20px;
-}
-
-header .nav-pill-chevron {
-  width: 17px;
-  height: 16px;
-  transition: transform 0.15s ease-in-out;
-}
-
-header .nav-drop > .nav-pill-link[aria-expanded='true'] {
-  border-radius: 30px 30px 0 0;
-}
-
-header .nav-drop > .nav-pill-link[aria-expanded='true'] .nav-pill-chevron {
+.header .gnav-link[aria-expanded="true"] .ico-desktop {
   transform: rotate(180deg);
 }
 
-header .nav-drop-list {
+/* active trigger (live: blue label + 4px bar on the bar's bottom edge) */
+.header .gnav.is-open .gnav-link[aria-expanded="true"] {
+  color: var(--c-cta);
+  box-shadow: inset 0 -4px 0 var(--c-cta);
+}
+
+.header .gnav-secondary {
+  margin-left: auto;
+  display: flex;
+  height: 100%;
+}
+
+.header .gnav-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 68px;
+  padding: 0 12px;
+  color: #fff;
+}
+
+.header .gnav-icon .ico {
+  width: 20px;
+  height: 20px;
+  stroke-width: 1.4;
+}
+
+.header .gnav-icon-menu {
+  width: 52px;
+}
+
+.header .gnav-icon-desk {
   display: none;
+}
+
+.header .gnav-mobile {
+  display: none;
+}
+
+.header .gnav-border {
+  position: relative;
+  margin: 0 24px;
+  height: 0;
+  background: #fff;
+}
+
+/* open state: solid-white bar + panel */
+.header .gnav.is-open,
+.header .gnav.is-menu-open {
+  background: #fff;
+  color: var(--c-text);
+}
+
+.header .gnav.is-open::before,
+.header .gnav.is-menu-open::before {
+  opacity: 0;
+}
+
+.header .gnav.is-open .gnav-link,
+.header .gnav.is-open .gnav-icon,
+.header .gnav.is-menu-open .gnav-link,
+.header .gnav.is-menu-open .gnav-icon {
+  color: var(--c-text);
+}
+
+.header .gnav.is-open .gnav-logo img:first-child,
+.header .gnav.is-menu-open .gnav-logo img:first-child {
+  display: none;
+}
+
+.header .gnav.is-open .gnav-logo .gnav-logo-grey,
+.header .gnav.is-menu-open .gnav-logo .gnav-logo-grey {
+  display: block;
+}
+
+.header .gnav.is-open .gnav-border {
+  background: var(--c-border);
+}
+
+/* flyout panels */
+.header .gnav-flyout {
+  position: relative;
+  background: #fff;
+  color: var(--c-text);
+  padding: 64px 96px 0;
+  box-shadow: 0 12px 20px rgb(0 0 0 / 8%);
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: opacity 0.15s, transform 0.25s;
+}
+
+.header .gnav-flyout.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+.header .gnav-flyout-head,
+.header .gnav-drill-btn,
+.header .gnav-drill-head {
+  display: none;
+}
+
+.header .gnav-flyout-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.header .gnav-group-title {
+  font-size: var(--subsection-1-fs);
+  line-height: var(--subsection-1-lh);
+  font-weight: var(--w-default);
+  margin-bottom: 32px;
+}
+
+.header .gnav-group-title img {
+  height: 18px;
+  width: auto;
+}
+
+.header .gnav-group ul li {
+  margin-bottom: 12px;
+}
+
+.header .gnav-group ul li:last-child {
+  margin-bottom: 0;
+}
+
+.header .gnav-group a {
+  font-size: var(--body-2-fs);
+  line-height: var(--body-2-lh);
+}
+
+.header .gnav-group a:hover {
+  color: var(--c-cta);
+}
+
+.header .gnav.is-open .gnav-icon[aria-expanded="true"] {
+  color: var(--c-cta);
+  box-shadow: inset 0 -4px 0 var(--c-cta);
+}
+
+/* My BMW panel (live: welcome copy, check-list, sign-in / register buttons) */
+.header .gnav-flyout[data-flyout=""] {
+  padding-top: 40px;
+}
+
+.header .gnav-mybmw {
+  display: block;
+  padding: 0 16px;
+}
+
+.header .gnav-mybmw h3 {
+  font-size: var(--subsection-1-fs);
+  line-height: var(--subsection-1-lh);
+  font-weight: var(--w-default);
+  margin-bottom: 29px;
+}
+
+.header .gnav-mybmw h4 {
+  font-size: var(--body-1-fs);
+  line-height: var(--body-1-lh);
+  font-weight: var(--w-default);
+  margin-bottom: 12px;
+}
+
+.header .gnav-mybmw p {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 8px;
+  font-size: var(--body-2-fs);
+  line-height: var(--body-2-lh);
+}
+
+.header .gnav-mybmw p::before {
+  content: "";
   position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 3;
-  box-sizing: border-box;
-  width: 100%;
-  min-width: 210px;
-  padding: 0 20px 32px;
-  border-radius: 0 0 30px 30px;
-  background-color: #000;
-  text-align: center;
+  left: 2px;
+  top: 7px;
+  width: 10px;
+  height: 5px;
+  border-left: 2px solid currentcolor;
+  border-bottom: 2px solid currentcolor;
+  transform: rotate(-45deg);
 }
 
-header .nav-drop > .nav-pill-link[aria-expanded='true'] + .nav-drop-list {
-  display: block;
+.header .gnav-mybmw .gnav-mybmw-action {
+  display: inline-flex;
+  margin: 11px 24px 0 0;
+  padding: 0;
 }
 
-header .nav-drop-list::before {
-  content: '';
-  display: block;
-  height: 1px;
-  margin-bottom: 20px;
-  background-color: var(--nav-white);
+.header .gnav-mybmw .gnav-mybmw-action::before {
+  content: none;
 }
 
-header .nav-drop-list li + li {
-  margin-top: 20px;
-}
-
-/* stylelint-disable-next-line no-descending-specificity */
-header .nav-drop-list a {
-  line-height: 22.4px;
-}
-
-header .nav-drop-list a:hover {
-  text-decoration: underline;
-}
-
-header .nav-panel-body {
-  display: grid;
-  gap: 40px;
-  margin-top: 40px;
-}
-
-header .nav-categories {
-  display: grid;
-  grid-template-columns: repeat(2, max-content);
-  column-gap: 26px;
-  align-content: start;
-}
-
-header .nav-category {
-  display: flex;
-  width: fit-content;
-  align-items: center;
-  gap: 8px;
-  padding: 6px;
-  font-size: 19.2px;
-  line-height: 26.88px;
-}
-
-header .nav-category:hover .nav-category-label {
-  text-decoration: underline;
-}
-
-header .nav-category-icon {
-  flex-shrink: 0;
-  width: 32px;
-  height: 32px;
-}
-
-header .nav-promo {
-  width: 100%;
-  max-width: 576px;
-}
-
-header .nav-promo[hidden] {
-  display: none;
-}
-
-header .nav-promo-image img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 16px;
-}
-
-header .nav-promo-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  margin-top: 16px;
-}
-
-header .nav-promo-title {
-  margin: 0;
-  color: var(--nav-white);
-  font-family: inherit;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.2;
-}
-
-header .nav-promo-cta a:any-link {
+.header .gnav-mybmw .gnav-mybmw-action > span {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 6.4px 19.2px;
-  border-radius: 100px;
-  background-color: var(--nav-white);
-  margin-right: 6px;
-  color: #212529;
-  font-size: 11px;
-  font-weight: 500;
-  line-height: 18px;
-  text-transform: uppercase;
+  min-height: 42px;
+  padding: 0 24px;
+  border-radius: 3px;
+  font-weight: var(--w-clickable);
+  background: var(--c-text);
+  color: #fff;
+  cursor: pointer;
 }
 
-header .nav-promo-cta img {
-  display: block;
-  width: 16px;
-  height: 16px;
+.header .gnav-mybmw .gnav-mybmw-action:last-child > span {
+  background: transparent;
+  color: var(--c-text);
+  box-shadow: inset 0 0 0 1px var(--c-text);
 }
 
-header .nav-version {
-  margin-top: auto;
-  padding: 40px 0 12px;
-  color: var(--nav-white);
-  opacity: 0.7;
-}
-
-@media (width >= 900px) {
-  header .header {
-    padding: 26px 0;
-  }
-
-  header .nav-wrapper {
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-  }
-
-  header .nav-logo img {
-    width: 88px;
-    height: 28px;
-  }
-
-  header .nav-separator,
-  header .nav-location,
-  header .nav-tool-link {
+/* mobile drawer (<1280): hamburger → white sheet; trigger → panel; group → drill-down */
+@media (width < 1280px) {
+  .header .gnav.is-menu-open {
+    position: fixed;
+    inset: 0;
     display: flex;
+    flex-direction: column;
+    overflow-y: auto;
   }
 
-  /* the source top-aligns the location link with the 28px logo box */
-  header .nav-location {
-    align-self: flex-start;
+  .header .gnav.is-menu-open .gnav-bar {
+    display: block;
+    height: auto;
+    padding: 0;
   }
 
-  header .nav-tools {
-    gap: 20px;
+  .header .gnav.is-menu-open .gnav-bar > .gnav-logo,
+  .header .gnav.is-menu-open .gnav-secondary {
+    display: none;
   }
 
-  header .nav-hamburger {
-    margin-left: 24px;
-  }
-
-  header .nav-panel {
-    padding-top: 112px;
-  }
-
-  header .nav-panel-inner {
-    max-width: 960px;
-    padding-top: 32px;
-  }
-
-  /* fixed-height pill band with centred, wrapping pills, as measured on the source */
-  header .nav-pills {
+  .header .gnav.is-menu-open .gnav-mobile,
+  .header .gnav:has(> .gnav-flyout[data-flyout=""]:not([hidden])) .gnav-mobile {
+    order: -1;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 175px;
-    gap: 10px;
+    height: 68px;
+    padding: 0 24px;
+    border-bottom: 1px solid var(--c-border);
   }
 
-  header .nav-pill-link {
-    padding: 14px 36px;
+  .header .gnav-mobile menu {
+    display: flex;
   }
 
-  header .nav-panel-body {
+  .header .gnav-mobile li:last-child .gnav-icon {
+    color: var(--c-cta);
+  }
+
+  .header .gnav.is-menu-open .gnav-primary {
+    display: block;
+    padding: 48px 50px;
+  }
+
+  .header .gnav.is-menu-open .gnav-list {
+    display: block;
+  }
+
+  .header .gnav.is-menu-open .gnav-list li {
+    border-bottom: 1px solid var(--c-border);
+  }
+
+  .header .gnav.is-menu-open .gnav-link {
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    min-height: 76px;
+    padding: 0;
+    font-size: var(--subsection-1-fs);
+    line-height: var(--subsection-1-lh);
+    font-weight: var(--w-default);
+  }
+
+  .header .gnav.is-menu-open .gnav-link .ico-desktop {
+    display: none;
+  }
+
+  .header .gnav.is-menu-open .gnav-link .ico-mobile {
+    display: inline-block;
+  }
+
+  .header .gnav.is-open:has(> .gnav-flyout[data-flyout]:not([data-flyout=""], [hidden])) .gnav-mobile,
+  .header .gnav.is-open .gnav-primary {
+    display: none;
+  }
+
+  .header .gnav-flyout {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0;
+    box-shadow: none;
+    opacity: 1;
+    transform: none;
+    transition: left 0.15s ease-in;
+  }
+
+  .header .gnav-flyout.is-visible {
+    left: 0;
+  }
+
+  /* My BMW: a sheet under the drawer bar, no slide */
+  .header .gnav:has(> .gnav-flyout[data-flyout=""]:not([hidden])) {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header .gnav:has(> .gnav-flyout[data-flyout=""]:not([hidden])) .gnav-bar {
+    display: none;
+  }
+
+  .header .gnav-flyout[data-flyout=""] {
+    position: static;
+    min-height: 0;
+    padding-top: 0;
+    transition: none;
+  }
+
+  .header .gnav-flyout[data-flyout=""] .gnav-flyout-head {
+    display: none;
+  }
+
+  .header .gnav-flyout-head {
     position: relative;
     display: flex;
-    justify-content: space-between;
-    gap: 0;
-    margin-top: 64px;
+    align-items: center;
+    justify-content: center;
+    height: 68px;
+    border-bottom: 1px solid var(--c-border);
+    font-size: var(--body-2-fs);
   }
 
-  /* vertical divider on the 5/12 column line, as on the source grid */
-  header .nav-panel-body::after {
-    content: '';
+  .header .gnav-back {
     position: absolute;
-    top: -10px;
-    bottom: 0;
-    left: calc(500% / 12);
-    width: 1px;
-    background-color: var(--nav-white);
+    left: 16px;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    transform: translateY(-50%);
   }
 
-  header .nav-categories {
-    grid-auto-flow: column;
-    grid-template-rows: repeat(7, auto);
-    grid-template-columns: none;
-    grid-auto-columns: minmax(195px, max-content);
-    justify-content: start;
-    column-gap: 16px;
+  .header .gnav-back .ico {
+    width: 20px;
+    height: 20px;
   }
 
-
-  header .nav-promo {
-    flex: none;
-    width: calc(60% - 203px);
-    max-width: none;
+  .header .gnav-flyout-cols {
+    display: block;
+    padding: 32px 50px;
   }
 
-  header .nav-promo-footer {
-    margin-top: 20px;
+  .header .gnav-group {
+    border-bottom: 1px solid var(--c-border);
+  }
+
+  .header .gnav-group-title,
+  .header .gnav-group > ul {
+    display: none;
+  }
+
+  .header .gnav-drill-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 76px;
+    text-align: left;
+    font-size: var(--subsection-1-fs);
+    line-height: var(--subsection-1-lh);
+  }
+
+  .header .gnav-drill-btn .ico {
+    width: 20px;
+    height: 20px;
+  }
+
+  .header .gnav-group.is-drilled {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    min-height: 100%;
+    border: 0;
+    background: #fff;
+    transition: left 0.25s ease-out;
+  }
+
+  .header .gnav-group.is-drilled-in {
+    left: 0;
+  }
+
+  .header .gnav-group.is-drilled .gnav-drill-btn {
+    display: none;
+  }
+
+  .header .gnav-group.is-drilled .gnav-drill-head {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 68px;
+    padding: 0 56px;
+    border-bottom: 1px solid var(--c-border);
+    text-align: center;
+  }
+
+  .header .gnav-group.is-drilled > ul {
+    display: block;
+    padding: 32px 50px;
+  }
+
+  .header .gnav-group.is-drilled > ul li {
+    margin: 0;
+    border-bottom: 1px solid var(--c-border);
+  }
+
+  .header .gnav-group.is-drilled > ul a {
+    display: flex;
+    align-items: center;
+    min-height: 64px;
+    font-size: var(--body-1-fs);
+  }
+
+  .header .gnav-mybmw {
+    padding: 32px 16px;
+  }
+
+  .header .gnav-drill-btn img {
+    height: 18px;
+    width: auto;
   }
 }
 
-@media (width >= 1200px) {
-  header .nav-wrapper,
-  header .nav-panel-inner {
-    max-width: 1140px;
-  }
-
-  header .nav-pills {
-    height: 105px;
+@media (width >= 768px) {
+  .header .gnav::before {
+    height: 128px;
   }
 }
 
-/* breakpoint-exception: the source container widens to 1320px at 1400px (bootstrap xxl) */
-@media (width >= 1400px) {
-  header .nav-wrapper,
-  header .nav-panel-inner {
-    max-width: 1320px;
+@media (width >= 1280px) {
+  .header .gnav::before {
+    height: 180px;
   }
 
-  header .nav-pills {
-    height: 78px;
+  .header .gnav-bar {
+    height: 84px;
+    padding: 0 96px;
+  }
+
+  .header .gnav-logo img {
+    width: 52px;
+    height: 52px;
+  }
+
+  .header .gnav-primary {
+    display: block;
+    height: 100%;
+  }
+
+  .header .gnav-icon {
+    height: 84px;
+  }
+
+  .header .gnav-icon-desk {
+    display: flex;
+  }
+
+  .header .gnav-icon-menu {
+    display: none;
+  }
+
+  .header .gnav-border {
+    margin: 0 96px;
+    height: 1px;
   }
 }

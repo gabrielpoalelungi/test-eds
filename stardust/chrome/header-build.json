@@ -1,0 +1,4450 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://main--bad0ba01--aemcoder.aem.live/ro/",
+ "at": "2026-10-21T16:58:31.179Z",
+ "shots": "stardust/.work/chrome/header-build-live",
+ "widths": {
+  "360": {
+   "root": "body>header>div>div:nth-of-type(2)",
+   "controls": [
+    {
+     "name": "BMW Logo",
+     "key": "bmw logo",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(2)>nav:nth-of-type(1)>a",
+     "href": "https://main--bad0ba01--aemcoder.aem.live/ro/",
+     "expanded": null,
+     "rect": [
+      24,
+      16,
+      36,
+      36
+     ],
+     "actions": {}
+    },
+    {
+     "name": "MyBMW",
+     "key": "mybmw",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>div:nth-of-type(2)>nav:nth-of-type(1)>menu>li:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      140,
+      0,
+      48,
+      68
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 6,
+       "panel": {
+        "links": [
+         {
+          "text": "BMW Logo",
+          "href": "https://main--bad0ba01--aemcoder.aem.live/ro/"
+         },
+         {
+          "text": "Selectare Partener",
+          "href": "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html"
+         }
+        ],
+        "headings": [
+         "Bun venit la My BMW.",
+         "Înregistrați-vă și beneficiați de avantaje:"
+        ],
+        "images": 1,
+        "inputs": [],
+        "buttons": [
+         "Close navigation menu"
+        ],
+        "options": 0,
+        "rect": [
+         16,
+         0,
+         328,
+         183
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 50,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav"
+        }
+       ],
+       "shot": "360-001-MyBMW-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 6,
+       "panel": {
+        "links": [
+         {
+          "text": "BMW Logo",
+          "href": "https://main--bad0ba01--aemcoder.aem.live/ro/"
+         },
+         {
+          "text": "Selectare Partener",
+          "href": "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html"
+         }
+        ],
+        "headings": [
+         "Bun venit la My BMW.",
+         "Înregistrați-vă și beneficiați de avantaje:"
+        ],
+        "images": 1,
+        "inputs": [],
+        "buttons": [
+         "Close navigation menu"
+        ],
+        "options": 0,
+        "rect": [
+         16,
+         0,
+         328,
+         183
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 50,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav"
+        }
+       ],
+       "shot": "360-002-MyBMW-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": false,
+      "outside": null,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Close navigation menu",
+       "key": "close navigation menu",
+       "role": "toggle",
+       "kind": "drawer",
+       "sel": "body>header>div>div:nth-of-type(2)>nav:nth-of-type(2)>menu>li:nth-of-type(2)>button",
+       "expanded": null,
+       "rect": [
+        288,
+        0,
+        48,
+        68
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 6,
+         "panel": {
+          "links": [
+           {
+            "text": "BMW Logo",
+            "href": "https://main--bad0ba01--aemcoder.aem.live/ro/"
+           },
+           {
+            "text": "Coș de cumpărături",
+            "href": "https://www.bmw.ro/ro/shop/ls/cart"
+           },
+           {
+            "text": "Listă de favorite",
+            "href": "https://www.bmw.ro/ro/shop/ls/wishlist"
+           }
+          ],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [
+           "MyBMW",
+           "Open navigation menu"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           0,
+           360,
+           68
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 50,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.gnav"
+          }
+         ],
+         "shot": "360-003-Close-navigation-menu-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 6,
+         "panel": {
+          "links": [
+           {
+            "text": "BMW Logo",
+            "href": "https://main--bad0ba01--aemcoder.aem.live/ro/"
+           },
+           {
+            "text": "Coș de cumpărături",
+            "href": "https://www.bmw.ro/ro/shop/ls/cart"
+           },
+           {
+            "text": "Listă de favorite",
+            "href": "https://www.bmw.ro/ro/shop/ls/wishlist"
+           }
+          ],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [
+           "MyBMW",
+           "Open navigation menu"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           0,
+           360,
+           68
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 50,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.gnav"
+          }
+         ],
+         "shot": "360-004-Close-navigation-menu-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": false,
+        "toggle": false
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "name": "Coș de cumpărături",
+     "key": "coș de cumpărături",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(2)>nav:nth-of-type(1)>menu>li:nth-of-type(2)>a",
+     "href": "https://www.bmw.ro/ro/shop/ls/cart",
+     "expanded": null,
+     "rect": [
+      188,
+      0,
+      48,
+      68
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Listă de favorite",
+     "key": "listă de favorite",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(2)>nav:nth-of-type(1)>menu>li:nth-of-type(3)>a",
+     "href": "https://www.bmw.ro/ro/shop/ls/wishlist",
+     "expanded": null,
+     "rect": [
+      236,
+      0,
+      48,
+      68
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Open navigation menu",
+     "key": "open navigation menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "body>header>div>div:nth-of-type(2)>nav:nth-of-type(1)>menu>li:nth-of-type(5)>button",
+     "expanded": null,
+     "rect": [
+      284,
+      0,
+      52,
+      68
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 6,
+       "panel": {
+        "links": [
+         {
+          "text": "Modele",
+          "href": "https://www.bmw.ro/ro/all-models.html"
+         },
+         {
+          "text": "BMW Logo",
+          "href": "https://main--bad0ba01--aemcoder.aem.live/ro/"
+         },
+         {
+          "text": "Selectare Partener",
+          "href": "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [
+         "Online Store",
+         "Electromobilitate",
+         "Servicii și asistență",
+         "Despre BMW",
+         "Close navigation menu"
+        ],
+        "options": 0,
+        "rect": [
+         24,
+         0,
+         312,
+         500
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 50,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav"
+        }
+       ],
+       "shot": "360-005-Open-navigation-menu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 6,
+       "panel": {
+        "links": [
+         {
+          "text": "Modele",
+          "href": "https://www.bmw.ro/ro/all-models.html"
+         },
+         {
+          "text": "BMW Logo",
+          "href": "https://main--bad0ba01--aemcoder.aem.live/ro/"
+         },
+         {
+          "text": "Selectare Partener",
+          "href": "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [
+         "Online Store",
+         "Electromobilitate",
+         "Servicii și asistență",
+         "Despre BMW",
+         "Close navigation menu"
+        ],
+        "options": 0,
+        "rect": [
+         24,
+         0,
+         312,
+         500
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 50,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav"
+        }
+       ],
+       "shot": "360-006-Open-navigation-menu-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Online Store",
+       "key": "online store",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>header>div>div:nth-of-type(2)>nav:nth-of-type(1)>div>menu>li:nth-of-type(2)>button",
+       "expanded": "false",
+       "rect": [
+        50,
+        193,
+        260,
+        76
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 9,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Close",
+           "Modele & Configurator",
+           "BMW Corporate & Special Sales",
+           "Servicii digitale & accesorii",
+           "Servicii financiare"
+          ],
+          "options": 0,
+          "rect": [
+           16,
+           14,
+           294,
+           394
+          ]
+         },
+         "expanded": "true",
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "left",
+           "ms": 150,
+           "delay": 0,
+           "easing": "ease-in",
+           "target": "div.gnav-flyout"
+          }
+         ],
+         "shot": "360-007-Online-Store-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 9,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Close",
+           "Modele & Configurator",
+           "BMW Corporate & Special Sales",
+           "Servicii digitale & accesorii",
+           "Servicii financiare"
+          ],
+          "options": 0,
+          "rect": [
+           16,
+           14,
+           294,
+           394
+          ]
+         },
+         "expanded": "true",
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "left",
+           "ms": 150,
+           "delay": 0,
+           "easing": "ease-in",
+           "target": "div.gnav-flyout"
+          }
+         ],
+         "shot": "360-008-Online-Store-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "Close",
+         "key": "close",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>button",
+         "expanded": null,
+         "rect": [
+          16,
+          14,
+          40,
+          40
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "Modele",
+              "href": "https://www.bmw.ro/ro/all-models.html"
+             },
+             {
+              "text": "BMW Logo",
+              "href": "https://main--bad0ba01--aemcoder.aem.live/ro/"
+             },
+             {
+              "text": "Selectare Partener",
+              "href": "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html"
+             }
+            ],
+            "headings": [],
+            "images": 1,
+            "inputs": [],
+            "buttons": [
+             "Online Store",
+             "Electromobilitate",
+             "Servicii și asistență",
+             "Despre BMW",
+             "Close navigation menu"
+            ],
+            "options": 0,
+            "rect": [
+             24,
+             0,
+             312,
+             500
+            ]
+           },
+           "expanded": null,
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 150,
+             "delay": 0,
+             "easing": "ease-in",
+             "target": "div.gnav-flyout"
+            }
+           ],
+           "shot": "360-009-Close-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "Modele",
+              "href": "https://www.bmw.ro/ro/all-models.html"
+             },
+             {
+              "text": "BMW Logo",
+              "href": "https://main--bad0ba01--aemcoder.aem.live/ro/"
+             },
+             {
+              "text": "Selectare Partener",
+              "href": "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html"
+             }
+            ],
+            "headings": [],
+            "images": 1,
+            "inputs": [],
+            "buttons": [
+             "Online Store",
+             "Electromobilitate",
+             "Servicii și asistență",
+             "Despre BMW",
+             "Close navigation menu"
+            ],
+            "options": 0,
+            "rect": [
+             24,
+             0,
+             312,
+             500
+            ]
+           },
+           "expanded": null,
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 150,
+             "delay": 0,
+             "easing": "ease-in",
+             "target": "div.gnav-flyout"
+            }
+           ],
+           "shot": "360-010-Close-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "returns": true
+        },
+        {
+         "name": "Modele & Configurator",
+         "key": "modele configurator",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>button",
+         "expanded": "false",
+         "rect": [
+          50,
+          100,
+          260,
+          76
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "Modele BMW",
+              "href": "https://www.bmw.ro/ro/all-models.html"
+             },
+             {
+              "text": "Configurator",
+              "href": "https://www.bmw.ro/ro/configurator.html"
+             },
+             {
+              "text": "Automobile noi",
+              "href": "https://www.bmw.ro/ro-ro/sl/stocklocator"
+             },
+             {
+              "text": "Automobile rulate",
+              "href": "https://oferte.bmw.ro/rulate"
+             },
+             {
+              "text": "BMW Premium Selection",
+              "href": "https://oferte.bmw.ro/rulate/bmw-premium-selection"
+             },
+             {
+              "text": "BMW ConnectedDrive Store",
+              "href": "https://www.bmw.ro/ro/shop/ls/cp/connected-drive"
+             },
+             {
+              "text": "Comparație automobile",
+              "href": "https://www.bmw.ro/ro/compara%C8%9Bie-modele-bmw.html/content.q"
+             },
+             {
+              "text": "Oferte de finanțare",
+              "href": "https://www.bmw.ro/ro/topics/offers-and-services/financial-services.html"
+             },
+             {
+              "text": "BMW Individual",
+              "href": "https://www.bmw.ro/ro/more-bmw/bmw-individual.html"
+             },
+             {
+              "text": "Modele exclusiviste",
+              "href": "https://www.bmw.ro/ro/more-bmw/automobile-exclusiviste-bmw.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             736
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-011-Modele-Configurator-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "Modele BMW",
+              "href": "https://www.bmw.ro/ro/all-models.html"
+             },
+             {
+              "text": "Configurator",
+              "href": "https://www.bmw.ro/ro/configurator.html"
+             },
+             {
+              "text": "Automobile noi",
+              "href": "https://www.bmw.ro/ro-ro/sl/stocklocator"
+             },
+             {
+              "text": "Automobile rulate",
+              "href": "https://oferte.bmw.ro/rulate"
+             },
+             {
+              "text": "BMW Premium Selection",
+              "href": "https://oferte.bmw.ro/rulate/bmw-premium-selection"
+             },
+             {
+              "text": "BMW ConnectedDrive Store",
+              "href": "https://www.bmw.ro/ro/shop/ls/cp/connected-drive"
+             },
+             {
+              "text": "Comparație automobile",
+              "href": "https://www.bmw.ro/ro/compara%C8%9Bie-modele-bmw.html/content.q"
+             },
+             {
+              "text": "Oferte de finanțare",
+              "href": "https://www.bmw.ro/ro/topics/offers-and-services/financial-services.html"
+             },
+             {
+              "text": "BMW Individual",
+              "href": "https://www.bmw.ro/ro/more-bmw/bmw-individual.html"
+             },
+             {
+              "text": "Modele exclusiviste",
+              "href": "https://www.bmw.ro/ro/more-bmw/automobile-exclusiviste-bmw.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             736
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-012-Modele-Configurator-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         }
+        },
+        {
+         "name": "BMW Corporate & Special Sales",
+         "key": "bmw corporate special sales",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(2)>button",
+         "expanded": "false",
+         "rect": [
+          50,
+          177,
+          260,
+          76
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "BMW Corporate",
+              "href": "https://www.bmw.ro/ro/campaigns/bmw-business.html"
+             },
+             {
+              "text": "BMW Special Sales",
+              "href": "https://www.bmw.ro/ro/more-bmw/bmw-special-sales.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             216
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-013-BMW-Corporate-Special-Sales-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "BMW Corporate",
+              "href": "https://www.bmw.ro/ro/campaigns/bmw-business.html"
+             },
+             {
+              "text": "BMW Special Sales",
+              "href": "https://www.bmw.ro/ro/more-bmw/bmw-special-sales.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             216
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-014-BMW-Corporate-Special-Sales-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         }
+        },
+        {
+         "name": "Servicii digitale & accesorii",
+         "key": "servicii digitale accesorii",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(3)>button",
+         "expanded": "false",
+         "rect": [
+          50,
+          254,
+          260,
+          76
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "Accesorii originale BMW",
+              "href": "https://www.bmw.ro/ro/more-bmw/parts-and-accessories/bmw-accesorii-hub.html"
+             },
+             {
+              "text": "Configurator accesorii",
+              "href": "https://www.bmw.ro/ro/shop/ls/cp/physical-goods/BF_ACCESSORY"
+             },
+             {
+              "text": "Eticheta pentru anvelope",
+              "href": "https://www.bmw.ro/ro/more-bmw/technology-and-innovation/bmw-tyre-label.html"
+             },
+             {
+              "text": "BMW Lifestyle",
+              "href": "https://www.bmw.ro/ro/more-bmw/bmw-lifestyle.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             346
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-015-Servicii-digitale-accesorii-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "Accesorii originale BMW",
+              "href": "https://www.bmw.ro/ro/more-bmw/parts-and-accessories/bmw-accesorii-hub.html"
+             },
+             {
+              "text": "Configurator accesorii",
+              "href": "https://www.bmw.ro/ro/shop/ls/cp/physical-goods/BF_ACCESSORY"
+             },
+             {
+              "text": "Eticheta pentru anvelope",
+              "href": "https://www.bmw.ro/ro/more-bmw/technology-and-innovation/bmw-tyre-label.html"
+             },
+             {
+              "text": "BMW Lifestyle",
+              "href": "https://www.bmw.ro/ro/more-bmw/bmw-lifestyle.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             346
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-016-Servicii-digitale-accesorii-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         }
+        },
+        {
+         "name": "Servicii financiare",
+         "key": "servicii financiare",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(4)>button",
+         "expanded": "false",
+         "rect": [
+          50,
+          331,
+          260,
+          76
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "Prezentare generală",
+              "href": "https://www.bmw.ro/ro/bmw-financial-services.html"
+             },
+             {
+              "text": "Leasing",
+              "href": "https://www.bmw.ro/ro/bmw-financial-services/bmw-leasing.html"
+             },
+             {
+              "text": "Oferte de finanțare",
+              "href": "https://www.bmw.ro/ro/topics/offers-and-services/financial-services.html"
+             },
+             {
+              "text": "Leasing Operaţional - modele electrice BMW",
+              "href": "https://www.bmw.ro/ro/topics/offers-and-services/leasing-operational-modele-electrice.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             346
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-017-Servicii-financiare-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "Prezentare generală",
+              "href": "https://www.bmw.ro/ro/bmw-financial-services.html"
+             },
+             {
+              "text": "Leasing",
+              "href": "https://www.bmw.ro/ro/bmw-financial-services/bmw-leasing.html"
+             },
+             {
+              "text": "Oferte de finanțare",
+              "href": "https://www.bmw.ro/ro/topics/offers-and-services/financial-services.html"
+             },
+             {
+              "text": "Leasing Operaţional - modele electrice BMW",
+              "href": "https://www.bmw.ro/ro/topics/offers-and-services/leasing-operational-modele-electrice.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             346
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-018-Servicii-financiare-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         }
+        }
+       ]
+      },
+      {
+       "name": "Electromobilitate",
+       "key": "electromobilitate",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>header>div>div:nth-of-type(2)>nav:nth-of-type(1)>div>menu>li:nth-of-type(3)>button",
+       "expanded": "false",
+       "rect": [
+        50,
+        270,
+        260,
+        76
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 9,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Close",
+           "Automobile electrice",
+           "Încărcare & autonomie"
+          ],
+          "options": 0,
+          "rect": [
+           16,
+           14,
+           294,
+           240
+          ]
+         },
+         "expanded": "true",
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "left",
+           "ms": 150,
+           "delay": 0,
+           "easing": "ease-in",
+           "target": "div.gnav-flyout"
+          }
+         ],
+         "shot": "360-019-Electromobilitate-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 9,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Close",
+           "Automobile electrice",
+           "Încărcare & autonomie"
+          ],
+          "options": 0,
+          "rect": [
+           16,
+           14,
+           294,
+           240
+          ]
+         },
+         "expanded": "true",
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "left",
+           "ms": 150,
+           "delay": 0,
+           "easing": "ease-in",
+           "target": "div.gnav-flyout"
+          }
+         ],
+         "shot": "360-020-Electromobilitate-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "Close",
+         "key": "close",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(1)>button",
+         "expanded": null,
+         "rect": [
+          16,
+          14,
+          40,
+          40
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 3,
+           "panel": {
+            "links": [
+             {
+              "text": "Modele",
+              "href": "https://www.bmw.ro/ro/all-models.html"
+             },
+             {
+              "text": "BMW Logo",
+              "href": "https://main--bad0ba01--aemcoder.aem.live/ro/"
+             },
+             {
+              "text": "Selectare Partener",
+              "href": "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html"
+             }
+            ],
+            "headings": [],
+            "images": 1,
+            "inputs": [],
+            "buttons": [
+             "Online Store",
+             "Electromobilitate",
+             "Servicii și asistență",
+             "Despre BMW",
+             "Close navigation menu"
+            ],
+            "options": 0,
+            "rect": [
+             24,
+             0,
+             312,
+             500
+            ]
+           },
+           "expanded": null,
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 150,
+             "delay": 0,
+             "easing": "ease-in",
+             "target": "div.gnav-flyout"
+            }
+           ],
+           "shot": "360-021-Close-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 3,
+           "panel": {
+            "links": [
+             {
+              "text": "Modele",
+              "href": "https://www.bmw.ro/ro/all-models.html"
+             },
+             {
+              "text": "BMW Logo",
+              "href": "https://main--bad0ba01--aemcoder.aem.live/ro/"
+             },
+             {
+              "text": "Selectare Partener",
+              "href": "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html"
+             }
+            ],
+            "headings": [],
+            "images": 1,
+            "inputs": [],
+            "buttons": [
+             "Online Store",
+             "Electromobilitate",
+             "Servicii și asistență",
+             "Despre BMW",
+             "Close navigation menu"
+            ],
+            "options": 0,
+            "rect": [
+             24,
+             0,
+             312,
+             500
+            ]
+           },
+           "expanded": null,
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 150,
+             "delay": 0,
+             "easing": "ease-in",
+             "target": "div.gnav-flyout"
+            }
+           ],
+           "shot": "360-022-Close-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "returns": true
+        },
+        {
+         "name": "Automobile electrice",
+         "key": "automobile electrice",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)>button",
+         "expanded": "false",
+         "rect": [
+          50,
+          100,
+          260,
+          76
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "Modele electrice",
+              "href": "https://www.bmw.ro/ro/modele-electrice.html"
+             },
+             {
+              "text": "Automobile electrice rulate",
+              "href": "https://www.bmw.ro/ro/modele-electrice/used-electric-cars.html"
+             },
+             {
+              "text": "Beneficiile automobilelor electrice",
+              "href": "https://www.bmw.ro/ro/modele-electrice/electric-cars-benefits.html"
+             },
+             {
+              "text": "Costul unei mașini electrice",
+              "href": "https://www.bmw.ro/ro/modele-electrice/costuri-masini-electrice.html"
+             },
+             {
+              "text": "Plug-in Hybrid",
+              "href": "https://www.bmw.ro/ro/modele-electrice/plug-in-hybrid.html"
+             },
+             {
+              "text": "Catalogul modelelor electrice",
+              "href": "https://www.bmw.ro/content/dam/bmw/marketRO/bmw_ro/brosura/Brosura-Familia-electrica-BMW.pdf.asset.1711535757305.pdf"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             476
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-023-Automobile-electrice-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "Modele electrice",
+              "href": "https://www.bmw.ro/ro/modele-electrice.html"
+             },
+             {
+              "text": "Automobile electrice rulate",
+              "href": "https://www.bmw.ro/ro/modele-electrice/used-electric-cars.html"
+             },
+             {
+              "text": "Beneficiile automobilelor electrice",
+              "href": "https://www.bmw.ro/ro/modele-electrice/electric-cars-benefits.html"
+             },
+             {
+              "text": "Costul unei mașini electrice",
+              "href": "https://www.bmw.ro/ro/modele-electrice/costuri-masini-electrice.html"
+             },
+             {
+              "text": "Plug-in Hybrid",
+              "href": "https://www.bmw.ro/ro/modele-electrice/plug-in-hybrid.html"
+             },
+             {
+              "text": "Catalogul modelelor electrice",
+              "href": "https://www.bmw.ro/content/dam/bmw/marketRO/bmw_ro/brosura/Brosura-Familia-electrica-BMW.pdf.asset.1711535757305.pdf"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             476
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-024-Automobile-electrice-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         }
+        },
+        {
+         "name": "Încărcare & autonomie",
+         "key": "încărcare autonomie",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(2)>button",
+         "expanded": "false",
+         "rect": [
+          50,
+          177,
+          260,
+          76
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "Încărcare la domiciliu",
+              "href": "https://www.bmw.ro/ro/modele-electrice/incarcare-domiciliu.html"
+             },
+             {
+              "text": "Încărcare publică",
+              "href": "https://www.bmw.ro/ro/modele-electrice/incarcare-publica.html"
+             },
+             {
+              "text": "Tehnologia bateriilor electrice BMW",
+              "href": "https://www.bmw.ro/ro/modele-electrice/tehnologie-baterie.html"
+             },
+             {
+              "text": "Autonomia modelelor electrice",
+              "href": "https://www.bmw.ro/ro/modele-electrice/autonomie-masini-electrice.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             346
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-025--nc-rcare-autonomie-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "Încărcare la domiciliu",
+              "href": "https://www.bmw.ro/ro/modele-electrice/incarcare-domiciliu.html"
+             },
+             {
+              "text": "Încărcare publică",
+              "href": "https://www.bmw.ro/ro/modele-electrice/incarcare-publica.html"
+             },
+             {
+              "text": "Tehnologia bateriilor electrice BMW",
+              "href": "https://www.bmw.ro/ro/modele-electrice/tehnologie-baterie.html"
+             },
+             {
+              "text": "Autonomia modelelor electrice",
+              "href": "https://www.bmw.ro/ro/modele-electrice/autonomie-masini-electrice.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             346
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-026--nc-rcare-autonomie-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         }
+        }
+       ]
+      },
+      {
+       "name": "Servicii și asistență",
+       "key": "servicii și asistență",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>header>div>div:nth-of-type(2)>nav:nth-of-type(1)>div>menu>li:nth-of-type(4)>button",
+       "expanded": "false",
+       "rect": [
+        50,
+        347,
+        260,
+        76
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 9,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Close",
+           "Asistență clienți",
+           "Service & asistență",
+           "Servicii digitale & aplicații",
+           "Garanții & campanii de rechemare"
+          ],
+          "options": 0,
+          "rect": [
+           16,
+           14,
+           294,
+           394
+          ]
+         },
+         "expanded": "true",
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "left",
+           "ms": 150,
+           "delay": 0,
+           "easing": "ease-in",
+           "target": "div.gnav-flyout"
+          }
+         ],
+         "shot": "360-027-Servicii-i-asisten--click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 9,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Close",
+           "Asistență clienți",
+           "Service & asistență",
+           "Servicii digitale & aplicații",
+           "Garanții & campanii de rechemare"
+          ],
+          "options": 0,
+          "rect": [
+           16,
+           14,
+           294,
+           394
+          ]
+         },
+         "expanded": "true",
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "left",
+           "ms": 150,
+           "delay": 0,
+           "easing": "ease-in",
+           "target": "div.gnav-flyout"
+          }
+         ],
+         "shot": "360-028-Servicii-i-asisten--key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "Close",
+         "key": "close",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(1)>button",
+         "expanded": null,
+         "rect": [
+          16,
+          14,
+          40,
+          40
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "Modele",
+              "href": "https://www.bmw.ro/ro/all-models.html"
+             },
+             {
+              "text": "BMW Logo",
+              "href": "https://main--bad0ba01--aemcoder.aem.live/ro/"
+             },
+             {
+              "text": "Selectare Partener",
+              "href": "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html"
+             }
+            ],
+            "headings": [],
+            "images": 1,
+            "inputs": [],
+            "buttons": [
+             "Online Store",
+             "Electromobilitate",
+             "Servicii și asistență",
+             "Despre BMW",
+             "Close navigation menu"
+            ],
+            "options": 0,
+            "rect": [
+             24,
+             0,
+             312,
+             500
+            ]
+           },
+           "expanded": null,
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 150,
+             "delay": 0,
+             "easing": "ease-in",
+             "target": "div.gnav-flyout"
+            }
+           ],
+           "shot": "360-029-Close-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "Modele",
+              "href": "https://www.bmw.ro/ro/all-models.html"
+             },
+             {
+              "text": "BMW Logo",
+              "href": "https://main--bad0ba01--aemcoder.aem.live/ro/"
+             },
+             {
+              "text": "Selectare Partener",
+              "href": "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html"
+             }
+            ],
+            "headings": [],
+            "images": 1,
+            "inputs": [],
+            "buttons": [
+             "Online Store",
+             "Electromobilitate",
+             "Servicii și asistență",
+             "Despre BMW",
+             "Close navigation menu"
+            ],
+            "options": 0,
+            "rect": [
+             24,
+             0,
+             312,
+             500
+            ]
+           },
+           "expanded": null,
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 150,
+             "delay": 0,
+             "easing": "ease-in",
+             "target": "div.gnav-flyout"
+            }
+           ],
+           "shot": "360-030-Close-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "returns": true
+        },
+        {
+         "name": "Asistență clienți",
+         "key": "asistență clienți",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(1)>button",
+         "expanded": "false",
+         "rect": [
+          50,
+          100,
+          260,
+          76
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "Asistenţă și contact",
+              "href": "https://www.bmw.ro/ro/more-bmw/asistenta-clienti.html"
+             },
+             {
+              "text": "Caută un partener BMW",
+              "href": "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html"
+             },
+             {
+              "text": "Solicită un test drive",
+              "href": "https://www.bmw.ro/faas/form/ro-ro/bmw/tda/test-drive-request.html?akrr=BMW_TDA_RO"
+             },
+             {
+              "text": "Solicită o ofertă personalizată",
+              "href": "https://www.bmw.ro/faas/form/ro-ro/bmw/rfo/cerere-de-oferta.html?akrr=BMW_RFO_RO"
+             },
+             {
+              "text": "Trade In",
+              "href": "https://www.bmw.ro/ro/tradein/?icp=topnav-to-trade-in&origin=topnav"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             411
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-031-Asisten-clien-i-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "Asistenţă și contact",
+              "href": "https://www.bmw.ro/ro/more-bmw/asistenta-clienti.html"
+             },
+             {
+              "text": "Caută un partener BMW",
+              "href": "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html"
+             },
+             {
+              "text": "Solicită un test drive",
+              "href": "https://www.bmw.ro/faas/form/ro-ro/bmw/tda/test-drive-request.html?akrr=BMW_TDA_RO"
+             },
+             {
+              "text": "Solicită o ofertă personalizată",
+              "href": "https://www.bmw.ro/faas/form/ro-ro/bmw/rfo/cerere-de-oferta.html?akrr=BMW_RFO_RO"
+             },
+             {
+              "text": "Trade In",
+              "href": "https://www.bmw.ro/ro/tradein/?icp=topnav-to-trade-in&origin=topnav"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             411
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-032-Asisten-clien-i-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         }
+        },
+        {
+         "name": "Service & asistență",
+         "key": "service asistență",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(2)>button",
+         "expanded": "false",
+         "rect": [
+          50,
+          177,
+          260,
+          76
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "Prezentare generală",
+              "href": "https://www.bmw.ro/ro/bmw-service.html"
+             },
+             {
+              "text": "Programare în service",
+              "href": "https://www.bmw.ro/ro/topics/offers-and-services/personal-services/programare-online.html"
+             },
+             {
+              "text": "Asistenţă în caz de accident",
+              "href": "https://www.bmw.ro/ro/bmw-service.html#roadside-assistance"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             281
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-033-Service-asisten--click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "Prezentare generală",
+              "href": "https://www.bmw.ro/ro/bmw-service.html"
+             },
+             {
+              "text": "Programare în service",
+              "href": "https://www.bmw.ro/ro/topics/offers-and-services/personal-services/programare-online.html"
+             },
+             {
+              "text": "Asistenţă în caz de accident",
+              "href": "https://www.bmw.ro/ro/bmw-service.html#roadside-assistance"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             281
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-034-Service-asisten--key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         }
+        },
+        {
+         "name": "Servicii digitale & aplicații",
+         "key": "servicii digitale aplicații",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(3)>button",
+         "expanded": "false",
+         "rect": [
+          50,
+          254,
+          260,
+          76
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "Aplicația My BMW",
+              "href": "https://www.bmw.ro/ro/digital-services/bmw-connecteddrive.html#toate-aplicatiile"
+             },
+             {
+              "text": "BMW ConnectedDrive",
+              "href": "https://www.bmw.ro/ro/digital-services/bmw-connecteddrive.html"
+             },
+             {
+              "text": "BMW iDrive",
+              "href": "https://www.bmw.ro/ro/digital-services/bmw-idrive.html"
+             },
+             {
+              "text": "BMW Digital Key",
+              "href": "https://www.bmw.ro/ro/digital-services/bmw-digital-key.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             346
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-035-Servicii-digitale-aplica-ii-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "Aplicația My BMW",
+              "href": "https://www.bmw.ro/ro/digital-services/bmw-connecteddrive.html#toate-aplicatiile"
+             },
+             {
+              "text": "BMW ConnectedDrive",
+              "href": "https://www.bmw.ro/ro/digital-services/bmw-connecteddrive.html"
+             },
+             {
+              "text": "BMW iDrive",
+              "href": "https://www.bmw.ro/ro/digital-services/bmw-idrive.html"
+             },
+             {
+              "text": "BMW Digital Key",
+              "href": "https://www.bmw.ro/ro/digital-services/bmw-digital-key.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             346
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-036-Servicii-digitale-aplica-ii-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         }
+        },
+        {
+         "name": "Garanții & campanii de rechemare",
+         "key": "garanții campanii de rechemare",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(4)>div:nth-of-type(2)>div:nth-of-type(4)>button",
+         "expanded": "false",
+         "rect": [
+          50,
+          331,
+          260,
+          76
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "Garanția BMW",
+              "href": "https://www.bmw.ro/ro/campaigns/garantie-bmw.html"
+             },
+             {
+              "text": "Campanii de rechemare și actualizări tehnice",
+              "href": "https://www.bmw.ro/ro/footer/quick-link/bmw-vehicle-recalls.html"
+             },
+             {
+              "text": "Rechemare service automobile BMW Seria 3 din 1997 - 2000",
+              "href": "https://www.bmw.ro/ro/topics/offers-and-services/personal-services/warranty.html"
+             },
+             {
+              "text": "Reciclare",
+              "href": "https://www.bmw.ro/ro/campaigns/bmw-recycling.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             346
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-037-Garan-ii-campanii-de-rechemare-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "Garanția BMW",
+              "href": "https://www.bmw.ro/ro/campaigns/garantie-bmw.html"
+             },
+             {
+              "text": "Campanii de rechemare și actualizări tehnice",
+              "href": "https://www.bmw.ro/ro/footer/quick-link/bmw-vehicle-recalls.html"
+             },
+             {
+              "text": "Rechemare service automobile BMW Seria 3 din 1997 - 2000",
+              "href": "https://www.bmw.ro/ro/topics/offers-and-services/personal-services/warranty.html"
+             },
+             {
+              "text": "Reciclare",
+              "href": "https://www.bmw.ro/ro/campaigns/bmw-recycling.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             346
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-038-Garan-ii-campanii-de-rechemare-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         }
+        }
+       ]
+      },
+      {
+       "name": "Despre BMW",
+       "key": "despre bmw",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>header>div>div:nth-of-type(2)>nav:nth-of-type(1)>div>menu>li:nth-of-type(5)>button",
+       "expanded": "false",
+       "rect": [
+        50,
+        424,
+        260,
+        76
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 9,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [
+           "Close",
+           "Brand & companie",
+           "Lumea BMW",
+           "Tehnologii & inovaţii"
+          ],
+          "options": 0,
+          "rect": [
+           16,
+           14,
+           294,
+           394
+          ]
+         },
+         "expanded": "true",
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "left",
+           "ms": 150,
+           "delay": 0,
+           "easing": "ease-in",
+           "target": "div.gnav-flyout"
+          }
+         ],
+         "shot": "360-039-Despre-BMW-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 9,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [
+           "Close",
+           "Brand & companie",
+           "Lumea BMW",
+           "Tehnologii & inovaţii"
+          ],
+          "options": 0,
+          "rect": [
+           16,
+           14,
+           294,
+           394
+          ]
+         },
+         "expanded": "true",
+         "focus": "panel",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "left",
+           "ms": 150,
+           "delay": 0,
+           "easing": "ease-in",
+           "target": "div.gnav-flyout"
+          }
+         ],
+         "shot": "360-040-Despre-BMW-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "Close",
+         "key": "close",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(5)>div:nth-of-type(1)>button",
+         "expanded": null,
+         "rect": [
+          16,
+          14,
+          40,
+          40
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 6,
+           "panel": {
+            "links": [
+             {
+              "text": "Modele",
+              "href": "https://www.bmw.ro/ro/all-models.html"
+             },
+             {
+              "text": "BMW Logo",
+              "href": "https://main--bad0ba01--aemcoder.aem.live/ro/"
+             },
+             {
+              "text": "Selectare Partener",
+              "href": "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html"
+             }
+            ],
+            "headings": [],
+            "images": 1,
+            "inputs": [],
+            "buttons": [
+             "Online Store",
+             "Electromobilitate",
+             "Servicii și asistență",
+             "Despre BMW",
+             "Close navigation menu"
+            ],
+            "options": 0,
+            "rect": [
+             24,
+             0,
+             312,
+             500
+            ]
+           },
+           "expanded": null,
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 150,
+             "delay": 0,
+             "easing": "ease-in",
+             "target": "div.gnav-flyout"
+            }
+           ],
+           "shot": "360-041-Close-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 6,
+           "panel": {
+            "links": [
+             {
+              "text": "Modele",
+              "href": "https://www.bmw.ro/ro/all-models.html"
+             },
+             {
+              "text": "BMW Logo",
+              "href": "https://main--bad0ba01--aemcoder.aem.live/ro/"
+             },
+             {
+              "text": "Selectare Partener",
+              "href": "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html"
+             }
+            ],
+            "headings": [],
+            "images": 1,
+            "inputs": [],
+            "buttons": [
+             "Online Store",
+             "Electromobilitate",
+             "Servicii și asistență",
+             "Despre BMW",
+             "Close navigation menu"
+            ],
+            "options": 0,
+            "rect": [
+             24,
+             0,
+             312,
+             500
+            ]
+           },
+           "expanded": null,
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 150,
+             "delay": 0,
+             "easing": "ease-in",
+             "target": "div.gnav-flyout"
+            }
+           ],
+           "shot": "360-042-Close-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "returns": true
+        },
+        {
+         "name": "Brand & companie",
+         "key": "brand companie",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(5)>div:nth-of-type(2)>div:nth-of-type(1)>button",
+         "expanded": "false",
+         "rect": [
+          50,
+          100,
+          260,
+          76
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "Info BMW România",
+              "href": "https://www.bmw.ro/ro/footer/metanavigation/legal-notice-pool/imprint.html"
+             },
+             {
+              "text": "BMW Group",
+              "href": "https://www.bmwgroup.com/en.html"
+             },
+             {
+              "text": "Cariere la BMW",
+              "href": "https://www.bmw.ro/ro/footer/bmw-explore/cariere.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             281
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-043-Brand-companie-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "Info BMW România",
+              "href": "https://www.bmw.ro/ro/footer/metanavigation/legal-notice-pool/imprint.html"
+             },
+             {
+              "text": "BMW Group",
+              "href": "https://www.bmwgroup.com/en.html"
+             },
+             {
+              "text": "Cariere la BMW",
+              "href": "https://www.bmw.ro/ro/footer/bmw-explore/cariere.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             281
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-044-Brand-companie-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         }
+        },
+        {
+         "name": "Lumea BMW",
+         "key": "lumea bmw",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(5)>div:nth-of-type(2)>div:nth-of-type(2)>button",
+         "expanded": "false",
+         "rect": [
+          50,
+          177,
+          260,
+          76
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "BMW Driving Experience",
+              "href": "https://www.bmw.ro/ro/topics/fascination-bmw/driving-experience.html"
+             },
+             {
+              "text": "Communicate de presă",
+              "href": "https://www.press.bmwgroup.com/romania/article"
+             },
+             {
+              "text": "Declaraţii de presă",
+              "href": "https://www.bmw.ro/ro/topics/fascination-bmw/declaratii-de-presa-BMW.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             281
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-045-Lumea-BMW-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "BMW Driving Experience",
+              "href": "https://www.bmw.ro/ro/topics/fascination-bmw/driving-experience.html"
+             },
+             {
+              "text": "Communicate de presă",
+              "href": "https://www.press.bmwgroup.com/romania/article"
+             },
+             {
+              "text": "Declaraţii de presă",
+              "href": "https://www.bmw.ro/ro/topics/fascination-bmw/declaratii-de-presa-BMW.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             281
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-046-Lumea-BMW-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         }
+        },
+        {
+         "name": "Tehnologii & inovaţii",
+         "key": "tehnologii inovaţii",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(5)>div:nth-of-type(2)>div:nth-of-type(3)>button",
+         "expanded": "false",
+         "rect": [
+          50,
+          254,
+          260,
+          76
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "Modele electrice",
+              "href": "https://www.bmw.ro/ro/modele-electrice.html"
+             },
+             {
+              "text": "Concept Cars",
+              "href": "https://www.bmw.ro/ro/all-models.html?specialCategory=c"
+             },
+             {
+              "text": "BMW Symbiotic Drive",
+              "href": "https://www.bmw.ro/ro/tehnologie-si-inovatie/bmw-symbiotic-drive.html"
+             },
+             {
+              "text": "BMW Heart of Joy",
+              "href": "https://www.bmw.ro/ro/more-bmw/technology-and-innovation/bmw-heart-of-joy.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             346
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-047-Tehnologii-inova-ii-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 1,
+           "panel": {
+            "links": [
+             {
+              "text": "Modele electrice",
+              "href": "https://www.bmw.ro/ro/modele-electrice.html"
+             },
+             {
+              "text": "Concept Cars",
+              "href": "https://www.bmw.ro/ro/all-models.html?specialCategory=c"
+             },
+             {
+              "text": "BMW Symbiotic Drive",
+              "href": "https://www.bmw.ro/ro/tehnologie-si-inovatie/bmw-symbiotic-drive.html"
+             },
+             {
+              "text": "BMW Heart of Joy",
+              "href": "https://www.bmw.ro/ro/more-bmw/technology-and-innovation/bmw-heart-of-joy.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             346
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-048-Tehnologii-inova-ii-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         }
+        },
+        {
+         "name": "",
+         "key": "",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "body>header>div>div:nth-of-type(2)>div:nth-of-type(5)>div:nth-of-type(2)>div:nth-of-type(4)>button",
+         "expanded": "false",
+         "rect": [
+          50,
+          331,
+          260,
+          76
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 2,
+           "panel": {
+            "links": [
+             {
+              "text": "Vision BMW ALPINA",
+              "href": "https://www.bmw.ro/ro/bmw-alpina.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             151
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-049-toggle-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 2,
+           "panel": {
+            "links": [
+             {
+              "text": "Vision BMW ALPINA",
+              "href": "https://www.bmw.ro/ro/bmw-alpina.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Close"
+            ],
+            "options": 0,
+            "rect": [
+             16,
+             14,
+             294,
+             151
+            ]
+           },
+           "expanded": "true",
+           "focus": "panel",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "left",
+             "ms": 250,
+             "delay": 0,
+             "easing": "ease-out",
+             "target": "div.gnav-group"
+            }
+           ],
+           "shot": "360-050-toggle-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         }
+        }
+       ]
+      },
+      {
+       "name": "Close navigation menu",
+       "key": "close navigation menu",
+       "role": "toggle",
+       "kind": "drawer",
+       "sel": "body>header>div>div:nth-of-type(2)>nav:nth-of-type(2)>menu>li:nth-of-type(2)>button",
+       "expanded": null,
+       "rect": [
+        288,
+        0,
+        48,
+        68
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 9,
+         "panel": {
+          "links": [
+           {
+            "text": "BMW Logo",
+            "href": "https://main--bad0ba01--aemcoder.aem.live/ro/"
+           },
+           {
+            "text": "Coș de cumpărături",
+            "href": "https://www.bmw.ro/ro/shop/ls/cart"
+           },
+           {
+            "text": "Listă de favorite",
+            "href": "https://www.bmw.ro/ro/shop/ls/wishlist"
+           }
+          ],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [
+           "MyBMW",
+           "Open navigation menu"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           0,
+           360,
+           68
+          ]
+         },
+         "expanded": null,
+         "focus": "panel",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 50,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.gnav"
+          }
+         ],
+         "shot": "360-051-Close-navigation-menu-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 9,
+         "panel": {
+          "links": [
+           {
+            "text": "BMW Logo",
+            "href": "https://main--bad0ba01--aemcoder.aem.live/ro/"
+           },
+           {
+            "text": "Coș de cumpărături",
+            "href": "https://www.bmw.ro/ro/shop/ls/cart"
+           },
+           {
+            "text": "Listă de favorite",
+            "href": "https://www.bmw.ro/ro/shop/ls/wishlist"
+           }
+          ],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [
+           "MyBMW",
+           "Open navigation menu"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           0,
+           360,
+           68
+          ]
+         },
+         "expanded": null,
+         "focus": "panel",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 50,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.gnav"
+          }
+         ],
+         "shot": "360-052-Close-navigation-menu-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": false,
+        "toggle": false
+       },
+       "children": []
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 68,
+     "position": "absolute",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 68,
+     "position": "absolute",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 68,
+     "position": "absolute",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 68,
+     "position": "absolute",
+     "inView": true
+    }
+   ],
+   "states": 52,
+   "truncated": "depth 3 at Open navigation menu > Online Store > Modele & Configurator",
+   "loads": 78
+  },
+  "1440": {
+   "root": "body>header>div>div:nth-of-type(2)",
+   "controls": [
+    {
+     "name": "BMW Logo",
+     "key": "bmw logo",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(2)>nav:nth-of-type(1)>a",
+     "href": "https://main--bad0ba01--aemcoder.aem.live/ro/",
+     "expanded": null,
+     "rect": [
+      96,
+      16,
+      52,
+      52
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Modele",
+     "key": "modele",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(2)>nav:nth-of-type(1)>div>menu>li:nth-of-type(1)>a",
+     "href": "https://www.bmw.ro/ro/all-models.html",
+     "expanded": null,
+     "rect": [
+      172,
+      0,
+      76,
+      84
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Online Store",
+     "key": "online store",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>div:nth-of-type(2)>nav:nth-of-type(1)>div>menu>li:nth-of-type(2)>button",
+     "expanded": "false",
+     "rect": [
+      248,
+      0,
+      136,
+      84
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "Modele BMW",
+          "href": "https://www.bmw.ro/ro/all-models.html"
+         },
+         {
+          "text": "Configurator",
+          "href": "https://www.bmw.ro/ro/configurator.html"
+         },
+         {
+          "text": "Automobile noi",
+          "href": "https://www.bmw.ro/ro-ro/sl/stocklocator"
+         },
+         {
+          "text": "Automobile rulate",
+          "href": "https://oferte.bmw.ro/rulate"
+         },
+         {
+          "text": "BMW Premium Selection",
+          "href": "https://oferte.bmw.ro/rulate/bmw-premium-selection"
+         },
+         {
+          "text": "BMW ConnectedDrive Store",
+          "href": "https://www.bmw.ro/ro/shop/ls/cp/connected-drive"
+         },
+         {
+          "text": "Comparație automobile",
+          "href": "https://www.bmw.ro/ro/compara%C8%9Bie-modele-bmw.html/content.q"
+         },
+         {
+          "text": "Oferte de finanțare",
+          "href": "https://www.bmw.ro/ro/topics/offers-and-services/financial-services.html"
+         },
+         {
+          "text": "BMW Individual",
+          "href": "https://www.bmw.ro/ro/more-bmw/bmw-individual.html"
+         },
+         {
+          "text": "Modele exclusiviste",
+          "href": "https://www.bmw.ro/ro/more-bmw/automobile-exclusiviste-bmw.html"
+         },
+         {
+          "text": "BMW Corporate",
+          "href": "https://www.bmw.ro/ro/campaigns/bmw-business.html"
+         },
+         {
+          "text": "BMW Special Sales",
+          "href": "https://www.bmw.ro/ro/more-bmw/bmw-special-sales.html"
+         },
+         {
+          "text": "Accesorii originale BMW",
+          "href": "https://www.bmw.ro/ro/more-bmw/parts-and-accessories/bmw-accesorii-hub.html"
+         },
+         {
+          "text": "Configurator accesorii",
+          "href": "https://www.bmw.ro/ro/shop/ls/cp/physical-goods/BF_ACCESSORY"
+         },
+         {
+          "text": "Eticheta pentru anvelope",
+          "href": "https://www.bmw.ro/ro/more-bmw/technology-and-innovation/bmw-tyre-label.html"
+         },
+         {
+          "text": "BMW Lifestyle",
+          "href": "https://www.bmw.ro/ro/more-bmw/bmw-lifestyle.html"
+         },
+         {
+          "text": "Prezentare generală",
+          "href": "https://www.bmw.ro/ro/bmw-financial-services.html"
+         },
+         {
+          "text": "Leasing",
+          "href": "https://www.bmw.ro/ro/bmw-financial-services/bmw-leasing.html"
+         },
+         {
+          "text": "Oferte de finanțare",
+          "href": "https://www.bmw.ro/ro/topics/offers-and-services/financial-services.html"
+         },
+         {
+          "text": "Leasing Operaţional - modele electrice BMW",
+          "href": "https://www.bmw.ro/ro/topics/offers-and-services/leasing-operational-modele-electrice.html"
+         }
+        ],
+        "headings": [
+         "Modele & Configurator",
+         "BMW Corporate & Special Sales",
+         "Servicii digitale & accesorii",
+         "Servicii financiare"
+        ],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         1440,
+         565
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 50,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav-flyout"
+        }
+       ],
+       "shot": "1440-001-Online-Store-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "Modele BMW",
+          "href": "https://www.bmw.ro/ro/all-models.html"
+         },
+         {
+          "text": "Configurator",
+          "href": "https://www.bmw.ro/ro/configurator.html"
+         },
+         {
+          "text": "Automobile noi",
+          "href": "https://www.bmw.ro/ro-ro/sl/stocklocator"
+         },
+         {
+          "text": "Automobile rulate",
+          "href": "https://oferte.bmw.ro/rulate"
+         },
+         {
+          "text": "BMW Premium Selection",
+          "href": "https://oferte.bmw.ro/rulate/bmw-premium-selection"
+         },
+         {
+          "text": "BMW ConnectedDrive Store",
+          "href": "https://www.bmw.ro/ro/shop/ls/cp/connected-drive"
+         },
+         {
+          "text": "Comparație automobile",
+          "href": "https://www.bmw.ro/ro/compara%C8%9Bie-modele-bmw.html/content.q"
+         },
+         {
+          "text": "Oferte de finanțare",
+          "href": "https://www.bmw.ro/ro/topics/offers-and-services/financial-services.html"
+         },
+         {
+          "text": "BMW Individual",
+          "href": "https://www.bmw.ro/ro/more-bmw/bmw-individual.html"
+         },
+         {
+          "text": "Modele exclusiviste",
+          "href": "https://www.bmw.ro/ro/more-bmw/automobile-exclusiviste-bmw.html"
+         },
+         {
+          "text": "BMW Corporate",
+          "href": "https://www.bmw.ro/ro/campaigns/bmw-business.html"
+         },
+         {
+          "text": "BMW Special Sales",
+          "href": "https://www.bmw.ro/ro/more-bmw/bmw-special-sales.html"
+         },
+         {
+          "text": "Accesorii originale BMW",
+          "href": "https://www.bmw.ro/ro/more-bmw/parts-and-accessories/bmw-accesorii-hub.html"
+         },
+         {
+          "text": "Configurator accesorii",
+          "href": "https://www.bmw.ro/ro/shop/ls/cp/physical-goods/BF_ACCESSORY"
+         },
+         {
+          "text": "Eticheta pentru anvelope",
+          "href": "https://www.bmw.ro/ro/more-bmw/technology-and-innovation/bmw-tyre-label.html"
+         },
+         {
+          "text": "BMW Lifestyle",
+          "href": "https://www.bmw.ro/ro/more-bmw/bmw-lifestyle.html"
+         },
+         {
+          "text": "Prezentare generală",
+          "href": "https://www.bmw.ro/ro/bmw-financial-services.html"
+         },
+         {
+          "text": "Leasing",
+          "href": "https://www.bmw.ro/ro/bmw-financial-services/bmw-leasing.html"
+         },
+         {
+          "text": "Oferte de finanțare",
+          "href": "https://www.bmw.ro/ro/topics/offers-and-services/financial-services.html"
+         },
+         {
+          "text": "Leasing Operaţional - modele electrice BMW",
+          "href": "https://www.bmw.ro/ro/topics/offers-and-services/leasing-operational-modele-electrice.html"
+         }
+        ],
+        "headings": [
+         "Modele & Configurator",
+         "BMW Corporate & Special Sales",
+         "Servicii digitale & accesorii",
+         "Servicii financiare"
+        ],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         1440,
+         565
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 50,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav-flyout"
+        }
+       ],
+       "shot": "1440-002-Online-Store-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Electromobilitate",
+     "key": "electromobilitate",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>div:nth-of-type(2)>nav:nth-of-type(1)>div>menu>li:nth-of-type(3)>button",
+     "expanded": "false",
+     "rect": [
+      384,
+      0,
+      165,
+      84
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "Modele electrice",
+          "href": "https://www.bmw.ro/ro/modele-electrice.html"
+         },
+         {
+          "text": "Automobile electrice rulate",
+          "href": "https://www.bmw.ro/ro/modele-electrice/used-electric-cars.html"
+         },
+         {
+          "text": "Beneficiile automobilelor electrice",
+          "href": "https://www.bmw.ro/ro/modele-electrice/electric-cars-benefits.html"
+         },
+         {
+          "text": "Costul unei mașini electrice",
+          "href": "https://www.bmw.ro/ro/modele-electrice/costuri-masini-electrice.html"
+         },
+         {
+          "text": "Plug-in Hybrid",
+          "href": "https://www.bmw.ro/ro/modele-electrice/plug-in-hybrid.html"
+         },
+         {
+          "text": "Catalogul modelelor electrice",
+          "href": "https://www.bmw.ro/content/dam/bmw/marketRO/bmw_ro/brosura/Brosura-Familia-electrica-BMW.pdf.asset.1711535757305.pdf"
+         },
+         {
+          "text": "Încărcare la domiciliu",
+          "href": "https://www.bmw.ro/ro/modele-electrice/incarcare-domiciliu.html"
+         },
+         {
+          "text": "Încărcare publică",
+          "href": "https://www.bmw.ro/ro/modele-electrice/incarcare-publica.html"
+         },
+         {
+          "text": "Tehnologia bateriilor electrice BMW",
+          "href": "https://www.bmw.ro/ro/modele-electrice/tehnologie-baterie.html"
+         },
+         {
+          "text": "Autonomia modelelor electrice",
+          "href": "https://www.bmw.ro/ro/modele-electrice/autonomie-masini-electrice.html"
+         }
+        ],
+        "headings": [
+         "Automobile electrice",
+         "Încărcare & autonomie"
+        ],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         1440,
+         421
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 50,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav-flyout"
+        }
+       ],
+       "shot": "1440-003-Electromobilitate-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "Modele electrice",
+          "href": "https://www.bmw.ro/ro/modele-electrice.html"
+         },
+         {
+          "text": "Automobile electrice rulate",
+          "href": "https://www.bmw.ro/ro/modele-electrice/used-electric-cars.html"
+         },
+         {
+          "text": "Beneficiile automobilelor electrice",
+          "href": "https://www.bmw.ro/ro/modele-electrice/electric-cars-benefits.html"
+         },
+         {
+          "text": "Costul unei mașini electrice",
+          "href": "https://www.bmw.ro/ro/modele-electrice/costuri-masini-electrice.html"
+         },
+         {
+          "text": "Plug-in Hybrid",
+          "href": "https://www.bmw.ro/ro/modele-electrice/plug-in-hybrid.html"
+         },
+         {
+          "text": "Catalogul modelelor electrice",
+          "href": "https://www.bmw.ro/content/dam/bmw/marketRO/bmw_ro/brosura/Brosura-Familia-electrica-BMW.pdf.asset.1711535757305.pdf"
+         },
+         {
+          "text": "Încărcare la domiciliu",
+          "href": "https://www.bmw.ro/ro/modele-electrice/incarcare-domiciliu.html"
+         },
+         {
+          "text": "Încărcare publică",
+          "href": "https://www.bmw.ro/ro/modele-electrice/incarcare-publica.html"
+         },
+         {
+          "text": "Tehnologia bateriilor electrice BMW",
+          "href": "https://www.bmw.ro/ro/modele-electrice/tehnologie-baterie.html"
+         },
+         {
+          "text": "Autonomia modelelor electrice",
+          "href": "https://www.bmw.ro/ro/modele-electrice/autonomie-masini-electrice.html"
+         }
+        ],
+        "headings": [
+         "Automobile electrice",
+         "Încărcare & autonomie"
+        ],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         1440,
+         421
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 50,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav-flyout"
+        }
+       ],
+       "shot": "1440-004-Electromobilitate-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Servicii și asistență",
+     "key": "servicii și asistență",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>div:nth-of-type(2)>nav:nth-of-type(1)>div>menu>li:nth-of-type(4)>button",
+     "expanded": "false",
+     "rect": [
+      550,
+      0,
+      183,
+      84
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "Asistenţă și contact",
+          "href": "https://www.bmw.ro/ro/more-bmw/asistenta-clienti.html"
+         },
+         {
+          "text": "Caută un partener BMW",
+          "href": "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html"
+         },
+         {
+          "text": "Solicită un test drive",
+          "href": "https://www.bmw.ro/faas/form/ro-ro/bmw/tda/test-drive-request.html?akrr=BMW_TDA_RO"
+         },
+         {
+          "text": "Solicită o ofertă personalizată",
+          "href": "https://www.bmw.ro/faas/form/ro-ro/bmw/rfo/cerere-de-oferta.html?akrr=BMW_RFO_RO"
+         },
+         {
+          "text": "Trade In",
+          "href": "https://www.bmw.ro/ro/tradein/?icp=topnav-to-trade-in&origin=topnav"
+         },
+         {
+          "text": "Prezentare generală",
+          "href": "https://www.bmw.ro/ro/bmw-service.html"
+         },
+         {
+          "text": "Programare în service",
+          "href": "https://www.bmw.ro/ro/topics/offers-and-services/personal-services/programare-online.html"
+         },
+         {
+          "text": "Asistenţă în caz de accident",
+          "href": "https://www.bmw.ro/ro/bmw-service.html#roadside-assistance"
+         },
+         {
+          "text": "Aplicația My BMW",
+          "href": "https://www.bmw.ro/ro/digital-services/bmw-connecteddrive.html#toate-aplicatiile"
+         },
+         {
+          "text": "BMW ConnectedDrive",
+          "href": "https://www.bmw.ro/ro/digital-services/bmw-connecteddrive.html"
+         },
+         {
+          "text": "BMW iDrive",
+          "href": "https://www.bmw.ro/ro/digital-services/bmw-idrive.html"
+         },
+         {
+          "text": "BMW Digital Key",
+          "href": "https://www.bmw.ro/ro/digital-services/bmw-digital-key.html"
+         },
+         {
+          "text": "Garanția BMW",
+          "href": "https://www.bmw.ro/ro/campaigns/garantie-bmw.html"
+         },
+         {
+          "text": "Campanii de rechemare și actualizări tehnice",
+          "href": "https://www.bmw.ro/ro/footer/quick-link/bmw-vehicle-recalls.html"
+         },
+         {
+          "text": "Rechemare service automobile BMW Seria 3 din 1997 - 2000",
+          "href": "https://www.bmw.ro/ro/topics/offers-and-services/personal-services/warranty.html"
+         },
+         {
+          "text": "Reciclare",
+          "href": "https://www.bmw.ro/ro/campaigns/bmw-recycling.html"
+         }
+        ],
+        "headings": [
+         "Asistență clienți",
+         "Service & asistență",
+         "Servicii digitale & aplicații",
+         "Garanții & campanii de rechemare"
+        ],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         1440,
+         433
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 50,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav-flyout"
+        }
+       ],
+       "shot": "1440-005-Servicii-i-asisten--click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "Asistenţă și contact",
+          "href": "https://www.bmw.ro/ro/more-bmw/asistenta-clienti.html"
+         },
+         {
+          "text": "Caută un partener BMW",
+          "href": "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html"
+         },
+         {
+          "text": "Solicită un test drive",
+          "href": "https://www.bmw.ro/faas/form/ro-ro/bmw/tda/test-drive-request.html?akrr=BMW_TDA_RO"
+         },
+         {
+          "text": "Solicită o ofertă personalizată",
+          "href": "https://www.bmw.ro/faas/form/ro-ro/bmw/rfo/cerere-de-oferta.html?akrr=BMW_RFO_RO"
+         },
+         {
+          "text": "Trade In",
+          "href": "https://www.bmw.ro/ro/tradein/?icp=topnav-to-trade-in&origin=topnav"
+         },
+         {
+          "text": "Prezentare generală",
+          "href": "https://www.bmw.ro/ro/bmw-service.html"
+         },
+         {
+          "text": "Programare în service",
+          "href": "https://www.bmw.ro/ro/topics/offers-and-services/personal-services/programare-online.html"
+         },
+         {
+          "text": "Asistenţă în caz de accident",
+          "href": "https://www.bmw.ro/ro/bmw-service.html#roadside-assistance"
+         },
+         {
+          "text": "Aplicația My BMW",
+          "href": "https://www.bmw.ro/ro/digital-services/bmw-connecteddrive.html#toate-aplicatiile"
+         },
+         {
+          "text": "BMW ConnectedDrive",
+          "href": "https://www.bmw.ro/ro/digital-services/bmw-connecteddrive.html"
+         },
+         {
+          "text": "BMW iDrive",
+          "href": "https://www.bmw.ro/ro/digital-services/bmw-idrive.html"
+         },
+         {
+          "text": "BMW Digital Key",
+          "href": "https://www.bmw.ro/ro/digital-services/bmw-digital-key.html"
+         },
+         {
+          "text": "Garanția BMW",
+          "href": "https://www.bmw.ro/ro/campaigns/garantie-bmw.html"
+         },
+         {
+          "text": "Campanii de rechemare și actualizări tehnice",
+          "href": "https://www.bmw.ro/ro/footer/quick-link/bmw-vehicle-recalls.html"
+         },
+         {
+          "text": "Rechemare service automobile BMW Seria 3 din 1997 - 2000",
+          "href": "https://www.bmw.ro/ro/topics/offers-and-services/personal-services/warranty.html"
+         },
+         {
+          "text": "Reciclare",
+          "href": "https://www.bmw.ro/ro/campaigns/bmw-recycling.html"
+         }
+        ],
+        "headings": [
+         "Asistență clienți",
+         "Service & asistență",
+         "Servicii digitale & aplicații",
+         "Garanții & campanii de rechemare"
+        ],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         1440,
+         433
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 50,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav-flyout"
+        }
+       ],
+       "shot": "1440-006-Servicii-i-asisten--key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Despre BMW",
+     "key": "despre bmw",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>div:nth-of-type(2)>nav:nth-of-type(1)>div>menu>li:nth-of-type(5)>button",
+     "expanded": "false",
+     "rect": [
+      733,
+      0,
+      142,
+      84
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "Info BMW România",
+          "href": "https://www.bmw.ro/ro/footer/metanavigation/legal-notice-pool/imprint.html"
+         },
+         {
+          "text": "BMW Group",
+          "href": "https://www.bmwgroup.com/en.html"
+         },
+         {
+          "text": "Cariere la BMW",
+          "href": "https://www.bmw.ro/ro/footer/bmw-explore/cariere.html"
+         },
+         {
+          "text": "BMW Driving Experience",
+          "href": "https://www.bmw.ro/ro/topics/fascination-bmw/driving-experience.html"
+         },
+         {
+          "text": "Communicate de presă",
+          "href": "https://www.press.bmwgroup.com/romania/article"
+         },
+         {
+          "text": "Declaraţii de presă",
+          "href": "https://www.bmw.ro/ro/topics/fascination-bmw/declaratii-de-presa-BMW.html"
+         },
+         {
+          "text": "Modele electrice",
+          "href": "https://www.bmw.ro/ro/modele-electrice.html"
+         },
+         {
+          "text": "Concept Cars",
+          "href": "https://www.bmw.ro/ro/all-models.html?specialCategory=c"
+         },
+         {
+          "text": "BMW Symbiotic Drive",
+          "href": "https://www.bmw.ro/ro/tehnologie-si-inovatie/bmw-symbiotic-drive.html"
+         },
+         {
+          "text": "BMW Heart of Joy",
+          "href": "https://www.bmw.ro/ro/more-bmw/technology-and-innovation/bmw-heart-of-joy.html"
+         },
+         {
+          "text": "Vision BMW ALPINA",
+          "href": "https://www.bmw.ro/ro/bmw-alpina.html"
+         }
+        ],
+        "headings": [
+         "Brand & companie",
+         "Lumea BMW",
+         "Tehnologii & inovaţii"
+        ],
+        "images": 2,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         1440,
+         349
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 50,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav-flyout"
+        }
+       ],
+       "shot": "1440-007-Despre-BMW-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "Info BMW România",
+          "href": "https://www.bmw.ro/ro/footer/metanavigation/legal-notice-pool/imprint.html"
+         },
+         {
+          "text": "BMW Group",
+          "href": "https://www.bmwgroup.com/en.html"
+         },
+         {
+          "text": "Cariere la BMW",
+          "href": "https://www.bmw.ro/ro/footer/bmw-explore/cariere.html"
+         },
+         {
+          "text": "BMW Driving Experience",
+          "href": "https://www.bmw.ro/ro/topics/fascination-bmw/driving-experience.html"
+         },
+         {
+          "text": "Communicate de presă",
+          "href": "https://www.press.bmwgroup.com/romania/article"
+         },
+         {
+          "text": "Declaraţii de presă",
+          "href": "https://www.bmw.ro/ro/topics/fascination-bmw/declaratii-de-presa-BMW.html"
+         },
+         {
+          "text": "Modele electrice",
+          "href": "https://www.bmw.ro/ro/modele-electrice.html"
+         },
+         {
+          "text": "Concept Cars",
+          "href": "https://www.bmw.ro/ro/all-models.html?specialCategory=c"
+         },
+         {
+          "text": "BMW Symbiotic Drive",
+          "href": "https://www.bmw.ro/ro/tehnologie-si-inovatie/bmw-symbiotic-drive.html"
+         },
+         {
+          "text": "BMW Heart of Joy",
+          "href": "https://www.bmw.ro/ro/more-bmw/technology-and-innovation/bmw-heart-of-joy.html"
+         },
+         {
+          "text": "Vision BMW ALPINA",
+          "href": "https://www.bmw.ro/ro/bmw-alpina.html"
+         }
+        ],
+        "headings": [
+         "Brand & companie",
+         "Lumea BMW",
+         "Tehnologii & inovaţii"
+        ],
+        "images": 2,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         1440,
+         349
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 50,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav-flyout"
+        }
+       ],
+       "shot": "1440-008-Despre-BMW-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "MyBMW",
+     "key": "mybmw",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>div:nth-of-type(2)>nav:nth-of-type(1)>menu>li:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      1152,
+      0,
+      48,
+      84
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [],
+        "headings": [
+         "Bun venit la My BMW.",
+         "Înregistrați-vă și beneficiați de avantaje:"
+        ],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         1440,
+         347
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 50,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav-flyout"
+        }
+       ],
+       "shot": "1440-009-MyBMW-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [],
+        "headings": [
+         "Bun venit la My BMW.",
+         "Înregistrați-vă și beneficiați de avantaje:"
+        ],
+        "images": 1,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         1440,
+         347
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 50,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.gnav-flyout"
+        }
+       ],
+       "shot": "1440-010-MyBMW-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Coș de cumpărături",
+     "key": "coș de cumpărături",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(2)>nav:nth-of-type(1)>menu>li:nth-of-type(2)>a",
+     "href": "https://www.bmw.ro/ro/shop/ls/cart",
+     "expanded": null,
+     "rect": [
+      1200,
+      0,
+      48,
+      84
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Listă de favorite",
+     "key": "listă de favorite",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(2)>nav:nth-of-type(1)>menu>li:nth-of-type(3)>a",
+     "href": "https://www.bmw.ro/ro/shop/ls/wishlist",
+     "expanded": null,
+     "rect": [
+      1248,
+      0,
+      48,
+      84
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Selectare Partener",
+     "key": "selectare partener",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(2)>nav:nth-of-type(1)>menu>li:nth-of-type(4)>a",
+     "href": "https://www.bmw.ro/dlo/ro-ro/bmw/dealer-locator.html",
+     "expanded": null,
+     "rect": [
+      1296,
+      0,
+      48,
+      84
+     ],
+     "actions": {}
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 85,
+     "position": "absolute",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 85,
+     "position": "absolute",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 85,
+     "position": "absolute",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 85,
+     "position": "absolute",
+     "inView": true
+    }
+   ],
+   "states": 10,
+   "truncated": null,
+   "loads": 1
+  }
+ },
+ "probe": "skip"
+}

@@ -1,0 +1,633 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-10-21T14:02:38.549Z",
+  "input": "stardust/current/_dynamics.json",
+  "target": "main--bad0ba01--aemcoder.aem.page",
+  "migrated": null,
+  "knowledge": null,
+  "chrome": "stardust/chrome/header-contract.json"
+ },
+ "rows": [
+  {
+   "id": "a-unknown-third-party-host-bmw-scene7-com",
+   "class": "A",
+   "feature": "unknown third-party host bmw.scene7.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "bmw.scene7.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-www-bmw-com",
+   "class": "A",
+   "feature": "unknown third-party host www.bmw.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "www.bmw.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-bmw-app-baqend-com",
+   "class": "A",
+   "feature": "unknown third-party host bmw.app.baqend.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "bmw.app.baqend.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-stream-bmw-com-cn",
+   "class": "A",
+   "feature": "unknown third-party host stream.bmw.com.cn",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "stream.bmw.com.cn"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-c-amazon-adsystem-com",
+   "class": "A",
+   "feature": "unknown third-party host c.amazon-adsystem.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "c.amazon-adsystem.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-cm-teads-tv",
+   "class": "A",
+   "feature": "unknown third-party host cm.teads.tv",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "cm.teads.tv"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "class": "A",
+   "feature": "unknown third-party host www.google.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "www.google.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-first-party-api-get-content-experience-fragments-bmw-marke",
+   "class": "A",
+   "feature": "first-party API GET /content/experience-fragments/bmw/marketRO/bmw_ro/ro_RO/personalization/direct-entry/jcr:content.variation.targetPath++content++bmw++marketRO++bmw_ro++ro_RO++index++jcr:content++root++maincontent++contentblueprint_829++xftoggle.json/master",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /content/experience-fragments/bmw/marketRO/bmw_ro/ro_RO/personalization/direct-entry/jcr:content.variation.targetPath++content++bmw++marketRO++bmw_ro++ro_RO++index++jcr:content++root++maincontent++contentblueprint_829++xftoggle.json/master → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (Failed to parse URL from main--bad0ba01--aemcoder.aem.page/content/experience-fr)"
+  },
+  {
+   "id": "a-first-party-api-get-ro-ro-login-bmw-api-flyout-data",
+   "class": "A",
+   "feature": "first-party API GET /ro-ro/login/bmw/api/flyout/data",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "GET /ro-ro/login/bmw/api/flyout/data → 200"
+   ],
+   "pattern": "decided-out",
+   "disposition": "data-fed",
+   "target": null,
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "register",
+   "decision": "none (session-bound off-origin)",
+   "hostBound": "dead on target (Failed to parse URL from main--bad0ba01--aemcoder.aem.page/ro-ro/login/bmw/api/f)"
+  },
+  {
+   "id": "a-first-party-api-post-events-hash",
+   "class": "A",
+   "feature": "first-party API POST /events/{hash}",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "POST /events/{hash} → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (Failed to parse URL from main--bad0ba01--aemcoder.aem.page/events/1)"
+  },
+  {
+   "id": "a-cms-app-settings-object-adobedatalayer",
+   "class": "A",
+   "feature": "CMS / app settings object adobeDataLayer",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-cms-app-settings-object-cq",
+   "class": "A",
+   "feature": "CMS / app settings object CQ",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "cr-client-rendered-slot-js-focus-visible",
+   "class": "CR",
+   "feature": "client-rendered slot js-focus-visible",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "BMW România: Automobile Premium și tehnologii inovatoare {\"c"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "i18n-locale-variants-ro-ro",
+   "class": "I18N",
+   "feature": "locale variants ro-RO",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "https://www.bmw.ro/ro-ro/sl/stocklocator",
+    "https://www.bmw.ro/ro-ro/sl/stocklocator#/results"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees"
+  },
+  {
+   "id": "t-tag-manager-adobe-launch",
+   "class": "T",
+   "feature": "tag manager: Adobe Launch",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "assets.adobedtm.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-rum-akamai-mpulse",
+   "class": "T",
+   "feature": "RUM: Akamai mPulse",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "s.go-mpulse.net",
+    "c.go-mpulse.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-tron-bmwgroup-com",
+   "class": "T",
+   "feature": "unknown third-party host tron.bmwgroup.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "tron.bmwgroup.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-analytics-adobe-analytics-experience-cloud-id",
+   "class": "T",
+   "feature": "analytics: Adobe Analytics / Experience Cloud ID",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "dpm.demdex.net",
+    "bmwag.d3.sc.omtrdc.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "connect.facebook.net",
+    "cdn.taboola.com",
+    "amplify.outbrain.com",
+    "snap.licdn.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-s-pinimg-com",
+   "class": "T",
+   "feature": "unknown third-party host s.pinimg.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "s.pinimg.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-feedback-survey-voc-badge",
+   "class": "T",
+   "feature": "feedback: survey / VoC badge",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "zndpwbggebjqhu2ua-bmwonevoice.siteintercept.qualtrics.com",
+    "siteintercept.qualtrics.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-p-teads-tv",
+   "class": "T",
+   "feature": "unknown third-party host p.teads.tv",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "p.teads.tv"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-px-ads-linkedin-com",
+   "class": "T",
+   "feature": "unknown third-party host px.ads.linkedin.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "px.ads.linkedin.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-www-facebook-com",
+   "class": "T",
+   "feature": "unknown third-party host www.facebook.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "www.facebook.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "www.googleadservices.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-track-adform-net",
+   "class": "T",
+   "feature": "unknown third-party host track.adform.net",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "track.adform.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-www-linkedin-com",
+   "class": "T",
+   "feature": "unknown third-party host www.linkedin.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "www.linkedin.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-t-teads-tv",
+   "class": "T",
+   "feature": "unknown third-party host t.teads.tv",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "t.teads.tv"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-aax-eu-amazon-adsystem-com",
+   "class": "T",
+   "feature": "unknown third-party host aax-eu.amazon-adsystem.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "aax-eu.amazon-adsystem.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-s2-adform-net",
+   "class": "T",
+   "feature": "unknown third-party host s2.adform.net",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "s2.adform.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-adservice-google-com",
+   "class": "T",
+   "feature": "unknown third-party host adservice.google.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "adservice.google.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "https://www.bmw.ro/ro/more-bmw/parts-and-accessories/bmw-accesorii-hub.html",
+    "https://www.bmw.ro/ro/shop/ls/cp/physical-goods/BF_ACCESSORY"
+   ],
+   "pattern": "decided-out",
+   "disposition": "decided-out",
+   "target": null,
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "register",
+   "decision": "auth / commerce on the new host?"
+  },
+  {
+   "id": "x-commerce-signals-cart-true-prices-0",
+   "class": "X",
+   "feature": "commerce signals (cart: true, prices: 0)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [],
+   "pattern": "decided-out",
+   "disposition": "decided-out",
+   "target": null,
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "register",
+   "decision": "auth / commerce on the new host?"
+  }
+ ]
+}

@@ -1,37 +1,224 @@
-.hero-container .hero-wrapper {
-  max-width: unset;
-  padding: 0;
-}
+/* hero stage (live .cmp-stage) — values lifted from the gated prototype ro-index-html.css */
 
-.hero {
-  position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
-}
-
-.hero h1 {
-  max-width: 120px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
-}
-
-.hero picture {
+/* the page h1 is authored default content in the hero section; screen-reader only (live) */
+main .hero-container > .default-content-wrapper {
   position: absolute;
-  z-index: -1;
-  inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  color: #fff;
 }
 
-.hero img {
-  object-fit: cover;
+/* flex column like the live AEM grid: stage and disclaimer margins never collapse */
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero .hero-stage {
+  position: relative;
+  margin: 0 calc(var(--grid-margin) * -1);
+  height: 900px;
+  background: #000;
+  overflow: hidden;
+}
+
+.hero .hero-media {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 544px;
+}
+
+.hero .hero-media picture,
+.hero .hero-media img,
+.hero .hero-video {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
-@media (width >= 900px) {
-  .hero {
-    padding: 40px 32px;
+.hero .hero-video {
+  background: transparent;
+}
+
+.hero .hero-media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(360deg, #000 10%, #0000 60%);
+}
+
+.hero .hero-play {
+  position: absolute;
+  z-index: 2;
+  top: 84px;
+  right: 16px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  background: #000;
+}
+
+.hero .hero-play .ico {
+  width: 20px;
+  height: 20px;
+}
+
+.hero .hero-ring {
+  position: absolute;
+  inset: 0;
+  width: 36px;
+  height: 36px;
+}
+
+.hero .hero-glyph {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.hero .hero-glyph-play {
+  opacity: 0;
+}
+
+.hero .hero-play[aria-pressed="true"] .hero-glyph-play {
+  opacity: 1;
+}
+
+.hero .hero-play[aria-pressed="true"] .hero-glyph-pause {
+  opacity: 0;
+}
+
+.hero .hero-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 608px;
+  height: 292px;
+  background: #000;
+  color: #fff;
+  padding: 20px 24px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero .hero-title :is(h1, h2, h3) {
+  font-size: var(--stage-1l-fs);
+  line-height: var(--stage-1l-lh);
+  font-weight: var(--w-clickable);
+}
+
+.hero .hero-sub {
+  margin-top: 24px;
+  font-size: var(--stage-sub-fs);
+  line-height: var(--stage-sub-lh);
+  font-weight: var(--w-clickable);
+  text-transform: uppercase;
+}
+
+.hero .hero-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding-top: 24px;
+}
+
+.hero .hero-buttons a.button:any-link {
+  padding-inline: 24px;
+}
+
+/* em CTA on the dark stage = outline-light (live .btn--outline-light) */
+.hero .hero-buttons a.button.secondary {
+  color: var(--c-outline-light);
+
+  --bw: 1px;
+  --bc: var(--c-outline-light);
+}
+
+.hero .hero-buttons a.button.secondary:hover {
+  color: #fff;
+
+  --bw: 2px;
+  --bc: #fff;
+}
+
+.hero .hero-disclaimer {
+  margin-top: var(--sp-4);
+}
+
+@media (width >= 768px) {
+  .hero .hero-stage {
+    height: auto;
+    aspect-ratio: 16 / 7;
   }
+
+  .hero .hero-media {
+    height: 100%;
+  }
+
+  .hero .hero-media::after {
+    display: none;
+  }
+
+  .hero .hero-play {
+    top: auto;
+    bottom: 48px;
+    right: var(--grid-full);
+  }
+
+  .hero .hero-overlay {
+    top: auto;
+    bottom: 0;
+    height: auto;
+    background: none;
+    padding: 0 0 48px var(--grid-full);
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .hero .hero-sub {
+    margin-top: 32px;
+  }
+
+  .hero .hero-buttons {
+    flex-direction: row;
+  }
+
+  .hero .hero-buttons a.button:any-link {
+    width: auto;
+  }
+}
+
+@media (width >= 1280px) {
+  .hero .hero-buttons a.button:any-link {
+    max-width: calc(25vw - 4.125rem);
+  }
+}
+
+@media (width >= 1920px) {
+  .hero .hero-stage {
+    max-width: 120rem;
+  }
+}
+
+/* an emphasised run in the stage headline is a keep-together model name (live span.nowrap) */
+.hero .hero-title em {
+  font-style: normal;
+  white-space: nowrap;
 }
