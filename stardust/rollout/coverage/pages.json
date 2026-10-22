@@ -1,0 +1,59 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-21T15:00:03.034Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-21T16:57:30.139Z",
+  "pages": [
+    {
+      "slug": "ro-index-html",
+      "path": "/ro/",
+      "title": "BMW România: Automobile Premium și tehnologii inovatoare",
+      "templateId": "ro-index-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/ro/index.html",
+        "metaJson": "stardust/migrated/ro/_meta.json",
+        "sourceHash": "sha256:ec547195ad7492b6d9504027da6724b8aa6ec9c5f97bf0bcae650a8cb02e1cdc",
+        "sourceUrl": "https://www.bmw.ro/ro/index.html"
+      },
+      "blocks": [
+        "hero",
+        "model-cards",
+        "teaser",
+        "wallbox"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--bad0ba01--aemcoder.aem.page/ro/",
+        "deployedAt": "2026-10-21T16:32:10.422Z",
+        "verifiedAt": "2026-10-21T16:57:30.139Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.86,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-21T16:50:01.307Z"
+        }
+      }
+    }
+  ]
+}

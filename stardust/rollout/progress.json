@@ -1,0 +1,100 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "ro-index-html"
+      ],
+      "pages": 0,
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "chromeParity": "header 2 (icon-font vs svg signature) / footer label heights fixed after the probe (span inline-block); footer Δy = shell page body",
+          "cropFooter": "3.07% (bar 2%; gated prototype's own band 3.45%) — glyph-only, licensed font"
+        },
+        "1440": {
+          "chromeParity": "header 7 / footer 63 deltas — footer Δy is the shell page body (boilerplate home, not the archetype); text pairs 6/6 header, 57/57 footer; remaining Δw ≤ 5 px = licensed-font fallback",
+          "cropFooter": "2.19% (bar 2%; gated prototype's own band 2.21%) — glyph-only, licensed bmwTypeNext not rehosted",
+          "cropHeader": "n/a on the shell (header overlays the hero; band gated on the archetype unit)"
+        },
+        "crop": "footer 1440 2.19% / 360 3.07% vs prototype 2.21% / 3.45% (font residual); header band deferred to the archetype (overlay over the hero)",
+        "chrome": "chrome-compare --profile replica exit 2: 32 errors (from 68) — behaviour 0 (keyboard, scroll-lock, motion, panel links, drawer controls all match); remaining: panel-visual@1440 x5 2.1–2.7% (font), panel-visual@360 x25 (source crops covered by the unanswered ePaaS consent drawer), control-missing@360 Alpina nameless drill control, state-missing@1440 logo hover (assist-nudge timer firing during the source hover). No owner decisions recorded (stardust/chrome/header-parity.json)."
+      },
+      "startedAt": "2026-10-21T15:01:11Z",
+      "endedAt": "2026-10-21T16:17:51Z",
+      "verdict": "foundation: nav+footer live, blocks 2 (header, footer), lint 0, chrome-compare 32 residual (0 behavioural), footer crop 1440 2.19% / 360 3.07% (font), frozen 13 files"
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "blocks": 4,
+      "gates": {
+        "360": {
+          "pixel": "4.86%",
+          "dh": -1,
+          "clipped": 0,
+          "content": "0 missing/0 hidden",
+          "verdict": "PASS",
+          "note": "origin capture = archetype live.png (fresh 360 capture polluted by consent dialog)"
+        },
+        "1440": {
+          "pixel": "1.66%",
+          "dh": 0,
+          "clipped": 0,
+          "content": "0 missing/0 hidden",
+          "verdict": "PASS"
+        },
+        "crop": "footer 2.15%/2.96% (frozen-foundation font residual); header band = hero video frame behind transparent bar",
+        "chrome": "1440: 36 advisory deltas (header 6, footer 30), prototype gate had 44"
+      },
+      "startedAt": "2026-10-21T16:19:35Z",
+      "verdict": "archetype-landing: pages 1/1 live, blocks 4, gate 1440 1.66% / 360 4.86%, requests 0",
+      "endedAt": "2026-10-21T16:47:05Z"
+    },
+    "landing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "landing"
+      ],
+      "pages": 0,
+      "blocks": 0,
+      "gates": {},
+      "startedAt": "2026-10-21T16:47:19Z",
+      "endedAt": "2026-10-21T16:47:19Z",
+      "verdict": "landing: pages 0/0 siblings (single-page scope; archetype delivered in archetype-landing), blocks 0 new, gate n/a, requests 0"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "gates": {
+        "360": "4.86% Δh -1 clip 0 content 0 units 0 PASS (origin units cache at 360 width)",
+        "1440": "1.66% Δh 0 clip 0 content 0 units 0 PASS"
+      },
+      "startedAt": "2026-10-21T16:47:28Z",
+      "verdict": "gate-all: 1/1 PASS at 1440 and 360 (--skip-existing); coverage gate rows written",
+      "endedAt": "2026-10-21T16:50:06Z"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "gates": {},
+      "startedAt": "2026-10-21T16:50:17Z",
+      "endedAt": "2026-10-21T16:50:17Z",
+      "verdict": "final: foundation-freeze check unchanged (13 files); 0 queued foundation requests; archetype gates stand (1440 1.66% / 360 4.86%)"
+    }
+  }
+}

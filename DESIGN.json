@@ -1,0 +1,221 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica",
+    "writtenAt": "2026-10-21T14:13:28Z",
+    "mode": "bounded-single",
+    "synthesizedFrom": [
+      "stardust/current/pages/ro-index-html.json",
+      "stardust/replica/tokens.json",
+      "stardust/current/_computed-styles.json"
+    ]
+  },
+  "colors": {
+    "text": "#262626",
+    "background": "#ffffff",
+    "primary": "#1c69d4",
+    "primaryHover": "#0653b6",
+    "onDark": "#ffffff",
+    "outlineLight": "#f2f2f2",
+    "border": "#e6e6e6",
+    "surfaceLight": "#f6f6f6",
+    "stage": "#000000"
+  },
+  "typography": {
+    "family": "\"bmwTypeNextWeb\", Arial, Helvetica, Roboto, sans-serif",
+    "familyNote": "bmwTypeNextWeb is BMW licensed corporate type — not rehosted; brand family stays first in the stack, the source own fallbacks render until a licensed drop-in is added",
+    "weights": [
+      300,
+      400,
+      500,
+      700
+    ],
+    "ramp": {
+      "stage-zone-1-large": {
+        "360": "35/37 w500",
+        "1440": "48/50 w500"
+      },
+      "stage-sub-headline": {
+        "360": "17/19 w500 uppercase",
+        "1440": "20/24 w500 uppercase"
+      },
+      "headline-2": {
+        "360": "28/40 w300",
+        "1440": "35/50 w300"
+      },
+      "subsection-1": {
+        "360": "19/28 w300",
+        "1440": "23/36 w300"
+      },
+      "body-1": {
+        "360": "16/26 w300",
+        "1440": "18/28 w300"
+      },
+      "body-2": {
+        "360": "14/22 w300",
+        "1440": "15/24 w300"
+      },
+      "body-3/disclaimer": {
+        "all": "12/18 w300 opacity .7051"
+      }
+    },
+    "textRendering": {
+      "textRendering": "optimizeSpeed",
+      "webkitFontSmoothing": "antialiased",
+      "mozOsxFontSmoothing": "grayscale"
+    }
+  },
+  "rounded": {
+    "button": "3px",
+    "assistButton": "50%"
+  },
+  "spacing": {
+    "gridMargin": {
+      "360": 16,
+      "1440": 84
+    },
+    "gridFull": {
+      "360": 24,
+      "1440": 96
+    },
+    "gutter": {
+      "360": 8,
+      "1440": 12
+    },
+    "spacing-12": {
+      "360": 32,
+      "1440": 40
+    },
+    "spacing-16": {
+      "360": 40,
+      "1440": 48
+    }
+  },
+  "components": {
+    "buttonPrimary": {
+      "height": 52,
+      "paddingInline": 24,
+      "radius": "3px",
+      "bg": "#1c69d4",
+      "hoverBg": "#0653b6",
+      "color": "#fff",
+      "font": "15/24 w500 (14/22 @360)"
+    },
+    "buttonOutlineLight": {
+      "color": "#f2f2f2",
+      "border": "inset 1px #f2f2f2",
+      "hover": "inset 2px #fff"
+    },
+    "buttonOutlineDark": {
+      "color": "#262626",
+      "border": "inset 1px #262626",
+      "hover": "inset 2px"
+    },
+    "textLink": {
+      "font": "15/24 w500",
+      "hover": "#1c69d4",
+      "icon": "arrow_chevron_right"
+    }
+  },
+  "extensions": {
+    "sourceBreakpoints": [
+      768,
+      1024,
+      1280,
+      1920
+    ],
+    "gateWidths": [
+      1440,
+      360
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "1752px",
+      "probeWidth": 2560,
+      "shellMaxWidth": "1752px",
+      "caps": [
+        {
+          "kind": "shell",
+          "px": 1752,
+          "via": "max-width",
+          "selector": "body.contentpage.page > div.root.container > div.cmp-container > div.container.responsivegrid",
+          "pages": [
+            "https://www.bmw.ro/ro/index.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1440,
+          "via": "other",
+          "selector": "div.cmp-backgroundmedia__overlay > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "pages": [
+            "https://www.bmw.ro/ro/index.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 720,
+          "via": "other",
+          "selector": "#container-8a14cd8f05 > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "pages": [
+            "https://www.bmw.ro/ro/index.html"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.bmw.ro/ro/index.html",
+          "section": 0,
+          "selector": "#main > div.aem-Grid.aem-Grid--12 > div.title.ctx-mode--dark",
+          "px": null
+        },
+        {
+          "url": "https://www.bmw.ro/ro/index.html",
+          "section": 1,
+          "selector": "#main > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": null
+        },
+        {
+          "url": "https://www.bmw.ro/ro/index.html",
+          "section": 2,
+          "selector": "#main > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": null
+        },
+        {
+          "url": "https://www.bmw.ro/ro/index.html",
+          "section": 3,
+          "selector": "#main > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 720
+        },
+        {
+          "url": "https://www.bmw.ro/ro/index.html",
+          "section": 4,
+          "selector": "#main > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 720
+        },
+        {
+          "url": "https://www.bmw.ro/ro/index.html",
+          "section": 5,
+          "selector": "#main > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1440
+        },
+        {
+          "url": "https://www.bmw.ro/ro/index.html",
+          "section": 6,
+          "selector": "#main > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": null
+        }
+      ],
+      "capRegister": [],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-10-21T14:01:40.457Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.bmw.ro/ro/index.html"
+        ]
+      }
+    },
+    "iconFont": "bmw_next_icons (ligature) — rehosted only if licence allows, else inline SVG equivalents",
+    "lift": "stardust/replica/tokens.json",
+    "sectionMap": "stardust/replica/lift-notes.md"
+  }
+}

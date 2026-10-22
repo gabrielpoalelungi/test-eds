@@ -1,0 +1,11 @@
+{
+  "/ro/index": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-21T16:54:55.247Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-10-21T15:00:27.056Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-21T15:00:27.056Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "ro-index-html"
+  ],
+  "steps": [
+    {
+      "slug": "ro-index-html",
+      "path": "/ro",
+      "templateId": "ro-index-html",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero"
+        },
+        {
+          "id": "model-cards",
+          "edsBlockName": "model-cards"
+        },
+        {
+          "id": "teaser",
+          "edsBlockName": "teaser"
+        },
+        {
+          "id": "wallbox",
+          "edsBlockName": "wallbox"
+        }
+      ],
+      "reuse": []
+    }
+  ]
+}

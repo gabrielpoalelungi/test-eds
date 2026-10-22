@@ -1,5 +1,4 @@
 import {
-  buildBlock,
   loadHeader,
   loadFooter,
   decorateIcons,
@@ -10,31 +9,32 @@ import {
   loadSection,
   loadSections,
   loadCSS,
-  readBlockConfig,
-  toCamelCase,
-  toClassName,
+  buildBlock,
 } from './aem.js';
 
-/**
- * Builds hero block and prepends to main in a new section.
- * @param {Element} main The container element
- */
-function buildHeroBlock(main) {
-  const h1 = main.querySelector('h1');
-  const picture = main.querySelector('picture');
-  // eslint-disable-next-line no-bitwise
-  if (h1 && picture && (h1.compareDocumentPosition(picture) & Node.DOCUMENT_POSITION_PRECEDING)) {
-    // Check if h1 or picture is already inside a hero block
-    if (h1.closest('.hero') || picture.closest('.hero')) {
-      return; // Don't create a duplicate hero block
-    }
-    // Don't pull content out of an authored block (e.g. carousel-hero slides)
-    const authoredBlock = 'main > div > div[class]';
-    if (h1.closest(authoredBlock) || picture.closest(authoredBlock)) return;
-    const section = document.createElement('div');
-    section.append(buildBlock('hero', { elems: [picture, h1] }));
-    main.prepend(section);
-  }
+if (window.trustedTypes && window.trustedTypes.createPolicy) {
+  const innerTT = window.trustedTypes.createPolicy('tt-inner', {
+    createHTML: (s) => s, // avoid stack overflow
+  });
+
+  window.trustedTypes.createPolicy('default', {
+    createHTML: (input, type, sink) => {
+      let processedInput = input;
+      if (/srcdoc\s*=/i.test(processedInput)) {
+        const doc = new DOMParser().parseFromString(innerTT.createHTML(processedInput), 'text/html');
+        doc.querySelectorAll('iframe[srcdoc]').forEach((el) => el.removeAttribute('srcdoc'));
+        processedInput = doc.body.innerHTML;
+      }
+      if (sink.includes('createContextualFragment') || sink.includes('Document write')) {
+        const doc = new DOMParser().parseFromString(innerTT.createHTML(processedInput), 'text/html');
+        doc.querySelectorAll('script').forEach((el) => el.remove());
+        processedInput = doc.body.innerHTML;
+      }
+      return processedInput;
+    },
+    createScriptURL: (input) => input,
+    createScript: (input) => input,
+  });
 }
 
 /**
@@ -47,6 +47,30 @@ async function loadFonts() {
   } catch (e) {
     // do nothing
   }
+}
+
+/**
+ * Turns `/widgets/...` links into widget blocks.
+ * @param {Element} main The container element
+ */
+function buildWidgetAutoBlocks(main) {
+  const widgetLinks = [...main.querySelectorAll('a[href*="/widgets/"]')];
+  widgetLinks.forEach((link) => {
+    if (link.closest('.widget')) return;
+    const newLink = link.cloneNode(true);
+    const widgetBlock = buildBlock('widget', { elems: [newLink] });
+    const p = link.closest('p');
+    if (
+      p
+      && p.querySelectorAll('a').length === 1
+      && p.querySelector('a') === link
+      && p.textContent.trim() === link.textContent.trim()
+    ) {
+      p.replaceWith(widgetBlock);
+    } else {
+      link.replaceWith(widgetBlock);
+    }
+  });
 }
 
 /**
@@ -72,8 +96,7 @@ function buildAutoBlocks(main) {
         });
       });
     }
-
-    buildHeroBlock(main);
+    buildWidgetAutoBlocks(main);
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);
@@ -120,55 +143,6 @@ function decorateButtons(main) {
 }
 
 /**
- * Applies section metadata (style classes and data attributes) and removes the table.
- * @param {Element} main The container element
- */
-function decorateSectionMetadata(main) {
-  main.querySelectorAll(':scope > div.section div.section-metadata').forEach((sectionMeta) => {
-    const section = sectionMeta.closest('.section');
-    const meta = readBlockConfig(sectionMeta);
-    Object.keys(meta).forEach((key) => {
-      if (key === 'style') {
-        meta.style.split(',')
-          .filter((style) => style)
-          .map((style) => toClassName(style.trim()))
-          .forEach((style) => section.classList.add(style));
-      } else {
-        section.dataset[toCamelCase(key)] = meta[key];
-      }
-    });
-    const wrapper = sectionMeta.parentElement;
-    sectionMeta.remove();
-    if (!wrapper.children.length) wrapper.remove();
-  });
-}
-
-/**
- * Wraps #hashtags in default-content headings so they can carry the brand accent colour.
- * @param {Element} main The container element
- */
-function decorateHashtags(main) {
-  main.querySelectorAll('.default-content-wrapper :is(h1, h2, h3)').forEach((heading) => {
-    [...heading.childNodes].forEach((node) => {
-      if (node.nodeType !== Node.TEXT_NODE || !node.textContent.includes('#')) return;
-      const frag = document.createDocumentFragment();
-      node.textContent.split(/(#[\p{L}\d_]+)/u).forEach((part) => {
-        if (!part) return;
-        if (part.startsWith('#')) {
-          const span = document.createElement('span');
-          span.className = 'hashtag';
-          span.textContent = part;
-          frag.append(span);
-        } else {
-          frag.append(part);
-        }
-      });
-      node.replaceWith(frag);
-    });
-  });
-}
-
-/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
@@ -177,10 +151,8 @@ export function decorateMain(main) {
   decorateIcons(main);
   buildAutoBlocks(main);
   decorateSections(main);
-  decorateSectionMetadata(main);
   decorateBlocks(main);
   decorateButtons(main);
-  decorateHashtags(main);
 }
 
 /**
@@ -188,7 +160,7 @@ export function decorateMain(main) {
  * @param {Element} doc The container element
  */
 async function loadEager(doc) {
-  document.documentElement.lang = 'en';
+  document.documentElement.lang = 'ro';
   decorateTemplateAndTheme();
   const main = doc.querySelector('main');
   if (main) {
@@ -212,7 +184,7 @@ async function loadEager(doc) {
  * @param {Element} doc The container element
  */
 async function loadLazy(doc) {
-  loadHeader(doc.querySelector('header'));
+  loadHeader(doc.querySelector('body > header'));
 
   const main = doc.querySelector('main');
   await loadSections(main);
@@ -221,7 +193,7 @@ async function loadLazy(doc) {
   const element = hash ? doc.getElementById(hash.substring(1)) : false;
   if (hash && element) element.scrollIntoView();
 
-  loadFooter(doc.querySelector('footer'));
+  loadFooter(doc.querySelector('body > footer'));
 
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
   loadFonts();
@@ -232,8 +204,7 @@ async function loadLazy(doc) {
  * without impacting the user experience.
  */
 function loadDelayed() {
-  // eslint-disable-next-line import/no-cycle
-  window.setTimeout(() => import('./delayed.js'), 3000);
+  import('./consent-check.js');
   // load anything that can be postponed to the latest here
 }
 

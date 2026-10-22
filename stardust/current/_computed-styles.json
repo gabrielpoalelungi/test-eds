@@ -1,0 +1,3448 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-10-21T14:01:36.248Z",
+    "script": "style-census.mjs",
+    "readArtifacts": [
+      "https://www.bmw.ro/ro/index.html"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+    "synthesizedInputs": [],
+    "failed": []
+  },
+  "pages": {
+    "https://www.bmw.ro/ro/index.html": {
+      "360": {
+        "title": "BMW România: Automobile Premium și tehnologii inovatoare",
+        "viewport": {
+          "width": 360,
+          "height": 900
+        },
+        "elements": {
+          "total": 1476,
+          "visible": 523
+        },
+        "occluders": [],
+        "headings": [
+          {
+            "tag": "h2",
+            "text": "NOUL BMW iX4",
+            "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > h2",
+            "fontFamily": "bmwTypeNextWeb, \"Arial Fallback\", Arial, sans-serif",
+            "fontSize": "35px",
+            "fontWeight": "500",
+            "lineHeight": "37px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h2",
+            "text": "Alege modelul BMW preferat.",
+            "selector": "#title-77f4cc76b8 > h2",
+            "fontFamily": "bmwTypeNextWeb, \"Arial Fallback\", Arial, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "300",
+            "lineHeight": "40px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "h3",
+            "text": "Configurator.",
+            "selector": "#container-f03abee8fe > div > div:nth-of-type(2) > div > h3",
+            "fontFamily": "bmwTypeNextWeb, \"Arial Fallback\", Arial, sans-serif",
+            "fontSize": "19px",
+            "fontWeight": "300",
+            "lineHeight": "28px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "h3",
+            "text": "Modele BMW noi.",
+            "selector": "div > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div > h3",
+            "fontFamily": "bmwTypeNextWeb, \"Arial Fallback\", Arial, sans-serif",
+            "fontSize": "19px",
+            "fontWeight": "300",
+            "lineHeight": "28px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "h3",
+            "text": "Modele BMW rulate.",
+            "selector": "div > div > div:nth-of-type(3) > div > div > div:nth-of-type(3) > div > h3",
+            "fontFamily": "bmwTypeNextWeb, \"Arial Fallback\", Arial, sans-serif",
+            "fontSize": "19px",
+            "fontWeight": "300",
+            "lineHeight": "28px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "h2",
+            "text": "Noul BMW iX5.",
+            "selector": "#container-8a14cd8f05 > div > div > div > div > div:nth-of-type(1) > div > h2",
+            "fontFamily": "bmwTypeNextWeb, \"Arial Fallback\", Arial, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "300",
+            "lineHeight": "40px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h2",
+            "text": "Noul BMW i3 Sedan.",
+            "selector": "div > div > div > div > div > div:nth-of-type(1) > div > h2",
+            "fontFamily": "bmwTypeNextWeb, \"Arial Fallback\", Arial, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "300",
+            "lineHeight": "40px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h2",
+            "text": "BMW iX3 40. Energie nouă pentru viitor.",
+            "selector": "#title-62c4ea65a6 > h2",
+            "fontFamily": "bmwTypeNextWeb, \"Arial Fallback\", Arial, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "300",
+            "lineHeight": "40px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h2",
+            "text": "Wallbox BMW.",
+            "selector": "div > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > h2",
+            "fontFamily": "bmwTypeNextWeb, \"Arial Fallback\", Arial, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "300",
+            "lineHeight": "40px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "p",
+            "text": "O DECLARAŢIE DE ENERGIE.",
+            "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > p",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "17px",
+            "fontWeight": "500",
+            "lineHeight": "19px",
+            "letterSpacing": "normal",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "p",
+            "text": "BMW iX4 50 xDrive: consum de energie el…",
+            "selector": "div > div > div:nth-of-type(2) > div > div > div > div > p",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "300",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "p",
+            "text": "Creat pentru a fi lider.",
+            "selector": "#container-8a14cd8f05 > div > div > div > div > div:nth-of-type(2) > div > p",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "300",
+            "lineHeight": "26px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "p",
+            "text": "BMW iX5 60 xDrive: consum de energie el…",
+            "selector": "#text-d3d65c6e9e > p",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "300",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "p",
+            "text": "Simte pulsul unei noi ere.",
+            "selector": "div > div > div > div > div > div:nth-of-type(2) > div > p",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "300",
+            "lineHeight": "26px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "p",
+            "text": "BMW i3 50 xDrive Sedan: consum de energ…",
+            "selector": "#text-aaa74ff91a > p",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "300",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "p",
+            "text": "*Rata lunară afișată este valabilă pent…",
+            "selector": "#main > div > div:nth-of-type(7) > div > div > div:nth-of-type(3) > div > p",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "300",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "p",
+            "text": "Descoperă avantajele: termen scurt de l…",
+            "selector": "#text-2f6fce4fc2 > p",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "300",
+            "lineHeight": "26px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "p",
+            "text": "BMW iX3 40: consum de energie electrică…",
+            "selector": "#main > div > div:nth-of-type(8) > div > div > div:nth-of-type(2) > div > p",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "300",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "p",
+            "text": "Wallbox-ul BMW este creat cu tehnologii…",
+            "selector": "div > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div > p",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "300",
+            "lineHeight": "22px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Configurator și preț",
+            "selector": "div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > a",
+            "count": 1,
+            "backgroundColor": "rgb(28, 105, 212)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "3px",
+            "padding": "4px 24px",
+            "border": "0px none rgb(255, 255, 255)",
+            "borderColor": "rgb(255, 255, 255)",
+            "boxShadow": "none",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(6, 83, 182)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "links": [
+          {
+            "text": "Descoperă mai mult",
+            "selector": "div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > a",
+            "count": 4,
+            "color": "rgb(242, 242, 242)",
+            "textDecoration": "none",
+            "fontWeight": "500",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(255, 255, 255)",
+              "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px inset",
+              "changed": true
+            }
+          },
+          {
+            "text": "Configurator şi preţ",
+            "selector": "#container-f03abee8fe > div > div:nth-of-type(3) > a",
+            "count": 4,
+            "color": "rgb(38, 38, 38)",
+            "textDecoration": "none",
+            "fontWeight": "500",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(38, 38, 38)",
+              "borderColor": "rgb(38, 38, 38)",
+              "boxShadow": "rgb(38, 38, 38) 0px 0px 0px 2px inset",
+              "changed": true
+            }
+          },
+          {
+            "text": "Configurator și preț",
+            "selector": "#button-b1e8f3b1fb",
+            "count": 3,
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "none",
+            "fontWeight": "500",
+            "hover": {
+              "backgroundColor": "rgb(6, 83, 182)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "nav",
+            "selector": "nav",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 360,
+              "h": 68
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(38, 38, 38)",
+            "padding": "0px 24px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "14px"
+          },
+          {
+            "matched": "main",
+            "selector": "#main",
+            "rect": {
+              "x": 16,
+              "y": 0,
+              "w": 328,
+              "h": 4365
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(38, 38, 38)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "14px"
+          },
+          {
+            "matched": "footer",
+            "selector": "footer",
+            "rect": {
+              "x": 0,
+              "y": 4365,
+              "w": 360,
+              "h": 1084
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(38, 38, 38)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "14px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "#main > div",
+            "rect": {
+              "x": 16,
+              "y": 0,
+              "w": 328,
+              "h": 4365
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(38, 38, 38)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "14px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "3px",
+            "count": 11,
+            "area": 126181,
+            "sources": [
+              "div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > a",
+              "div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > a",
+              "#container-f03abee8fe > div > div:nth-of-type(3) > a"
+            ]
+          },
+          {
+            "value": "50%",
+            "count": 7,
+            "area": 6880,
+            "sources": [
+              "#container-24ffba19fa > div > div > div:nth-of-type(1) > div:nth-of-type(1) > button",
+              "div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > button",
+              "div > div:nth-of-type(2) > div > div > div > div > div > button"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgb(242, 242, 242) 0px 0px 0px 1px inset",
+            "count": 4,
+            "sources": [
+              "div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > a",
+              "#button-08f5eef2d5",
+              "#button-ca2f1f07dd"
+            ]
+          },
+          {
+            "value": "rgb(38, 38, 38) 0px 0px 0px 1px inset",
+            "count": 3,
+            "sources": [
+              "#container-f03abee8fe > div > div:nth-of-type(3) > a",
+              "div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(4) > a",
+              "div:nth-of-type(2) > div > div > div:nth-of-type(3) > div > div > div:nth-of-type(4) > a"
+            ]
+          },
+          {
+            "value": "rgba(0, 0, 0, 0.16) 0px 6px 20px 0px, rgba(0, 0, 0, 0.24) 0px 0px 1px 0px",
+            "count": 1,
+            "sources": [
+              "#container-24ffba19fa > div > div > div:nth-of-type(1) > div:nth-of-type(1) > button"
+            ]
+          }
+        ],
+        "gradients": [
+          {
+            "value": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 128px)",
+            "count": 3,
+            "area": 440921,
+            "sources": [
+              "#main > div > div:nth-of-type(6) > div > div > div:nth-of-type(1) > div > div:nth-of-type(2)",
+              "#main > div > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div:nth-of-type(2)",
+              "#main > div > div:nth-of-type(8) > div > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "linear-gradient(360deg, rgb(0, 0, 0) 10%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0.4) 40%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0))",
+            "count": 1,
+            "area": 221952,
+            "sources": [
+              "div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > div:nth-of-type(1) > div"
+            ]
+          }
+        ],
+        "bgColors": [
+          {
+            "value": "rgb(28, 105, 212)",
+            "count": 4,
+            "area": 47162,
+            "sources": [
+              "div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > a",
+              "#button-b1e8f3b1fb",
+              "#container-4eafb49d08 > div > div:nth-of-type(1) > a"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 3,
+            "area": 430416,
+            "sources": [
+              "#main > div > div:nth-of-type(4) > div > div > div:nth-of-type(1) > div",
+              "div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > button",
+              "#main > div > div:nth-of-type(4) > div > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(38, 38, 38)",
+            "count": 2,
+            "area": 391680,
+            "sources": [
+              "div > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div",
+              "div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > video"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 1,
+            "area": 2704,
+            "sources": [
+              "#container-24ffba19fa > div > div > div:nth-of-type(1) > div:nth-of-type(1) > button"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(38, 38, 38)",
+            "count": 72,
+            "sources": [
+              "div > div > div:nth-of-type(2) > div > div > div > div > p",
+              "#title-77f4cc76b8 > h2",
+              "#container-f03abee8fe > div > div:nth-of-type(2) > div > h3"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 17,
+            "sources": [
+              "div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > h2",
+              "div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > h2 > span",
+              "div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > p"
+            ]
+          },
+          {
+            "value": "rgb(242, 242, 242)",
+            "count": 4,
+            "sources": [
+              "div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > a > span",
+              "#button-08f5eef2d5 > span",
+              "#button-ca2f1f07dd > span"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgba(255, 255, 255, 0.46)",
+            "count": 1,
+            "sources": [
+              "div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > button"
+            ]
+          }
+        ],
+        "customProps": {
+          "--scrollbar-width": {
+            "declared": "0px",
+            "computed": "0px"
+          },
+          "--grid-main-container-width": {
+            "declared": "calc(120rem - var(--grid-full)*2)",
+            "computed": "calc(100vw - 0px - 1.5rem*2)"
+          },
+          "--grid-gutter": {
+            "declared": ".75rem",
+            "computed": ".5rem"
+          },
+          "--grid-margin": {
+            "declared": "5.25rem",
+            "computed": "1rem"
+          },
+          "--grid-full": {
+            "declared": "6rem",
+            "computed": "1.5rem"
+          },
+          "--grid-addtional-spacing": {
+            "declared": "5rem",
+            "computed": "2rem"
+          },
+          "--stage-model-1-font-size": {
+            "declared": "15.75rem",
+            "computed": "7.4375rem"
+          },
+          "--stage-model-1-line-height": {
+            "declared": "14rem",
+            "computed": "6.75rem"
+          },
+          "--stage-zone-0-double-row-font-size": {
+            "declared": "6.25rem",
+            "computed": "2.6875rem"
+          },
+          "--stage-zone-0-double-row-line-height": {
+            "declared": "6.375rem",
+            "computed": "2.8125rem"
+          },
+          "--stage-zone-0-single-row-font-size": {
+            "declared": "8.125rem",
+            "computed": "3.5rem"
+          },
+          "--stage-zone-0-single-row-line-height": {
+            "declared": "8.25rem",
+            "computed": "3.625rem"
+          },
+          "--stage-zone-1-small-font-size": {
+            "declared": "3.75rem",
+            "computed": "2.0625rem"
+          },
+          "--stage-zone-1-small-line-height": {
+            "declared": "3.875rem",
+            "computed": "2.1875rem"
+          },
+          "--stage-zone-1-large-font-size": {
+            "declared": "5rem",
+            "computed": "2.1875rem"
+          },
+          "--stage-zone-1-large-line-height": {
+            "declared": "5.125rem",
+            "computed": "2.3125rem"
+          },
+          "--stage-sub-headline-font-size": {
+            "declared": "1.375rem",
+            "computed": "1.0625rem"
+          },
+          "--stage-sub-headline-line-height": {
+            "declared": "1.625rem",
+            "computed": "1.1875rem"
+          },
+          "--stage-sub-headline-normal-case-font-size": {
+            "declared": "1.375rem",
+            "computed": "1.0625rem"
+          },
+          "--stage-sub-headline-normal-case-line-height": {
+            "declared": "1.625rem",
+            "computed": "1.1875rem"
+          },
+          "--stage-price-tag-price-font-size": {
+            "declared": "2.8125rem",
+            "computed": "2.0625rem"
+          },
+          "--stage-price-tag-price-line-height": {
+            "declared": "2.9375rem",
+            "computed": "2.1875rem"
+          },
+          "--stage-price-tag-label-font-size": {
+            "declared": ".75rem",
+            "computed": ".625rem"
+          },
+          "--stage-price-tag-label-line-height": {
+            "declared": "1rem",
+            "computed": ".75rem"
+          },
+          "--iconization-1-font-size": {
+            "declared": "1rem",
+            "computed": ".875rem"
+          },
+          "--iconization-1-line-height": {
+            "declared": ".875rem",
+            "computed": ".75rem"
+          },
+          "--iconization-1-letter-spacing": {
+            "declared": ".6em",
+            "computed": ".6em"
+          },
+          "--headline-1-font-size": {
+            "declared": "3.75rem",
+            "computed": "2.0625rem"
+          },
+          "--headline-1-line-height": {
+            "declared": "5.25rem",
+            "computed": "2.875rem"
+          },
+          "--headline-2-font-size": {
+            "declared": "2.8125rem",
+            "computed": "1.75rem"
+          },
+          "--headline-2-line-height": {
+            "declared": "3.875rem",
+            "computed": "2.5rem"
+          },
+          "--headline-3-font-size": {
+            "declared": "2.125rem",
+            "computed": "1.4375rem"
+          },
+          "--headline-3-line-height": {
+            "declared": "3rem",
+            "computed": "2rem"
+          },
+          "--subsection-1-font-size": {
+            "declared": "1.5625rem",
+            "computed": "1.1875rem"
+          },
+          "--subsection-1-line-height": {
+            "declared": "2.375rem",
+            "computed": "1.75rem"
+          },
+          "--subsection-2-font-size": {
+            "declared": "1.375rem",
+            "computed": "1.0625rem"
+          },
+          "--subsection-2-line-height": {
+            "declared": "2.125rem",
+            "computed": "1.625rem"
+          },
+          "--body-1-font-size": {
+            "declared": "1.1875rem",
+            "computed": "1rem"
+          },
+          "--body-1-line-height": {
+            "declared": "1.875rem",
+            "computed": "1.625rem"
+          },
+          "--body-2-font-size": {
+            "declared": "1rem",
+            "computed": ".875rem"
+          },
+          "--body-2-line-height": {
+            "declared": "1.625rem",
+            "computed": "1.375rem"
+          },
+          "--body-4-font-size": {
+            "declared": ".875rem",
+            "computed": ".875rem"
+          },
+          "--body-4-line-height": {
+            "declared": "1.375rem",
+            "computed": "1.375rem"
+          },
+          "--model-spotlight-media-font-size": {
+            "declared": ".9375rem",
+            "computed": ".875rem"
+          },
+          "--model-spotlight-media-line-height": {
+            "declared": "1.5rem",
+            "computed": "1.375rem"
+          },
+          "--model-spotlight-modal-title-font-size": {
+            "declared": "1.4375rem",
+            "computed": "1.25rem"
+          },
+          "--model-spotlight-modal-title-line-height": {
+            "declared": "2.25rem",
+            "computed": "1.875rem"
+          },
+          "--body-3-font-size": {
+            "declared": ".75rem",
+            "computed": ".75rem"
+          },
+          "--body-3-line-height": {
+            "declared": "1.125rem",
+            "computed": "1.125rem"
+          },
+          "--model-spotlight-kpi-value-font-size": {
+            "declared": "1.4375rem",
+            "computed": "1.4375rem"
+          },
+          "--model-spotlight-kpi-value-line-height": {
+            "declared": "2.25rem",
+            "computed": "2.25rem"
+          },
+          "--model-preview-infoI-font-size": {
+            "declared": "1rem",
+            "computed": "1rem"
+          },
+          "--model-preview-infoI-line-height": {
+            "declared": "1.625rem",
+            "computed": "1.625rem"
+          },
+          "--label-1-font-size": {
+            "declared": ".75rem",
+            "computed": ".75rem"
+          },
+          "--label-1-line-height": {
+            "declared": "1rem",
+            "computed": "1rem"
+          },
+          "--default-font-weight": {
+            "declared": "300",
+            "computed": "300"
+          },
+          "--input-font-weight": {
+            "declared": "400",
+            "computed": "400"
+          },
+          "--clickable-font-weight": {
+            "declared": "500",
+            "computed": "500"
+          },
+          "--link-font-weight": {
+            "declared": "500",
+            "computed": "500"
+          },
+          "--price-font-weight": {
+            "declared": "700",
+            "computed": "700"
+          },
+          "--button-small-height": {
+            "declared": "2.25rem",
+            "computed": "2.25rem"
+          },
+          "--button-small-line-clamp": {
+            "declared": "1",
+            "computed": "1"
+          },
+          "--button-large-height": {
+            "declared": "3.25rem",
+            "computed": "3.25rem"
+          },
+          "--button-large-line-clamp": {
+            "declared": "2",
+            "computed": "2"
+          },
+          "--heading": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--copy-text": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--disclaimer": {
+            "declared": "#666",
+            "computed": "#666"
+          },
+          "--surface-background-primary": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--surface-background-secondary": {
+            "declared": "#f6f6f6",
+            "computed": "#f6f6f6"
+          },
+          "--border": {
+            "declared": "#e6e6e6",
+            "computed": "#e6e6e6"
+          },
+          "--border-tag": {
+            "declared": "#e6e6e6",
+            "computed": "#e6e6e6"
+          },
+          "--cta": {
+            "declared": "#1c69d4",
+            "computed": "#1c69d4"
+          },
+          "--cta-text": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--cta-hover": {
+            "declared": "#0653b6",
+            "computed": "#0653b6"
+          },
+          "--cta-disabled": {
+            "declared": "#bbd2f3",
+            "computed": "#bbd2f3"
+          },
+          "--cta-text-hover": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--cta-text-disabled": {
+            "declared": "",
+            "computed": ""
+          },
+          "--nba": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--nba-text": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--nba-hover": {
+            "declared": "#4d4d4d",
+            "computed": "#4d4d4d"
+          },
+          "--nba-disabled": {
+            "declared": "#bbb",
+            "computed": "#bbb"
+          },
+          "--nba-text-hover": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--nba-text-disabled": {
+            "declared": "",
+            "computed": ""
+          },
+          "--ol": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--ol-hover": {
+            "declared": "",
+            "computed": ""
+          },
+          "--ol-disabled": {
+            "declared": "#e6e6e6",
+            "computed": "#e6e6e6"
+          },
+          "--ol-text": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--ol-text-hover": {
+            "declared": "",
+            "computed": ""
+          },
+          "--ol-text-disabled": {
+            "declared": "#bbb",
+            "computed": "#bbb"
+          },
+          "--ol-background": {
+            "declared": "",
+            "computed": ""
+          },
+          "--ol-background-hover": {
+            "declared": "",
+            "computed": ""
+          },
+          "--ol-background-focus": {
+            "declared": "",
+            "computed": ""
+          },
+          "--ol-background-disabled": {
+            "declared": "",
+            "computed": ""
+          },
+          "--ol-border-width": {
+            "declared": "1px",
+            "computed": "1px"
+          },
+          "--ol-border-width-hover": {
+            "declared": "2px",
+            "computed": "2px"
+          },
+          "--filtertag": {
+            "declared": "#8e8e8e",
+            "computed": "#8e8e8e"
+          },
+          "--filtertag-hover": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--filtertag-disabled": {
+            "declared": "#f2f2f2",
+            "computed": "#f2f2f2"
+          },
+          "--filtertag-text": {
+            "declared": "#666",
+            "computed": "#666"
+          },
+          "--filtertag-text-hover": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--filtertag-text-disabled": {
+            "declared": "#bbb",
+            "computed": "#bbb"
+          },
+          "--filtertag-border-width-hover": {
+            "declared": "1px",
+            "computed": "1px"
+          },
+          "--filtertag-selected": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--filtertag-selected-hover": {
+            "declared": "#4d4d4d",
+            "computed": "#4d4d4d"
+          },
+          "--filtertag-selected-disabled": {
+            "declared": "#bbb",
+            "computed": "#bbb"
+          },
+          "--filtertag-selected-text": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--select": {
+            "declared": "#bbb",
+            "computed": "#bbb"
+          },
+          "--select-hover": {
+            "declared": "#4d4d4d",
+            "computed": "#4d4d4d"
+          },
+          "--select-focus": {
+            "declared": "#4d4d4d",
+            "computed": "#4d4d4d"
+          },
+          "--select-disabled": {
+            "declared": "#bbb",
+            "computed": "#bbb"
+          },
+          "--select-text": {
+            "declared": "#666",
+            "computed": "#666"
+          },
+          "--select-text-hover": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--select-text-focus": {
+            "declared": "#666",
+            "computed": "#666"
+          },
+          "--select-text-disabled": {
+            "declared": "#8e8e8e",
+            "computed": "#8e8e8e"
+          },
+          "--select-border-width-hover": {
+            "declared": "1px",
+            "computed": "1px"
+          },
+          "--link": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--link-cta": {
+            "declared": "#1c69d4",
+            "computed": "#1c69d4"
+          },
+          "--link-hover": {
+            "declared": "#1c69d4",
+            "computed": "#1c69d4"
+          },
+          "--link-active": {
+            "declared": "#0653b6",
+            "computed": "#0653b6"
+          },
+          "--link-disabled": {
+            "declared": "#bbb",
+            "computed": "#bbb"
+          },
+          "--input": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--input-disabled": {
+            "declared": "#f2f2f2",
+            "computed": "#f2f2f2"
+          },
+          "--input-text-color": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--input-text-hover": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--input-text-focus": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--input-text-disabled": {
+            "declared": "#8e8e8e",
+            "computed": "#8e8e8e"
+          },
+          "--input-placeholder-color": {
+            "declared": "#666",
+            "computed": "#666"
+          },
+          "--input-border-color": {
+            "declared": "#8e8e8e",
+            "computed": "#8e8e8e"
+          },
+          "--input-border-color-hover": {
+            "declared": "#4d4d4d",
+            "computed": "#4d4d4d"
+          },
+          "--navigation-background": {
+            "declared": "#0000",
+            "computed": "#0000"
+          },
+          "--navigation-border": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--navigation-gradient": {
+            "declared": "linear-gradient(0,#0000,color-mix(in srgb,#000 40%,#0000))",
+            "computed": "linear-gradient(0,#0000,color-mix(in srgb,#000 40%,#0000))"
+          },
+          "--navigation-logo": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--navigation-claim": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--navigation-interaction": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--navigation-interaction-hover": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--navigation-interaction-focus": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--navigation-interaction-disabled": {
+            "declared": "#666",
+            "computed": "#666"
+          },
+          "--navigation-interaction-highlight": {
+            "declared": "#1c69d4",
+            "computed": "#1c69d4"
+          },
+          "--navigation-interaction-highlight-text": {
+            "declared": "#0653b6",
+            "computed": "#0653b6"
+          },
+          "--focus-type": {
+            "declared": "navigation-light",
+            "computed": "navigation-light"
+          },
+          "--error": {
+            "declared": "#d20000",
+            "computed": "#d20000"
+          },
+          "--error-background": {
+            "declared": "#f7e7e9",
+            "computed": "#f7e7e9"
+          },
+          "--warning": {
+            "declared": "#ffad1f",
+            "computed": "#ffad1f"
+          },
+          "--warning-background": {
+            "declared": "#fbedc9",
+            "computed": "#fbedc9"
+          },
+          "--success": {
+            "declared": "#3db014",
+            "computed": "#3db014"
+          },
+          "--success-background": {
+            "declared": "#e8f2eb",
+            "computed": "#e8f2eb"
+          },
+          "--information": {
+            "declared": "#1c69d4",
+            "computed": "#1c69d4"
+          },
+          "--information-background": {
+            "declared": "#dde8f9",
+            "computed": "#dde8f9"
+          },
+          "--neutral": {
+            "declared": "#666",
+            "computed": "#666"
+          },
+          "--neutral-background": {
+            "declared": "#f2f2f2",
+            "computed": "#f2f2f2"
+          },
+          "--dialogue": {
+            "declared": "#dde8f9",
+            "computed": "#dde8f9"
+          },
+          "--scrollbar-background": {
+            "declared": "#e6e6e6",
+            "computed": "#e6e6e6"
+          },
+          "--scrollbar-thumb": {
+            "declared": "#4d4d4d",
+            "computed": "#4d4d4d"
+          },
+          "--focus-visible-color-highlight": {
+            "declared": "#1c69d4",
+            "computed": "#1c69d4"
+          },
+          "--focus-visible-color-contrast": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--focus-visible-color-input": {
+            "declared": "#4d4d4d",
+            "computed": "#4d4d4d"
+          },
+          "--focus-visible-background-accordion": {
+            "declared": "#ffffff80",
+            "computed": "#ffffff80"
+          },
+          "--focus-visible-background-link": {
+            "declared": "#ffffff80",
+            "computed": "#ffffff80"
+          },
+          "--focus-visible-width-highlight": {
+            "declared": ".25rem",
+            "computed": ".25rem"
+          },
+          "--focus-visible-width-highlight-half": {
+            "declared": ".125rem",
+            "computed": ".125rem"
+          },
+          "--focus-visible-width-contrast": {
+            "declared": ".0625rem",
+            "computed": ".0625rem"
+          },
+          "--focus-visible-width-both": {
+            "declared": ".3125rem",
+            "computed": ".3125rem"
+          },
+          "--focus-visible-width-high-contrast": {
+            "declared": ".375rem",
+            "computed": ".375rem"
+          },
+          "--focus-visible-width-contrast-input": {
+            "declared": ".125rem",
+            "computed": ".125rem"
+          },
+          "--focus-visible-inside": {
+            "declared": "inset 0 0 0 .25rem #1c69d4,0 0 0 .0625rem #fff",
+            "computed": "inset 0 0 0 .25rem #1c69d4,0 0 0 .0625rem #fff"
+          },
+          "--focus-visible-inside-after": {
+            "declared": "inset 0 0 0 .25rem #1c69d4,inset 0 0 0 .3125rem #fff",
+            "computed": "inset 0 0 0 .25rem #1c69d4,inset 0 0 0 .3125rem #fff"
+          },
+          "--focus-visible-middle": {
+            "declared": "inset 0 0 0 .125rem #1c69d4,0 0 0 .125rem #1c69d4",
+            "computed": "inset 0 0 0 .125rem #1c69d4,0 0 0 .125rem #1c69d4"
+          },
+          "--focus-visible-outside": {
+            "declared": "0 0 0 .0625rem #fff,0 0 0 .3125rem #1c69d4",
+            "computed": "0 0 0 .0625rem #fff,0 0 0 .3125rem #1c69d4"
+          },
+          "--focus-visible-outside-link-underline": {
+            "declared": "0 0 0 .125rem #fff",
+            "computed": "0 0 0 .125rem #fff"
+          },
+          "--focus-visible-outside-double": {
+            "declared": "0 0 0 .0625rem #1c69d4,0 0 0 .3125rem #1c69d4",
+            "computed": "0 0 0 .0625rem #1c69d4,0 0 0 .3125rem #1c69d4"
+          },
+          "--focus-visible-outside-high-contrast": {
+            "declared": "0 0 0 .0625rem #fff,0 0 0 .3125rem #1c69d4,0 0 0 .375rem #fff",
+            "computed": "0 0 0 .0625rem #fff,0 0 0 .3125rem #1c69d4,0 0 0 .375rem #fff"
+          },
+          "--focus-visible-input-inside": {
+            "declared": "inset 0 0 0 .125rem #1c69d4",
+            "computed": "inset 0 0 0 .125rem #1c69d4"
+          },
+          "--focus-visible-input-middle": {
+            "declared": "inset 0 0 0 .0625rem #4d4d4d,0 0 0 .0625rem #4d4d4d",
+            "computed": "inset 0 0 0 .0625rem #4d4d4d,0 0 0 .0625rem #4d4d4d"
+          },
+          "--focus-visible-input-outside": {
+            "declared": "0 0 0 .0625rem #4d4d4d",
+            "computed": "0 0 0 .0625rem #4d4d4d"
+          },
+          "--focus-visible-navigation-light": {
+            "declared": "inset 0 0 0 .125rem #1c69d4",
+            "computed": "inset 0 0 0 .125rem #1c69d4"
+          },
+          "--focus-visible-navigation-dark": {
+            "declared": "inset 0 0 0 .125rem #1c69d4,inset 0 0 0 .25rem #fff",
+            "computed": "inset 0 0 0 .125rem #1c69d4,inset 0 0 0 .25rem #fff"
+          },
+          "--scroll-behavior": {
+            "declared": "smooth",
+            "computed": "smooth"
+          },
+          "--compare-description-bottom": {
+            "declared": "1.5rem",
+            "computed": "1.5rem"
+          },
+          "--compare-cosyimage-scale": {
+            "declared": "1",
+            "computed": "1"
+          },
+          "--compare-form-price-color": {
+            "declared": "#000",
+            "computed": "#000"
+          },
+          "--compare-dropdown-label-color": {
+            "declared": "#666",
+            "computed": "#666"
+          },
+          "--compare-dropdown-text-color": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--compare-cosyimage-width": {
+            "declared": "100%",
+            "computed": "100%"
+          },
+          "--compare-dropdown-height": {
+            "declared": "2.5rem",
+            "computed": "2.5rem"
+          },
+          "--compare-button-height": {
+            "declared": "2.5rem",
+            "computed": "2.5rem"
+          },
+          "--compare-form-background": {
+            "declared": "#f6f6f6",
+            "computed": "#f6f6f6"
+          },
+          "--compare-dropdown-bottom": {
+            "declared": "1.25rem",
+            "computed": "1.25rem"
+          },
+          "--swiper-theme-color": {
+            "declared": "$gs0",
+            "computed": "$gs0"
+          }
+        },
+        "fonts": [
+          {
+            "family": "bmwTypeNextWeb",
+            "weight": "300",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "bmwTypeNextWeb",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "bmwTypeNextWeb",
+            "weight": "500",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "bmwTypeNextWeb",
+            "weight": "700",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "bmw_next_icons",
+            "weight": "300",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "bmw_next_icons",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "bmwTypeNextWeb",
+            "weight": "300",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "bmwTypeNextWeb",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "bmwTypeNextWeb",
+            "weight": "500",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "Arial Fallback",
+            "weight": "normal",
+            "style": "normal",
+            "status": "error"
+          }
+        ],
+        "logoCandidates": [
+          {
+            "tag": "img",
+            "selector": "nav > a > img:nth-of-type(1)",
+            "src": "https://www.bmw.ro/content/dam/bmw/common/images/logo-icons/BMW/BMW_White_Logo.svg.asset.1670245093434.svg",
+            "inlineSvg": false,
+            "alt": "",
+            "ariaLabel": "BMW Logo",
+            "class": "cmp-globalnavigation__logo-image cmp-globalnavigation__logo-image--white",
+            "id": null,
+            "href": "/ro/index.html",
+            "inHomeLink": true,
+            "rect": {
+              "x": 24,
+              "y": 16,
+              "w": 36,
+              "h": 36
+            }
+          }
+        ],
+        "iconFont": {
+          "families": [
+            "bmw_next_icons"
+          ],
+          "glyphs": []
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://www.bmw.ro/ro/index.html"
+      },
+      "1440": {
+        "title": "BMW România: Automobile Premium și tehnologii inovatoare",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "elements": {
+          "total": 1447,
+          "visible": 542
+        },
+        "occluders": [],
+        "headings": [
+          {
+            "tag": "h2",
+            "text": "NOUL BMW iX4",
+            "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > h2",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "48px",
+            "fontWeight": "500",
+            "lineHeight": "50px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h2",
+            "text": "Alege modelul BMW preferat.",
+            "selector": "#title-77f4cc76b8 > h2",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "35px",
+            "fontWeight": "300",
+            "lineHeight": "50px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "h3",
+            "text": "Configurator.",
+            "selector": "#container-f03abee8fe > div > div:nth-of-type(2) > div > h3",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "23px",
+            "fontWeight": "300",
+            "lineHeight": "36px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "h3",
+            "text": "Modele BMW noi.",
+            "selector": "div > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div > h3",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "23px",
+            "fontWeight": "300",
+            "lineHeight": "36px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "h3",
+            "text": "Modele BMW rulate.",
+            "selector": "div > div > div:nth-of-type(3) > div > div > div:nth-of-type(3) > div > h3",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "23px",
+            "fontWeight": "300",
+            "lineHeight": "36px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "h2",
+            "text": "Noul BMW iX5.",
+            "selector": "#container-8a14cd8f05 > div > div > div > div > div:nth-of-type(1) > div > h2",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "35px",
+            "fontWeight": "300",
+            "lineHeight": "50px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h2",
+            "text": "Noul BMW i3 Sedan.",
+            "selector": "div > div > div > div > div > div:nth-of-type(1) > div > h2",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "35px",
+            "fontWeight": "300",
+            "lineHeight": "50px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h2",
+            "text": "BMW iX3 40. Energie nouă pentru viitor.",
+            "selector": "#title-62c4ea65a6 > h2",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "35px",
+            "fontWeight": "300",
+            "lineHeight": "50px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h2",
+            "text": "Wallbox BMW.",
+            "selector": "div > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > h2",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "35px",
+            "fontWeight": "300",
+            "lineHeight": "50px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "h3",
+            "text": "Contact şi informaţii",
+            "selector": "div > div > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div > h3",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "23px",
+            "fontWeight": "300",
+            "lineHeight": "36px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "h3",
+            "text": "Despre BMW",
+            "selector": "div > div > div:nth-of-type(1) > div > div > div:nth-of-type(3) > div > h3",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "23px",
+            "fontWeight": "300",
+            "lineHeight": "36px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "h3",
+            "text": "Asistenţă şi service",
+            "selector": "#container-a4a38f6e4f > div > div:nth-of-type(1) > div > h3",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "23px",
+            "fontWeight": "300",
+            "lineHeight": "36px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "h3",
+            "text": "Alege și comandă",
+            "selector": "#container-a4a38f6e4f > div > div:nth-of-type(3) > div > h3",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "23px",
+            "fontWeight": "300",
+            "lineHeight": "36px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "h3",
+            "text": "Modele",
+            "selector": "#container-5efbc3d9ad > div > div:nth-of-type(1) > div > h3",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "23px",
+            "fontWeight": "300",
+            "lineHeight": "36px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "h3",
+            "text": "Automobile electrice BMW",
+            "selector": "#container-5efbc3d9ad > div > div:nth-of-type(3) > div > h3",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "23px",
+            "fontWeight": "300",
+            "lineHeight": "36px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "p",
+            "text": "O DECLARAŢIE DE ENERGIE.",
+            "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > p",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "500",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "uppercase",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "p",
+            "text": "BMW iX4 50 xDrive: consum de energie el…",
+            "selector": "div > div > div:nth-of-type(2) > div > div > div > div > p",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "300",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "p",
+            "text": "Creat pentru a fi lider.",
+            "selector": "#container-8a14cd8f05 > div > div > div > div > div:nth-of-type(2) > div > p",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "300",
+            "lineHeight": "28px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "p",
+            "text": "BMW iX5 60 xDrive: consum de energie el…",
+            "selector": "#text-d3d65c6e9e > p",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "300",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "p",
+            "text": "Simte pulsul unei noi ere.",
+            "selector": "div > div > div > div > div > div:nth-of-type(2) > div > p",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "300",
+            "lineHeight": "28px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "p",
+            "text": "BMW i3 50 xDrive Sedan: consum de energ…",
+            "selector": "#text-aaa74ff91a > p",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "300",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "p",
+            "text": "*Rata lunară afișată este valabilă pent…",
+            "selector": "#main > div > div:nth-of-type(7) > div > div > div:nth-of-type(3) > div > p",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "300",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "p",
+            "text": "Descoperă avantajele: termen scurt de l…",
+            "selector": "#text-2f6fce4fc2 > p",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "18px",
+            "fontWeight": "300",
+            "lineHeight": "28px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "p",
+            "text": "BMW iX3 40: consum de energie electrică…",
+            "selector": "#main > div > div:nth-of-type(8) > div > div > div:nth-of-type(2) > div > p",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "300",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          },
+          {
+            "tag": "p",
+            "text": "Wallbox-ul BMW este creat cu tehnologii…",
+            "selector": "div > div > div:nth-of-type(2) > div > div > div:nth-of-type(3) > div > p",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "300",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 38, 38)"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Configurator și preț",
+            "selector": "div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > a",
+            "count": 1,
+            "backgroundColor": "rgb(28, 105, 212)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "3px",
+            "padding": "4px 24px",
+            "border": "0px none rgb(255, 255, 255)",
+            "borderColor": "rgb(255, 255, 255)",
+            "boxShadow": "none",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "500",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(6, 83, 182)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "links": [
+          {
+            "text": "Descoperă mai mult",
+            "selector": "div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > a",
+            "count": 4,
+            "color": "rgb(242, 242, 242)",
+            "textDecoration": "none",
+            "fontWeight": "500",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(255, 255, 255)",
+              "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px inset",
+              "changed": true
+            }
+          },
+          {
+            "text": "Configurator şi preţ",
+            "selector": "#container-f03abee8fe > div > div:nth-of-type(3) > a",
+            "count": 4,
+            "color": "rgb(38, 38, 38)",
+            "textDecoration": "none",
+            "fontWeight": "500",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(38, 38, 38)",
+              "borderColor": "rgb(38, 38, 38)",
+              "boxShadow": "rgb(38, 38, 38) 0px 0px 0px 2px inset",
+              "changed": true
+            }
+          },
+          {
+            "text": "Configurator și preț",
+            "selector": "#button-b1e8f3b1fb",
+            "count": 3,
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "none",
+            "fontWeight": "500",
+            "hover": {
+              "backgroundColor": "rgb(6, 83, 182)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "nav",
+            "selector": "nav",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 1440,
+              "h": 84
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(38, 38, 38)",
+            "padding": "0px 96px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "15px"
+          },
+          {
+            "matched": "main",
+            "selector": "#main",
+            "rect": {
+              "x": 84,
+              "y": 0,
+              "w": 1272,
+              "h": 3201
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(38, 38, 38)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "15px"
+          },
+          {
+            "matched": "footer",
+            "selector": "footer",
+            "rect": {
+              "x": 0,
+              "y": 3201,
+              "w": 1440,
+              "h": 1103
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(38, 38, 38)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "15px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "#main > div",
+            "rect": {
+              "x": 84,
+              "y": 0,
+              "w": 1272,
+              "h": 3201
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(38, 38, 38)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif",
+            "fontSize": "15px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "3px",
+            "count": 11,
+            "area": 97150,
+            "sources": [
+              "div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > a",
+              "div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > a",
+              "#container-f03abee8fe > div > div:nth-of-type(3) > a"
+            ]
+          },
+          {
+            "value": "50%",
+            "count": 7,
+            "area": 6880,
+            "sources": [
+              "#container-24ffba19fa > div > div > div:nth-of-type(1) > div:nth-of-type(1) > button",
+              "div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > button",
+              "div > div:nth-of-type(2) > div > div > div > div > div > button"
+            ]
+          },
+          {
+            "value": "10px 10px 0px",
+            "count": 1,
+            "area": 39600,
+            "sources": [
+              "#container-24ffba19fa > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgb(242, 242, 242) 0px 0px 0px 1px inset",
+            "count": 4,
+            "sources": [
+              "div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > a",
+              "#button-08f5eef2d5",
+              "#button-ca2f1f07dd"
+            ]
+          },
+          {
+            "value": "rgb(38, 38, 38) 0px 0px 0px 1px inset",
+            "count": 3,
+            "sources": [
+              "#container-f03abee8fe > div > div:nth-of-type(3) > a",
+              "div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(4) > a",
+              "div:nth-of-type(2) > div > div > div:nth-of-type(3) > div > div > div:nth-of-type(4) > a"
+            ]
+          },
+          {
+            "value": "rgba(0, 0, 0, 0.16) 0px 5px 40px 0px",
+            "count": 1,
+            "sources": [
+              "#container-24ffba19fa > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div"
+            ]
+          },
+          {
+            "value": "rgba(0, 0, 0, 0.16) 0px 6px 20px 0px, rgba(0, 0, 0, 0.24) 0px 0px 1px 0px",
+            "count": 1,
+            "sources": [
+              "#container-24ffba19fa > div > div > div:nth-of-type(1) > div:nth-of-type(1) > button"
+            ]
+          }
+        ],
+        "gradients": [
+          {
+            "value": "linear-gradient(90deg, rgb(0, 0, 0) 10%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0.4) 40%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0))",
+            "count": 2,
+            "area": 1378756,
+            "sources": [
+              "div:nth-of-type(6) > div > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1) > div",
+              "div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1) > div"
+            ]
+          },
+          {
+            "value": "linear-gradient(110deg, rgba(38, 38, 38, 0.8), rgba(38, 38, 38, 0) 50%)",
+            "count": 1,
+            "area": 689378,
+            "sources": [
+              "div:nth-of-type(8) > div > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1) > div"
+            ]
+          }
+        ],
+        "bgColors": [
+          {
+            "value": "rgb(28, 105, 212)",
+            "count": 4,
+            "area": 38274,
+            "sources": [
+              "div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > a",
+              "#button-b1e8f3b1fb",
+              "#container-4eafb49d08 > div > div:nth-of-type(1) > a"
+            ]
+          },
+          {
+            "value": "rgb(38, 38, 38)",
+            "count": 2,
+            "area": 1814400,
+            "sources": [
+              "div > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div",
+              "div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > video"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 2,
+            "area": 908496,
+            "sources": [
+              "#main > div > div:nth-of-type(4) > div > div > div:nth-of-type(1) > div",
+              "div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > button"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 2,
+            "area": 42304,
+            "sources": [
+              "#container-24ffba19fa > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div",
+              "#container-24ffba19fa > div > div > div:nth-of-type(1) > div:nth-of-type(1) > button"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(38, 38, 38)",
+            "count": 72,
+            "sources": [
+              "div > div > div:nth-of-type(2) > div > div > div > div > p",
+              "#title-77f4cc76b8 > h2",
+              "#container-f03abee8fe > div > div:nth-of-type(2) > div > h3"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 22,
+            "sources": [
+              "nav > div:nth-of-type(1) > menu > li:nth-of-type(1) > a > span",
+              "nav > div:nth-of-type(1) > menu > li:nth-of-type(2) > button > span",
+              "nav > div:nth-of-type(1) > menu > li:nth-of-type(3) > button > span"
+            ]
+          },
+          {
+            "value": "rgb(242, 242, 242)",
+            "count": 4,
+            "sources": [
+              "div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > a > span",
+              "#button-08f5eef2d5 > span",
+              "#button-ca2f1f07dd > span"
+            ]
+          },
+          {
+            "value": "rgb(0, 0, 0)",
+            "count": 2,
+            "sources": [
+              "#container-24ffba19fa > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(1) > div",
+              "div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(1) > p > button"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgba(255, 255, 255, 0.46)",
+            "count": 1,
+            "sources": [
+              "div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > button"
+            ]
+          }
+        ],
+        "customProps": {
+          "--scrollbar-width": {
+            "declared": "0px",
+            "computed": "0px"
+          },
+          "--grid-main-container-width": {
+            "declared": "calc(120rem - var(--grid-full)*2)",
+            "computed": "calc(100vw - 0px - 6rem*2)"
+          },
+          "--grid-gutter": {
+            "declared": ".75rem",
+            "computed": ".75rem"
+          },
+          "--grid-margin": {
+            "declared": "5.25rem",
+            "computed": "5.25rem"
+          },
+          "--grid-full": {
+            "declared": "6rem",
+            "computed": "6rem"
+          },
+          "--grid-addtional-spacing": {
+            "declared": "5rem",
+            "computed": "4rem"
+          },
+          "--stage-model-1-font-size": {
+            "declared": "15.75rem",
+            "computed": "13.125rem"
+          },
+          "--stage-model-1-line-height": {
+            "declared": "14rem",
+            "computed": "11.625rem"
+          },
+          "--stage-zone-0-double-row-font-size": {
+            "declared": "6.25rem",
+            "computed": "3.375rem"
+          },
+          "--stage-zone-0-double-row-line-height": {
+            "declared": "6.375rem",
+            "computed": "3.5rem"
+          },
+          "--stage-zone-0-single-row-font-size": {
+            "declared": "8.125rem",
+            "computed": "4.625rem"
+          },
+          "--stage-zone-0-single-row-line-height": {
+            "declared": "8.25rem",
+            "computed": "4.75rem"
+          },
+          "--stage-zone-1-small-font-size": {
+            "declared": "3.75rem",
+            "computed": "2.6875rem"
+          },
+          "--stage-zone-1-small-line-height": {
+            "declared": "3.875rem",
+            "computed": "2.8125rem"
+          },
+          "--stage-zone-1-large-font-size": {
+            "declared": "5rem",
+            "computed": "3rem"
+          },
+          "--stage-zone-1-large-line-height": {
+            "declared": "5.125rem",
+            "computed": "3.125rem"
+          },
+          "--stage-sub-headline-font-size": {
+            "declared": "1.375rem",
+            "computed": "1.25rem"
+          },
+          "--stage-sub-headline-line-height": {
+            "declared": "1.625rem",
+            "computed": "1.5rem"
+          },
+          "--stage-sub-headline-normal-case-font-size": {
+            "declared": "1.375rem",
+            "computed": "1.25rem"
+          },
+          "--stage-sub-headline-normal-case-line-height": {
+            "declared": "1.625rem",
+            "computed": "1.5rem"
+          },
+          "--stage-price-tag-price-font-size": {
+            "declared": "2.8125rem",
+            "computed": "2.6875rem"
+          },
+          "--stage-price-tag-price-line-height": {
+            "declared": "2.9375rem",
+            "computed": "2.8125rem"
+          },
+          "--stage-price-tag-label-font-size": {
+            "declared": ".75rem",
+            "computed": ".625rem"
+          },
+          "--stage-price-tag-label-line-height": {
+            "declared": "1rem",
+            "computed": ".75rem"
+          },
+          "--iconization-1-font-size": {
+            "declared": "1rem",
+            "computed": ".9375rem"
+          },
+          "--iconization-1-line-height": {
+            "declared": ".875rem",
+            "computed": ".75rem"
+          },
+          "--iconization-1-letter-spacing": {
+            "declared": ".6em",
+            "computed": ".6em"
+          },
+          "--headline-1-font-size": {
+            "declared": "3.75rem",
+            "computed": "2.6875rem"
+          },
+          "--headline-1-line-height": {
+            "declared": "5.25rem",
+            "computed": "3.75rem"
+          },
+          "--headline-2-font-size": {
+            "declared": "2.8125rem",
+            "computed": "2.1875rem"
+          },
+          "--headline-2-line-height": {
+            "declared": "3.875rem",
+            "computed": "3.125rem"
+          },
+          "--headline-3-font-size": {
+            "declared": "2.125rem",
+            "computed": "1.75rem"
+          },
+          "--headline-3-line-height": {
+            "declared": "3rem",
+            "computed": "2.5rem"
+          },
+          "--subsection-1-font-size": {
+            "declared": "1.5625rem",
+            "computed": "1.4375rem"
+          },
+          "--subsection-1-line-height": {
+            "declared": "2.375rem",
+            "computed": "2.25rem"
+          },
+          "--subsection-2-font-size": {
+            "declared": "1.375rem",
+            "computed": "1.25rem"
+          },
+          "--subsection-2-line-height": {
+            "declared": "2.125rem",
+            "computed": "1.875rem"
+          },
+          "--body-1-font-size": {
+            "declared": "1.1875rem",
+            "computed": "1.125rem"
+          },
+          "--body-1-line-height": {
+            "declared": "1.875rem",
+            "computed": "1.75rem"
+          },
+          "--body-2-font-size": {
+            "declared": "1rem",
+            "computed": ".9375rem"
+          },
+          "--body-2-line-height": {
+            "declared": "1.625rem",
+            "computed": "1.5rem"
+          },
+          "--body-4-font-size": {
+            "declared": ".875rem",
+            "computed": ".875rem"
+          },
+          "--body-4-line-height": {
+            "declared": "1.375rem",
+            "computed": "1.375rem"
+          },
+          "--model-spotlight-media-font-size": {
+            "declared": ".9375rem",
+            "computed": ".9375rem"
+          },
+          "--model-spotlight-media-line-height": {
+            "declared": "1.5rem",
+            "computed": "1.5rem"
+          },
+          "--model-spotlight-modal-title-font-size": {
+            "declared": "1.4375rem",
+            "computed": "1.4375rem"
+          },
+          "--model-spotlight-modal-title-line-height": {
+            "declared": "2.25rem",
+            "computed": "2.25rem"
+          },
+          "--body-3-font-size": {
+            "declared": ".75rem",
+            "computed": ".75rem"
+          },
+          "--body-3-line-height": {
+            "declared": "1.125rem",
+            "computed": "1.125rem"
+          },
+          "--model-spotlight-kpi-value-font-size": {
+            "declared": "1.4375rem",
+            "computed": "1.4375rem"
+          },
+          "--model-spotlight-kpi-value-line-height": {
+            "declared": "2.25rem",
+            "computed": "2.25rem"
+          },
+          "--model-preview-infoI-font-size": {
+            "declared": "1rem",
+            "computed": "1rem"
+          },
+          "--model-preview-infoI-line-height": {
+            "declared": "1.625rem",
+            "computed": "1.625rem"
+          },
+          "--label-1-font-size": {
+            "declared": ".75rem",
+            "computed": ".75rem"
+          },
+          "--label-1-line-height": {
+            "declared": "1rem",
+            "computed": "1rem"
+          },
+          "--default-font-weight": {
+            "declared": "300",
+            "computed": "300"
+          },
+          "--input-font-weight": {
+            "declared": "400",
+            "computed": "400"
+          },
+          "--clickable-font-weight": {
+            "declared": "500",
+            "computed": "500"
+          },
+          "--link-font-weight": {
+            "declared": "500",
+            "computed": "500"
+          },
+          "--price-font-weight": {
+            "declared": "700",
+            "computed": "700"
+          },
+          "--button-small-height": {
+            "declared": "2.25rem",
+            "computed": "2.25rem"
+          },
+          "--button-small-line-clamp": {
+            "declared": "1",
+            "computed": "1"
+          },
+          "--button-large-height": {
+            "declared": "3.25rem",
+            "computed": "3.25rem"
+          },
+          "--button-large-line-clamp": {
+            "declared": "2",
+            "computed": "2"
+          },
+          "--heading": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--copy-text": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--disclaimer": {
+            "declared": "#666",
+            "computed": "#666"
+          },
+          "--surface-background-primary": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--surface-background-secondary": {
+            "declared": "#f6f6f6",
+            "computed": "#f6f6f6"
+          },
+          "--border": {
+            "declared": "#e6e6e6",
+            "computed": "#e6e6e6"
+          },
+          "--border-tag": {
+            "declared": "#e6e6e6",
+            "computed": "#e6e6e6"
+          },
+          "--cta": {
+            "declared": "#1c69d4",
+            "computed": "#1c69d4"
+          },
+          "--cta-text": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--cta-hover": {
+            "declared": "#0653b6",
+            "computed": "#0653b6"
+          },
+          "--cta-disabled": {
+            "declared": "#bbd2f3",
+            "computed": "#bbd2f3"
+          },
+          "--cta-text-hover": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--cta-text-disabled": {
+            "declared": "",
+            "computed": ""
+          },
+          "--nba": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--nba-text": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--nba-hover": {
+            "declared": "#4d4d4d",
+            "computed": "#4d4d4d"
+          },
+          "--nba-disabled": {
+            "declared": "#bbb",
+            "computed": "#bbb"
+          },
+          "--nba-text-hover": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--nba-text-disabled": {
+            "declared": "",
+            "computed": ""
+          },
+          "--ol": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--ol-hover": {
+            "declared": "",
+            "computed": ""
+          },
+          "--ol-disabled": {
+            "declared": "#e6e6e6",
+            "computed": "#e6e6e6"
+          },
+          "--ol-text": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--ol-text-hover": {
+            "declared": "",
+            "computed": ""
+          },
+          "--ol-text-disabled": {
+            "declared": "#bbb",
+            "computed": "#bbb"
+          },
+          "--ol-background": {
+            "declared": "",
+            "computed": ""
+          },
+          "--ol-background-hover": {
+            "declared": "",
+            "computed": ""
+          },
+          "--ol-background-focus": {
+            "declared": "",
+            "computed": ""
+          },
+          "--ol-background-disabled": {
+            "declared": "",
+            "computed": ""
+          },
+          "--ol-border-width": {
+            "declared": "1px",
+            "computed": "1px"
+          },
+          "--ol-border-width-hover": {
+            "declared": "2px",
+            "computed": "2px"
+          },
+          "--filtertag": {
+            "declared": "#8e8e8e",
+            "computed": "#8e8e8e"
+          },
+          "--filtertag-hover": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--filtertag-disabled": {
+            "declared": "#f2f2f2",
+            "computed": "#f2f2f2"
+          },
+          "--filtertag-text": {
+            "declared": "#666",
+            "computed": "#666"
+          },
+          "--filtertag-text-hover": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--filtertag-text-disabled": {
+            "declared": "#bbb",
+            "computed": "#bbb"
+          },
+          "--filtertag-border-width-hover": {
+            "declared": "1px",
+            "computed": "1px"
+          },
+          "--filtertag-selected": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--filtertag-selected-hover": {
+            "declared": "#4d4d4d",
+            "computed": "#4d4d4d"
+          },
+          "--filtertag-selected-disabled": {
+            "declared": "#bbb",
+            "computed": "#bbb"
+          },
+          "--filtertag-selected-text": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--select": {
+            "declared": "#bbb",
+            "computed": "#bbb"
+          },
+          "--select-hover": {
+            "declared": "#4d4d4d",
+            "computed": "#4d4d4d"
+          },
+          "--select-focus": {
+            "declared": "#4d4d4d",
+            "computed": "#4d4d4d"
+          },
+          "--select-disabled": {
+            "declared": "#bbb",
+            "computed": "#bbb"
+          },
+          "--select-text": {
+            "declared": "#666",
+            "computed": "#666"
+          },
+          "--select-text-hover": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--select-text-focus": {
+            "declared": "#666",
+            "computed": "#666"
+          },
+          "--select-text-disabled": {
+            "declared": "#8e8e8e",
+            "computed": "#8e8e8e"
+          },
+          "--select-border-width-hover": {
+            "declared": "1px",
+            "computed": "1px"
+          },
+          "--link": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--link-cta": {
+            "declared": "#1c69d4",
+            "computed": "#1c69d4"
+          },
+          "--link-hover": {
+            "declared": "#1c69d4",
+            "computed": "#1c69d4"
+          },
+          "--link-active": {
+            "declared": "#0653b6",
+            "computed": "#0653b6"
+          },
+          "--link-disabled": {
+            "declared": "#bbb",
+            "computed": "#bbb"
+          },
+          "--input": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--input-disabled": {
+            "declared": "#f2f2f2",
+            "computed": "#f2f2f2"
+          },
+          "--input-text-color": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--input-text-hover": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--input-text-focus": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--input-text-disabled": {
+            "declared": "#8e8e8e",
+            "computed": "#8e8e8e"
+          },
+          "--input-placeholder-color": {
+            "declared": "#666",
+            "computed": "#666"
+          },
+          "--input-border-color": {
+            "declared": "#8e8e8e",
+            "computed": "#8e8e8e"
+          },
+          "--input-border-color-hover": {
+            "declared": "#4d4d4d",
+            "computed": "#4d4d4d"
+          },
+          "--navigation-background": {
+            "declared": "#0000",
+            "computed": "#0000"
+          },
+          "--navigation-border": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--navigation-gradient": {
+            "declared": "linear-gradient(0,#0000,color-mix(in srgb,#000 40%,#0000))",
+            "computed": "linear-gradient(0,#0000,color-mix(in srgb,#000 40%,#0000))"
+          },
+          "--navigation-logo": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--navigation-claim": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--navigation-interaction": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--navigation-interaction-hover": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--navigation-interaction-focus": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--navigation-interaction-disabled": {
+            "declared": "#666",
+            "computed": "#666"
+          },
+          "--navigation-interaction-highlight": {
+            "declared": "#1c69d4",
+            "computed": "#1c69d4"
+          },
+          "--navigation-interaction-highlight-text": {
+            "declared": "#0653b6",
+            "computed": "#0653b6"
+          },
+          "--focus-type": {
+            "declared": "navigation-light",
+            "computed": "navigation-light"
+          },
+          "--error": {
+            "declared": "#d20000",
+            "computed": "#d20000"
+          },
+          "--error-background": {
+            "declared": "#f7e7e9",
+            "computed": "#f7e7e9"
+          },
+          "--warning": {
+            "declared": "#ffad1f",
+            "computed": "#ffad1f"
+          },
+          "--warning-background": {
+            "declared": "#fbedc9",
+            "computed": "#fbedc9"
+          },
+          "--success": {
+            "declared": "#3db014",
+            "computed": "#3db014"
+          },
+          "--success-background": {
+            "declared": "#e8f2eb",
+            "computed": "#e8f2eb"
+          },
+          "--information": {
+            "declared": "#1c69d4",
+            "computed": "#1c69d4"
+          },
+          "--information-background": {
+            "declared": "#dde8f9",
+            "computed": "#dde8f9"
+          },
+          "--neutral": {
+            "declared": "#666",
+            "computed": "#666"
+          },
+          "--neutral-background": {
+            "declared": "#f2f2f2",
+            "computed": "#f2f2f2"
+          },
+          "--dialogue": {
+            "declared": "#dde8f9",
+            "computed": "#dde8f9"
+          },
+          "--scrollbar-background": {
+            "declared": "#e6e6e6",
+            "computed": "#e6e6e6"
+          },
+          "--scrollbar-thumb": {
+            "declared": "#4d4d4d",
+            "computed": "#4d4d4d"
+          },
+          "--focus-visible-color-highlight": {
+            "declared": "#1c69d4",
+            "computed": "#1c69d4"
+          },
+          "--focus-visible-color-contrast": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--focus-visible-color-input": {
+            "declared": "#4d4d4d",
+            "computed": "#4d4d4d"
+          },
+          "--focus-visible-background-accordion": {
+            "declared": "#ffffff80",
+            "computed": "#ffffff80"
+          },
+          "--focus-visible-background-link": {
+            "declared": "#ffffff80",
+            "computed": "#ffffff80"
+          },
+          "--focus-visible-width-highlight": {
+            "declared": ".25rem",
+            "computed": ".25rem"
+          },
+          "--focus-visible-width-highlight-half": {
+            "declared": ".125rem",
+            "computed": ".125rem"
+          },
+          "--focus-visible-width-contrast": {
+            "declared": ".0625rem",
+            "computed": ".0625rem"
+          },
+          "--focus-visible-width-both": {
+            "declared": ".3125rem",
+            "computed": ".3125rem"
+          },
+          "--focus-visible-width-high-contrast": {
+            "declared": ".375rem",
+            "computed": ".375rem"
+          },
+          "--focus-visible-width-contrast-input": {
+            "declared": ".125rem",
+            "computed": ".125rem"
+          },
+          "--focus-visible-inside": {
+            "declared": "inset 0 0 0 .25rem #1c69d4,0 0 0 .0625rem #fff",
+            "computed": "inset 0 0 0 .25rem #1c69d4,0 0 0 .0625rem #fff"
+          },
+          "--focus-visible-inside-after": {
+            "declared": "inset 0 0 0 .25rem #1c69d4,inset 0 0 0 .3125rem #fff",
+            "computed": "inset 0 0 0 .25rem #1c69d4,inset 0 0 0 .3125rem #fff"
+          },
+          "--focus-visible-middle": {
+            "declared": "inset 0 0 0 .125rem #1c69d4,0 0 0 .125rem #1c69d4",
+            "computed": "inset 0 0 0 .125rem #1c69d4,0 0 0 .125rem #1c69d4"
+          },
+          "--focus-visible-outside": {
+            "declared": "0 0 0 .0625rem #fff,0 0 0 .3125rem #1c69d4",
+            "computed": "0 0 0 .0625rem #fff,0 0 0 .3125rem #1c69d4"
+          },
+          "--focus-visible-outside-link-underline": {
+            "declared": "0 0 0 .125rem #fff",
+            "computed": "0 0 0 .125rem #fff"
+          },
+          "--focus-visible-outside-double": {
+            "declared": "0 0 0 .0625rem #1c69d4,0 0 0 .3125rem #1c69d4",
+            "computed": "0 0 0 .0625rem #1c69d4,0 0 0 .3125rem #1c69d4"
+          },
+          "--focus-visible-outside-high-contrast": {
+            "declared": "0 0 0 .0625rem #fff,0 0 0 .3125rem #1c69d4,0 0 0 .375rem #fff",
+            "computed": "0 0 0 .0625rem #fff,0 0 0 .3125rem #1c69d4,0 0 0 .375rem #fff"
+          },
+          "--focus-visible-input-inside": {
+            "declared": "inset 0 0 0 .125rem #1c69d4",
+            "computed": "inset 0 0 0 .125rem #1c69d4"
+          },
+          "--focus-visible-input-middle": {
+            "declared": "inset 0 0 0 .0625rem #4d4d4d,0 0 0 .0625rem #4d4d4d",
+            "computed": "inset 0 0 0 .0625rem #4d4d4d,0 0 0 .0625rem #4d4d4d"
+          },
+          "--focus-visible-input-outside": {
+            "declared": "0 0 0 .0625rem #4d4d4d",
+            "computed": "0 0 0 .0625rem #4d4d4d"
+          },
+          "--focus-visible-navigation-light": {
+            "declared": "inset 0 0 0 .125rem #1c69d4",
+            "computed": "inset 0 0 0 .125rem #1c69d4"
+          },
+          "--focus-visible-navigation-dark": {
+            "declared": "inset 0 0 0 .125rem #1c69d4,inset 0 0 0 .25rem #fff",
+            "computed": "inset 0 0 0 .125rem #1c69d4,inset 0 0 0 .25rem #fff"
+          },
+          "--scroll-behavior": {
+            "declared": "smooth",
+            "computed": "smooth"
+          },
+          "--compare-description-bottom": {
+            "declared": "1.5rem",
+            "computed": "1.5rem"
+          },
+          "--compare-cosyimage-scale": {
+            "declared": "1",
+            "computed": "1"
+          },
+          "--compare-form-price-color": {
+            "declared": "#000",
+            "computed": "#000"
+          },
+          "--compare-dropdown-label-color": {
+            "declared": "#666",
+            "computed": "#666"
+          },
+          "--compare-dropdown-text-color": {
+            "declared": "#262626",
+            "computed": "#262626"
+          },
+          "--compare-cosyimage-width": {
+            "declared": "100%",
+            "computed": "100%"
+          },
+          "--compare-dropdown-height": {
+            "declared": "2.5rem",
+            "computed": "2.5rem"
+          },
+          "--compare-button-height": {
+            "declared": "2.5rem",
+            "computed": "2.5rem"
+          },
+          "--compare-form-background": {
+            "declared": "#f6f6f6",
+            "computed": "#f6f6f6"
+          },
+          "--compare-dropdown-bottom": {
+            "declared": "1.25rem",
+            "computed": "1.25rem"
+          },
+          "--swiper-theme-color": {
+            "declared": "$gs0",
+            "computed": "$gs0"
+          }
+        },
+        "fonts": [
+          {
+            "family": "bmwTypeNextWeb",
+            "weight": "300",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "bmwTypeNextWeb",
+            "weight": "400",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "bmwTypeNextWeb",
+            "weight": "500",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "bmwTypeNextWeb",
+            "weight": "700",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "bmw_next_icons",
+            "weight": "300",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "bmw_next_icons",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "bmwTypeNextWeb",
+            "weight": "300",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "bmwTypeNextWeb",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          },
+          {
+            "family": "bmwTypeNextWeb",
+            "weight": "500",
+            "style": "normal",
+            "status": "unloaded"
+          }
+        ],
+        "logoCandidates": [
+          {
+            "tag": "img",
+            "selector": "nav > a > img:nth-of-type(1)",
+            "src": "https://www.bmw.ro/content/dam/bmw/common/images/logo-icons/BMW/BMW_White_Logo.svg.asset.1670245093434.svg",
+            "inlineSvg": false,
+            "alt": "",
+            "ariaLabel": "BMW Logo",
+            "class": "cmp-globalnavigation__logo-image cmp-globalnavigation__logo-image--white",
+            "id": null,
+            "href": "/ro/index.html",
+            "inHomeLink": true,
+            "rect": {
+              "x": 96,
+              "y": 16,
+              "w": 52,
+              "h": 52
+            }
+          }
+        ],
+        "iconFont": {
+          "families": [
+            "bmw_next_icons"
+          ],
+          "glyphs": []
+        },
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://www.bmw.ro/ro/index.html"
+      }
+    }
+  },
+  "aggregate": {
+    "counts": {
+      "pages": 1,
+      "widths": [
+        360,
+        1440
+      ],
+      "measurements": 2
+    },
+    "colors": [
+      {
+        "hex": "#262626",
+        "values": [
+          "rgb(38, 38, 38)"
+        ],
+        "weight": 172,
+        "bgArea": 2206080,
+        "by": {
+          "text": 144,
+          "link": 8,
+          "background": 4,
+          "heading": 16
+        },
+        "roles": [
+          "background",
+          "text",
+          "heading"
+        ],
+        "sources": [
+          {
+            "url": "https://www.bmw.ro/ro/index.html",
+            "selector": "div > div > div:nth-of-type(2) > div > div > div > div > p",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.bmw.ro/ro/index.html",
+            "selector": "#container-f03abee8fe > div > div:nth-of-type(3) > a",
+            "prop": "link"
+          },
+          {
+            "url": "https://www.bmw.ro/ro/index.html",
+            "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.bmw.ro/ro/index.html",
+            "selector": "#container-5efbc3d9ad > div > div:nth-of-type(1) > div > h3",
+            "prop": "heading"
+          },
+          {
+            "url": "https://www.bmw.ro/ro/index.html",
+            "selector": "#container-5efbc3d9ad > div > div:nth-of-type(3) > div > h3",
+            "prop": "heading"
+          }
+        ]
+      },
+      {
+        "hex": "#f2f2f2",
+        "values": [
+          "rgb(242, 242, 242)"
+        ],
+        "weight": 16,
+        "by": {
+          "link": 8,
+          "text": 8
+        },
+        "roles": [
+          "accent"
+        ],
+        "sources": [
+          {
+            "url": "https://www.bmw.ro/ro/index.html",
+            "selector": "div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > a",
+            "prop": "link"
+          },
+          {
+            "url": "https://www.bmw.ro/ro/index.html",
+            "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > a > span",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#1c69d4",
+        "values": [
+          "rgb(28, 105, 212)"
+        ],
+        "weight": 10,
+        "bgArea": 85436,
+        "by": {
+          "background": 8,
+          "button-background": 2
+        },
+        "roles": [
+          "primary"
+        ],
+        "sources": [
+          {
+            "url": "https://www.bmw.ro/ro/index.html",
+            "selector": "div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > a",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.bmw.ro/ro/index.html",
+            "selector": "div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > a",
+            "prop": "button-background"
+          }
+        ]
+      },
+      {
+        "hex": "#000000",
+        "values": [
+          "rgb(0, 0, 0)"
+        ],
+        "weight": 7,
+        "bgArea": 1338912,
+        "by": {
+          "background": 5,
+          "text": 2
+        },
+        "roles": [
+          "surface"
+        ],
+        "sources": [
+          {
+            "url": "https://www.bmw.ro/ro/index.html",
+            "selector": "#main > div > div:nth-of-type(4) > div > div > div:nth-of-type(1) > div",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.bmw.ro/ro/index.html",
+            "selector": "#container-24ffba19fa > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(1) > div",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#ffffff75",
+        "values": [
+          "rgba(255, 255, 255, 0.46)"
+        ],
+        "weight": 2,
+        "by": {
+          "border": 2
+        },
+        "roles": [
+          "border"
+        ],
+        "sources": [
+          {
+            "url": "https://www.bmw.ro/ro/index.html",
+            "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > button",
+            "prop": "border"
+          }
+        ]
+      },
+      {
+        "hex": "#ffffff",
+        "values": [
+          "rgb(255, 255, 255)"
+        ],
+        "weight": 58,
+        "bgArea": 45008,
+        "by": {
+          "text": 39,
+          "link": 6,
+          "background": 3,
+          "button-text": 2,
+          "heading": 8
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.bmw.ro/ro/index.html",
+            "selector": "nav > div:nth-of-type(1) > menu > li:nth-of-type(1) > a > span",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.bmw.ro/ro/index.html",
+            "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > h2",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.bmw.ro/ro/index.html",
+            "selector": "#button-b1e8f3b1fb",
+            "prop": "link"
+          },
+          {
+            "url": "https://www.bmw.ro/ro/index.html",
+            "selector": "#container-24ffba19fa > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.bmw.ro/ro/index.html",
+            "selector": "#container-24ffba19fa > div > div > div:nth-of-type(1) > div:nth-of-type(1) > button",
+            "prop": "background"
+          }
+        ]
+      }
+    ],
+    "type": {
+      "families": [
+        {
+          "family": "bmwTypeNextWeb",
+          "count": 46,
+          "headings": 24,
+          "text": 20,
+          "buttons": 2
+        }
+      ],
+      "headingFamily": "bmwTypeNextWeb",
+      "bodyFamily": "bmwTypeNextWeb",
+      "sizes": [
+        {
+          "px": 48,
+          "count": 1,
+          "headings": 1,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 35,
+          "count": 6,
+          "headings": 6,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 28,
+          "count": 5,
+          "headings": 5,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 23,
+          "count": 9,
+          "headings": 9,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 20,
+          "count": 1,
+          "headings": 0,
+          "text": 1,
+          "buttons": 0
+        },
+        {
+          "px": 19,
+          "count": 3,
+          "headings": 3,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 18,
+          "count": 3,
+          "headings": 0,
+          "text": 3,
+          "buttons": 0
+        },
+        {
+          "px": 17,
+          "count": 1,
+          "headings": 0,
+          "text": 1,
+          "buttons": 0
+        },
+        {
+          "px": 16,
+          "count": 3,
+          "headings": 0,
+          "text": 3,
+          "buttons": 0
+        },
+        {
+          "px": 15,
+          "count": 2,
+          "headings": 0,
+          "text": 1,
+          "buttons": 1
+        },
+        {
+          "px": 14,
+          "count": 2,
+          "headings": 0,
+          "text": 1,
+          "buttons": 1
+        },
+        {
+          "px": 12,
+          "count": 10,
+          "headings": 0,
+          "text": 10,
+          "buttons": 0
+        }
+      ],
+      "weights": [
+        {
+          "weight": "300",
+          "count": 40,
+          "headings": 22,
+          "text": 18,
+          "buttons": 0
+        },
+        {
+          "weight": "500",
+          "count": 6,
+          "headings": 2,
+          "text": 2,
+          "buttons": 2
+        }
+      ],
+      "levels": {
+        "h2": {
+          "fontSize": 48,
+          "fontWeight": "500",
+          "count": 1,
+          "score": 60
+        },
+        "h3": {
+          "fontSize": 23,
+          "fontWeight": "300",
+          "count": 9,
+          "score": 51.75
+        }
+      }
+    },
+    "motifs": {
+      "radius": {
+        "mode": "3px",
+        "areaMode": "3px",
+        "pill": "50%",
+        "values": [
+          {
+            "value": "3px",
+            "count": 22,
+            "area": 223331,
+            "sources": [
+              {
+                "url": "https://www.bmw.ro/ro/index.html",
+                "selector": "div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > a"
+              },
+              {
+                "url": "https://www.bmw.ro/ro/index.html",
+                "selector": "div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > a"
+              },
+              {
+                "url": "https://www.bmw.ro/ro/index.html",
+                "selector": "#container-f03abee8fe > div > div:nth-of-type(3) > a"
+              }
+            ]
+          },
+          {
+            "value": "50%",
+            "count": 14,
+            "area": 13760,
+            "sources": [
+              {
+                "url": "https://www.bmw.ro/ro/index.html",
+                "selector": "#container-24ffba19fa > div > div > div:nth-of-type(1) > div:nth-of-type(1) > button"
+              },
+              {
+                "url": "https://www.bmw.ro/ro/index.html",
+                "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > button"
+              },
+              {
+                "url": "https://www.bmw.ro/ro/index.html",
+                "selector": "div > div:nth-of-type(2) > div > div > div > div > div > button"
+              }
+            ]
+          },
+          {
+            "value": "10px 10px 0px",
+            "count": 1,
+            "area": 39600,
+            "sources": [
+              {
+                "url": "https://www.bmw.ro/ro/index.html",
+                "selector": "#container-24ffba19fa > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div"
+              }
+            ]
+          }
+        ]
+      },
+      "shadows": [
+        {
+          "value": "rgb(242, 242, 242) 0px 0px 0px 1px inset",
+          "count": 8,
+          "sources": [
+            {
+              "url": "https://www.bmw.ro/ro/index.html",
+              "selector": "div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > a"
+            },
+            {
+              "url": "https://www.bmw.ro/ro/index.html",
+              "selector": "#button-08f5eef2d5"
+            },
+            {
+              "url": "https://www.bmw.ro/ro/index.html",
+              "selector": "#button-ca2f1f07dd"
+            }
+          ]
+        },
+        {
+          "value": "rgb(38, 38, 38) 0px 0px 0px 1px inset",
+          "count": 6,
+          "sources": [
+            {
+              "url": "https://www.bmw.ro/ro/index.html",
+              "selector": "#container-f03abee8fe > div > div:nth-of-type(3) > a"
+            },
+            {
+              "url": "https://www.bmw.ro/ro/index.html",
+              "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(4) > a"
+            },
+            {
+              "url": "https://www.bmw.ro/ro/index.html",
+              "selector": "div:nth-of-type(2) > div > div > div:nth-of-type(3) > div > div > div:nth-of-type(4) > a"
+            }
+          ]
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.16) 0px 6px 20px 0px, rgba(0, 0, 0, 0.24) 0px 0px 1px 0px",
+          "count": 2,
+          "sources": [
+            {
+              "url": "https://www.bmw.ro/ro/index.html",
+              "selector": "#container-24ffba19fa > div > div > div:nth-of-type(1) > div:nth-of-type(1) > button"
+            }
+          ]
+        }
+      ],
+      "gradients": [
+        {
+          "value": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 128px)",
+          "count": 3,
+          "area": 440921,
+          "sources": [
+            {
+              "url": "https://www.bmw.ro/ro/index.html",
+              "selector": "#main > div > div:nth-of-type(6) > div > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.bmw.ro/ro/index.html",
+              "selector": "#main > div > div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.bmw.ro/ro/index.html",
+              "selector": "#main > div > div:nth-of-type(8) > div > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(90deg, rgb(0, 0, 0) 10%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0.4) 40%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0))",
+          "count": 2,
+          "area": 1378756,
+          "sources": [
+            {
+              "url": "https://www.bmw.ro/ro/index.html",
+              "selector": "div:nth-of-type(6) > div > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1) > div"
+            },
+            {
+              "url": "https://www.bmw.ro/ro/index.html",
+              "selector": "div:nth-of-type(7) > div > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1) > div"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(110deg, rgba(38, 38, 38, 0.8), rgba(38, 38, 38, 0) 50%)",
+          "count": 1,
+          "area": 689378,
+          "sources": [
+            {
+              "url": "https://www.bmw.ro/ro/index.html",
+              "selector": "div:nth-of-type(8) > div > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1) > div"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(360deg, rgb(0, 0, 0) 10%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0.4) 40%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0))",
+          "count": 1,
+          "area": 221952,
+          "sources": [
+            {
+              "url": "https://www.bmw.ro/ro/index.html",
+              "selector": "div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div > div:nth-of-type(1) > div"
+            }
+          ]
+        }
+      ]
+    },
+    "hover": [
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgb(28, 105, 212)"
+        },
+        "to": {
+          "backgroundColor": "rgb(6, 83, 182)"
+        },
+        "count": 2,
+        "sources": [
+          {
+            "url": "https://www.bmw.ro/ro/index.html",
+            "selector": "div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > a"
+          },
+          {
+            "url": "https://www.bmw.ro/ro/index.html",
+            "selector": "div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(1) > a"
+          }
+        ]
+      },
+      {
+        "kind": "link",
+        "from": {
+          "color": "rgb(242, 242, 242)"
+        },
+        "to": {
+          "color": "rgb(255, 255, 255)"
+        },
+        "count": 2,
+        "sources": [
+          {
+            "url": "https://www.bmw.ro/ro/index.html",
+            "selector": "div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > a"
+          },
+          {
+            "url": "https://www.bmw.ro/ro/index.html",
+            "selector": "div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div:nth-of-type(2) > a"
+          }
+        ]
+      }
+    ],
+    "logo": {
+      "source": "img",
+      "url": "https://www.bmw.ro/ro/index.html",
+      "width": 1440,
+      "selector": "nav > a > img:nth-of-type(1)",
+      "src": "https://www.bmw.ro/content/dam/bmw/common/images/logo-icons/BMW/BMW_White_Logo.svg.asset.1670245093434.svg",
+      "alt": "",
+      "rect": {
+        "x": 96,
+        "y": 16,
+        "w": 52,
+        "h": 52
+      },
+      "inHomeLink": true
+    },
+    "iconFont": {
+      "families": [
+        "bmw_next_icons"
+      ],
+      "glyphs": []
+    }
+  }
+}
