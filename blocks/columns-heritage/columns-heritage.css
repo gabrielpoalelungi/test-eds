@@ -1,0 +1,164 @@
+/* full-bleed band: the block paints the source section background (stripes + faded pattern) */
+main > .section > .columns-heritage-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.columns-heritage {
+  position: relative;
+  padding: 48px 12px;
+  background-color: var(--kfc-white);
+  background-image:
+    url('./heritage-stripes.png'),
+    linear-gradient(rgb(255 255 255 / 95%), rgb(255 255 255 / 95%)),
+    url('./heritage-pattern.webp');
+  background-position: 50% 0, 50% 50%, 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 42px 20.5px, cover, cover;
+}
+
+.columns-heritage .columns-heritage-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas:
+    "left"
+    "content"
+    "right"
+    "signature";
+  justify-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 32px;
+  box-sizing: border-box;
+}
+
+/* media cells */
+.columns-heritage .columns-heritage-media {
+  line-height: 0;
+}
+
+.columns-heritage .columns-heritage-media p {
+  margin: 0;
+}
+
+.columns-heritage .columns-heritage-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.columns-heritage .columns-heritage-media-left {
+  grid-area: left;
+  max-width: 250px;
+}
+
+/* right cell children (image + signature) join the row grid */
+.columns-heritage .columns-heritage-media-right {
+  display: contents;
+}
+
+.columns-heritage .columns-heritage-media-right .columns-heritage-image {
+  grid-area: right;
+  max-width: 248px;
+}
+
+.columns-heritage .columns-heritage-signature {
+  grid-area: signature;
+  justify-self: center;
+  max-width: 250px;
+}
+
+/* text cell */
+.columns-heritage .columns-heritage-content {
+  grid-area: content;
+  width: 100%;
+  max-width: 640px;
+  text-align: center;
+}
+
+.columns-heritage .columns-heritage-content h2 {
+  margin: 32px 0 8px;
+  color: var(--kfc-red);
+  font-family: var(--heading-font-family);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.columns-heritage .columns-heritage-content p {
+  margin: 0 0 24px;
+  color: var(--kfc-text);
+  font-size: 19.2px;
+  line-height: 24.96px;
+}
+
+.columns-heritage .columns-heritage-content .columns-heritage-cta {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 32px;
+  line-height: 0;
+}
+
+main .columns-heritage .columns-heritage-cta a.kfc-button:any-link {
+  gap: 16px;
+}
+
+@media (width >= 600px) {
+  .columns-heritage .columns-heritage-content h2 {
+    font-size: 56px;
+    line-height: 78.4px;
+  }
+
+  .columns-heritage .columns-heritage-content p {
+    margin-bottom: 48px;
+  }
+
+  .columns-heritage .columns-heritage-content .columns-heritage-cta {
+    margin-bottom: 48px;
+  }
+
+  .columns-heritage .columns-heritage-media-right .columns-heritage-image {
+    position: relative;
+    top: 40px;
+  }
+}
+
+@media (width >= 900px) {
+  .columns-heritage .columns-heritage-row {
+    max-width: 936px;
+  }
+}
+
+@media (width >= 1200px) {
+  .columns-heritage .columns-heritage-row {
+    grid-template-columns: 250px minmax(0, 1fr) 248px;
+    grid-template-areas:
+      "left content right"
+      "left signature right";
+    gap: 32px;
+    justify-items: stretch;
+    max-width: 1116px;
+    margin: 12px auto;
+    padding: 40px 80px;
+  }
+
+  .columns-heritage .columns-heritage-media-left {
+    align-self: start;
+  }
+
+  .columns-heritage .columns-heritage-content {
+    justify-self: center;
+  }
+
+  .columns-heritage .columns-heritage-media-right .columns-heritage-image {
+    align-self: end;
+  }
+}
+
+/* breakpoint-exception: the source container widens to 1320px at 1400px (bootstrap xxl) */
+@media (width >= 1400px) {
+  .columns-heritage .columns-heritage-row {
+    max-width: 1296px;
+  }
+}

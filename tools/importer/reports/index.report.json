@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "url": "https://kfc.ro/",
+  "path": "index",
+  "timestamp": "2026-10-21T13:23:55.768Z",
+  "title": "N-ai cum să mai ratezi Marți Bucket",
+  "template": "home",
+  "blocks": [
+    "carousel-hero",
+    "carousel-hero",
+    "carousel-offers",
+    "cards-category",
+    "cards-product",
+    "columns-app",
+    "columns-cta",
+    "carousel-campaigns",
+    "search-restaurant",
+    "columns-heritage"
+  ]
+}

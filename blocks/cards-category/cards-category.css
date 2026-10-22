@@ -1,0 +1,215 @@
+/* full-width sticky category bar (source: nav.product-categories) */
+main > .section > .cards-category-wrapper {
+  position: sticky;
+  top: var(--nav-height);
+  z-index: 95;
+  max-width: 100%;
+  margin: 0 0 32px;
+  padding: 0;
+  background-color: var(--kfc-white);
+  box-shadow: rgb(0 0 0 / 4%) 0 12px 24px 0;
+}
+
+/* compact state compensates the reduced height, like the source */
+main > .section > .cards-category-wrapper:has(.cards-category-stuck) {
+  margin-bottom: 64px;
+}
+
+.cards-category {
+  --cards-category-pad-y: 16px;
+
+  position: relative;
+  padding: var(--cards-category-pad-y) 16px;
+  color: var(--kfc-black);
+  transition: padding 0.2s ease-in-out;
+}
+
+.cards-category.cards-category-stuck {
+  --cards-category-pad-y: 8px;
+}
+
+.cards-category .cards-category-list {
+  display: flex;
+  gap: 24px;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+}
+
+.cards-category .cards-category-list::-webkit-scrollbar {
+  display: none;
+}
+
+.cards-category .cards-category-item {
+  position: relative;
+  flex: 0 0 auto;
+  padding: 21px 12px 12px;
+  scroll-snap-align: start;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cards-category .cards-category-item:hover {
+  background: rgb(244 244 244);
+}
+
+.cards-category .cards-category-item:hover::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--kfc-red);
+}
+
+.cards-category .cards-category-item-active,
+.cards-category .cards-category-item-active:hover {
+  background-color: var(--kfc-red);
+  border-radius: 20px;
+}
+
+.cards-category .cards-category-item-active:hover::after {
+  display: none;
+}
+
+.cards-category .cards-category-icon {
+  line-height: 0;
+}
+
+.cards-category .cards-category-icon img {
+  display: block;
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 4px;
+  object-fit: contain;
+  transition: 0.4s ease-in-out;
+}
+
+/* compact sizes while pinned under the header */
+.cards-category.cards-category-stuck .cards-category-icon img {
+  width: 48px;
+  height: 48px;
+}
+
+.cards-category .cards-category-item:hover .cards-category-icon img {
+  transform: scale(1.2);
+  transition: 0.2s ease-in-out;
+}
+
+.cards-category .cards-category-label p {
+  margin: 0;
+}
+
+.cards-category .cards-category-label {
+  width: max-content;
+  margin: 0 auto;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 22.4px;
+  text-transform: uppercase;
+}
+
+.cards-category .cards-category-link:any-link,
+.cards-category .cards-category-link:hover {
+  color: var(--kfc-black);
+  text-decoration: none;
+}
+
+.cards-category .cards-category-item-active .cards-category-link:any-link {
+  color: var(--kfc-white);
+}
+
+/* whole item is clickable through its label link */
+.cards-category .cards-category-link::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+.cards-category .cards-category-badge {
+  position: absolute;
+  top: 6px;
+  right: 17px;
+  color: var(--kfc-red);
+  font-size: 12px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  pointer-events: none;
+
+  /* the source stacks the label many times on top of itself, which thickens it */
+  text-shadow:
+    0 0 0 currentcolor,
+    0 0 0 currentcolor,
+    0 0 0 currentcolor,
+    0 0 0 currentcolor,
+    0 0 0 currentcolor,
+    0 0 0 currentcolor,
+    0 0 0 currentcolor;
+}
+
+.cards-category .cards-category-item-active .cards-category-badge {
+  color: var(--kfc-white);
+}
+
+.cards-category.cards-category-stuck .cards-category-label {
+  font-size: 12px;
+}
+
+/* slider arrows (overlay the list edges with a white fade) */
+.cards-category .cards-category-prev,
+.cards-category .cards-category-next {
+  display: none;
+  position: absolute;
+  top: var(--cards-category-pad-y);
+  bottom: var(--cards-category-pad-y);
+  z-index: 2;
+  width: 40px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  color: var(--kfc-red);
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  transition: top 0.2s ease-in-out, bottom 0.2s ease-in-out;
+}
+
+.cards-category .cards-category-prev {
+  left: 16px;
+  background: linear-gradient(to right, rgb(255 255 255), transparent);
+}
+
+.cards-category .cards-category-next {
+  right: 16px;
+  background: linear-gradient(to right, transparent, rgb(255 255 255));
+}
+
+.cards-category.cards-category-overflowing .cards-category-prev,
+.cards-category.cards-category-overflowing .cards-category-next {
+  display: flex;
+}
+
+.cards-category .cards-category-prev svg,
+.cards-category .cards-category-next svg {
+  width: 16px;
+  height: 100%;
+}
+
+.cards-category .cards-category-prev svg {
+  transform: rotate(180deg);
+}
+
+.cards-category .cards-category-prev:disabled,
+.cards-category .cards-category-next:disabled {
+  opacity: 0.03;
+  cursor: auto;
+  pointer-events: none;
+}

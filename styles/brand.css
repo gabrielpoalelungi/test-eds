@@ -1,0 +1,45 @@
+/* KFC Romania brand tokens (extracted from https://kfc.ro/) */
+:root {
+  /* brand colors */
+  --kfc-red: #e21e2d;
+  --kfc-red-dark: #b51824;
+  --kfc-red-darker: #88121b;
+  --kfc-black: #000;
+  --kfc-white: #fff;
+  --kfc-grey: #cbcbcb;
+  --kfc-text: #212529;
+
+  /* semantic colors */
+  --background-color: var(--kfc-white);
+  --text-color: var(--kfc-text);
+  --light-color: #f6f6f6;
+  --dark-color: var(--kfc-black);
+  --link-color: var(--kfc-red);
+  --link-hover-color: var(--kfc-red-dark);
+
+  /* fonts */
+  --body-font-family: 'national2', 'national2-fallback', sans-serif;
+  --heading-font-family: 'national2', 'national2-fallback', sans-serif;
+
+  /* body sizes */
+  --body-font-size-m: 16px;
+  --body-font-size-s: 14px;
+  --body-font-size-xs: 12px;
+  --body-line-height: 1.4;
+
+  /* heading sizes */
+  --heading-font-size-xxl: 32px;
+  --heading-font-size-xl: 32px;
+  --heading-font-size-l: 24px;
+  --heading-font-size-m: 20px;
+  --heading-font-size-s: 18px;
+  --heading-font-size-xs: 16px;
+
+  /* layout */
+  --content-max-width: 1320px;
+  --section-padding: 32px;
+
+  /* buttons */
+  --button-radius: 100px;
+  --button-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}

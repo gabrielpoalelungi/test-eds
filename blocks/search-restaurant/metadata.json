@@ -1,0 +1,21 @@
+{
+  "variantName": "search-restaurant",
+  "baseBlock": "search",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "store-finder placeholder: labelled search input that sends users to the restaurant locator page",
+    "description": "Red (#E21E2D) band, 48px padding. Centered white rounded search input with search icon, red submit arrow and location button. Dynamic store-finder widget.",
+    "sectionStyle": "red"
+  },
+  "contentPattern": {
+    "structure": "row 1 = label / placeholder text (e.g. \"Găsește un restaurant\"); row 2 = link to the restaurant locator (e.g. /restaurante). The typed text is appended as ?q=. No live lookup or geolocation",
+    "description": "Interactive store-finder input (dynamic widget). Represented as a simple authorable placeholder block; the library 'search' block (query-index site search) is the closest base."
+  },
+  "options": [],
+  "memberVariantIds": [
+    "search-restaurant"
+  ],
+  "usage": "Red store-finder band. If no link is authored the block content is left untouched.",
+  "reuseGuidance": "Use as an entry point to a separate locator page. Replace with a real store-finder integration when one exists.",
+  "sourceUrl": "https://kfc.ro/"
+}

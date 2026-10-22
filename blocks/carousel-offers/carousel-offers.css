@@ -1,0 +1,258 @@
+.carousel-offers .carousel-offers-stage {
+  position: relative;
+}
+
+.carousel-offers .carousel-offers-track {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  overflow: scroll clip;
+  scrollbar-width: none;
+}
+
+.carousel-offers .carousel-offers-track::-webkit-scrollbar {
+  display: none;
+}
+
+/* slide = source .offer-card */
+.carousel-offers .carousel-offers-slide {
+  position: relative;
+  box-sizing: border-box;
+  flex: 0 0 100%;
+  padding: 8px;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+/* availability strip above every card */
+.carousel-offers .carousel-offers-availability {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  height: 56px;
+  padding: 0 20px 0 12px;
+}
+
+.carousel-offers .carousel-offers-badge {
+  margin: 0;
+  color: var(--kfc-white);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16.8px;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.carousel-offers .carousel-offers-badge-icon {
+  position: relative;
+  bottom: -4px;
+  display: block;
+  width: auto;
+  height: 56px;
+  margin-left: auto;
+  box-shadow: rgb(166 103 103 / 20%) 0 2px 20px 4px;
+}
+
+/* card = source .card-wrapper / .card-inner */
+.carousel-offers .carousel-offers-card {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid rgb(38 38 38);
+  border-radius: 8px;
+  box-shadow: rgb(166 103 103 / 20%) 0 2px 20px 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.carousel-offers .carousel-offers-slide-image {
+  overflow: hidden;
+  line-height: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.carousel-offers .carousel-offers-slide-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 280px;
+  object-fit: cover;
+  transition: 0.3s ease-in-out;
+}
+
+.carousel-offers .carousel-offers-slide-content {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  min-height: 140px;
+  padding: 16px 20px;
+  background-color: var(--kfc-white);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.carousel-offers .carousel-offers-title {
+  margin: 0;
+  color: var(--kfc-red);
+  font-family: var(--body-font-family);
+  font-size: 17.6px;
+  font-weight: 700;
+  line-height: 22.4px;
+  word-break: keep-all;
+}
+
+.carousel-offers .carousel-offers-title a:any-link,
+.carousel-offers .carousel-offers-title a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* whole slide is clickable through the title link */
+.carousel-offers .carousel-offers-link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+}
+
+/* round arrow button (source .card-button) */
+.carousel-offers .carousel-offers-arrow {
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-end;
+
+  /* source: 20px svg on a 22.4px text line -> 64x35 pill */
+  height: 23px;
+  padding: 4px 20px;
+  border: 2px solid var(--kfc-red);
+  border-radius: 100px;
+}
+
+.carousel-offers .carousel-offers-arrow svg {
+  position: relative;
+  left: 6px;
+  width: 20px;
+  height: 20px;
+  fill: var(--kfc-black);
+  transition: 0.3s ease-in-out;
+}
+
+/* availability-restricted card: black content area */
+.carousel-offers .carousel-offers-slide-selected .carousel-offers-slide-content {
+  background-color: var(--kfc-black);
+}
+
+.carousel-offers .carousel-offers-slide-selected .carousel-offers-title,
+.carousel-offers .carousel-offers-slide-see-more .carousel-offers-title {
+  color: var(--kfc-white);
+}
+
+.carousel-offers .carousel-offers-slide-selected .carousel-offers-arrow,
+.carousel-offers .carousel-offers-slide-see-more .carousel-offers-arrow {
+  border-color: var(--kfc-white);
+}
+
+.carousel-offers .carousel-offers-slide-selected .carousel-offers-arrow svg,
+.carousel-offers .carousel-offers-slide-see-more .carousel-offers-arrow svg {
+  fill: var(--kfc-white);
+}
+
+/* "see all offers" card: white outline, transparent content area */
+.carousel-offers .carousel-offers-slide-see-more .carousel-offers-card {
+  border: 1px solid var(--kfc-white);
+}
+
+.carousel-offers .carousel-offers-slide-see-more .carousel-offers-slide-content {
+  background-color: transparent;
+}
+
+/* hover */
+.carousel-offers .carousel-offers-slide:hover .carousel-offers-card {
+  box-shadow: 0 0 32px rgb(255 255 255 / 40%);
+}
+
+.carousel-offers .carousel-offers-slide:hover .carousel-offers-slide-image img {
+  transform: scale(1.05);
+}
+
+.carousel-offers .carousel-offers-slide:hover .carousel-offers-arrow svg {
+  left: 12px;
+}
+
+.carousel-offers .carousel-offers-slide:hover .carousel-offers-badge {
+  opacity: 1;
+}
+
+/* prev / next controls (hidden when all slides fit) */
+.carousel-offers .carousel-offers-controls {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.carousel-offers.carousel-offers-static .carousel-offers-controls {
+  display: none;
+}
+
+.carousel-offers .carousel-offers-controls button {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  padding: 0;
+  border: 2px solid var(--kfc-white);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--kfc-white);
+  cursor: pointer;
+}
+
+.carousel-offers .carousel-offers-controls button:disabled {
+  cursor: default;
+  opacity: 0.4;
+}
+
+.carousel-offers .carousel-offers-controls button::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: calc(50% + 2px);
+  width: 10px;
+  height: 10px;
+  border: 2px solid;
+  border-bottom: 0;
+  border-left: 0;
+  transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+.carousel-offers .carousel-offers-controls .carousel-offers-next::after {
+  left: calc(50% - 2px);
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+@media (width >= 600px) {
+  /* source: swiper-container width fit-content, centered, 360px slides */
+  .carousel-offers {
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .carousel-offers .carousel-offers-slide {
+    flex: 0 0 360px;
+    padding: 12px;
+  }
+}

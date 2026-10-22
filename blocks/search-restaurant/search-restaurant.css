@@ -1,0 +1,167 @@
+/* source: section.search-restaurant { padding: 48px 0 } + row inset (16px) inside the container */
+.search-restaurant {
+  padding: 48px 4px;
+}
+
+/* white pill holding the search icon and the form */
+.search-restaurant .search-restaurant-box {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 999px;
+  background-color: var(--kfc-white);
+}
+
+.search-restaurant .search-restaurant-icon {
+  display: flex;
+  flex: 0 1 auto;
+  align-items: center;
+  width: 17px;
+}
+
+.search-restaurant .search-restaurant-icon svg {
+  display: block;
+  width: 17px;
+  height: auto;
+}
+
+.search-restaurant .search-restaurant-form {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+}
+
+.search-restaurant .search-restaurant-field {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  min-width: 0;
+}
+
+/* the label text is shown as the input placeholder; keep the label for assistive tech */
+.search-restaurant .search-restaurant-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.search-restaurant .search-restaurant-input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 1px 2px;
+  border: 0;
+  outline: none;
+  background-color: var(--kfc-white);
+  color: var(--kfc-black);
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  appearance: none;
+}
+
+.search-restaurant .search-restaurant-input::placeholder {
+  color: var(--kfc-black);
+  font-size: 0.6925rem;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.search-restaurant .search-restaurant-input:focus::placeholder {
+  opacity: 0;
+}
+
+.search-restaurant .search-restaurant-submit,
+.search-restaurant .search-restaurant-locate {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border-radius: 100px;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+/* the source icons sit on the text line (vertical-align: middle), 2px below the button centre */
+.search-restaurant .search-restaurant-submit svg,
+.search-restaurant .search-restaurant-locate svg {
+  display: block;
+  position: relative;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+.search-restaurant .search-restaurant-submit {
+  padding: 4px 16px;
+  border: none;
+  background-color: var(--kfc-red);
+}
+
+.search-restaurant .search-restaurant-submit:hover svg {
+  left: 12px;
+}
+
+.search-restaurant .search-restaurant-locate {
+  height: 32px;
+  margin-left: 12px;
+  padding: 4px 12px;
+  border: 1px solid var(--kfc-red);
+  background-color: var(--kfc-white);
+  transition: 0.3s ease-in-out;
+}
+
+.search-restaurant .search-restaurant-locate:hover {
+  background-color: var(--kfc-red);
+}
+
+.search-restaurant .search-restaurant-locate:hover svg path {
+  fill: var(--kfc-white);
+}
+
+.search-restaurant .search-restaurant-input:focus-visible,
+.search-restaurant .search-restaurant-submit:focus-visible,
+.search-restaurant .search-restaurant-locate:focus-visible {
+  border-radius: 2px;
+  outline: 3px solid var(--kfc-white);
+}
+
+.search-restaurant .search-restaurant-submit:focus:not(:focus-visible),
+.search-restaurant .search-restaurant-locate:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* source switches to the large pill at 768px */
+@media (width >= 600px) {
+  .search-restaurant .search-restaurant-box {
+    width: 90%;
+    min-width: 360px;
+    padding: 24px 16px 24px 32px;
+  }
+}

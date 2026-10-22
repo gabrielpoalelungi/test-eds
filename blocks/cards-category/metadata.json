@@ -1,0 +1,20 @@
+{
+  "variantName": "cards-category",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "horizontally scrolling category navigation (icon + label links)",
+    "description": "White background, 48px padding. Red small eyebrow 'Vrei să vezi ceva fresh?', centered H2. Horizontal category slider (14 round icons + labels, first active in red). 3-col grid of grey product cards with red 'NOU' badge, title, short text, 'VEZI DETALII' link and product image on red curved shape. Centered outlined CTA 'Vezi toate produsele'."
+  },
+  "contentPattern": {
+    "structure": "one row per category; cell 1 = icon image only; cell 2 = label linked to the category page",
+    "description": "Repeating structure of 14 icon + label items (category navigation). Source buttons filter the product grid client-side; represented as authorable cards linking to category menu pages."
+  },
+  "options": [],
+  "memberVariantIds": [
+    "cards-category"
+  ],
+  "usage": "Menu category bar above the product grid. The item whose link matches the current page gets aria-current=\"page\".",
+  "reuseGuidance": "Use for compact icon + label link rows that may overflow horizontally; scroll arrows appear only when the list overflows.",
+  "sourceUrl": "https://kfc.ro/"
+}

@@ -1,0 +1,20 @@
+{
+  "variantName": "columns-cta",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "one-line call to action: paragraph on the left, CTA button on the right",
+    "description": "White band, 48px padding. Paragraph on the left, outlined pill CTA 'COMANDĂ ONLINE' on the right."
+  },
+  "contentPattern": {
+    "structure": "one row, two cells; cell 1 = paragraph text; cell 2 = CTA link only",
+    "description": "Side-by-side layout: paragraph on the left and a CTA button on the right in one row."
+  },
+  "options": [],
+  "memberVariantIds": [
+    "columns-cta"
+  ],
+  "usage": "Short ordering prompt with a single CTA (e.g. \"Comandă online\").",
+  "reuseGuidance": "Use for any text + single CTA band. Stacks on mobile, side by side from 900px.",
+  "sourceUrl": "https://kfc.ro/"
+}

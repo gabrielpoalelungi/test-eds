@@ -10,6 +10,9 @@ import {
   loadSection,
   loadSections,
   loadCSS,
+  readBlockConfig,
+  toCamelCase,
+  toClassName,
 } from './aem.js';
 
 /**
@@ -25,6 +28,9 @@ function buildHeroBlock(main) {
     if (h1.closest('.hero') || picture.closest('.hero')) {
       return; // Don't create a duplicate hero block
     }
+    // Don't pull content out of an authored block (e.g. carousel-hero slides)
+    const authoredBlock = 'main > div > div[class]';
+    if (h1.closest(authoredBlock) || picture.closest(authoredBlock)) return;
     const section = document.createElement('div');
     section.append(buildBlock('hero', { elems: [picture, h1] }));
     main.prepend(section);
@@ -114,6 +120,55 @@ function decorateButtons(main) {
 }
 
 /**
+ * Applies section metadata (style classes and data attributes) and removes the table.
+ * @param {Element} main The container element
+ */
+function decorateSectionMetadata(main) {
+  main.querySelectorAll(':scope > div.section div.section-metadata').forEach((sectionMeta) => {
+    const section = sectionMeta.closest('.section');
+    const meta = readBlockConfig(sectionMeta);
+    Object.keys(meta).forEach((key) => {
+      if (key === 'style') {
+        meta.style.split(',')
+          .filter((style) => style)
+          .map((style) => toClassName(style.trim()))
+          .forEach((style) => section.classList.add(style));
+      } else {
+        section.dataset[toCamelCase(key)] = meta[key];
+      }
+    });
+    const wrapper = sectionMeta.parentElement;
+    sectionMeta.remove();
+    if (!wrapper.children.length) wrapper.remove();
+  });
+}
+
+/**
+ * Wraps #hashtags in default-content headings so they can carry the brand accent colour.
+ * @param {Element} main The container element
+ */
+function decorateHashtags(main) {
+  main.querySelectorAll('.default-content-wrapper :is(h1, h2, h3)').forEach((heading) => {
+    [...heading.childNodes].forEach((node) => {
+      if (node.nodeType !== Node.TEXT_NODE || !node.textContent.includes('#')) return;
+      const frag = document.createDocumentFragment();
+      node.textContent.split(/(#[\p{L}\d_]+)/u).forEach((part) => {
+        if (!part) return;
+        if (part.startsWith('#')) {
+          const span = document.createElement('span');
+          span.className = 'hashtag';
+          span.textContent = part;
+          frag.append(span);
+        } else {
+          frag.append(part);
+        }
+      });
+      node.replaceWith(frag);
+    });
+  });
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
@@ -122,8 +177,10 @@ export function decorateMain(main) {
   decorateIcons(main);
   buildAutoBlocks(main);
   decorateSections(main);
+  decorateSectionMetadata(main);
   decorateBlocks(main);
   decorateButtons(main);
+  decorateHashtags(main);
 }
 
 /**

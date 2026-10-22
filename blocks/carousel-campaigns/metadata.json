@@ -1,0 +1,21 @@
+{
+  "variantName": "carousel-campaigns",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "centred campaign slider with peeking neighbouring slides and dot pagination",
+    "description": "Dark red (#B51824) background, 72px padding. Centered slider of red campaign cards (H2, text, outlined white CTA on the left, photo on the right), peeking next slide, dot pagination.",
+    "sectionStyle": "dark-red"
+  },
+  "contentPattern": {
+    "structure": "one row per slide; cell 1 = image only; cell 2 = heading, paragraph, CTA link",
+    "description": "Interactive slider of 3 campaign slides with dot pagination and peeking adjacent slides."
+  },
+  "options": [],
+  "memberVariantIds": [
+    "carousel-campaigns"
+  ],
+  "usage": "Campaign/brand stories section. Clicking a peeking slide brings it to the centre.",
+  "reuseGuidance": "Use when one slide should be in focus with adjacent slides partially visible. For full-width slides use carousel-hero.",
+  "sourceUrl": "https://kfc.ro/"
+}
