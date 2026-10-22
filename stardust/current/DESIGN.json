@@ -1,0 +1,91 @@
+{
+  "extensions": {
+    "breakpoints": {
+      "containerMaxWidth": "1752px",
+      "probeWidth": 2560,
+      "shellMaxWidth": "1752px",
+      "caps": [
+        {
+          "kind": "shell",
+          "px": 1752,
+          "via": "max-width",
+          "selector": "body.contentpage.page > div.root.container > div.cmp-container > div.container.responsivegrid",
+          "pages": [
+            "https://www.bmw.ro/ro/index.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1440,
+          "via": "other",
+          "selector": "div.cmp-backgroundmedia__overlay > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "pages": [
+            "https://www.bmw.ro/ro/index.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 720,
+          "via": "other",
+          "selector": "#container-8a14cd8f05 > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "pages": [
+            "https://www.bmw.ro/ro/index.html"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.bmw.ro/ro/index.html",
+          "section": 0,
+          "selector": "#main > div.aem-Grid.aem-Grid--12 > div.title.ctx-mode--dark",
+          "px": null
+        },
+        {
+          "url": "https://www.bmw.ro/ro/index.html",
+          "section": 1,
+          "selector": "#main > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": null
+        },
+        {
+          "url": "https://www.bmw.ro/ro/index.html",
+          "section": 2,
+          "selector": "#main > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": null
+        },
+        {
+          "url": "https://www.bmw.ro/ro/index.html",
+          "section": 3,
+          "selector": "#main > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 720
+        },
+        {
+          "url": "https://www.bmw.ro/ro/index.html",
+          "section": 4,
+          "selector": "#main > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 720
+        },
+        {
+          "url": "https://www.bmw.ro/ro/index.html",
+          "section": 5,
+          "selector": "#main > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1440
+        },
+        {
+          "url": "https://www.bmw.ro/ro/index.html",
+          "section": 6,
+          "selector": "#main > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": null
+        }
+      ],
+      "capRegister": [],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-10-21T14:01:40.457Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.bmw.ro/ro/index.html"
+        ]
+      }
+    }
+  }
+}

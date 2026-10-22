@@ -1,0 +1,569 @@
+{
+  "url": "http://localhost:8791/prototypes/ro-index-html-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site-header",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site-header",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2304,
+      "cls": "site-header",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 804,
+      "cls": "site-header",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "site-header",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "site-header",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "site-header",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "site-header",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "site-header",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "site-header",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "site-header",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "site-header",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "site-header",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "site-header",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "site-header",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "site-header",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".hero__play",
+      "frames": [
+        {
+          "t": 9677.700000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 9882.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 10085.600000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 10288.600000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".infoi__btn",
+      "frames": [
+        {
+          "t": 11299.600000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 11503.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 11707,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 11910.30000000028,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".gnav__link[aria-label='Online Store']",
+      "frames": [
+        {
+          "t": 12920.30000000028,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 13122.30000000028,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 13325.600000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 13529,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".assist__btn",
+      "frames": [
+        {
+          "t": 14538.30000000028,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 14742.100000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 14945.80000000028,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 15150,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".btn",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 105, 212)",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px inset",
+          "opacity": "1",
+          "transition": "background-color 0.2s, color 0.2s, box-shadow 0.2s"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(6, 83, 182)",
+          "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px inset",
+          "opacity": "1",
+          "transition": "background-color 0.2s, color 0.2s, box-shadow 0.2s"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".flist__items a",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(28, 105, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [
+      {
+        "src": "",
+        "autoplay": true,
+        "loop": true,
+        "muted": true,
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "inViewport": true,
+        "currentTimeAfter": 0,
+        "playing": false
+      }
+    ],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "effect-grow",
+        "el": "html > body > aside.assist > div.assist__nudge",
+        "txt": "Bună, cu ce te putem ajuta?\n      Accesează rapid ",
+        "y": 0
+      },
+      {
+        "name": "effect-enter",
+        "el": "body > aside.assist > div.assist__nudge > div.assist__nudge-content > p.assist__nudge-title",
+        "txt": "Bună, cu ce te putem ajuta?",
+        "y": 0
+      },
+      {
+        "name": "effect-enter",
+        "el": "body > aside.assist > div.assist__nudge > div.assist__nudge-content > p.assist__nudge-text",
+        "txt": "Accesează rapid și ușor Serviciul de asistență cli",
+        "y": 0
+      },
+      {
+        "name": "effect-shrink",
+        "el": "html > body > aside.assist > div.assist__nudge.is-leaving",
+        "txt": "Bună, cu ce te putem ajuta?\n      Accesează rapid ",
+        "y": 114
+      },
+      {
+        "name": "effect-exit",
+        "el": "body > aside.assist > div.assist__nudge.is-leaving > div.assist__nudge-content > p.assist__nudge-title",
+        "txt": "Bună, cu ce te putem ajuta?",
+        "y": 114
+      },
+      {
+        "name": "effect-exit",
+        "el": "body > aside.assist > div.assist__nudge.is-leaving > div.assist__nudge-content > p.assist__nudge-text",
+        "txt": "Accesează rapid și ușor Serviciul de asistență cli",
+        "y": 114
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "visibility",
+        "el": "body > main.cmp-container > div.disclaimer.disclaimer--hero > div.infoi.is-open > div.infoi__tip",
+        "y": 202,
+        "dur": "0.3s, 0.25s"
+      },
+      {
+        "prop": "opacity",
+        "el": "body > main.cmp-container > div.disclaimer.disclaimer--hero > div.infoi.is-open > div.infoi__tip",
+        "y": 202,
+        "dur": "0.3s, 0.25s"
+      },
+      {
+        "prop": "background-color",
+        "el": "html > body > header.site-header > div.gnav.is-open",
+        "y": 0,
+        "dur": "0.05s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body > header.site-header > div.gnav.is-open > div.gnav__flyout.is-visible",
+        "y": 0,
+        "dur": "0.5s, 0.25s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > header.site-header > div.gnav.is-open > div.gnav__flyout.is-visible",
+        "y": 0,
+        "dur": "0.5s, 0.25s"
+      },
+      {
+        "prop": "visibility",
+        "el": "body > main.cmp-container > div.disclaimer.disclaimer--hero > div.infoi > div.infoi__tip",
+        "y": 0,
+        "dur": "0.3s, 0.25s"
+      },
+      {
+        "prop": "opacity",
+        "el": "body > main.cmp-container > div.disclaimer.disclaimer--hero > div.infoi > div.infoi__tip",
+        "y": 0,
+        "dur": "0.3s, 0.25s"
+      },
+      {
+        "prop": "background-color",
+        "el": "html > body > header.site-header > div.gnav",
+        "y": 0,
+        "dur": "0.05s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.cmp-container > section.hero > div.hero__overlay > div.hero__buttons > a.btn.btn--primary.btn--flex",
+        "y": 106,
+        "dur": "0.2s, 0.2s, 0.2s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.cmp-container > section.hero > div.hero__overlay > div.hero__buttons > a.btn.btn--primary.btn--flex",
+        "y": 2971,
+        "dur": "0.2s, 0.2s, 0.2s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "is-leaving"
+        ],
+        "el": "html > body > aside.assist > div.assist__nudge.is-leaving",
+        "y": 114
+      },
+      {
+        "added": [
+          "is-open"
+        ],
+        "el": "html > body > main.cmp-container > div.disclaimer.disclaimer--hero > div.infoi.is-open",
+        "y": 202
+      },
+      {
+        "added": [
+          "is-open"
+        ],
+        "el": "html > body > header.site-header > div.gnav.is-open",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-open"
+        ],
+        "el": "html > body > header.site-header > div.gnav.is-open",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > header.site-header > div.gnav.is-open > div.gnav__flyout.is-visible",
+        "y": 0
+      }
+    ]
+  }
+}

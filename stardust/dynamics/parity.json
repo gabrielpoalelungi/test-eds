@@ -1,0 +1,15 @@
+{
+  "_provenance": {"writtenBy": "stardust:rollout/D2-dynamic", "at": "2026-10-21"},
+  "features": [
+    {"id": "v-hero-video", "feature": "v-hero-video", "disposition": "rebuild-native", "status": "implemented",
+     "checks": [{"type": "video-plays", "path": "/ro/", "videoSelector": ".hero video"}]},
+    {"id": "m-infoi-tooltips", "feature": "m-infoi-tooltips", "disposition": "rebuild-native", "status": "implemented",
+     "checks": [{"type": "dom-count", "path": "/ro/", "selector": ".infoi-btn", "min": 1}]},
+    {"id": "r-chrome-nav", "feature": "r-chrome-nav", "disposition": "rebuild-native", "status": "implemented",
+     "checks": [{"type": "dom-count", "path": "/ro/", "selector": "header nav.gnav-bar", "min": 1}]},
+    {"id": "t-tags", "feature": "t-tags", "disposition": "embed-passthrough", "status": "scaffolded-awaiting-owner",
+     "checks": [{"type": "consent-gate", "path": "/ro/", "forbiddenHosts": ["www.googletagmanager.com", "assets.adobedtm.com", "connect.facebook.net", "snap.licdn.com", "ct.pinterest.com"]}]},
+    {"id": "page-errors", "feature": "page-errors", "disposition": "self", "status": "implemented",
+     "checks": [{"type": "no-page-errors", "paths": ["/ro/"]}]}
+  ]
+}

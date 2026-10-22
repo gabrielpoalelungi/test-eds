@@ -1,0 +1,510 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 1,
+    "concurrency": 1
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.bmw.ro/favicon.ico",
+    "file": "assets/favicon.png"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 1,
+    "pagesWithSameSiteData": 1,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 1,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "www.bmw.com",
+        "path": "/epaas/prod/dataversion/ds2~bmw-ro/2026-10-21T14:00:00Z.epaas.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.bmw.com/epaas/prod/dataversion/ds2~bmw-ro/2026-10-21T14:00:00Z.epaas.json",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.bmw.com",
+        "path": "/epaas/prod/consentcontroller/ds2~bmw-ro/v104x256x694x8x11x17x17x9x10x18x0x18x54x34x10x20x94x35x51x0x47x93x0x24x32x21x104x36x80x0x0x22x20x4x3472x4x0.epaas.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.bmw.com/epaas/prod/consentcontroller/ds2~bmw-ro/v104x256x694x8x11x17x17x9x10x18x0x18x54x34x10x20x94x35x51x0x47x93x0x24x32x21x104x36x80x0x0x22x20x4x3472x4x0.epaas.json",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC7caeaa876272454085dfeac40990d98b-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC7caeaa876272454085dfeac40990d98b-code.min.js",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC8732c4df279c4e0c878acdc2a4a1b81c-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC8732c4df279c4e0c878acdc2a4a1b81c-code.min.js",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.bmw.ro",
+        "path": "/content/experience-fragments/bmw/marketRO/bmw_ro/ro_RO/personalization/direct-entry/jcr:content.variation.targetPath++content++bmw++marketRO++bmw_ro++ro_RO++index++jcr:content++root++maincontent++contentblueprint_829++xftoggle.json/master",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.bmw.ro/content/experience-fragments/bmw/marketRO/bmw_ro/ro_RO/personalization/direct-entry/jcr:content.variation.targetPath++content++bmw++marketRO++bmw_ro++ro_RO++index++jcr:content++root++maincontent++contentblueprint_829++xftoggle.json/master",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.bmw.com",
+        "path": "/epaas/prod/consentdrawer/ds2~bmw-ro/v104x256x694x8x11x17x17x9x10x18x0x18x54x34x10x20x94x35x51x0x47x93x0x24x32x21x104x36x80x0x0x22x20x4x3472x4x0-tv2112x217x20/ro_RO.epaas.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.bmw.com/epaas/prod/consentdrawer/ds2~bmw-ro/v104x256x694x8x11x17x17x9x10x18x0x18x54x34x10x20x94x35x51x0x47x93x0x24x32x21x104x36x80x0x0x22x20x4x3472x4x0-tv2112x217x20/ro_RO.epaas.json",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "c.go-mpulse.net",
+        "path": "/api/config.json",
+        "query": [
+          "acao",
+          "ak.ai",
+          "d",
+          "if",
+          "key",
+          "plugins",
+          "si",
+          "sl",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://c.go-mpulse.net/api/config.json",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCaad2f8a14ea347829552a0f1e42d3c84-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCaad2f8a14ea347829552a0f1e42d3c84-code.min.js",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCd27f869f106045bda6d568c612772fd0-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCd27f869f106045bda6d568c612772fd0-code.min.js",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC2935365320cf42148c7022f0e9d64b50-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC2935365320cf42148c7022f0e9d64b50-code.min.js",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCb96246762c694f388b6e29c221b5dba8-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCb96246762c694f388b6e29c221b5dba8-code.min.js",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC0083aa64325b440ea1178e6011b1d29b-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC0083aa64325b440ea1178e6011b1d29b-code.min.js",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC11eb5e2b227c435da30f98d0f56d0274-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC11eb5e2b227c435da30f98d0f56d0274-code.min.js",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "bmw.app.baqend.com",
+        "path": "/v1/speedkit/model/cl_desktop_cfg.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/octet-stream",
+        "sameSite": false,
+        "example": "https://bmw.app.baqend.com/v1/speedkit/model/cl_desktop_cfg.json",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "bmw.app.baqend.com",
+        "path": "/v1/speedkit/model/cl_desktop_xgb.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/octet-stream",
+        "sameSite": false,
+        "example": "https://bmw.app.baqend.com/v1/speedkit/model/cl_desktop_xgb.json",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCc7f9bc103a5c43c4bfd4cf853b5ecf2e-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCc7f9bc103a5c43c4bfd4cf853b5ecf2e-code.min.js",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC0132c3f2ce4a441c98cdb88dcf2f8816-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC0132c3f2ce4a441c98cdb88dcf2f8816-code.min.js",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCfa3638aab09b4783864369916824df4d-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCfa3638aab09b4783864369916824df4d-code.min.js",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC5e9467a2007844d091d009413834f82a-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC5e9467a2007844d091d009413834f82a-code.min.js",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC976a19e1c1374825a096a4c46257158e-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RC976a19e1c1374825a096a4c46257158e-code.min.js",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "assets.adobedtm.com",
+        "path": "/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCb64c7c7ae6b3486d93c946c369e1b96a-code.min.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://assets.adobedtm.com/717b2dc27cb7/f6f10f796b8e/43a70cb43d28/RCb64c7c7ae6b3486d93c946c369e1b96a-code.min.js",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "bmw.scene7.com",
+        "path": "/is/content/BMW/bmw-ix4-home-teaser-AVS.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/vnd.apple.mpegurl",
+        "sameSite": false,
+        "example": "https://bmw.scene7.com/is/content/BMW/bmw-ix4-home-teaser-AVS.m3u8",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "stream.bmw.com.cn",
+        "path": "/hls-vod/BMW/_media_/6ae/{uuid}.mp4.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://stream.bmw.com.cn/hls-vod/BMW/_media_/6ae/6aeb598c-34f2-4bb2-88a1-8d4b4e818dce.mp4.m3u8",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "stream.bmw.com.cn",
+        "path": "/hls-vod/BMW/_media_/6ae/{uuid}.mp4Frag1Num0.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": false,
+        "example": "https://stream.bmw.com.cn/hls-vod/BMW/_media_/6ae/6aeb598c-34f2-4bb2-88a1-8d4b4e818dce.mp4Frag1Num0.ts",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "stream.bmw.com.cn",
+        "path": "/hls-vod/BMW/_media_/{n}/{uuid}.mp4.m3u8",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://stream.bmw.com.cn/hls-vod/BMW/_media_/963/96379756-a80c-469f-815e-ca19b87ab003.mp4.m3u8",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "stream.bmw.com.cn",
+        "path": "/hls-vod/BMW/_media_/{n}/{uuid}.mp4Frag1Num0.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": false,
+        "example": "https://stream.bmw.com.cn/hls-vod/BMW/_media_/963/96379756-a80c-469f-815e-ca19b87ab003.mp4Frag1Num0.ts",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "stream.bmw.com.cn",
+        "path": "/hls-vod/BMW/_media_/{n}/{uuid}.mp4Frag1Num1.ts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "video/mp2t",
+        "sameSite": false,
+        "example": "https://stream.bmw.com.cn/hls-vod/BMW/_media_/963/96379756-a80c-469f-815e-ca19b87ab003.mp4Frag1Num1.ts",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.bmw.com",
+        "path": "/epaas/onlineaudit/config/2026-10-21T13:40:00Z.epaas.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.bmw.com/epaas/onlineaudit/config/2026-10-21T13:40:00Z.epaas.json",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.bmw.com",
+        "path": "/epaas/onlineaudit/producer/ingest-events",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.bmw.com/epaas/onlineaudit/producer/ingest-events",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "host": "www.bmw.com",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "host": "s.go-mpulse.net",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "host": "tron.bmwgroup.com",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      },
+      {
+        "host": "bmw.app.baqend.com",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "aem-sites",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      }
+    ],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 1,
+        "examples": [
+          "ro-index-html"
+        ]
+      }
+    ],
+    "formTargets": []
+  },
+  "visionCheck": [
+    {
+      "slug": "ro-index-html",
+      "verdict": "ok",
+      "notes": "page fully rendered (hero BMW iX4, model teasers, iX5/i3/iX3 stages, Wallbox, footer). Cookie-consent overlay (epaas, Utilizarea modulelor cookie) painted over the first viewport in the screenshot only; captured headings/body are clean. Gate captures must dismiss it (--dismiss)."
+    }
+  ]
+}

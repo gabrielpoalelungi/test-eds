@@ -1,5 +1,3 @@
-@import url('brand.css');
-
 /*
  * Copyright 2020 Adobe. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
@@ -12,47 +10,163 @@
  * governing permissions and limitations under the License.
  */
 
-:root {
-  /* nav height */
-  --nav-height: 72px;
-}
+/*
+ * BMW România foundation — lifted from the gated replica canon
+ * (stardust/prototypes/canon.css; values from the live 6-bmw.min.css + computed styles).
+ * FONT LICENSING: "bmwTypeNextWeb" is a licensed BMW face. It is named first so a
+ * licensed drop-in wins, but it is NOT hosted here (never rehosted). The page renders
+ * the "bmwTypeNext Fallback" faces below: local Arial / Liberation Sans scaled to the
+ * measured live/build width ratios (w300 text 1.015, w500 controls 1.0625).
+ */
 
-/* fallback font (National2 is loaded lazily from fonts.css) */
 @font-face {
-  font-family: "national2-fallback";
-  size-adjust: 92%;
-  src: local('Arial');
+  font-family: "bmwTypeNext Fallback";
+  src: local("Arial"), local("Liberation Sans"), local("Helvetica");
+  font-weight: 100 449;
+  size-adjust: 101.5%;
 }
 
-@media (width >= 900px) {
+@font-face {
+  font-family: "bmwTypeNext Fallback";
+  src: local("Arial"), local("Liberation Sans"), local("Helvetica");
+  font-weight: 450 599;
+  size-adjust: 106%;
+}
+
+@font-face {
+  font-family: "bmwTypeNext Fallback";
+  src: local("Arial Bold"), local("Liberation Sans Bold"), local("Helvetica Bold");
+  font-weight: 600 900;
+  size-adjust: 100%;
+}
+
+:root {
+  /* fonts */
+  --font: "bmwTypeNextWeb", "bmwTypeNext Fallback", arial, helvetica, roboto, sans-serif;
+  --body-font-family: var(--font);
+  --heading-font-family: var(--font);
+  --w-default: 300;
+  --w-clickable: 500;
+  --w-price: 700;
+
+  /* colors */
+  --c-text: #262626;
+  --c-cta: #1c69d4;
+  --c-cta-hover: #0653b6;
+  --c-outline-light: #f2f2f2;
+  --c-border: #e6e6e6;
+  --c-surface-2: #f6f6f6;
+  --c-disabled: #bbb;
+  --background-color: #fff;
+  --text-color: var(--c-text);
+  --link-color: var(--c-cta);
+  --link-hover-color: var(--c-cta-hover);
+
+  /* grid (small) */
+  --grid-gutter: 0.5rem;
+  --grid-margin: 1rem;
+  --grid-full: 1.5rem;
+  --col-pad: 8px;
+
+  /* type (small) */
+  --headline-2-fs: 1.75rem;
+  --headline-2-lh: 2.5rem;
+  --subsection-1-fs: 1.1875rem;
+  --subsection-1-lh: 1.75rem;
+  --body-1-fs: 1rem;
+  --body-1-lh: 1.625rem;
+  --body-2-fs: 0.875rem;
+  --body-2-lh: 1.375rem;
+  --body-3-fs: 0.75rem;
+  --body-3-lh: 1.125rem;
+  --stage-1l-fs: 2.1875rem;
+  --stage-1l-lh: 2.3125rem;
+  --stage-sub-fs: 1.0625rem;
+  --stage-sub-lh: 1.1875rem;
+
+  /* spacing utilities (px at <1280 / >=1280) */
+  --sp-3: 8px;
+  --sp-4: 8px;
+  --sp-5: 12px;
+  --sp-8: 20px;
+  --sp-10: 24px;
+  --sp-12: 32px;
+  --sp-16: 40px;
+  --sp-20: 48px;
+  --button-h: 3.25rem;
+
+  /* overlay chrome: the header floats over the hero, nothing is reserved (deploy #108) */
+  --nav-height: 0;
+}
+
+@media (width >= 768px) {
   :root {
-    /* nav height */
-    --nav-height: 104px;
+    --grid-gutter: 0.75rem;
+    --grid-margin: 2.25rem;
+    --grid-full: 3rem;
+    --col-pad: 12px;
   }
+}
+
+@media (width >= 1280px) {
+  :root {
+    --grid-margin: 5.25rem;
+    --grid-full: 6rem;
+    --headline-2-fs: 2.1875rem;
+    --headline-2-lh: 3.125rem;
+    --subsection-1-fs: 1.4375rem;
+    --subsection-1-lh: 2.25rem;
+    --body-1-fs: 1.125rem;
+    --body-1-lh: 1.75rem;
+    --body-2-fs: 0.9375rem;
+    --body-2-lh: 1.5rem;
+    --stage-1l-fs: 3rem;
+    --stage-1l-lh: 3.125rem;
+    --stage-sub-fs: 1.25rem;
+    --stage-sub-lh: 1.5rem;
+    --sp-4: 12px;
+    --sp-5: 16px;
+    --sp-8: 24px;
+    --sp-10: 32px;
+    --sp-12: 40px;
+    --sp-16: 48px;
+    --sp-20: 64px;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-weight: var(--w-default);
+  line-height: 26px;
+  text-rendering: optimizespeed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
   display: none;
   margin: 0;
   background-color: var(--background-color);
-  color: var(--text-color);
-  font-family: var(--body-font-family);
-  font-size: var(--body-font-size-m);
-  line-height: var(--body-line-height);
+  color: var(--c-text);
+  font-family: var(--font);
+  font-size: var(--body-2-fs);
+  line-height: var(--body-2-lh);
+  font-weight: var(--w-default);
 }
 
 body.appear {
   display: block;
 }
 
+/* chrome hosts: the header is an overlay (height 0, the block positions itself) */
 header {
-  position: sticky;
-  top: 0;
-  z-index: 99;
   height: var(--nav-height);
-  background-color: var(--kfc-red);
-  font-size: 16px;
-  line-height: 1.4;
 }
 
 header .header,
@@ -70,43 +184,27 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: var(--heading-font-family);
-  font-weight: 700;
-  line-height: 1.2;
-  scroll-margin: 40px;
-}
-
-h1 { font-size: var(--heading-font-size-xxl); }
-h2 { font-size: var(--heading-font-size-xl); }
-h3 { font-size: var(--heading-font-size-l); }
-h4 { font-size: var(--heading-font-size-m); }
-h5 { font-size: var(--heading-font-size-s); }
-h6 { font-size: var(--heading-font-size-xs); }
-
+h6,
 p,
-dl,
-ol,
 ul,
+ol,
+menu,
+dl,
 pre,
 blockquote {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
+  font: inherit;
 }
 
-code,
-pre {
-  font-size: var(--body-font-size-s);
+ul,
+menu {
+  list-style: none;
 }
 
-pre {
-  padding: 16px;
-  border-radius: 8px;
-  background-color: var(--light-color);
-  overflow-x: auto;
-  white-space: pre;
+a:any-link {
+  color: inherit;
+  text-decoration: none;
 }
 
 input,
@@ -116,22 +214,56 @@ button {
   font: inherit;
 }
 
-/* links */
-a:any-link {
-  color: var(--link-color);
-  text-decoration: none;
-  overflow-wrap: break-word;
+button {
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
 }
 
-a:hover {
-  color: var(--link-hover-color);
-  text-decoration: underline;
+img,
+svg,
+video {
+  display: block;
 }
 
-main img {
+img {
   max-width: 100%;
-  width: auto;
   height: auto;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+/* icons: inline SVG replacing the licensed bmw_next_icons font */
+.ico {
+  display: inline-block;
+  flex: none;
+  width: 1em;
+  height: 1em;
+  fill: none;
+  stroke: currentcolor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .icon {
@@ -145,266 +277,455 @@ main img {
   width: 100%;
 }
 
-/* EDS button reset: authored strong/em links stay links unless a block styles them */
-main .button-container,
-main p.button-wrapper {
-  display: inline;
-}
-
-main a.button:any-link {
+/* buttons (6-bmw.min.css). EDS: strong → primary, em → secondary (outline) */
+p.button-wrapper {
   margin: 0;
-  padding: 0;
-  border: none;
-  border-radius: 0;
-  background: none;
-  color: var(--link-color);
-  font-size: inherit;
-  font-weight: inherit;
-  text-decoration: underline;
-  white-space: normal;
 }
 
-/*
- * KFC pill buttons (source .btn variants). Blocks add these classes to their CTAs:
- * .kfc-button + .is-red (filled red), .is-red-outline, .is-white (filled white),
- * .is-white-outline; .is-medium for the small 38px variant.
- */
-.kfc-button:any-link,
-button.kfc-button {
-  box-sizing: border-box;
+a.button:any-link,
+button.button,
+.btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  min-height: 60px;
-  margin: 0;
-  padding: 16px 32px;
-  border: 2px solid var(--kfc-red);
-  border-radius: var(--button-radius);
-  background-color: var(--kfc-red);
-  color: var(--kfc-white);
-  font-family: var(--body-font-family);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
+  min-height: var(--button-h);
+  padding: 4px;
+  border: 0;
+  border-radius: 3px;
+  font-size: var(--body-2-fs);
+  line-height: var(--body-2-lh);
+  font-weight: var(--w-clickable);
+  text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
-  white-space: nowrap;
-  cursor: pointer;
-  transition: var(--button-transition);
+  box-shadow: inset 0 0 0 var(--bw, 0) var(--bc, transparent);
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
 }
 
-.kfc-button:hover {
-  text-decoration: none;
+a.button.primary,
+button.button.primary,
+.btn-primary {
+  background: var(--c-cta);
+  color: #fff;
 }
 
-.kfc-button.is-red:hover {
-  border-color: var(--kfc-red-dark);
-  background-color: var(--kfc-red-dark);
-  color: var(--kfc-white);
+a.button.primary:hover,
+a.button.primary:focus-visible,
+button.button.primary:hover,
+.btn-primary:hover,
+.btn-primary:focus-visible {
+  background: var(--c-cta-hover);
 }
 
-.kfc-button.is-red-outline {
-  background-color: transparent;
-  color: var(--kfc-black);
+a.button.secondary,
+button.button.secondary,
+.btn-outline-dark {
+  background: transparent;
+  color: var(--c-text);
+
+  --bw: 1px;
+  --bc: var(--c-text);
 }
 
-.kfc-button.is-red-outline:hover {
-  border-color: rgb(226 30 45 / 80%);
-  background-color: rgb(226 30 45 / 10%);
-  color: var(--kfc-black);
+a.button.secondary:hover,
+button.button.secondary:hover,
+.btn-outline-dark:hover {
+  --bw: 2px;
 }
 
-.kfc-button.is-white {
-  border-color: var(--kfc-white);
-  background-color: var(--kfc-white);
-  color: var(--kfc-black);
+.btn-outline-light {
+  background: transparent;
+  color: var(--c-outline-light);
+
+  --bw: 1px;
+  --bc: var(--c-outline-light);
 }
 
-.kfc-button.is-white:hover {
-  border-color: var(--kfc-grey);
-  background-color: var(--kfc-grey);
-  color: var(--kfc-black);
+.btn-outline-light:hover {
+  color: #fff;
+
+  --bw: 2px;
+  --bc: #fff;
 }
 
-.kfc-button.is-white-outline {
-  border-color: var(--kfc-white);
-  background-color: transparent;
-  color: var(--kfc-white);
+a.button.accent,
+button.button.accent {
+  background: var(--c-cta);
+  color: #fff;
 }
 
-.kfc-button.is-white-outline:hover {
-  border-color: rgb(255 255 255 / 80%);
-  background-color: rgb(255 255 255 / 10%);
-  color: var(--kfc-white);
+a.button[aria-disabled="true"],
+button.button:disabled {
+  background: var(--c-surface-2);
+  color: var(--c-disabled);
+  cursor: default;
 }
 
-.kfc-button.is-medium {
-  min-height: 38px;
-  padding: 8px 24px;
+.btn-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 0;
+  padding: 0;
+  font-size: var(--body-2-fs);
+  line-height: var(--body-2-lh);
+  font-weight: var(--w-clickable);
+  color: var(--c-text);
+}
+
+.btn-link .ico {
+  width: 20px;
+  height: 20px;
+  stroke-width: 1.4;
+}
+
+.btn-link:hover {
+  color: var(--c-cta);
+}
+
+.btn-link:active {
+  color: var(--c-cta-hover);
+}
+
+/* info-i + tooltip (WLTP disclaimers) */
+.infoi {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  vertical-align: middle;
+  transform: translateY(-10%);
+}
+
+.infoi-btn {
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  color: inherit;
+}
+
+.infoi-btn .ico {
+  width: 13px;
+  height: 13px;
+  stroke-width: 1.3;
+}
+
+.infoi-tip {
+  display: none;
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 8px);
+  transform: translateX(-50%);
+  width: 320px;
+  max-width: calc(100vw - 32px);
+  padding: 16px 40px 16px 16px;
+  background: #fff;
+  color: var(--c-text);
+  box-shadow: 0 6px 20px rgb(0 0 0 / 16%), 0 0 1px rgb(0 0 0 / 24%);
+  border-radius: 3px;
   font-size: 12px;
   line-height: 18px;
+  text-align: left;
+  z-index: 50;
 }
 
-.kfc-button img {
-  width: 21px;
-  height: 21px;
+/* closed tips are display:none so their 320px box never widens the document */
+.infoi.is-open .infoi-tip {
+  display: block;
+  animation: tip-in 0.3s ease-out;
 }
 
-.kfc-button.is-medium img {
-  width: 16px;
-  height: 16px;
-}
+@keyframes tip-in {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
 
-/* sections */
-main > .section {
-  margin: 0;
-}
-
-main > .section > div {
-  box-sizing: border-box;
-  max-width: 100%;
-  margin: auto;
-  padding: 0 12px;
-}
-
-/* bootstrap-style container widths used by the source */
-@media (width >= 900px) {
-  main > .section > div {
-    max-width: 960px;
+  to {
+    opacity: 1;
+    visibility: visible;
   }
 }
 
-@media (width >= 1200px) {
-  main > .section > div {
-    max-width: 1140px;
-  }
+.infoi-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
 }
 
-/* breakpoint-exception: the source container widens to 1320px at 1400px (bootstrap xxl) */
-@media (width >= 1400px) {
-  main > .section > div {
-    max-width: 1320px;
-  }
+.infoi-close .ico {
+  width: 14px;
+  height: 14px;
 }
 
-/* section metadata styles */
-main .section.dark {
-  background-color: var(--kfc-black);
-  color: var(--kfc-white);
+/* disclaimers (.style-text--disclaimer-1) */
+.disclaimer {
+  font-size: var(--body-3-fs);
+  line-height: var(--body-3-lh);
+  font-weight: var(--w-default);
+  opacity: 0.7051;
+  padding: 0 var(--col-pad);
 }
 
-main .section.dark-red {
-  background-color: var(--kfc-red-dark);
-  color: var(--kfc-white);
+.disclaimer p {
+  display: inline;
 }
 
-main .section.red {
-  background-color: var(--kfc-red);
-  color: var(--kfc-white);
-}
-
-main .section.light,
-main .section.highlight {
-  background-color: var(--light-color);
-}
-
-/* "Oferte #pebune" section (carousel-offers): full-width headline row */
-main .section.carousel-offers-container {
-  padding: 32px 0;
-}
-
-main .section.carousel-offers-container > .default-content-wrapper {
+/* page shell: the live AEM grid is a flex column with side margins; flex columns
+   never collapse vertical margins, so every section level stays a flex column */
+main {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  margin: 0 var(--grid-margin);
+}
+
+main > .section,
+main > .section > div {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
   max-width: none;
-  margin: 0 0 40px;
-  padding: 0 16px 0 28px;
 }
 
-main .section.carousel-offers-container > .default-content-wrapper h2 {
-  font-size: 24px;
-  line-height: 33.6px;
+main .section:empty {
+  display: none;
 }
 
-main .section .hashtag {
-  color: #eb1e2d;
+@media (width >= 1920px) {
+  main {
+    width: 100%;
+    max-width: 109.5rem;
+    margin-inline: auto;
+  }
 }
 
-main .section.carousel-offers-container > .default-content-wrapper a:any-link {
+/* stylelint-disable no-descending-specificity -- edit-mode + chrome rules target disjoint elements */
+
+/* Experience Workspace edit mode: repaint CTAs from their authored marks (EW3) */
+.prosemirror-editor p > :is(strong, em) > a:any-link,
+.prosemirror-editor p > a:any-link:has(> :is(strong, em):only-child) {
   display: inline-flex;
   align-items: center;
-  gap: 16px;
-  color: var(--kfc-white);
-  font-size: 12px;
-  line-height: 16.8px;
-  text-transform: uppercase;
+  justify-content: center;
+  min-height: var(--button-h);
+  padding: 4px 24px;
+  border-radius: 3px;
+  font-weight: var(--w-clickable);
 }
 
-main .section.carousel-offers-container > .default-content-wrapper a:any-link::after {
-  content: '';
+.prosemirror-editor p > a:any-link > :is(strong, em) {
+  font-weight: inherit;
+  font-style: inherit;
+}
+
+.prosemirror-editor p > strong > a:any-link,
+.prosemirror-editor p > a:any-link:has(> strong:only-child) {
+  background: var(--c-cta);
+  color: #fff;
+}
+
+.prosemirror-editor p > em > a:any-link,
+.prosemirror-editor p > a:any-link:has(> em:only-child) {
+  background: transparent;
+  color: var(--c-text);
+  box-shadow: inset 0 0 0 1px var(--c-text);
+}
+
+a .prosemirror-editor a:any-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* footer host (the block styles its own content) */
+footer {
+  display: block;
+  padding: 24px var(--grid-margin) 0;
+  overflow-x: clip;
+}
+
+@media (width >= 1920px) {
+  footer {
+    padding-inline: calc((100% - 109.5rem) / 2);
+  }
+}
+
+/* assist launcher (.cmp-stickysidebar): site chrome appended to <body> by the header block */
+.assist {
+  position: fixed;
+  z-index: 6040;
+  right: 16px;
+  bottom: 15vh;
+  max-width: calc(100% - 2rem);
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  pointer-events: none;
+}
+
+.assist-btn {
+  pointer-events: auto;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #fff;
+  color: var(--c-text);
+  display: grid;
+  place-items: center;
+  box-shadow: 0 6px 20px rgb(0 0 0 / 16%), 0 0 1px rgb(0 0 0 / 24%);
+}
+
+.assist-btn .ico {
+  width: 24px;
+  height: 24px;
+  stroke-width: 1.4;
+}
+
+.assist-btn-pulse {
+  animation: pulse-double 2s ease-out infinite;
+}
+
+.assist-nudge,
+.assist-dropdown {
+  pointer-events: auto;
+  position: relative;
+  width: 319px;
+  max-width: 100%;
+  margin-bottom: 16px;
+  padding: 20px 48px 20px 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgb(0 0 0 / 16%), 0 0 1px rgb(0 0 0 / 24%);
+}
+
+.assist-nudge {
+  transform-origin: bottom right;
+  animation: effect-grow 0.4s ease-out;
+}
+
+.assist-nudge.is-leaving {
+  animation: effect-shrink 0.4s ease-in forwards;
+}
+
+.assist-nudge-title,
+.assist-nudge-text {
+  animation: effect-enter 0.4s ease-out;
+}
+
+.assist-nudge.is-leaving .assist-nudge-title,
+.assist-nudge.is-leaving .assist-nudge-text {
+  animation: effect-exit 0.3s ease-in forwards;
+}
+
+.assist-nudge-title {
+  font-size: var(--subsection-1-fs);
+  line-height: var(--subsection-1-lh);
+  margin-bottom: 12px;
+}
+
+.assist-nudge-text {
+  font-size: var(--body-3-fs);
+  line-height: var(--body-3-lh);
+}
+
+.assist-intro {
+  font-weight: var(--w-clickable);
+  margin-bottom: 4px;
+}
+
+.assist-nudge-link {
+  display: inline;
+  font-weight: var(--w-clickable);
+  text-decoration: underline;
+}
+
+.assist-nudge-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+}
+
+.assist-nudge-close .ico {
   width: 16px;
   height: 16px;
-  background: url('../icons/kfc-arrow-right-white.svg') center / contain no-repeat;
 }
 
-/* "Produsele noastre" section (cards-category + cards-product) */
-main .section.cards-product-container {
-  padding: 48px 0;
+.assist-dropdown li {
+  margin-top: 8px;
 }
 
-main .section.cards-product-container > .default-content-wrapper:first-child {
-  text-align: center;
+.assist-dropdown a:hover {
+  color: var(--c-cta);
 }
 
-main .section.cards-product-container > .default-content-wrapper:first-child p {
-  margin-bottom: 8px;
-  color: var(--kfc-red-dark);
-  font-weight: 700;
+@media (width >= 768px) {
+  .assist {
+    right: 3.5rem;
+    bottom: 20vh;
+  }
 }
 
-main .section.cards-product-container > .default-content-wrapper:first-child h2 {
-  margin-bottom: 32px;
-  color: var(--kfc-black);
+@media (width >= 1920px) {
+  .assist {
+    bottom: 24vh;
+  }
 }
 
-main .section.cards-product-container > .default-content-wrapper:last-child {
-  text-align: center;
+@keyframes effect-grow {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
-/* trailing CTA renders as the red-outline pill with the source icons */
-main .section.cards-product-container > .default-content-wrapper:last-child a:any-link {
-  box-sizing: border-box;
-  display: inline-flex;
-  align-items: center;
-  gap: 16px;
-  min-height: 60px;
-  padding: 16px 32px;
-  border: 2px solid var(--kfc-red);
-  border-radius: var(--button-radius);
-  color: var(--kfc-black);
-  font-weight: 500;
-  line-height: 24px;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: var(--button-transition);
+@keyframes effect-shrink {
+  to {
+    opacity: 0;
+    transform: scale(0.8);
+  }
 }
 
-main .section.cards-product-container > .default-content-wrapper:last-child a:any-link::before,
-main .section.cards-product-container > .default-content-wrapper:last-child a:any-link::after {
-  content: '';
-  flex: none;
-  width: 21px;
-  height: 21px;
-  background: url('../icons/kfc-cta-burger-black.svg') center / contain no-repeat;
+@keyframes effect-enter {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
-main .section.cards-product-container > .default-content-wrapper:last-child a:any-link::after {
-  background-image: url('../icons/kfc-arrow-right-black.svg');
+@keyframes effect-exit {
+  to {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
 }
 
-main .section.cards-product-container > .default-content-wrapper:last-child a:hover {
-  border-color: rgb(226 30 45 / 80%);
-  background-color: rgb(226 30 45 / 10%);
+@keyframes pulse-double {
+  0% {
+    box-shadow: 0 6px 20px rgb(0 0 0 / 16%), 0 0 1px rgb(0 0 0 / 24%), 0 0 0 0 rgb(28 105 212 / 35%);
+  }
+
+  70% {
+    box-shadow: 0 6px 20px rgb(0 0 0 / 16%), 0 0 1px rgb(0 0 0 / 24%), 0 0 0 12px rgb(28 105 212 / 0%);
+  }
+
+  100% {
+    box-shadow: 0 6px 20px rgb(0 0 0 / 16%), 0 0 1px rgb(0 0 0 / 24%), 0 0 0 0 rgb(28 105 212 / 0%);
+  }
 }

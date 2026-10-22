@@ -1,0 +1,709 @@
+{
+  "url": "https://www.bmw.ro/ro/index.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2304,
+      "cls": "",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 804,
+      "cls": "",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "0px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".cmp-progressiveplaybutton",
+      "frames": [
+        {
+          "t": 25250.69999999972,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 25461.600000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 25670.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 25880.399999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".cmp-infoi__icon",
+      "frames": [
+        {
+          "t": 26982.899999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 27196,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 27399.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 27603.19999999972,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "button.cmp-globalnavigation__interaction[aria-label='Online Store']",
+      "frames": [
+        {
+          "t": 28692.600000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 28895.899999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 29100,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 29305.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".cmp-stickysidebar__button",
+      "frames": [
+        {
+          "t": 30359.100000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 30568.69999999972,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 30772.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 30976.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".cmp-button",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 105, 212)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(28, 105, 212)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".cmp-list__item-link",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(38, 38, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(28, 105, 212)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [
+      {
+        "src": "blob:https://www.bmw.ro/8e372fb7-84be-4fdf-a0af-6d694fafc7be",
+        "autoplay": false,
+        "loop": true,
+        "muted": true,
+        "paused": false,
+        "currentTime": 8.800461,
+        "readyState": 4,
+        "inViewport": true,
+        "currentTimeAfter": 10.307091,
+        "playing": true
+      }
+    ],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "pulse-double",
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.stickysidebar.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-stickysidebar > div.cmp-stickysidebar__wrapper > button.cmp-stickysidebar__button.pulsing-double",
+        "txt": "",
+        "y": 0
+      },
+      {
+        "name": "effect-grow",
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.stickysidebar.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-stickysidebar > div.cmp-stickysidebar__wrapper > div.cmp-stickysidebar__nudge.fadein",
+        "txt": "Bună, cu ce te putem ajuta?\n                Accese",
+        "y": 1202
+      },
+      {
+        "name": "effect-enter",
+        "el": "div.cmp-stickysidebar > div.cmp-stickysidebar__wrapper > div.cmp-stickysidebar__nudge.fadein > div.cmp-stickysidebar__nudge-content > div.cmp-stickysidebar__nudge-title",
+        "txt": "Bună, cu ce te putem ajuta?",
+        "y": 1600
+      },
+      {
+        "name": "effect-enter",
+        "el": "div.cmp-stickysidebar > div.cmp-stickysidebar__wrapper > div.cmp-stickysidebar__nudge.fadein > div.cmp-stickysidebar__nudge-content > p.cmp-stickysidebar__nudge-description",
+        "txt": "Accesează rapid și ușor\n                    \n     ",
+        "y": 1612
+      },
+      {
+        "name": "effect-exit",
+        "el": "div.cmp-stickysidebar > div.cmp-stickysidebar__wrapper > div.cmp-stickysidebar__nudge.fadein.fadeout > div.cmp-stickysidebar__nudge-content > p.cmp-stickysidebar__nudge-description",
+        "txt": "Accesează rapid și ușor\n                    \n     ",
+        "y": 152
+      },
+      {
+        "name": "effect-exit",
+        "el": "div.cmp-stickysidebar > div.cmp-stickysidebar__wrapper > div.cmp-stickysidebar__nudge.fadein.fadeout > div.cmp-stickysidebar__nudge-content > div.cmp-stickysidebar__nudge-title",
+        "txt": "Bună, cu ce te putem ajuta?",
+        "y": 129
+      },
+      {
+        "name": "effect-shrink",
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.stickysidebar.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-stickysidebar > div.cmp-stickysidebar__wrapper > div.cmp-stickysidebar__nudge.fadein.fadeout",
+        "txt": "Bună, cu ce te putem ajuta?\n                Accese",
+        "y": 115
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "opacity",
+        "el": "div.cmp-video__wrapper > div.cmp-video.cmp-video--play-button-only > div.cmp-video__video.cmp-video__video--is-paused > button.cmp-progressiveplaybutton.cmp-video__progressiveplaybutton.cmp-progressiveplaybutton--visible > span.cmp-progressiveplaybutton__icon.cmp-progressiveplaybutton--play",
+        "y": 345,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-video__wrapper > div.cmp-video.cmp-video--play-button-only > div.cmp-video__video.cmp-video__video--is-paused > button.cmp-progressiveplaybutton.cmp-video__progressiveplaybutton.cmp-progressiveplaybutton--visible > span.cmp-progressiveplaybutton__icon.cmp-progressiveplaybutton--pause",
+        "y": 345,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-video__wrapper > div.cmp-video.cmp-video--play-button-only > div.cmp-video__video.cmp-video__video--is-playing > button.cmp-progressiveplaybutton.cmp-video__progressiveplaybutton.cmp-progressiveplaybutton--visible > span.cmp-progressiveplaybutton__icon.cmp-progressiveplaybutton--play",
+        "y": 302,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-video__wrapper > div.cmp-video.cmp-video--play-button-only > div.cmp-video__video.cmp-video__video--is-playing > button.cmp-progressiveplaybutton.cmp-video__progressiveplaybutton.cmp-progressiveplaybutton--visible > span.cmp-progressiveplaybutton__icon.cmp-progressiveplaybutton--pause",
+        "y": 302,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-video__wrapper > div.cmp-video.cmp-video--play-button-only > div.cmp-video__video.cmp-video__video--is-paused > button.cmp-progressiveplaybutton.cmp-video__progressiveplaybutton.cmp-progressiveplaybutton--visible > span.cmp-progressiveplaybutton__icon.cmp-progressiveplaybutton--play",
+        "y": 114,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cmp-video__wrapper > div.cmp-video.cmp-video--play-button-only > div.cmp-video__video.cmp-video__video--is-paused > button.cmp-progressiveplaybutton.cmp-video__progressiveplaybutton.cmp-progressiveplaybutton--visible > span.cmp-progressiveplaybutton__icon.cmp-progressiveplaybutton--pause",
+        "y": 114,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html.js-focus-visible > body.contentpage.page.basicpage > div > div.tippy-box",
+        "y": 202,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "visibility",
+        "el": "html.js-focus-visible > body.contentpage.page.basicpage > div > div.tippy-box",
+        "y": 199,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html.js-focus-visible > body.contentpage.page.basicpage > div > div.tippy-box",
+        "y": 199,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "visibility",
+        "el": "html.js-focus-visible > body.contentpage.page.basicpage > div > div.tippy-box > div.tippy-content",
+        "y": 199,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.globalnavigation.aem-GridColumn.aem-GridColumn--default--12 > root-shell > div.cmp-globalnavigation.cmp-globalnavigation--transparent-white.cmp-globalnavigation--open",
+        "y": 0,
+        "dur": "0.05s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.globalnavigation.aem-GridColumn.aem-GridColumn--default--12 > root-shell > div.cmp-globalnavigation.cmp-globalnavigation--transparent-white.cmp-globalnavigation--open > div.cmp-globalnavigation__flyout-layer.cmp-globalnavigation__flyout-layer--visible",
+        "y": 0,
+        "dur": "0.15s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.globalnavigation.aem-GridColumn.aem-GridColumn--default--12 > root-shell > div.cmp-globalnavigation.cmp-globalnavigation--transparent-white.cmp-globalnavigation--open > div.cmp-globalnavigation__flyout-layer.cmp-globalnavigation__flyout-layer--visible > div.cmp-globalnavigation__flyout-wrapper.cmp-globalnavigation__flyout-wrapper--visible",
+        "y": 0,
+        "dur": "0.25s, 0.15s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.globalnavigation.aem-GridColumn.aem-GridColumn--default--12 > root-shell > div.cmp-globalnavigation.cmp-globalnavigation--transparent-white.cmp-globalnavigation--open > div.cmp-globalnavigation__flyout-layer.cmp-globalnavigation__flyout-layer--visible > div.cmp-globalnavigation__flyout-wrapper.cmp-globalnavigation__flyout-wrapper--visible",
+        "y": 0,
+        "dur": "0.25s, 0.15s"
+      },
+      {
+        "prop": "opacity",
+        "el": "root-shell > div.cmp-globalnavigation.cmp-globalnavigation--transparent-white.cmp-globalnavigation--open > div.cmp-globalnavigation__flyout-layer.cmp-globalnavigation__flyout-layer--visible > div.cmp-globalnavigation__flyout-wrapper.cmp-globalnavigation__flyout-wrapper--visible.position-relative > div.cmp-globalnavigation__flyout.cmp-globalnavigation--display-block.cmp-globalnavigation__flyout--visible",
+        "y": 0,
+        "dur": "0.15s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "cmp-video__video--is-paused"
+        ],
+        "el": "div.cmp-stage.style-overlay--in-fixed-parent > div.video.style-video--playbar-dark.cmp-stage__video > div.cmp-video__wrapper > div.cmp-video.cmp-video--play-button-only > div.cmp-video__video.cmp-video__video--is-paused",
+        "y": 327
+      },
+      {
+        "added": [
+          "fadein"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.stickysidebar.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-stickysidebar > div.cmp-stickysidebar__wrapper > div.cmp-stickysidebar__nudge.fadein",
+        "y": 1200
+      },
+      {
+        "added": [
+          "fadein"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.stickysidebar.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-stickysidebar > div.cmp-stickysidebar__wrapper > div.cmp-stickysidebar__nudge.fadein",
+        "y": 1200
+      },
+      {
+        "added": [
+          "cmp-video__video--is-playing"
+        ],
+        "el": "div.cmp-stage.style-overlay--in-fixed-parent > div.video.style-video--playbar-dark.cmp-stage__video > div.cmp-video__wrapper > div.cmp-video.cmp-video--play-button-only > div.cmp-video__video.cmp-video__video--is-playing",
+        "y": 304
+      },
+      {
+        "added": [
+          "cmp-video__video--is-playing"
+        ],
+        "el": "div.cmp-stage.style-overlay--in-fixed-parent > div.video.style-video--playbar-dark.cmp-stage__video > div.cmp-video__wrapper > div.cmp-video.cmp-video--play-button-only > div.cmp-video__video.cmp-video__video--is-playing",
+        "y": 304
+      },
+      {
+        "added": [
+          "is-playing"
+        ],
+        "el": "div.video.style-video--playbar-dark.cmp-stage__video > div.cmp-video__wrapper > div.cmp-video.cmp-video--play-button-only > div.cmp-video__video.cmp-video__video--is-playing > button.cmp-progressiveplaybutton.cmp-video__progressiveplaybutton.cmp-progressiveplaybutton--visible",
+        "y": 304
+      },
+      {
+        "added": [
+          "fadeout"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.stickysidebar.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-stickysidebar > div.cmp-stickysidebar__wrapper > div.cmp-stickysidebar__nudge.fadein.fadeout",
+        "y": 160
+      },
+      {
+        "added": [
+          "hidden"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.stickysidebar.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-stickysidebar > div.cmp-stickysidebar__wrapper > div.cmp-stickysidebar__nudge.fadeout.hidden",
+        "y": 90
+      },
+      {
+        "added": [
+          "hidden"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.stickysidebar.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-stickysidebar > div.cmp-stickysidebar__wrapper > div.cmp-stickysidebar__nudge.fadeout.hidden",
+        "y": 90
+      },
+      {
+        "added": [
+          "cmp-video__video--is-paused"
+        ],
+        "el": "div.cmp-stage.style-overlay--in-fixed-parent > div.video.style-video--playbar-dark.cmp-stage__video > div.cmp-video__wrapper > div.cmp-video.cmp-video--play-button-only > div.cmp-video__video.cmp-video__video--is-paused",
+        "y": 114
+      },
+      {
+        "added": [
+          "tooltip--keyboard-support"
+        ],
+        "el": "body.contentpage.page.basicpage > div > div.tippy-box > div.tippy-content > div.style-tooltip-container--full.tooltip--keyboard-support",
+        "y": 202
+      },
+      {
+        "added": [
+          "cmp-globalnavigation__interaction--active"
+        ],
+        "el": "nav.cmp-globalnavigation__container > div.cmp-globalnavigation__primary > menu.cmp-globalnavigation__list > li.cmp-globalnavigation__item > button.cmp-globalnavigation__interaction.cmp-globalnavigation__interaction--flyout.cmp-globalnavigation__interaction--active",
+        "y": 0
+      },
+      {
+        "added": [
+          "cmp-globalnavigation--open",
+          "cmp-globalnavigation--solid-white"
+        ],
+        "el": "div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.globalnavigation.aem-GridColumn.aem-GridColumn--default--12 > root-shell > div.cmp-globalnavigation.cmp-globalnavigation--transparent-white.cmp-globalnavigation--open",
+        "y": 0
+      },
+      {
+        "added": [
+          "cmp-globalnavigation--solid-white"
+        ],
+        "el": "div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.globalnavigation.aem-GridColumn.aem-GridColumn--default--12 > root-shell > div.cmp-globalnavigation.cmp-globalnavigation--transparent-white.cmp-globalnavigation--open",
+        "y": 0
+      },
+      {
+        "added": [
+          "cmp-globalnavigation--display-block"
+        ],
+        "el": "root-shell > div.cmp-globalnavigation.cmp-globalnavigation--transparent-white.cmp-globalnavigation--open > div.cmp-globalnavigation__flyout-layer > div.cmp-globalnavigation__flyout-wrapper > div.cmp-globalnavigation__flyout.cmp-globalnavigation--display-block",
+        "y": 0
+      },
+      {
+        "added": [
+          "cmp-globalnavigation__flyout-layer--visible"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.globalnavigation.aem-GridColumn.aem-GridColumn--default--12 > root-shell > div.cmp-globalnavigation.cmp-globalnavigation--transparent-white.cmp-globalnavigation--open > div.cmp-globalnavigation__flyout-layer.cmp-globalnavigation__flyout-layer--visible",
+        "y": 0
+      },
+      {
+        "added": [
+          "cmp-globalnavigation__flyout-wrapper--visible"
+        ],
+        "el": "div.globalnavigation.aem-GridColumn.aem-GridColumn--default--12 > root-shell > div.cmp-globalnavigation.cmp-globalnavigation--transparent-white.cmp-globalnavigation--open > div.cmp-globalnavigation__flyout-layer.cmp-globalnavigation__flyout-layer--visible > div.cmp-globalnavigation__flyout-wrapper.cmp-globalnavigation__flyout-wrapper--visible",
+        "y": 0
+      },
+      {
+        "added": [
+          "cmp-globalnavigation__flyout--visible"
+        ],
+        "el": "root-shell > div.cmp-globalnavigation.cmp-globalnavigation--transparent-white.cmp-globalnavigation--open > div.cmp-globalnavigation__flyout-layer.cmp-globalnavigation__flyout-layer--visible > div.cmp-globalnavigation__flyout-wrapper.cmp-globalnavigation__flyout-wrapper--visible > div.cmp-globalnavigation__flyout.cmp-globalnavigation--display-block.cmp-globalnavigation__flyout--visible",
+        "y": 0
+      },
+      {
+        "added": [
+          "position-relative"
+        ],
+        "el": "div.globalnavigation.aem-GridColumn.aem-GridColumn--default--12 > root-shell > div.cmp-globalnavigation.cmp-globalnavigation--transparent-white.cmp-globalnavigation--open > div.cmp-globalnavigation__flyout-layer.cmp-globalnavigation__flyout-layer--visible > div.cmp-globalnavigation__flyout-wrapper.cmp-globalnavigation__flyout-wrapper--visible.position-relative",
+        "y": 0
+      },
+      {
+        "added": [
+          "cmp-scroll-indicator"
+        ],
+        "el": "root-shell > div.cmp-globalnavigation.cmp-globalnavigation--transparent-white.cmp-globalnavigation--open > div.cmp-globalnavigation__flyout-layer.cmp-globalnavigation__flyout-layer--visible > div.cmp-globalnavigation__flyout-wrapper.cmp-globalnavigation__flyout-wrapper--visible.position-relative > div.cmp-globalnavigation__flyout.cmp-globalnavigation--display-block.cmp-globalnavigation__flyout--visible",
+        "y": 0
+      }
+    ]
+  }
+}
